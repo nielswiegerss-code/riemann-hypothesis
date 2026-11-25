@@ -14,7 +14,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.CM.LieLoc
 
 theorem coord_eq_sum {R₀ R K : Type} [CommRing R₀] [CommRing R] [CommRing K] {f : R₀ →+* R} {g : R →+* K}
@@ -106,4 +105,3 @@ theorem lieLat_localization : ∀ (K : Type) [Field K] [NumberField K] (P : Out.
         rw [Pi.smul_apply, smul_eq_mul, map_mul, ← IsScalarTower.algebraMap_apply, mul_smul, algebraMap_smul K t]
 
 end GlobalTheory.CM.LieLoc
-end

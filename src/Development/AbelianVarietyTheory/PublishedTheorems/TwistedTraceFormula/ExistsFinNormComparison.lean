@@ -46,8 +46,6 @@ import Mathlib.Tactic.ReduceModChar
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Grow
 
 open scoped TensorProduct NNReal
@@ -175,5 +173,3 @@ theorem height_comparison (hθ : IsInfFam θ) : ∃ C : ℝ, 0 < C ∧ ∀ g : G
   · exact_mod_cast (mul_le_mul_right a2 _).trans_eq (mul_left_comm _ _ _)
 
 end GlobalTheory.Grow
-
-end

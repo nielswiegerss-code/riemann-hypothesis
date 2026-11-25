@@ -39,8 +39,6 @@ import Mathlib.Tactic.NormNum.RealSqrt
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.MainNotions Formalism.IndefR Formalism.IndefR.Links IsDedekindDomain NumberField
 open GlobalTheory.ChiGrid GlobalTheory.FunObj GlobalTheory.FunObj.SqNum
 
@@ -96,5 +94,3 @@ theorem Qn_ne_zero (t : T) : Qn G t ≠ 0 :=
   Finset.prod_ne_zero_iff.2 fun w _ => Ideal.absNorm_eq_zero_iff.not.2 w.ne_bot
 
 end GlobalTheory.SqTop.Model
-
-end

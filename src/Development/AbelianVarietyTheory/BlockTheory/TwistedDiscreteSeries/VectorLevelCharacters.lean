@@ -4,8 +4,6 @@ public import Formalism.LocalToGlobal.IndefiniteReal.LinksDefs
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.MainNotions.S NumberField
 open Formalism.L2.Theta Formalism.L2.DIV Formalism.L2.Indef Formalism.DivisionValues
 open Formalism.IndefR.Links Formalism.IndefR.Lev Formalism.IndefR.Datum Formalism.IndefR.Cx
@@ -28,5 +26,3 @@ theorem principalLevelCharacter_eq_one (R : RealDat D A Ks) (i : Fin D.R.m) (k :
 end
 
 end GlobalTheory.IndefiniteRowSideFullHecke.VectorLevelCharacters
-
-end

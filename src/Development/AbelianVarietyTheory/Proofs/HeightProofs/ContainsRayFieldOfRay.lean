@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.FieldSize.RayNorm
 
 open NumberField IsDedekindDomain GlobalTheory.NT
@@ -188,5 +186,3 @@ theorem containsRayField_of_ray [IsGalois K L] (n : ℕ)
   exact ⟨f, π, hf, hπ, Ideal.mem_span_singleton.mp hπ1⟩
 
 end GlobalTheory.FieldSize.RayNorm
-
-end

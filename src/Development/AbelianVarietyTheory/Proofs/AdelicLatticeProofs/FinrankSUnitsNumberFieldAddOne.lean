@@ -15,8 +15,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 open NumberField IsDedekindDomain GlobalTheory.QNorm
 open scoped WithZero
 
-noncomputable section
-
 namespace GlobalTheory.QNorm
 
 theorem exists_mem_only (F : Type) [Field F] [NumberField F] (v : HeightOneSpectrum (𝓞 F)) :
@@ -124,5 +122,3 @@ theorem sUnits_rank :
   omega
 
 end GlobalTheory.QNorm
-
-end

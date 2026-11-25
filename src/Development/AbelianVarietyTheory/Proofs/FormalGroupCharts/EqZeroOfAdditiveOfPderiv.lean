@@ -8,8 +8,6 @@ public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
 
 @[expose] public section
 
-noncomputable section
-
 open MvPowerSeries ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ ReciprocityTheory.ChartRestriction.G.TB ReciprocityTheory.ChartRestriction.G.TB.WickVanishing
 
 namespace GlobalTheory.AdditiveSeries

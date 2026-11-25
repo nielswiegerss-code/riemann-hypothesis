@@ -11,8 +11,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.LocalNewformFunction
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix GlobalTheory.LatVac
 open scoped TensorProduct
 
@@ -95,5 +93,3 @@ theorem stdChar_fin_rat : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), IsStdCh
   ring
 
 end GlobalTheory.StdRat
-
-end

@@ -47,8 +47,6 @@ import Mathlib.Tactic.ReduceModChar
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Survey.BaseClassMove
 
 open Formalism.L2.Pj ReciprocityTheory.ChartRestriction.G.Geo.Tor NumberField MvPolynomial GlobalTheory.IndefiniteRowSideFullHecke.BlockLatticeAdmissibility

@@ -12,7 +12,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.CM.RationalTorsion
 
 theorem section_ext {K k : Type} [Field K] [Field k] (t : Sp k ⟶ Sp K) {G : Over (Sp K)}
@@ -42,4 +41,3 @@ theorem exists_eq_nsmul (D : Datum H) (l : Level H) {J J' : Ideal (𝓞 E)}
   exact ⟨c, by rw [← hc, Nat.cast_smul_eq_nsmul]⟩
 
 end GlobalTheory.CM.RationalTorsion
-end

@@ -44,8 +44,6 @@ import Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValHalfInf
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ComplexConjugate NNReal ENNReal
 open MeasureTheory Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.L2.Pj Formalism.IndefR.Datum
 open GlobalTheory.AutomorphicL2Unitary GlobalTheory.Doubling GlobalTheory.Eis GlobalTheory.Cusp GlobalTheory.MixModel
@@ -62,5 +60,3 @@ theorem vol_pos (mH : Measure (GA D B)) [mH.IsHaarMeasure] : 0 < (autMeasure B m
 variable {ω : GA D A × GA D B →* Module.End ℂ (WO A B → ℂ)} {m : Measure (GA D A)}
 
 end GlobalTheory.RallisIP.Model
-
-end

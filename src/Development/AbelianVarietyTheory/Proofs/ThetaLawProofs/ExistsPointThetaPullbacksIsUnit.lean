@@ -13,8 +13,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open GlobalTheory.AbLaw
 open GlobalTheory.KeyKa
 
-noncomputable section
-
 namespace GlobalTheory.SimilNonvan
 
 theorem isUnit_gs_of_mem {X Z : Scheme.{0}} {H : LB X} (t : LB.Sec H) (r : Z ⟶ X) (z : Z) {k : H.ι}

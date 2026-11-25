@@ -21,8 +21,6 @@ open ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ GlobalTheory.PtTie
 open ReciprocityTheory.ChartRestriction.G.TB (dAct dLin)
 open GlobalTheory.PlaceInt
 
-noncomputable section
-
 namespace GlobalTheory.ShortAtField
 
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {H : Host E} {Dw : Datum H} {l : Geo.Tor.Level H}

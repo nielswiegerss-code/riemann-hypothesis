@@ -14,7 +14,6 @@ open GlobalTheory.AbLaw
 open GlobalTheory.KeyPow GlobalTheory.KeyKa
 open GlobalTheory.SimilTheta
 
-noncomputable section
 namespace GlobalTheory.SimilTheta
 open ReciprocityTheory.PTheta Matrix
 
@@ -78,4 +77,3 @@ theorem level_one_and_holomorphic : ∀ (g : ℕ) (a b : Fin g → ℂ), charHal
     fun_prop
 
 end GlobalTheory.SimilTheta
-end

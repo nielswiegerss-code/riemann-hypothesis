@@ -5,8 +5,6 @@ import Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RealPo
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.IndefiniteRowSideFullHecke.LatticePartsOverBalls
 
 open NumberField IsDedekindDomain

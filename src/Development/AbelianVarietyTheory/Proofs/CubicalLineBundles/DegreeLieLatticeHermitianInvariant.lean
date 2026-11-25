@@ -16,7 +16,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.FibIndep
 
 section Lattice
@@ -135,4 +134,3 @@ theorem deg_lieLat_eq : ThetaUnifAV → Out.Laws → ∀ (K : Type) [Field K] [N
     exact deg_map_of_isometry h h' M hiso hFG'
 
 end GlobalTheory.FibIndep
-end

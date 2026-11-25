@@ -12,8 +12,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj MeasureTheory NumberField
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor
 
-noncomputable section
-
 namespace GlobalTheory
 namespace PullIso
 open CubeValues SymmetricSemicharacter ComplexPoints

@@ -50,8 +50,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open PI.UpqRep MeasureTheory Matrix Finset
 open scoped InnerProductSpace
 

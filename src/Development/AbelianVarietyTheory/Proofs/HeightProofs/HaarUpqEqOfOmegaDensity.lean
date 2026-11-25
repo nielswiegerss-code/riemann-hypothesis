@@ -14,8 +14,6 @@ import Mathlib.Topology.Algebra.Group.Units
 open Formalism.BasicNotions Matrix MeasureTheory Filter Topology
 open scoped ENNReal NNReal
 
-noncomputable section
-
 namespace GlobalTheory.CompactDualUnique
 
 theorem isOmegaLeb_unique {P Q : ℕ} {lam lam' : Measure (lieU P Q)}

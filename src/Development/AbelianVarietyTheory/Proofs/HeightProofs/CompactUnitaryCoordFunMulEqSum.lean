@@ -10,8 +10,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open Formalism.REAL GlobalTheory.SmoothGlob GlobalTheory.TypeSum
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.KFourier
 
 open MeasureTheory
@@ -127,5 +125,3 @@ theorem isKer_class : ∀ {n : ℕ} (ε : Fin n → Bool) (i : ℕ) (e : KG ε �
   exact congrFun this k
 
 end GlobalTheory.KFourier
-
-end

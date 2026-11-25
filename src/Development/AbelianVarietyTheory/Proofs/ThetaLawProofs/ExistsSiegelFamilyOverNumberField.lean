@@ -20,7 +20,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj TensorProduct
 open GlobalTheory.KeyPow GlobalTheory.KeyFam GlobalTheory.ZM GlobalTheory.AbLaw
 
-noncomputable section
 namespace GlobalTheory.SiegelFamilyNumberField
 
 
@@ -129,4 +128,3 @@ theorem _root_.GlobalTheory.SiegelFamilyNumberField.exists_sFam_numberField : _r
     simp [map_div₀, Complex.conj_ofReal, map_ofNat]
 
 end GlobalTheory.SiegelFamilyNumberField
-end

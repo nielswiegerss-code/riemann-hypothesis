@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.GenusPolyhedralBounds.RelativeIndexClas
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.FieldSize
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.L2.Pj GlobalTheory.Mem GlobalTheory.FinalJoin GlobalTheory.FinalJoin2

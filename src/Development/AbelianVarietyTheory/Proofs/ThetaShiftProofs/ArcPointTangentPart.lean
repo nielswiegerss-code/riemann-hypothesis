@@ -50,8 +50,6 @@ import Formalism.LocalToGlobal.ProjectiveLattices.AlgebraMapCAt
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj NumberField
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor Formalism.L2.Pj GlobalTheory.Frames GlobalTheory.Frames.ChgBC
 
-noncomputable section
-
 namespace GlobalTheory.ArcQ.TanPart
 
 section Eps

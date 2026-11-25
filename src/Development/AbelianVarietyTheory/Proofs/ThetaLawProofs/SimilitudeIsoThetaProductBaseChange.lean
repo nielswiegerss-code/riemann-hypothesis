@@ -14,7 +14,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open GlobalTheory.AbLaw
 open GlobalTheory.KeyKa
 
-noncomputable section
 namespace GlobalTheory.KeyRow
 
 theorem comb_push {S S' : Scheme.{0}} {G : Over S} {G' : Over S'} [GrpObj G] [GrpObj G'] {f : S' ⟶ S}
@@ -94,4 +93,3 @@ theorem main : ∀ (R R' : Type) [CommRing R] [CommRing R'] (x : KeyIn R) (x' : 
     exact KeyBasis.via_val (w := u) (hb (I c)) _ z (hJ _) (hJ' _)
 
 end GlobalTheory.KeyRow
-end

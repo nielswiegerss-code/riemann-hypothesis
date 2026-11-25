@@ -8,7 +8,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 @[expose] public section
 
 open GlobalTheory.BI
-noncomputable section
 namespace GlobalTheory.BI
 
 theorem _root_.GlobalTheory.BI.isChar_trace_mul_idempotent :

@@ -14,8 +14,6 @@ import Mathlib.Tactic.Linter.Style
 open NumberField IsDedekindDomain GlobalTheory.AdLat GlobalTheory.UnRep ReciprocityTheory.ChartRestriction.G.Geo.Tor Formalism.L2.Pj
 open scoped TensorProduct Matrix
 
-noncomputable section
-
 namespace GlobalTheory.UnRep.StdInhab
 
 variable {E : Type} [Field E] [NumberField E] [IsCMField E]

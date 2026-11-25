@@ -9,8 +9,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open Formalism.REAL GlobalTheory.SmoothGlob GlobalTheory.TypeSum
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.KFourier
 
 open Matrix
@@ -131,5 +129,3 @@ theorem rder_mem_and_hasDerivAt (ε : Fin n → Bool) (d : ℕ) (φ : KG ε → 
   exact ⟨hψ, hd⟩
 
 end GlobalTheory.KFourier
-
-end

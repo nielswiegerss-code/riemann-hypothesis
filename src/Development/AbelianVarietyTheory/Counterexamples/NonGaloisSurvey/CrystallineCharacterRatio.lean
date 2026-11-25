@@ -44,8 +44,6 @@ import Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.BlockCharacte
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Survey.CrystallineCharacterRatio
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions Formalism.MainNotions.N Module TensorProduct

@@ -24,8 +24,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
-
 namespace GlobalTheory.PairingFibre
 
 variable {S S' : Scheme.{0}} {s : S' ⟶ S}
@@ -209,4 +207,3 @@ theorem lamEq_weilEq_over_ring : Out.Laws → ∀ (R : Type) [CommRing R] (X Y A
         (IsoDescent.lbIso_of_gens A.isLB B.isLB _ _ _ _ t ht t' ht') (cube_zero B.isLB g₁ g₂))
 
 end GlobalTheory.PairingFibre
-end

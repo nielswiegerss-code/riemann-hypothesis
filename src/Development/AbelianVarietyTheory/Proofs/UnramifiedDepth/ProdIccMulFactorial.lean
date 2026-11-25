@@ -53,8 +53,6 @@ import ReciprocityTheory.DualLattices.DetPolyMulCayleyOmegaPow
 
 open Formalism.L2.FormalSeriesBounds
 
-noncomputable section
-
 namespace GlobalTheory.CayleyCapelli
 
 open MvPolynomial Formalism.IncomingBounds ReciprocityTheory.PGsh GlobalTheory.DetPowPairing

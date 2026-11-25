@@ -17,8 +17,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 open Filter PeriodPair Polynomial
 open scoped Topology
 
-noncomputable section
-
 namespace GlobalTheory
 
 theorem exists_numerator_of_involution {F ι : Type*} [Field F] [CharZero F] [Fintype ι]

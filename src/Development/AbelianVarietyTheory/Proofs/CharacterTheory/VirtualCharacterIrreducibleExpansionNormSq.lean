@@ -15,7 +15,6 @@ import Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.Invariant
 @[expose] public section
 
 open Polynomial GlobalTheory.CuspGL GlobalTheory.BI
-noncomputable section
 namespace GlobalTheory.BI
 
 open Polynomial in

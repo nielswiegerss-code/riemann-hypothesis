@@ -5,7 +5,6 @@ public import Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.Ab
 @[expose] public section
 
 open GlobalTheory.BI
-noncomputable section
 namespace GlobalTheory.BI
 
 theorem subgroupFunctionExtendByZero_conj_of_mem {L G : Type} [Field L] [Group G] (H : Subgroup G) (ψ : H → L)

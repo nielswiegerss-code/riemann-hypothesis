@@ -10,7 +10,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.CM.LieChar
 
 variable {R : Type} [CommRing R] {G G' : Over (Sp R)} [GrpObj G] [GrpObj G']
@@ -83,4 +82,3 @@ theorem ell_char : ∀ (E : Type) [Field E] [NumberField E] [IsCMField E] (H : H
   exact ⟨τ, hu _ _ C.eig, h⟩
 
 end GlobalTheory.CM.LieChar
-end

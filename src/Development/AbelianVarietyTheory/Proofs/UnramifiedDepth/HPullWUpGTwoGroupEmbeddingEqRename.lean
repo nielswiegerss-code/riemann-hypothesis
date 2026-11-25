@@ -8,8 +8,6 @@ public import Mathlib.RingTheory.MvPowerSeries.Rename
 
 open Formalism.L2.FormalSeriesBounds Formalism.IncomingBounds GlobalTheory.MainTerm Classical
 
-noncomputable section
-
 namespace GlobalTheory.MainTerm
 
 theorem toW_same {C : Type} [Field C] {I : Fin 2 → Type} (g : Fin 2) (u : I g → C) (x : I g) :

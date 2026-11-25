@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Matrix
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.SgAlg
 open scoped TensorProduct ENNReal

@@ -45,7 +45,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
 open ValuativeRel Formalism.MainNotions.S.Loc Formalism.MainNotions.S.LocNG
 
 namespace GlobalTheory.NonGenericLocalCheck

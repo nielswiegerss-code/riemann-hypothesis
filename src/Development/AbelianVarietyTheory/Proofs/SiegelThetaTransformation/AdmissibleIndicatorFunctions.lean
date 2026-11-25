@@ -9,7 +9,6 @@ open Matrix Complex NumberField
 open scoped ComplexConjugate ComplexOrder
 open ReciprocityTheory.ChartRestriction.G.FD (cc herm)
 namespace GlobalTheory.SW
-noncomputable section
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {n N : ℕ}
 
 
@@ -60,5 +59,4 @@ theorem stdL_mem_Vset (M : ℕ) : stdL E n ∈ Vset E n M := by
       (by simp)] at ha
     simpa [cc_one'] using ha
 
-end
 end GlobalTheory.SW

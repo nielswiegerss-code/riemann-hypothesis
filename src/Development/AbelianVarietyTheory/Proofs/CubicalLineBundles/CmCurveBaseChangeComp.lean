@@ -10,7 +10,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.CM.EllComp
 
 variable {R R' R'' : Type} [CommRing R] [CommRing R'] [CommRing R'']
@@ -81,4 +80,3 @@ theorem ellMap_comp : ∀ (E : Type) [Field E] [NumberField E] [IsCMField E] (H 
   · rw [← Category.assoc, h'.2.2.2 a, Category.assoc, h.2.2.2 a, Category.assoc]
 
 end GlobalTheory.CM.EllComp
-end

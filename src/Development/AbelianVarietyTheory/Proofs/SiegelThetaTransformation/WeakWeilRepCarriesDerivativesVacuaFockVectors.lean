@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Proofs.HeightProofs.MeanSquareAddFundame
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Ker.WeakMove
 
 section
@@ -136,5 +134,3 @@ theorem om_move : ∀ (D : D7) (S T : HSp D) (C : Ctx S T), ∀ om : GA D S × G
 end
 
 end GlobalTheory.Ker.WeakMove
-
-end

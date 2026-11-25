@@ -30,8 +30,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open GlobalTheory.AbLaw
 open GlobalTheory.KeyKa
 
-noncomputable section
-
 namespace GlobalTheory.PolFlatDescent
 
 variable {S S' : Scheme.{0}} {f : S' ⟶ S} {A : Over S} {A' : Over S'} [GrpObj A] [GrpObj A']

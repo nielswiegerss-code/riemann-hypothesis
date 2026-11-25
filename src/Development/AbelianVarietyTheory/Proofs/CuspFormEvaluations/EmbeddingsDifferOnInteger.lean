@@ -21,8 +21,6 @@ public import Formalism.SharpRestriction.Divisibility.GeneratorPowers.CIndFrFixA
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ChartFree
 
 open NumberField ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Geo.Tor Formalism.L2.Pj ReciprocityTheory.ChartRestriction.G.TB Formalism.MainNotions.ModuliIntegralCharts.H1

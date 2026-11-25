@@ -42,7 +42,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.CrisMaps
 open Formalism GlobalTheory.MemLoc
 open scoped Formalism.Per
@@ -71,4 +70,3 @@ theorem σB_sigA (g : Per.Gq l) (x : Per.Acris l) :
   rw [sigA_eq]; exact σB_algebraMap g x
 
 end GlobalTheory.CrisMaps
-end

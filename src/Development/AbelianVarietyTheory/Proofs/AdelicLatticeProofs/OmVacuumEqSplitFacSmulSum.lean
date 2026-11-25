@@ -15,8 +15,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open scoped TensorProduct
 
@@ -219,5 +217,3 @@ theorem om_vacuum_eq_splitFac_smul_sum : ∀ (D : D7) (ψ : AddChar (AF D.host.F
   rw [hcF, h6, smul_smul, ht, Complex.ofReal_inv]
 
 end GlobalTheory.SplitScalar
-
-end

@@ -50,8 +50,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.SelfDualFullLattice
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open scoped TensorProduct ContDiff ComplexOrder
 
@@ -150,5 +148,3 @@ theorem isOpen_nsmul_latO : ∀ (D : D7) (S T : HSp D) (ΛS : Submodule (𝓞 D.
     · simp
 
 end GlobalTheory.LatOpen
-
-end

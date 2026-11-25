@@ -11,8 +11,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open Complex Matrix
 
 namespace GlobalTheory

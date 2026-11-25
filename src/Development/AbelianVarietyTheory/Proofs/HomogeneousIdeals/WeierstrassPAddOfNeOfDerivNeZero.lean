@@ -16,8 +16,6 @@ public import Mathlib.Analysis.Complex.Liouville
 open Filter PeriodPair Bornology
 open scoped Topology
 
-noncomputable section
-
 namespace GlobalTheory
 
 variable (L : PeriodPair)

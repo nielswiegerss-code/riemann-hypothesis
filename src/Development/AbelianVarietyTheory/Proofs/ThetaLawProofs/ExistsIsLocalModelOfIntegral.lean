@@ -17,8 +17,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.P
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.KeyPow
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj TopologicalSpace

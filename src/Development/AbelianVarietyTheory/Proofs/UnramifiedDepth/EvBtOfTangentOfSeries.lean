@@ -7,8 +7,6 @@ import Mathlib.Tactic.Lemma
 
 @[expose] public section
 
-noncomputable section
-
 open TensorProduct IsLocalRing Matrix ReciprocityTheory.PGsh ReciprocityTheory.PGsh.Up ReciprocityTheory.PGsh.L2 ReciprocityTheory.PGsh.Be2
 
 namespace GlobalTheory

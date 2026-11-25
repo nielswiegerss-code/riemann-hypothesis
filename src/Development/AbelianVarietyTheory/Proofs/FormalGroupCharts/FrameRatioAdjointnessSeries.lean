@@ -53,7 +53,6 @@ open ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ
 open ReciprocityTheory.ChartRestriction.G.TB (dLin transF IsInvPair dAct)
 open GlobalTheory.ChartCmp
 
-noncomputable section
 namespace GlobalTheory.FrameRatioAdj
 
 section

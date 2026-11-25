@@ -18,7 +18,6 @@ open CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj Alg
 open scoped CategoryTheory.Obj
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory GlobalTheory.ZH
 
-noncomputable section
 namespace GlobalTheory.ZH.PolAgree
 
 open FieldDescentGen
@@ -114,4 +113,3 @@ theorem lbIso_pull : Out.Laws → ∀ (K : Type) [Field K] [IsAlgClosed K] (P P'
   exact (CechPic.cls_eq_iff (LB.isLB_pull hL' _) hL).1 e.symm
 
 end GlobalTheory.ZH.PolAgree
-end

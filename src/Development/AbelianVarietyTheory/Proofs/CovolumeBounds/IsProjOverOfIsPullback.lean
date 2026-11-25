@@ -6,7 +6,6 @@ public import Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverM
 
 @[expose] public section
 
-noncomputable section
 open AlgebraicGeometry CategoryTheory CategoryTheory.Limits TopologicalSpace MvPolynomial
 open ReciprocityTheory.ChartRestriction.G.Geo.Tor (Sp spMap PSpace resG IsProjOver)
 namespace GlobalTheory.ProjSpace

@@ -12,8 +12,6 @@ import Mathlib.Analysis.Complex.Polynomial.Basic
 open Filter PeriodPair
 open scoped Topology Real UpperHalfPlane
 
-noncomputable section
-
 namespace GlobalTheory
 
 theorem lattice_le_of_g₂_eq_of_g₃_eq {L L' : PeriodPair} (h₂ : L.g₂ = L'.g₂)

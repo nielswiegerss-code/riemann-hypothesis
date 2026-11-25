@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.ModelFa
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.PeriodRowsCompare
 
 open NumberField ReciprocityTheory.ChartRestriction.G.Geo.Tor ReciprocityTheory.ChartRestriction.G.FD Formalism.L2.Pj Formalism.L2.PjFree

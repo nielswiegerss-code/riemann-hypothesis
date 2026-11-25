@@ -18,8 +18,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.F
 open GlobalTheory.SW hiding Level
 open scoped TensorProduct ComplexConjugate Real Classical ComplexOrder
 
-noncomputable section
-
 namespace GlobalTheory.Ker.Base
 
 open ReciprocityTheory.ChartRestriction.G.PullbackSections.PfModelLatA GlobalTheory.SW.Lev
@@ -259,5 +257,3 @@ theorem level_base_fam : ∀ (D : D7) (S T : HSp D) (C : Ctx S T), (∃ Lv : Glo
   fun _ _ _ C => ⟨exists_level C.X, exists_base C, isFam_one C⟩
 
 end GlobalTheory.Ker.Base
-
-end

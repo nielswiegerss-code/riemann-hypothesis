@@ -21,8 +21,6 @@ open GlobalTheory.JetSer (IsNormRos primφ primε)
 open GlobalTheory.CubeValues GlobalTheory.AppellHumbertTrivial
 open scoped BigOperators Real
 
-noncomputable section
-
 namespace GlobalTheory.FrameUnits
 
 section Analysis

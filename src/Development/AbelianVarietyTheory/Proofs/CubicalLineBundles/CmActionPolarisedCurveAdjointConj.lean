@@ -13,7 +13,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.CurveAdjoint
 
 theorem linear_eq_of_ex {A : Over (Sp ℂ)} [GrpObj A] {L : LB A.left} {g : ℕ} (u : HolUnif A L g)
@@ -146,4 +145,3 @@ theorem lamEq_act_bar : ThetaUnifAV → Out.Laws → ∀ (E : Type) [Field E] [N
     (a.hom x) inferInstance inferInstance (a.hom y) ℂ σ).2 inferInstance hσ hP
 
 end GlobalTheory.CurveAdjoint
-end

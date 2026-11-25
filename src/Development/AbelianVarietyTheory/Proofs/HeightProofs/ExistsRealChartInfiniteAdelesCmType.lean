@@ -41,8 +41,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.FockCompare
 
 section General
@@ -92,5 +90,3 @@ theorem exists_real_chart : ∀ (D : D7) (θ : InfFam D), IsInfFam θ → (Funct
   exact ⟨ρ, h1, fun x τ => (key τ _).trans (h2 x τ), fun a ha => h3 a fun τ => (key τ a).symm.trans (ha τ)⟩
 
 end GlobalTheory.FockCompare
-
-end

@@ -59,8 +59,6 @@ open ReciprocityTheory.ChartRestriction.G.Geo.Tor (Datum Level Moduli Coeff SABM
 open GlobalTheory.FormTies
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.LevelIsometry
 
 open ReciprocityTheory.ChartRestriction.G.Geo.Tor (Host Sim)

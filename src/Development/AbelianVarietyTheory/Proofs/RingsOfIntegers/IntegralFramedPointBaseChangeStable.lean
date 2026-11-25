@@ -13,8 +13,6 @@ import Mathlib.CategoryTheory.Monoidal.Opposite.Mon
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.IntFrBaseChange
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj NumberField IsDedekindDomain

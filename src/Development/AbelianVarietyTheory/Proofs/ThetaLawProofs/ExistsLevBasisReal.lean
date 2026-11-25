@@ -15,7 +15,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open GlobalTheory.AbLaw
 open GlobalTheory.KeyPow GlobalTheory.KeyKa
 
-noncomputable section
 namespace GlobalTheory.KeyKa.LevelBasis
 
 section Real
@@ -85,4 +84,3 @@ theorem exists_levBasis : ∀ (g : ℕ) (a b : Fin g → ℂ) (l : ℕ), charHal
   rwa [TorusAlg.ofRealVec_re h.1, TorusAlg.ofRealVec_re h.2] at this
 
 end GlobalTheory.KeyKa.LevelBasis
-end

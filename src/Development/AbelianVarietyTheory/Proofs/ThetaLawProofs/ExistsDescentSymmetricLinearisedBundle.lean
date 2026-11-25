@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Definitions.ModuliSpaces.GoodClass
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.LinDescent
 
 open AlgebraicGeometry CategoryTheory Limits

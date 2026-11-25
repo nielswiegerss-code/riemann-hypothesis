@@ -43,8 +43,6 @@ import Development.AbelianVarietyTheory.Statements.HeckeThetaIntegrals.FormulaAt
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.MainNotions NumberField IsDedekindDomain
 open Formalism.L2 Formalism.L2.DIV Formalism.IndefR Formalism.IndefR.Links
 open GlobalTheory.ChiGrid GlobalTheory.FunObj GlobalTheory.RowTest GlobalTheory.RowClaim
@@ -354,5 +352,3 @@ theorem sizeRows_of (P : ParameterChoice' D L) (T : ParamsT D L P) (hC : P.CnW =
 end Main
 
 end GlobalTheory.BigTop.Fun.SetAtModel
-
-end

@@ -55,8 +55,6 @@ import Mathlib.RingTheory.LaurentSeries
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ConstPoint
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj NumberField

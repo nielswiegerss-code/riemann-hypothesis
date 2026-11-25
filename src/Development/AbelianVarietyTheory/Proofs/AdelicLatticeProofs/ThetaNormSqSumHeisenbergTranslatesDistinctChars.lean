@@ -9,8 +9,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open scoped TensorProduct Pointwise
 
@@ -154,5 +152,3 @@ theorem thetaNormSq_sum_heisenbergTranslates_distinctChars (D : D7) (ψ : AddCha
     exact (mul_eq_zero.1 k3).resolve_left (sub_ne_zero.2 hne)
 
 end GlobalTheory.HeisOrtho
-
-end

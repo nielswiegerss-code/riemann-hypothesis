@@ -7,8 +7,6 @@ public import Mathlib.GroupTheory.Index
 
 open Formalism.MainNotions.N
 
-noncomputable section
-
 namespace Representation
 
 /-- Semisimplicity descends from restriction when the subgroup index is invertible in the field. -/

@@ -19,8 +19,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.F
 
 namespace GlobalTheory.ThFr
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ} {X : Data E r} {g : ℕ}
   {bas : (Fin g ⊕ Fin g → ℤ) ≃ₗ[ℤ] X.Λ} (idx : Fin g ≃ X.Ψ × Fin r)
   {q0 : ℕ} (hr : X.p0 + q0 = r) {n : ℕ} {c : X.Ψ → Fin q0 → ℕ} {c' : X.Ψ → Fin X.p0 → ℕ}
@@ -121,7 +119,5 @@ theorem mem_SS_of_eq_sum_thFr (hs : IsSympl X bas) (hn : Even n)
   obtain ⟨hpq, hc⟩ := hc.resolve_right fun h => h ξ hξ
   obtain ⟨A, ν, h1, h2, h3⟩ := exists_expansion_of_eq_sum_thFr idx hr s t a b hs hn hpq hc hP hQ hξ hx
   exact FJZero.fj_eq_zero_of_isSec X _ Q hsec hξ hx A h1 ν h2 0 h3
-
-end
 
 end GlobalTheory.ThFr

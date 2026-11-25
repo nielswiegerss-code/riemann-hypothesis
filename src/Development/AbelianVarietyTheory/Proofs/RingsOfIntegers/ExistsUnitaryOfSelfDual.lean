@@ -13,8 +13,6 @@ public import Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Finite
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.AdaptUnitary
 
 open NumberField IsDedekindDomain

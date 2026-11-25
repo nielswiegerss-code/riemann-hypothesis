@@ -41,8 +41,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.MainNotions.StandardLattice Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes NumberField MeasureTheory
 
 namespace GlobalTheory.VolRatioCheck
@@ -72,5 +70,3 @@ theorem place_bijective (D : D7) :
   exact (place_injective D).bijective_of_nat_card_le (by omega)
 
 end GlobalTheory.VolRatioCheck
-
-end

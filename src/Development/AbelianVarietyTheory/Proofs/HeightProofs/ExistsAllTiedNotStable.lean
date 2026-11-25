@@ -11,8 +11,6 @@ public import Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.MainNotions.S Formalism.L2.Theta GlobalTheory.IndefiniteRowSideFullHecke.FinitePartTypes Matrix
 open scoped TensorProduct ContDiff
 
@@ -57,5 +55,3 @@ variable {D : D7} {X : ThetaX D}
 
 
 end GlobalTheory.TypeAtCompare
-
-end

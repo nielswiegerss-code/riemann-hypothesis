@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.Exis
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.TwistFieldCompare
 
 open NumberField IsDedekindDomain ReciprocityTheory.ChartRestriction.G.Geo.Tor Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Pj Formalism.L2.Theta

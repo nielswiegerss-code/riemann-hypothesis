@@ -11,8 +11,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ (PS Pt ev pt comp1 FGLaw)
 open MvPolynomial (X)
 
-noncomputable section
-
 theorem GlobalTheory.units_cancel_first_law {U : Type} [CommGroup U] (g p q r abc ab ac bc a b c o : U) :
     g * ((abc * ab⁻¹ * c⁻¹ * o * p) * ((ac * a⁻¹ * c⁻¹ * o * q)⁻¹ * (bc * b⁻¹ * c⁻¹ * o * r)⁻¹)) =
       (abc * ab⁻¹ * ac⁻¹ * bc⁻¹ * a * b * c * o⁻¹) * (g * (p * (q⁻¹ * r⁻¹))) := by

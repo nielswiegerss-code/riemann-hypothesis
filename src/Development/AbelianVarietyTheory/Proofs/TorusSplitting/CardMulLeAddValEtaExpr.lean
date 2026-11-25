@@ -13,8 +13,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open Formalism.MainNotions.DIV.Cons (SCF intO)
 open scoped CategoryTheory.Obj
 
-noncomputable section
-
 namespace GlobalTheory.EtaVal.RatBound
 
 theorem addVal_prod {K : Type} [CommRing K] (ν : AddValuation K (WithTop ℚ)) {I : Type} (s : Finset I) (f : I → K) :

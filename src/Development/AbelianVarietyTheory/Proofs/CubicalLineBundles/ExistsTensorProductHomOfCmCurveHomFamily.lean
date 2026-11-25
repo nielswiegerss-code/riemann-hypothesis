@@ -13,7 +13,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.CM
 
 theorem IsKForm.map_eq {E : Type} [Field E] [NumberField E] [IsCMField E] {H : Host E} {D₁ D : Datum H} {ε : ℤˣ}
@@ -51,4 +50,3 @@ theorem exists_famLift : ∀ (E : Type) [Field E] [NumberField E] [IsCMField E] 
       (LamCalc.cubeLB_isLB T₁.t.PP.isLB _) e (LBIso.symm (t.lam (c • a) b))
 
 end GlobalTheory.CM
-end

@@ -42,7 +42,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.S Formalism.L2.Theta Matrix
 open scoped TensorProduct
 
@@ -68,4 +67,3 @@ theorem isTypeAt_zero {τ : D.what₂.Tau} {S : SPar} : IsTypeAt θ V τ S 0 ↔
     · exact ⟨[], 0, by simp, fun w _ => by simp⟩
 
 end GlobalTheory.TypeAtTest
-end

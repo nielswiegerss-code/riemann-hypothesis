@@ -13,8 +13,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Polynomial
 open Filter PeriodPair Polynomial
 open scoped Topology
 
-noncomputable section
-
 namespace GlobalTheory
 
 variable (L : PeriodPair)

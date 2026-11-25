@@ -12,8 +12,6 @@ import Mathlib.RingTheory.RegularLocalRing.Defs
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Frames
 
 open AlgebraicGeometry CategoryTheory Limits NumberField IsDedekindDomain

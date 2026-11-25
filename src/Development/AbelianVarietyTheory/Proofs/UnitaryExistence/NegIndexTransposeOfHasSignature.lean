@@ -15,8 +15,6 @@ open AlgebraicGeometry CategoryTheory Limits ReciprocityTheory.ChartRestriction.
 open scoped TensorProduct Topology
 open GlobalTheory.RecDict
 
-noncomputable section
-
 namespace GlobalTheory.RecDict
 
 

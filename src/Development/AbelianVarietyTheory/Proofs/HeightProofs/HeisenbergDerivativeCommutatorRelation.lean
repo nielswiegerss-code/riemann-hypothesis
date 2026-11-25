@@ -5,8 +5,6 @@ public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ContDiff
 
 namespace GlobalTheory.FockCompare
@@ -93,5 +91,3 @@ theorem heisenberg_derivative_commutator :
   ring
 
 end GlobalTheory.FockCompare
-
-end

@@ -11,8 +11,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.Hol
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.AnValGenRd
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj NumberField

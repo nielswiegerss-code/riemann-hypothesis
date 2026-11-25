@@ -39,8 +39,6 @@ import Mathlib.Tactic.ReduceModChar
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice MeasureTheory IsDedekindDomain NumberField
 open Formalism.L2.Theta Formalism.L2.DIV Formalism.L2.Pj Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum Formalism.IndefR.FWT
 open scoped TensorProduct InnerProductSpace
@@ -73,5 +71,3 @@ theorem gram_of_conjAt {ph : ℂ} {c₀ : VsV D i D.what₂.LL →ₛₗ[D.what�
   exact inner_of_unitary U (fun w => R.gW i σ z w) hz.unitary hκ (hlift x y hy) (hlift x' y' hy')
 
 end GlobalTheory.ConjLiftCounterexample
-
-end

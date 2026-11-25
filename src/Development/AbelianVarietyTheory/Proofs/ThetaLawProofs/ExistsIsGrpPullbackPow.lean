@@ -16,7 +16,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValua
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj MeasureTheory
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor
 
-noncomputable section
 namespace GlobalTheory.KeyPow
 
 section Grp
@@ -249,4 +248,3 @@ theorem keyPB_of_isKeyPow : ∀ (R R' : Type) [CommRing R] [CommRing R'] (f : R 
         rw [Category.assoc, he, ← Category.assoc, ← hFe, Category.assoc]
 
 end GlobalTheory.KeyPow
-end

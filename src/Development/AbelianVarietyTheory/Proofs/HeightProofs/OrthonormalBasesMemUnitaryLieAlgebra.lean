@@ -9,7 +9,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 open Matrix Formalism.REAL Formalism.MainNotions.S Formalism.L2.Theta GlobalTheory.SmoothGlob GlobalTheory.TypeSum GlobalTheory.TypeSum.CasBasis GlobalTheory.LowTypeDetermined
 open scoped InnerProductSpace
 
-noncomputable section
 namespace GlobalTheory.TypeSum.CasBasis
 variable {n : ℕ} {ε : Fin n → Bool}
 
@@ -89,4 +88,3 @@ theorem bases_mem_lieSet : ∀ (n : ℕ) (ε : Fin n → Bool), (∀ i, kB ε i 
   fun _ _ => ⟨fun i => kList_mem_lieSet (List.get_mem _ i), fun b => pList_mem_lieSet (List.get_mem _ b)⟩
 
 end GlobalTheory.TypeSum.CasBasis
-end

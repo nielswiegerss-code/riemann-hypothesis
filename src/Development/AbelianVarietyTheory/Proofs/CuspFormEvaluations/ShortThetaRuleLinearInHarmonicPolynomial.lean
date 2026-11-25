@@ -13,8 +13,6 @@ import Formalism.SharpRestriction.GenusPolyhedralBounds.RelativeIndexClassSets.Q
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ShortRuleLinear
 
 section General

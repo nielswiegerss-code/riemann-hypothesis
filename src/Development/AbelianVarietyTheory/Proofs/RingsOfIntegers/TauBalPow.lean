@@ -13,8 +13,6 @@ open CategoryTheory CategoryTheory.Limits AlgebraicGeometry MonoidalCategory Car
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Out ReciprocityTheory.ChartRestriction.G.DVR
 open scoped CategoryTheory.Obj
 
-noncomputable section
-
 namespace GlobalTheory.TauBalBox
 
 open ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.BoxFamily

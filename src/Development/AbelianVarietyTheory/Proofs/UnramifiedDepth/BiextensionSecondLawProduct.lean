@@ -17,8 +17,6 @@ open TensorProduct IsLocalRing Matrix CategoryTheory AlgebraicGeometry MonoidalC
 open scoped CategoryTheory.Obj CategoryTheory.MonObj
 attribute [local instance] Over.cartesianMonoidalCategory
 
-noncomputable section
-
 namespace GlobalTheory.BiextSym
 
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor

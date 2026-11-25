@@ -12,7 +12,6 @@ open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalC
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor
 open GlobalTheory.KeyKa
 
-noncomputable section
 namespace GlobalTheory.KeyPBScale
 
 theorem appLE_constFn {R R' : Type} [CommRing R] [CommRing R'] (f : R →+* R') {X Y : Scheme.{0}} {φ : Y ⟶ X}
@@ -49,4 +48,3 @@ theorem keyPB_scale : ∀ (R R' : Type) [CommRing R] [CommRing R'] (f : R →+* 
     exact lie_baseChange f hp e M v v' u u' h₂ h₄ hlie
 
 end GlobalTheory.KeyPBScale
-end

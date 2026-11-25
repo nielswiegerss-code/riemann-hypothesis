@@ -44,8 +44,6 @@ import Mathlib.Topology.Sheaves.Init
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Matrix GlobalTheory.FockCompare GlobalTheory.IndefiniteRowSideFullHecke.FockOrthogonalDecomposition
 open scoped TensorProduct ContDiff ComplexOrder
 
-noncomputable section
-
 namespace GlobalTheory.FockCompare
 
 variable {D : D7}
@@ -124,5 +122,3 @@ theorem span_piW_ratW_eq_top (D : D7) (θ : InfFam D) (σ : (D.what₂.Tau → �
   exact T.sum_mem fun i _ => T.sum_mem fun j _ => hL i j _
 
 end GlobalTheory.FockCompare
-
-end

@@ -46,8 +46,6 @@ import Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StandardDete
 
 open NumberField IsDedekindDomain
 
-noncomputable section
-
 namespace GlobalTheory.Survey.StandardDeterminantUnits
 
 open Formalism.L2.Col Formalism.HermitianLatticesTheory GlobalTheory.IndefiniteRowSideFullHecke.StandardDeterminantUnit

@@ -9,8 +9,6 @@ import Formalism.LocalToGlobal.BesselHermitianTheta.NoncompactGapAtLeastRange
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.S Formalism.L2.Theta GlobalTheory.RealPar Matrix MeasureTheory
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.RealPar.KStabLie
 
 variable {p q n : ℕ}
@@ -142,5 +140,3 @@ theorem kstable_lie : ∀ (p q n : ℕ) (e : Ix p q ≃ Fin n) (ε : Fin n → B
     exact W.add_mem (key X hX hXK w hw) (W.smul_mem _ (key Y hY hYK w hw))
 
 end GlobalTheory.RealPar.KStabLie
-
-end

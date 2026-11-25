@@ -13,7 +13,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.CM.TopDifferential
 
 theorem eq_dualMapR {R R' : Type} [CommRing R] [CommRing R'] {f : R →+* R'} {F : DualNumber R →+* DualNumber R'}
@@ -34,4 +33,3 @@ theorem det_gram {g : ℕ} (Hm W : Matrix (Fin g) (Fin g) ℂ) :
     mul_comm Hm.det, ← _root_.mul_assoc, ← Complex.ofReal_pow, ← Complex.ofReal_mul, Complex.re_ofReal_mul]
 
 end GlobalTheory.CM.TopDifferential
-end

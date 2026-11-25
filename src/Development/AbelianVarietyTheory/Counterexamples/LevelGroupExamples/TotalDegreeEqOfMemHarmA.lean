@@ -5,7 +5,6 @@ public import Formalism.LocalToGlobal.ProjectiveLattices.IsThRule
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.ThetaRuleCheck
 open Formalism.L2.Pj ReciprocityTheory.ChartRestriction.G.Geo.Tor NumberField MvPolynomial
 

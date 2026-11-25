@@ -19,7 +19,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.CM.FamPairing
 
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {H : Host E}
@@ -293,4 +292,3 @@ theorem isFam_of_isHomFamily : ThetaUnifAV → Out.Laws → ∀ (E : Type) [Fiel
     ring
 
 end GlobalTheory.CM.FamPairing
-end

@@ -5,7 +5,6 @@ import Mathlib.AlgebraicGeometry.Modules.Sheaf
 
 @[expose] public section
 
-noncomputable section
 open CategoryTheory AlgebraicGeometry
 open ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor
 namespace GlobalTheory.JetSer

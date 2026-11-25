@@ -19,7 +19,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.HermHom
 
 theorem isTangent_of_isLieComb {A : Over (Sp ℂ)} [GrpObj A] {L : LB A.left} {g n : ℕ} (u : HolUnif A L g)
@@ -157,4 +156,3 @@ theorem form_diff_eq : ThetaUnifAV → Out.Laws → ∀ (K : Type) [Field K] [Nu
   rfl
 
 end GlobalTheory.HermHom
-end

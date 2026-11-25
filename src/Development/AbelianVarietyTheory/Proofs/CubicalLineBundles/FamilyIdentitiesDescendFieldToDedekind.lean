@@ -19,8 +19,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
-
 namespace GlobalTheory.FamDescent
 
 theorem lamEq_descend {R k : Type} [CommRing R] [IsDedekindDomain R] [Field k] (f : R →+* k)
@@ -131,5 +129,3 @@ theorem isFam_descend : Out.Laws → ∀ (E : Type) [Field E] [NumberField E] [I
       iC (hψ a) (hψ b) (hact _) (by simp) (hlam a b)
 
 end GlobalTheory.FamDescent
-
-end

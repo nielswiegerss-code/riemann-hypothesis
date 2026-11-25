@@ -12,8 +12,6 @@ import Development.AbelianVarietyTheory.Proofs.HeightProofs.IsLieDataCircle
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta GlobalTheory.SmoothForms Matrix NumberField
 open scoped TensorProduct
 
@@ -104,5 +102,3 @@ theorem realPoints : ∀ D : D7, (∀ θ θ' : D.what₂.Tau → (Ainf D.host.F 
     rw [finMat_eq V, finMat_eq V, map_mul, ha', mul_one]
 
 end GlobalTheory.SmoothForms.RealPts
-
-end

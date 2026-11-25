@@ -14,8 +14,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FirstCohomology.OneC
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj AlgebraicGeometry NumberField
 open scoped CategoryTheory.Obj
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor

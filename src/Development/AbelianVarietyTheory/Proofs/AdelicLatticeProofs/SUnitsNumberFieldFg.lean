@@ -12,8 +12,6 @@ import Mathlib.Tactic.Lemma
 open NumberField IsDedekindDomain GlobalTheory.QNorm
 open scoped WithZero
 
-noncomputable section
-
 namespace GlobalTheory.QNorm
 
 open NumberField IsDedekindDomain in
@@ -95,5 +93,3 @@ theorem _root_.GlobalTheory.QNorm.sUnits_fg :
   exact Module.Finite.iff_addGroup_fg.mp this
 
 end GlobalTheory.QNorm
-
-end

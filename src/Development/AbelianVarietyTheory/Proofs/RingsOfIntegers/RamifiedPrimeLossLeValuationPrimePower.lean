@@ -7,7 +7,6 @@ import Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.Hos
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.PlaceTop
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.WeightAlgebra Formalism.MainNotions.DIV.Cons Formalism.L2.Pj GlobalTheory.PtTie
 

@@ -11,7 +11,6 @@ open GlobalTheory.AbLaw
 open GlobalTheory.KeyPow GlobalTheory.KeyKa
 open GlobalTheory.SimilTheta
 
-noncomputable section
 namespace GlobalTheory.SimilTheta
 open Matrix
 
@@ -131,4 +130,3 @@ theorem _root_.GlobalTheory.SimilTheta.aut_similitude_and_mul : ∀ (g m : ℕ) 
     linear_combination (-(2 * ↑Real.pi * Complex.I) * ((a ⬝ᵥ fun i ↦ (k₀ i : ℂ)) - b ⬝ᵥ fun i ↦ (n₀ i : ℂ))) * hmu
 
 end GlobalTheory.SimilTheta
-end

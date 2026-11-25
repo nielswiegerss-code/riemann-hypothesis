@@ -16,8 +16,6 @@ open GlobalTheory.AbLaw
 open GlobalTheory.KeyKa
 open TopologicalSpace
 
-noncomputable section
-
 namespace GlobalTheory.LBLimit
 
 theorem lbIso_of_refinement {X : Scheme.{0}} (L N : LB X) (hL : L.IsLB) (e : N.ι → L.ι)

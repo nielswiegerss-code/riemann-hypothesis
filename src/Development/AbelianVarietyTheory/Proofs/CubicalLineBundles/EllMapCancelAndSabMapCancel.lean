@@ -11,7 +11,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.CM.Factor
 
 theorem dualMapR_comp {R R' R'' : Type} [CommRing R] [CommRing R'] [CommRing R''] (f : R →+* R') (f' : R' →+* R'') :
@@ -56,4 +55,3 @@ theorem ellMap_cancel_and_sabMap_cancel : ∀ (E : Type) [Field E] [NumberField 
   exact ⟨m', h.symm⟩
 
 end GlobalTheory.CM.Factor
-end

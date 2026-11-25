@@ -43,8 +43,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.ExistsChosenExtremalVector
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.HeckeSupSt
 
 open NumberField IsDedekindDomain

@@ -57,8 +57,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FirstCohomology.Thet
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory CategoryTheory.Limits AlgebraicGeometry MonoidalCategory CartesianMonoidalCategory MonObj
   NumberField
 

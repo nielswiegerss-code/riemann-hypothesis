@@ -16,8 +16,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj ComplexOrder
 open GlobalTheory GlobalTheory.CM GlobalTheory.LamF
 
-noncomputable section
-
 namespace GlobalTheory.CM.PairingInj
 
 open GlobalTheory.KerPow GlobalTheory.CM.PairingIso

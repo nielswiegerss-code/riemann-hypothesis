@@ -41,8 +41,6 @@ public import Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Comple
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open scoped TensorProduct
 
@@ -107,5 +105,3 @@ theorem om_pureTensorO : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ) (θ : Inf
     cplxO_move hG (h1 τ) (h2 τ)]
 
 end GlobalTheory.OrientedHeis
-
-end

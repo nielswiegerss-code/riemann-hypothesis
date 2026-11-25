@@ -9,8 +9,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix Filter Formalism.REAL Formalism.MainNotions.S Formalism.L2.Theta GlobalTheory.SmoothGlob GlobalTheory.LowTypeDetermined GlobalTheory.TypeSum
 open scoped InnerProductSpace Topology
 
@@ -159,5 +157,3 @@ theorem rank_one_mem_of_closed : ∀ (n : ℕ) (ε : Fin n → Bool) (H : Type) 
   rw [← e']; exact this
 
 end GlobalTheory.TypeSum
-
-end

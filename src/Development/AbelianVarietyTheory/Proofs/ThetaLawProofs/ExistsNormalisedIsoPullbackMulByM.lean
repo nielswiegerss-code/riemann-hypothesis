@@ -15,7 +15,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open GlobalTheory.AbLaw
 open GlobalTheory.KeyKa
 
-noncomputable section
 namespace GlobalTheory.KeyKa
 
 theorem exists_zpowGen {X Y : Scheme.{0}} {L : LB X} {K : Type} [Fintype K] {φ : K → (Y ⟶ X)} {ε : K → ℤ}
@@ -61,4 +60,3 @@ theorem exists_normalised_mulPull : Out.Laws → ∀ (R : Type) [CommRing R] [Is
     inv_mul_cancel_left]
 
 end GlobalTheory.KeyKa
-end

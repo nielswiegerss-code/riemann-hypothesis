@@ -10,7 +10,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open GlobalTheory.AbLaw
 open GlobalTheory.KeyKa
 
-noncomputable section
 namespace GlobalTheory.KeyKa
 open EtBaseChange
 
@@ -112,4 +111,3 @@ theorem etZ_of_jac_ne_zero : ∀ (O K : Type) [CommRing O] [IsDomain O] [Field K
     exact ⟨a, q, hq⟩
 
 end GlobalTheory.KeyKa
-end

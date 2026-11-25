@@ -9,8 +9,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open scoped TensorProduct
 attribute [local instance 100] LieRing.ofAssociativeRing
 
-noncomputable section
-
 namespace GlobalTheory.EnvelopingExtension
 
 theorem exists_algHom_of_real (L : Type) [LieRing L] [LieAlgebra ℝ L] (A : Type) [Ring A] [Algebra ℂ A] (ρ : L → A)
@@ -51,5 +49,3 @@ theorem exists_algHom_unitary : ∀ (n : ℕ) (J : Matrix (Fin n) (Fin n) ℂ) (
     rw [LieSubalgebra.coe_bracket, Ring.lie_def])
 
 end GlobalTheory.EnvelopingExtension
-
-end

@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsCh
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ValuativeExtension
 
 open CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj AlgebraicGeometry NumberField

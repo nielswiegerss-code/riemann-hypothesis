@@ -12,8 +12,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain GlobalTheory.FieldSize GlobalTheory.NT
 open scoped IntermediateField nonZeroDivisors
 

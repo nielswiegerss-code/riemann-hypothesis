@@ -16,8 +16,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj TensorProduct
 open GlobalTheory.KeyPow GlobalTheory.KeyFam GlobalTheory.ZM GlobalTheory.AbLaw
 
-noncomputable section
-
 namespace GlobalTheory.SameLam
 
 open GlobalTheory.CechPic GlobalTheory.PrimitiveOverField

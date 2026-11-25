@@ -17,8 +17,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped ComplexOrder
 open GlobalTheory GlobalTheory.CM GlobalTheory.Frames GlobalTheory.LamT
 
-noncomputable section
-
 namespace GlobalTheory
 
 private lemma mem_range_algebraMap_iff_valV_le_one (T : CDVR) (x : T.Fr) :

@@ -14,8 +14,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ (PS Pt ev pt comp1 FGLaw)
 open MvPolynomial (X)
 
-noncomputable section
-
 namespace GlobalTheory.PrimDown
 
 theorem exists_down_id {X₀ X' Y : Scheme.{0}} {L : LB X₀} {L' : LB X'} {F : X' ⟶ X₀} {K : Type} [Fintype K]

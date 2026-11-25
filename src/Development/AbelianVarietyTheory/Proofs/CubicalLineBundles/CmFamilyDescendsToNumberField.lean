@@ -12,7 +12,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open GlobalTheory GlobalTheory.CM
 
-noncomputable section
 namespace GlobalTheory.CM.FamDesc
 
 theorem exists_field (hT : ThetaUnifAV) (hB : Out.PolBaseChangeSt) (k : IntermediateField ℚ ℂ)
@@ -118,4 +117,3 @@ theorem isFam_descends_to_numberField : ThetaUnifAV → Out.Laws → ∀ (E : Ty
     (algebraMap k₂ ℂ).injective e₃ hψ hF, hψ⟩
 
 end GlobalTheory.CM
-end

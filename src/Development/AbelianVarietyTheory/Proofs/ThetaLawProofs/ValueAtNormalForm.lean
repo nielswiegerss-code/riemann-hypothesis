@@ -10,7 +10,6 @@ public import Development.AbelianVarietyTheory.Proofs.ToricGeometry.TopLePreimag
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj MeasureTheory
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor
 
-noncomputable section
 namespace GlobalTheory.KeyPow
 
 section Scale
@@ -87,4 +86,3 @@ theorem value_at_normalForm :
   exact h1
 
 end GlobalTheory.KeyPow
-end

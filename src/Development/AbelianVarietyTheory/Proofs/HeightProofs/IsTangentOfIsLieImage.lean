@@ -15,8 +15,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.Cha
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ArcLieCompare
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj NumberField
