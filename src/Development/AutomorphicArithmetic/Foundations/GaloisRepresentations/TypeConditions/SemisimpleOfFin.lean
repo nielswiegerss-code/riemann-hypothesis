@@ -12,8 +12,6 @@ public import Mathlib.LinearAlgebra.Charpoly.ToMatrix
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Polynomial GlobalTheory.WeilDeligne Module
 
 namespace UpperTheory.GalS

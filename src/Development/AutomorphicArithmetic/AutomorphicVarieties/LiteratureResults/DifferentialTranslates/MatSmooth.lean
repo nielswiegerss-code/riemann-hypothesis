@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureR
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Matrix GlobalTheory.CuspRep GlobalTheory.GKCoh
 open scoped ContDiff
 

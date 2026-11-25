@@ -5,8 +5,6 @@ import Mathlib.Tactic.NormNum.LegendreSymbol
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix UpperTheory.V.Alg UpperTheory.V.W
 
 namespace UpperTheory.V.Pa.Det

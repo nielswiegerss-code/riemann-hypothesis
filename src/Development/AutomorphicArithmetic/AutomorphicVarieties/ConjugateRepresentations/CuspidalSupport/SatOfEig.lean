@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeVecMemFixed
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Matrix Formalism.L2.Host GlobalTheory.CuspRep
 open Formalism.UG GlobalTheory.PRep GlobalTheory.LFun GlobalTheory.LGrp GlobalTheory.LFun.SatCompare GlobalTheory.LocGL GlobalTheory.WeylGL
 

@@ -6,8 +6,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.PD GlobalTheory.WH
 
 namespace UpperTheory.Gal.productCup_of_system
@@ -181,5 +179,3 @@ theorem koszulTwoExact_of_gl2 : FiltrationCocycleLiftCriterion → SubQEx → Ko
   simpa [sub_eq_zero] using h'
 
 end UpperTheory.Gal.productCup_of_system
-
-end

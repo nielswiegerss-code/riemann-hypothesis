@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory Limits AlgebraicGeometry UpperTheory.Gal.DifferentialFormSections
 open FunctorialResolution.Blowup
 

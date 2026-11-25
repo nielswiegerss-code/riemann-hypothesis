@@ -11,8 +11,6 @@ import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SplitPrimePlac
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations GlobalTheory.IndefiniteRowSideFullHecke.SplitPlaceTypes
 open GlobalTheory.SplitRowProbe GlobalTheory.SplitType GlobalTheory.SplitDecl
 
@@ -112,5 +110,3 @@ theorem decl_split (D : D7) (i : D.nd.Loc) (h2 : D.nd.l i ≠ 2) (hj : jacobiSym
       exact hnb u hu τ ⟨hUin τ, hpu.2 τ⟩
 
 end UpperTheory.N
-
-end

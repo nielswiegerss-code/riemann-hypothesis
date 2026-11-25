@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.Foundations.GaloisRepresentation
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.Cong MvPolynomial
 
 namespace UpperTheory.Gal.Gen
@@ -100,5 +98,3 @@ theorem combine_pf : Combine := by
   exact polyApprox_trans hθ fun η hη => polyApprox_cut (h η hη).1 (h η hη).2
 
 end UpperTheory.Gal.Gen
-
-end

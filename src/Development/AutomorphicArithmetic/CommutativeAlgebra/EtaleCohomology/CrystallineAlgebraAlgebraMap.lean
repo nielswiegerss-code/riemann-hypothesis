@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomolo
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory CrystallineSemistableComparison CrystallineSemistableComparison.PAlg
 
 namespace UpperTheory.Ru.crystallineComparison

@@ -8,8 +8,6 @@ public import Development.WeilBound.SimpleEigenvalues.SimpleEigenvalueExtension.
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct
 
 namespace UpperTheory.V.Cj.S

@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureR
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField NumberField.InfinitePlace Matrix UpperTheory.V.KT UpperTheory.V.KL
 
 namespace PositivityTheory.KB
@@ -20,5 +18,3 @@ theorem isCyc_cmap (hC : SChain) {G H : Type} [Group G] [Group H] (f : G →* H)
 end LargePrimeDiscriminant
 
 end PositivityTheory.KB
-
-end

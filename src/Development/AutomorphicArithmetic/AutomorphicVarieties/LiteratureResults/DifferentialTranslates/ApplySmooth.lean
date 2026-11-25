@@ -5,8 +5,6 @@ public import Mathlib.Analysis.Calculus.ContDiff.CPolynomial
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ContDiff
 
 namespace UpperTheory.V.Lit.Dr

@@ -20,8 +20,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain GroundTheory.Global Formalism.L2.Host
 
 namespace UpperTheory.ConvolutionTheory.RankTwoDescent.A

@@ -45,8 +45,6 @@ import Mathlib.Topology.Sheaves.Init
 
 open Complex MeasureTheory Set Filter Topology
 
-noncomputable section
-
 namespace Deduction
 
 theorem landau_finite {Z : Set ℂ} (hiso : ∀ z : ℂ, 0 < z.re → ∀ᶠ w in 𝓝[≠] z, w ∉ Z) {z : ℂ} {r : ℝ}
@@ -73,5 +71,3 @@ theorem exists_capped_radius {α : Type*} {S : Set α} (hS : S.Finite) (f : α �
   · exact h w hw
 
 end Deduction
-
-end

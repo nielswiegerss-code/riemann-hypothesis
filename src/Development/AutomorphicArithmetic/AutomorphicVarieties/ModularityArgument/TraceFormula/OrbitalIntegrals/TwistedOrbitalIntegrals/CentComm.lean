@@ -15,8 +15,6 @@ public import Mathlib.LinearAlgebra.Eigenspace.Basic
 
 @[expose] public section
 
-noncomputable section
-
 open Module
 
 namespace UpperTheory.V.Z.Tf.Orb

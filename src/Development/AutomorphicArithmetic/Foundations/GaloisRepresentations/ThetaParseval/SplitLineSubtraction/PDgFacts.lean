@@ -7,8 +7,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.MainNotions.N Polynomial
 open Formalism.MainNotions.SumRepresentations.At (sumRep)
 
@@ -73,5 +71,3 @@ theorem dgFacts_holds : DgFacts := by
   rw [dg_val, Matrix.charpoly_diagonal]
 
 end UpperTheory.Gal.TP.Sub
-
-end

@@ -11,7 +11,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LinearI
 section
 open GlobalTheory.BigTop GlobalTheory.BigOn GlobalTheory.BigOn.Exp
 open Formalism.BasicNotions Formalism.MainNotions Formalism.L2.Pj Formalism.L2.DIV Formalism.IndefR Formalism.IndefR.Links
-noncomputable section
 
 
 namespace GlobalTheory.BigOn.Exp
@@ -25,5 +24,4 @@ theorem readInj_alt : _root_.GlobalTheory.BigOn.Exp.ReadInjAlt := by
   have hK : (p.Sx.A ((j : ℕ) + 1)).IsKsForm := GlobalTheory.isKsForm_of_formsIso _ _ (p.nexp.fi j) (p.fw.ks j)
   exact (GlobalTheory.SeriesTie.realRd_faithful _ _ _ _ _ _ _ p.R p.cG p.Sx p.nexp p.v₀ ρ hρ _ j _ ν hν hU hW (Z.vec j) hK).injective
 end GlobalTheory.BigOn.Exp
-end
 end

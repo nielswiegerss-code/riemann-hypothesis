@@ -8,8 +8,6 @@ public import Mathlib.Analysis.Matrix.Hermitian
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Matrix UpperTheory.V.KT UpperTheory.V.KL Filter Topology
 open scoped ComplexOrder
 
@@ -96,5 +94,3 @@ theorem actL_scal {L : Type} [Field L] [NumberField L] {N : ℕ} (s : InfinitePl
   · refine ⟨1, one_pos, fun h => HS_ext fun w => absurd ⟨w⟩ hne⟩
 
 end PositivityTheory.KB.WhittakerCocycle
-
-end

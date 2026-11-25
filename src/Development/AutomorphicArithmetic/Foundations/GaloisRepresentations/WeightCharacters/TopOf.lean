@@ -11,8 +11,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Neutral.B1 Formalism.L2.Host Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.N
 open GlobalTheory.CuspRep GlobalTheory.WeilDeligne GlobalTheory.Pst GlobalTheory.LocLanglands GlobalTheory.HeckeGal GlobalTheory.LocGL GlobalTheory.GalOfCusp
 open GlobalTheory.GalCut GlobalTheory.UnitaryBC GlobalTheory.Cong GlobalTheory.DefU GlobalTheory.Branching
@@ -113,5 +111,3 @@ theorem top_of : FamEx → FamProj → FamWt → UpperTheory.Gal.Int.Cong.WtLacE
     rwa [ComplexEmbedding.conjugate_coe_eq, ← IsCMField.complexEmbedding_complexConj] at this
 
 end UpperTheory.Gal.Wt
-
-end

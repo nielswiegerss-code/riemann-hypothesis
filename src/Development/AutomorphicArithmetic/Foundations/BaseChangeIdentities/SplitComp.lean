@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsUn
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain GlobalTheory.CuspRep GlobalTheory.PRep GlobalTheory.UnitaryBC
 
 namespace UpperTheory.BaseChangeIdentities
@@ -23,5 +21,3 @@ theorem splitComp (H : GlobalTheory.BcSpeh.BcSpeh) (E : Type) [Field E] [NumberF
       irred := (hs w hw).1 }, hs⟩
 
 end UpperTheory.BaseChangeIdentities
-
-end

@@ -22,7 +22,6 @@ open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.Genus
 open scoped GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 open Filter Topology
 open GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
-noncomputable section
 open scoped Classical
 namespace GlobalTheory.ThetaLineDerY
 theorem hasDerivAt_thetaSum_along_line_y_direction : _root_.GlobalTheory.FunPr.ThetaLocalInputs → ∀ {F E : Type} [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E] {σ : E →ₐ[F] E} {n d : ℕ}
@@ -86,5 +85,3 @@ theorem hasDerivAt_thetaSum_along_line_y_direction : _root_.GlobalTheory.FunPr.T
   simp [slope_def_module, map_sub]
 end GlobalTheory.ThetaLineDerY
 end
-end
-

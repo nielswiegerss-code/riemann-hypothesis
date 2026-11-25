@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.Foundations.GaloisRepresentation
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain
 open UpperTheory.Gal.CertificateRingHomMap (Plc)
 
@@ -29,5 +27,3 @@ theorem inIdUnit_holds : InIdUnit := by
   rw [Ideal.map_mul, htop, Ideal.mul_top]
 
 end UpperTheory.Gal.Int.Geo.Pl
-
-end

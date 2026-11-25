@@ -8,7 +8,6 @@ public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.HostBoundHol
 
 
 section
-noncomputable section
 open NumberField Formalism.BasicNotions Formalism.MainNotions Formalism.L2 Formalism.L2.DIV Formalism.L2.Pj Formalism.IndefR.Links ReciprocityTheory.ChartRestriction.G.Geo.Tor ReciprocityTheory.ChartRestriction.G.FD GlobalTheory.AllWt GlobalTheory.CompHt GlobalTheory.BigTop GlobalTheory.CovTop
 open Formalism.MainNotions.Gaps.EtaleWeightGaps.Num
 namespace GlobalTheory.CovTop.Sizes
@@ -39,5 +38,4 @@ theorem hostN_alt : ∀ M : ℝ, _root_.GlobalTheory.CovTop.HostNAlt M := by
   · rwa [hsx, hsz]
   · rwa [hsx]
 end GlobalTheory.CovTop.Sizes
-end
 end

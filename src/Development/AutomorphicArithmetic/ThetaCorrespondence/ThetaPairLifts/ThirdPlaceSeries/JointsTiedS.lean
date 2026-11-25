@@ -41,7 +41,6 @@ import ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.HCFFromRecipA
 
 
 section
-noncomputable section
 open Formalism.BasicNotions Formalism.MainNotions NumberField IsDedekindDomain Neutral.B1 ReciprocityTheory.Neutral.Bridge.HCFR Formalism.UG
 open scoped TensorProduct
 namespace Formalism.L2
@@ -53,5 +52,4 @@ end JointsS
 section
 end
 end Formalism.L2
-end
 end

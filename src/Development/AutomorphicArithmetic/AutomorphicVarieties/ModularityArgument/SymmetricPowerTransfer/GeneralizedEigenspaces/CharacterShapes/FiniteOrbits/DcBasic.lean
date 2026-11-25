@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain ValuativeRel GlobalTheory.PRep GlobalTheory.SmGL UpperTheory.V.Hi UpperTheory.V.AlgebraTools
 open UpperTheory.V.Z.Sym UpperTheory.V.Z.Sym.Loc UpperTheory.V.Z.Sym.Glob UpperTheory.V.Z.Sym.Sig UpperTheory.V.Z.Sym.So
 
@@ -127,5 +125,3 @@ theorem UpperTheory.V.Z.Sym.So.dcBasic :
         exact U.mul_mem (U.mul_mem hv ha) hv'
       · rintro r ⟨hr, -⟩
         exact Finset.mem_singleton.mp hr
-
-end

@@ -10,8 +10,6 @@ open Neutral.B1 Formalism.L2.Host Formalism.ConjugateSelfDual GlobalTheory.CuspR
 open UpperTheory.ConvolutionTheory.R2 UpperTheory.ConvolutionTheory.R2.Fo
 open scoped Classical
 
-noncomputable section
-
 namespace UpperTheory.ConvolutionTheory.R2.Fo
 
 variable {F E : Type} [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E] [IsTotallyReal F] [IsTotallyComplex E]
@@ -106,5 +104,3 @@ theorem UpperTheory.ConvolutionTheory.R2.Fo.coordMk :
     rw [← hW]
     change InfinitePlace.mk (W.embedding.comp (algebraMap F E)) = W.comap (algebraMap F E)
     rw [← InfinitePlace.comap_mk, InfinitePlace.mk_embedding]
-
-end

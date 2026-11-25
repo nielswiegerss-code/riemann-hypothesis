@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace UpperTheory.KStar.Words
 
 open Formalism.HC Formalism.FrobeniusOrbits
@@ -102,5 +100,3 @@ theorem thick_one_place {L : ℕ} (T : Finset ℕ) (hT : ∀ s ∈ T, 4 * L * s 
   rw [← hsa, ← hsb, heq]
 
 end UpperTheory.KStar.Words
-
-end

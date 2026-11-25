@@ -10,7 +10,6 @@ import Mathlib.Tactic.Linter.Style
 
 
 section
-noncomputable section
 open Formalism.BasicNotions Formalism.MainNotions NumberField IsDedekindDomain Module
 open Formalism.L2 Formalism.L2.DIV Formalism.L2.Indef Formalism.L2.Rows Formalism.IndefR.Links Formalism.IndefR.Cx
 namespace Formalism.IndefR.LevelRealisationRankEquality
@@ -38,5 +37,4 @@ theorem tup_all_used_of_realisation (Q : _root_.Formalism.IndefR.IndefiniteReali
     rw [← _root_.Formalism.IndefR.LevelRealisationRankEquality.indefinite_realisation_mu_eq Q, Equiv.apply_symm_apply]
     exact h.symm
 end Formalism.IndefR.LevelRealisationRankEquality
-end
 end

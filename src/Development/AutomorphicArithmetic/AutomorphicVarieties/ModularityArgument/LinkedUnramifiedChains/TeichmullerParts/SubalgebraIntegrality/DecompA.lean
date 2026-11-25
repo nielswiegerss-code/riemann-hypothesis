@@ -11,8 +11,6 @@ import Mathlib.RingTheory.Finiteness.Lattice
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain GlobalTheory.CuspRep GlobalTheory.UnitaryBC
 
 namespace UpperTheory.V.Z.J.D.Dc

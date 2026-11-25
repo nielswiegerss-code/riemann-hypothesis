@@ -8,8 +8,6 @@ import Formalism.SharpRestriction.GrowthBounds.MonomialOrderSegments.BrData
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.L2.Host Formalism.ConjugateSelfDual ReciprocityTheory.Gal GlobalTheory.HeckeGal GlobalTheory.CuspRep UpperTheory.V.Published
 
 namespace UpperTheory.ConvolutionTheory.Sph

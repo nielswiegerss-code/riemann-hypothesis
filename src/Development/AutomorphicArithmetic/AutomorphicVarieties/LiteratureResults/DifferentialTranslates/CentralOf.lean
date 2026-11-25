@@ -5,8 +5,6 @@ import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.N
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Matrix GlobalTheory.CuspRep GlobalTheory.GKCoh UpperTheory.V.Af
 
 namespace UpperTheory.V.Lit.Dr

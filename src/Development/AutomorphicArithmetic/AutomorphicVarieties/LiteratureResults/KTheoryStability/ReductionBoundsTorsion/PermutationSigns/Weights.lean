@@ -5,8 +5,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Matrix MeasureTheory UpperTheory.V.KT UpperTheory.V.KL
 open scoped Kronecker
 
@@ -281,5 +279,3 @@ theorem wCyc : WCyc := by
     simpa [ncyc] using this
 
 end PositivityTheory.KB.BlockInvariants
-
-end

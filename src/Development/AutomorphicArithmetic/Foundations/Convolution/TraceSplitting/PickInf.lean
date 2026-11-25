@@ -13,8 +13,6 @@ import PositivityTheory.AutomorphicForms.PublishedInputs.CyclicBaseChange.PSConj
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory NumberField IsDedekindDomain Filter
 open GroundTheory.Automorphic GroundTheory.Automorphic.Reduction GroundTheory.Automorphic.RightCosetSpace GroundTheory.Automorphic.AutomorphicForm
 open GroundTheory.Automorphic.CuspidalSpectrum GroundTheory.Global GroundTheory.Global.SemiLocal

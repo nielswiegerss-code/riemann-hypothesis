@@ -6,7 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations
 
 namespace UpperTheory.N.TBLoc
@@ -125,5 +124,3 @@ theorem eps_lat {V : Type} [AddCommGroup V] [Module LL V] [Module O V] {ρ : Rep
 end Eps
 
 end UpperTheory.N.TBLoc
-
-end

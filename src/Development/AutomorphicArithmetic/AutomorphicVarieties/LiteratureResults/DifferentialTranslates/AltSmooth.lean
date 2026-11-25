@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureR
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ContDiff
 
 namespace UpperTheory.V.Lit.Dr

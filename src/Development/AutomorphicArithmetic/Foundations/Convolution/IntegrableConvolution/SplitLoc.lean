@@ -5,8 +5,6 @@ public import Mathlib.NumberTheory.RamificationInertia.Inertia
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain ValuativeRel
 open GroundTheory.Automorphic GroundTheory.Global GroundTheory.Global.SemiLocal PositivityTheory.Rg.Tf.Geo
 

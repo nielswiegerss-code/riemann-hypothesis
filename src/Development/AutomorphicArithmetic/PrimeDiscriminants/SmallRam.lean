@@ -7,8 +7,6 @@ public import Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClas
 
 open NumberField IsDedekindDomain Ideal
 
-noncomputable section
-
 namespace Formalism.HC.HostAx
 
 variable {φ : Frame} (H : HostAx φ)
@@ -44,5 +42,3 @@ theorem mem_sq_of_dvd_QS (hE : H.toHostRaw.Exact) {l : ℕ} (hl : l.Prime) (hd :
   simpa using hle
 
 end Formalism.HC.HostAx
-
-end

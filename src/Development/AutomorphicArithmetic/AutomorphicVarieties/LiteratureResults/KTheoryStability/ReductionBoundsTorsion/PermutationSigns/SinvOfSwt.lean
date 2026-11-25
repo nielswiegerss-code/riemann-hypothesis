@@ -7,8 +7,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Matrix MeasureTheory UpperTheory.V.KT UpperTheory.V.KL
 
 namespace PositivityTheory.KB.BlockInvariants
@@ -193,5 +191,3 @@ theorem sinv_of_swt (hC : SChain) (hP : SPsi) (hS : SStokes) (hG : AGood) (hW : 
   exact (mul_eq_zero.mp hx).resolve_left (by linarith)
 
 end PositivityTheory.KB.BlockInvariants
-
-end

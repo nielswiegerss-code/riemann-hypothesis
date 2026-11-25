@@ -6,8 +6,6 @@ public import Mathlib.Analysis.Normed.Group.Ultra
 
 @[expose] public section
 
-noncomputable section
-
 namespace UpperTheory.Gal.Gen
 
 private theorem exists_close_vector_ultrametric (k : Type) [NormedField k] [IsUltrametricDist k] (X : Type) [Fintype X] (r : ℝ) :
@@ -115,5 +113,3 @@ theorem hB_pf : HB := by
   exact exists_close_vector_ultrametric k X r _ P v rfl h
 
 end UpperTheory.Gal.Gen
-
-end

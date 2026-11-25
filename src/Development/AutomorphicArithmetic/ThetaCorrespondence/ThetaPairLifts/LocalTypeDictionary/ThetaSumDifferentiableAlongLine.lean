@@ -25,7 +25,6 @@ open GlobalTheory.SquareComm GlobalTheory.SquareAgree
 open GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 open Filter Topology
 open GlobalTheory.AdelicU
-noncomputable section
 open scoped Classical
 namespace GlobalTheory.ThetaLineDer
 theorem hasDerivAt_theta_sum_along_line : _root_.GlobalTheory.FunPr.ThetaLocalInputs → ∀ {F E : Type} [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E] {σ : E →ₐ[F] E} {n d : ℕ}
@@ -91,5 +90,3 @@ theorem hasDerivAt_theta_sum_along_line : _root_.GlobalTheory.FunPr.ThetaLocalIn
   simpa [Finset.sum_fn] using this
 end GlobalTheory.ThetaLineDer
 end
-end
-

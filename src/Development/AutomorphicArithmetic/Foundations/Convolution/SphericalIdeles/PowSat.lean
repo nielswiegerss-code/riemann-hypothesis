@@ -5,8 +5,6 @@ import Development.AutomorphicArithmetic.AutomorphicVarieties.PublishedTheorems.
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain
 open PositivityTheory.Rg.Tf.Core PositivityTheory.Rg.Tf.Geo UpperTheory.ConvolutionTheory.C GlobalTheory.CuspRep Formalism.L2.Host Formalism.ConjugateSelfDual UpperTheory.V.Published UpperTheory.CBC
 

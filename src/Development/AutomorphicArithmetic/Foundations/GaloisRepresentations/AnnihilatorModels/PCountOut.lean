@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace UpperTheory.Gal.crystallineComparison
 
 theorem countOut_of : CountOut := by

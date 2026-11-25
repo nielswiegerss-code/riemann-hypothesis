@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.Foundations.GaloisRepresentation
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain
 
 namespace UpperTheory.Gal.UnramifiedFromSplittingCriterion

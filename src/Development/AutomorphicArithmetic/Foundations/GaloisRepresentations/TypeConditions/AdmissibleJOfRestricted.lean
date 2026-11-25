@@ -8,8 +8,6 @@ import Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.Hecke
 
 @[expose] public section
 
-noncomputable section
-
 namespace UpperTheory.GalS
 
 open Formalism Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal Polynomial NumberField IsDedekindDomain GlobalTheory GlobalTheory.StringRepresentationDecomposition UpperTheory.GalC

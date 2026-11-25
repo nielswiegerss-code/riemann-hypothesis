@@ -7,7 +7,6 @@ public import Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLif
 
 
 section
-noncomputable section
 open Formalism.BasicNotions Formalism.MainNotions
 namespace Formalism.L2
 theorem gTiedF_of_C2S_alt {eps : ℝ} (Fm : FamP eps) (h : _root_.Formalism.L2.SecondChernLinkedClass Fm) : G.GroupCompatibilityFamily Fm := by
@@ -16,5 +15,4 @@ theorem gTiedF_of_C2S_alt {eps : ℝ} (Fm : FamP eps) (h : _root_.Formalism.L2.S
   obtain ⟨T⟩ := hx0 x hx1 ((le_max_left _ _).trans hx) i
   exact ⟨T.g⟩
 end Formalism.L2
-end
 end

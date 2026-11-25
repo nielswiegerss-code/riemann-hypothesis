@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace UpperTheory.Gal.Wt
 
 private theorem pow_mem_le {s m : ℤ} (h : m ≤ s) : (fun z : Circle => (z : ℂ) ^ m) ∈ ExpLe s :=
@@ -89,5 +87,3 @@ theorem expBasic_of : ExpBasic := by
       exact pow_mem_le (by omega)
 
 end UpperTheory.Gal.Wt
-
-end

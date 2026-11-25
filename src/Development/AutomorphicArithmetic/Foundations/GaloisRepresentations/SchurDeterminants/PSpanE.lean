@@ -5,8 +5,6 @@ public import Mathlib.RingTheory.MvPolynomial.Symmetric.FundamentalTheorem
 
 @[expose] public section
 
-noncomputable section
-
 open Finset MvPolynomial
 
 namespace UpperTheory.Gal.Schur

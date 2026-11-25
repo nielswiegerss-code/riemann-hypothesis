@@ -11,8 +11,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions.N
 
 namespace UpperTheory.Gal.G3
@@ -205,5 +203,3 @@ theorem UpperTheory.Gal.G3.jJumpOfHT2 :
       UpperTheory.Gal.G3.chi_solve _ _ _ _ _ (hcoord g g.2 i))
   rw [← hJm, ← hki]
   exact Multiset.mem_map_of_mem k (Finset.mem_univ_val i)
-
-end

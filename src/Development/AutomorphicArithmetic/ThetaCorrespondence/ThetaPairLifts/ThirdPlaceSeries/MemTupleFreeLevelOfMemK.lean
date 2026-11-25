@@ -17,7 +17,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.See
 open scoped TensorProduct Classical
 open GlobalTheory.StepData GlobalTheory.SplitWeil
 open ValuativeRel
-noncomputable section
 namespace GlobalTheory.PenLev
 
 theorem mem_tuple_free_level_of_mem_K_alt : ∀ {B : GlobalTheory.Mem.Base} {X : PreX B.toPre} {I : TC B X} {l : I.Laws} {Z : TC.Later B (I.cols l)} {L : SizeData₂ (I.rec7 l Z)} {hT : GatTies (I.rec7 l Z)} {Gi : Formalism.MainNotions.G.Inst (I.rec7 l Z) L} {Gl : Formalism.MainNotions.G.LatInst (I.rec7 l Z)} {Kc : Formalism.MainNotions.G.Consts} {Yd : DivX (I.rec7 l Z)} {cX : ExtraC} {ex : Extra (I.rec7 l Z) L hT Gi Gl Kc Yd cX} (W : _root_.GlobalTheory.MiS.RealPackAlt ex), _root_.GlobalTheory.Fam.AllFamilyConditions W → ∀ (u : B.Word) (a : _root_.GlobalTheory.Fam.GeometricFamily W u), a.Is → a.True → ∀ j (hj : j + 1 = B.R.m), ∀ t (J : _root_.GlobalTheory.Fam.QuadraticExtensionData a t), J.Reads → ∀ κ, GlobalTheory.FinPl.InK _ (a.g.x j).L (_root_.GlobalTheory.PenBridge.finitePlaceCondition J) κ → κ ∈ _root_.GlobalTheory.PenLev.baseLevelSubgroup a j hj := by
@@ -35,5 +34,4 @@ theorem mem_tuple_free_level_of_mem_K_alt : ∀ {B : GlobalTheory.Mem.Base} {X :
     (_root_.GlobalTheory.PenBridge.finitePlaceCondition J) ⟨i, rfl⟩ (_root_.GlobalTheory.PenBridge.int_in_frame_at_level J j i (_root_.GlobalTheory.PenBridge.eq_s_succ_of_succ_eq_m J hj i)) κ hκ.2 _
     ((GlobalTheory.LevIdx.eq_locHom_iff _ _ _ _ _).2 rfl)
 end GlobalTheory.PenLev
-end
 end

@@ -10,8 +10,6 @@ public import Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ComplexConjugate
 
 namespace UpperTheory.ConvolutionTheory.Rs

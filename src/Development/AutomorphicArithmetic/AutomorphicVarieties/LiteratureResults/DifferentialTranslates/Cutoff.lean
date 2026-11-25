@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ContDiff
 
 namespace UpperTheory.V.Lit.Dr

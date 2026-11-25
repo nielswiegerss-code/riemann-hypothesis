@@ -12,8 +12,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open scoped MatrixGroups Matrix
 open GlobalTheory.KZ GlobalTheory.K4 UpperTheory.V.Z.Kato.Sym UpperTheory.Kd.K4
 
@@ -90,5 +88,3 @@ theorem sBridge : SBridge := by
   exact h
 
 end UpperTheory.V.Z.Kato.Nb
-
-end

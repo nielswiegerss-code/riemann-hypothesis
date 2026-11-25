@@ -6,8 +6,6 @@ public import Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureR
 
 @[expose] public section
 
-noncomputable section
-
 open UpperTheory.V.Lit.Dr
 open scoped ContDiff
 

@@ -43,8 +43,6 @@ import Mathlib.Topology.Compactness.Paracompact
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 open scoped InnerProductSpace
 

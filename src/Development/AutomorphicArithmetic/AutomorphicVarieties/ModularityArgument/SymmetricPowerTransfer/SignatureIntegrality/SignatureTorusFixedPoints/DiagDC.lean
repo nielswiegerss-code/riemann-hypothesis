@@ -8,8 +8,6 @@ import Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument
 
 @[expose] public section
 
-noncomputable section
-
 open ValuativeRel Matrix Polynomial GlobalTheory.SmGL GlobalTheory.SplitWeil UpperTheory.V.Hi UpperTheory.V.AlgebraTools UpperTheory.V.Z.Sym UpperTheory.V.Z.Sym.Sig UpperTheory.V.Z.Sym.Loc UpperTheory.V.Z.Sym.Glob
 
 theorem UpperTheory.V.Z.Sym.Sig.diagDC : UpperTheory.V.Z.Sym.Sig.DiagDC := by
@@ -90,5 +88,3 @@ theorem UpperTheory.V.Z.Sym.Sig.diagDC : UpperTheory.V.Z.Sym.Sig.DiagDC := by
       rwa [div_eq_mul_inv, mul_comm] at this
     · show diagT k (Fin n) s = 1 * diagT k (Fin n) d * diagT k (Fin n) (d⁻¹ * s)
       rw [one_mul, ← map_mul, mul_inv_cancel_left]
-
-end

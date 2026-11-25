@@ -45,8 +45,6 @@ import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicCases.S
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain IsLocalRing Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.MainNotions.N Polynomial GlobalTheory.CuspRep GlobalTheory.GalOfCusp UpperTheory.V UpperTheory.V.Af UpperTheory.V.HV UpperTheory.V.U3 UpperTheory.V.Aut UpperTheory.V.Pr
 
 namespace UpperTheory.GalN.V

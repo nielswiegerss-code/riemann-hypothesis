@@ -5,8 +5,6 @@ import Mathlib.NumberTheory.Height.NumberField
 
 @[expose] public section
 
-noncomputable section
-
 open Polynomial
 
 namespace UpperTheory.V.Z.Inf

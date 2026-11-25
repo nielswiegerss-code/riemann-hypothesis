@@ -9,8 +9,6 @@ import Development.AutomorphicArithmetic.AutomorphicVarieties.IdeleGenerators.Co
 
 open UpperTheory.V.Sd.Eis
 
-noncomputable section
-
 open NumberField MeasureTheory Topology Matrix Neutral.B1 Formalism.L2.Host GlobalTheory.CuspRep UpperTheory.V UpperTheory.V.Sd
 
 variable {F : Type} [Field F] [NumberField F] [IsTotallyReal F]

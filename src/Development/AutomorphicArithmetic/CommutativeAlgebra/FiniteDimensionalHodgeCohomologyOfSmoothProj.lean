@@ -56,8 +56,6 @@ open CategoryTheory AlgebraicGeometry ReciprocityTheory.ChartRestriction.G.Geo.T
 
 set_option maxSynthPendingDepth 1
 
-noncomputable section
-
 private theorem smulHom_eq {X : Scheme.{0}} (F : X.Modules) (r : Γ(X, ⊤)) :
     GlobalTheory.smulHom F r = GroundTheory.Arith.SchemeCoh.smulHom F r := by
   ext U x
@@ -107,5 +105,3 @@ theorem UpperTheory.finiteDimensional_hodgeCohomology_of_smooth_proj :
       rw [smulHom_eq] at hx
       exact hx.trans (GroundTheory.Arith.SchemeCoh.H.smul_def ℂ (Omega s a) b r _).symm
   exact h'
-
-end

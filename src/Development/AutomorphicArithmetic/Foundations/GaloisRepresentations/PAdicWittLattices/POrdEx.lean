@@ -6,7 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
 open CategoryTheory Limits AlgebraicGeometry
 
 namespace UpperTheory.Gal.G3
@@ -154,5 +153,3 @@ theorem pOrdEx : OrdEx := by
     exact ordExStep s d c σ hcf hce hσ hinj huniv
 
 end UpperTheory.Gal.G3
-
-end

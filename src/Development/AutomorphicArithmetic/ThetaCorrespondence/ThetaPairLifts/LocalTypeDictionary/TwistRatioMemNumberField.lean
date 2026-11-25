@@ -15,7 +15,6 @@ open IsDedekindDomain NumberField GlobalTheory.ChiGrid GlobalTheory.FunObj Globa
 open Formalism.L2.Host (HChar)
 open GlobalTheory.IndefiniteRowSideFullHecke.UnitCharTriangle (Tri)
 open GlobalTheory.RowEx
-noncomputable section
 namespace GlobalTheory.RowEx.RatioField
 open GlobalTheory.FunObj.SqNum GlobalTheory.CMVal
 theorem twistRatio_mem_numberField : _root_.GlobalTheory.FunPr.ThetaLocalInputs → GlobalTheory.IndefiniteRowSideFullHecke.ToricSymbols.ToricRatioConjugates → GlobalTheory.SqTop.FieldDat → GlobalTheory.SqTop.LNe → NFRatio := by
@@ -33,5 +32,4 @@ theorem twistRatio_mem_numberField : _root_.GlobalTheory.FunPr.ThetaLocalInputs 
     exact inNF_ratios hTR hS.core.lev G hcm hfd hbc
   exact key ch.sc ch.G hsc
 end GlobalTheory.RowEx.RatioField
-end
 end

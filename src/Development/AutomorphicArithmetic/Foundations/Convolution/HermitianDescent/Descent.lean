@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.Foundations.Convolution.Hermitia
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct
 
 namespace UpperTheory.ConvolutionTheory.D

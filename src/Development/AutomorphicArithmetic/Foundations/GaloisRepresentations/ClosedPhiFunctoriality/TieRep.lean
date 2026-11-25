@@ -9,8 +9,6 @@ open NumberField IsDedekindDomain Formalism Formalism.ConjugateSelfDual Reciproc
 open scoped Formalism.Per NNReal
 open UpperTheory.Gal.ClosedPhiFromClosedTrace
 
-noncomputable section
-
 namespace UpperTheory.Gal.ClosedPhiFromClosedTrace
 
 variable {l : ℕ} [Fact l.Prime]
@@ -131,5 +129,3 @@ theorem UpperTheory.Gal.ClosedPhiFromClosedTrace.tieRep_holds :
   congr 1
   simp only [Matrix.trace, Matrix.diag_apply]
   exact AddSubmonoidClass.coe_finsetSum _ _
-
-end

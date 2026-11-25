@@ -9,8 +9,6 @@ import Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.Archim
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix Finset GlobalTheory.OpTrace GlobalTheory.AutomorphicL2Unitary
 open scoped InnerProductSpace ComplexConjugate ContDiff
 open PositivityTheory.RgTw (Mat G th IsThetaOp)

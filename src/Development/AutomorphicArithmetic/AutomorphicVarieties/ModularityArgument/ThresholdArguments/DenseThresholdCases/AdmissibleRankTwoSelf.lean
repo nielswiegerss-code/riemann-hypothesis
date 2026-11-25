@@ -11,7 +11,6 @@ import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicCases.S
 
 
 section
-noncomputable section
 open NumberField IsDedekindDomain IsLocalRing Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.MainNotions.N Polynomial GlobalTheory.CuspRep GlobalTheory.GalOfCusp UpperTheory.V UpperTheory.V.Af UpperTheory.V.HV UpperTheory.V.U3 UpperTheory.V.Aut UpperTheory.V.Pr
 namespace UpperTheory.GalN.V
 section
@@ -26,5 +25,4 @@ theorem adm2B_of_adm2B (_ : _root_.UpperTheory.V.Af.Hypotheses') (K Ω : Type) [
     [IsAlgClosure K Ω] (l : ℕ) [Fact l.Prime] (_ : l ≠ 2) (ι : Qbar l ≃+* ℂ) (e M : ℕ) (_ : 1 ≤ e) (ρ : G K Ω →* GL (Fin 3) (Qbar l))
     (h : _root_.UpperTheory.V.Z.Win.Dn.Adm2B ι e M ρ) : _root_.UpperTheory.V.Z.Win.Dn.Adm2B ι e M ρ := h
 end UpperTheory.GalN.V
-end
 end

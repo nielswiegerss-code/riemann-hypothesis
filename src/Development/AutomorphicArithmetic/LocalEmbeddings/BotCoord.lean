@@ -18,8 +18,6 @@ open scoped TensorProduct GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorMode
 open GlobalTheory.FunObj GlobalTheory.StdFrames GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.LFun.SplitTie
 open GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels (Base Spc Model Chars Rep Acts SInf At piW chrW)
 
-noncomputable section
-
 namespace GlobalTheory.BotMatch
 
 section Mat
@@ -178,5 +176,3 @@ theorem dualCoord_coY (S X : HSp D) {k : ℕ} (e : Fin k ≃ Fin X.rank) (βS : 
   exact coord_snd e _ (mul_eq_one_comm.1 (gram_inv_map τ S)) _ b.mul_inv c.mul_inv _ _ _
 
 end GlobalTheory.BotMatch
-
-end

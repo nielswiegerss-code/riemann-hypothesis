@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.Foundations.GaloisRepresentation
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField GlobalTheory.UPel.HT GlobalTheory.UPel.HT.Gen
 open scoped Classical
 

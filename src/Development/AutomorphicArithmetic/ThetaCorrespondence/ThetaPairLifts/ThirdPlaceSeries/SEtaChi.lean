@@ -12,7 +12,6 @@ public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.NormEqOne
 
 section
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal Polynomial NumberField IsDedekindDomain GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil GlobalTheory.RowTie GlobalTheory.SplitRead
-noncomputable section
 namespace GlobalTheory.SplitRead
 open Formalism.MainNotions.SumRepresentations.At
 variable {R : Ranks} {H : Host R} {what₂ : Rows.Data R} (N : NData R H what₂) (A : NAut N)
@@ -85,5 +84,4 @@ theorem main_alt_alt_alt : ∀ (D : D7) (C : Formalism.L2.Host.CharFrame D) (nch
   · rw [hfrob w hw B σ hB hσ, ← hde, ← hξ]
     rfl
 end GlobalTheory.XiOver
-end
 end

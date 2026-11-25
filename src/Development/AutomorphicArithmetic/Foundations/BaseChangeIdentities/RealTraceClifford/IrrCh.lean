@@ -10,8 +10,6 @@ import Development.AutomorphicArithmetic.Foundations.BaseChangeIdentities.RealTr
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Finset
 open scoped InnerProductSpace ComplexConjugate
 open PositivityTheory.RgTw (Mat)

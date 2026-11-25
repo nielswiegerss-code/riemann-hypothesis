@@ -46,8 +46,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Set
 open UpperHalfPlane hiding I
 

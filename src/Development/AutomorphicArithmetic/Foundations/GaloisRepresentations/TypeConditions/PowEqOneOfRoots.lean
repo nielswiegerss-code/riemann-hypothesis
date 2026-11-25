@@ -8,8 +8,6 @@ public import Mathlib.RingTheory.PicardGroup
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.MainNotions.N Polynomial Module
 open GlobalTheory GlobalTheory.WeilDeligne
 open scoped commutatorElement

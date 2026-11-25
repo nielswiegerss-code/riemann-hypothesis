@@ -6,8 +6,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Inv
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ContDiff Topology
 
 namespace UpperTheory.V.Lit.Dr

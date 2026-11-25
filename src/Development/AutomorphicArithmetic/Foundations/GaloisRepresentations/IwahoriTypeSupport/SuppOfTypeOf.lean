@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.TameParah
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil GlobalTheory.LocGL ValuativeRel Matrix
 
 namespace UpperTheory.Gal.TypesAndIwahori

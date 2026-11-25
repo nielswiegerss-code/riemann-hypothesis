@@ -6,8 +6,6 @@ import Mathlib.RingTheory.RegularLocalRing.Defs
 
 @[expose] public section
 
-noncomputable section
-
 open scoped MatrixGroups Matrix
 open GlobalTheory.KZ GlobalTheory.K4
 
@@ -89,5 +87,3 @@ theorem galDg : GalDg := by
       fin_cases i <;> fin_cases j <;> simp [Matrix.mul_apply, Fin.sum_univ_two] <;> ring
 
 end UpperTheory.V.Z.Kato.Sym
-
-end

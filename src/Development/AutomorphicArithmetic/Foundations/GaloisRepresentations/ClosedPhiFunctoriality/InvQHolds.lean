@@ -16,8 +16,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PeriodRingsG
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions.N TensorProduct PowerSeries GlobalTheory.Prism GlobalTheory.BKReal GlobalTheory.Per GlobalTheory.BSP GlobalTheory.MemLoc GlobalTheory.Pst GlobalTheory.BKLim GlobalTheory.Cong GlobalTheory.WeilDeligne Matrix GlobalTheory.CrTop
 open scoped Formalism.Per NNReal
 
@@ -142,5 +140,3 @@ theorem invQ_holds : InvQ := by
   exact this
 
 end UpperTheory.Gal.ClosedPhiFromClosedTrace
-
-end

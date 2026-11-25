@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureR
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Matrix UpperTheory.V.KT UpperTheory.V.KL
 open scoped ComplexOrder
 
@@ -275,5 +273,3 @@ theorem pf_GRDual : GRDual := by
   exact fin_num hA0 hsp hmp h1 hgy k1 k2 k0' (re_nonneg hRP w y) hR
 
 end PositivityTheory.KB.SmoothPartitionUnityBasic
-
-end

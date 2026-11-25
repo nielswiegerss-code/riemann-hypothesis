@@ -6,8 +6,6 @@ import GroundTheory.AutomorphicForms.GL2.ExistsEqPowMulOfValuationLe
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Polynomial GroundTheory.Automorphic GroundTheory.Automorphic.GLnLocal GroundTheory.Automorphic.Parabolic
 open GroundTheory.Automorphic.GodementJacquet
 open scoped NNReal Classical ValuativeRel

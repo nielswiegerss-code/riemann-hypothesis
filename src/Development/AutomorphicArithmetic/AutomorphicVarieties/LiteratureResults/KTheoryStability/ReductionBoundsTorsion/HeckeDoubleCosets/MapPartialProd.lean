@@ -5,8 +5,6 @@ import Development.AutomorphicArithmetic.AutomorphicVarieties.TensorHomCubes.Sta
 
 @[expose] public section
 
-noncomputable section
-
 open UpperTheory.V.KT UpperTheory.V.KL
 
 namespace PositivityTheory.KB.AffineStabilizerVanishing
@@ -51,5 +49,3 @@ theorem ev_cmap (ρ : G →* H) (f : K →* G) {m : ℕ} (F : (Fin (m + 1) → Y
   exact Finsupp.sum_congr fun g _ => by simp [MonoidHom.comp_apply, map_partialProd]
 
 end PositivityTheory.KB.AffineStabilizerVanishing
-
-end

@@ -17,7 +17,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions Form
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SeeSaw GlobalTheory.StepData GlobalTheory.SymChain GlobalTheory.LocMod GlobalTheory.MiS GlobalTheory.MiTop GlobalTheory.Fam GlobalTheory.Core.Mi ValuativeRel
 open Formalism.L2.SG.RowsJoinPinned Formalism.L2.SG.RowDict Formalism.L2.SG.PoincareInHH.PoincareSetting
 open scoped TensorProduct Classical
-noncomputable section
 namespace GlobalTheory.LevZero
 variable {D : D7} {L : SizeData₂ D} {hT : GatTies D} {Gi : Formalism.MainNotions.G.Inst D L} {Gl : Formalism.MainNotions.G.LatInst D} {Kc : Formalism.MainNotions.G.Consts}
   {Yd : DivX D} {cX : ExtraC} {ex : Extra D L hT Gi Gl Kc Yd cX}
@@ -60,5 +59,4 @@ theorem bot_of_placedBy_alt : ∀ {D : D7} {L : SizeData₂ D} {hT : GatTies D} 
   have hR : _root_.GlobalTheory.Fam.LocalGroupReading f (fun i => G (pl.symm (pl i))) pl := by rw [e]; exact h.read
   exact _root_.GlobalTheory.LevZero.bot_stZero_of_gRead W hP hm f v h.vis h.tie (fun PP => G (pl.symm PP)) pl hR
 end GlobalTheory.LevZero
-end
 end

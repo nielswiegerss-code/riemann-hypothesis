@@ -4,8 +4,6 @@ public import Formalism.LocalRingCardinality.DataParams
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Formalism Formalism.BasicNotions
 
 namespace UpperTheory.N.Num
@@ -92,5 +90,3 @@ theorem s0_eq (i : D.nd.Loc) (hs : D.nd.l i ∈ D.host.small) (h2 : D.nd.l i ≠
   rw [D.nd.restNLevelExponent_of_odd i h2, factorization_condN D hs]
 
 end UpperTheory.N.Num
-
-end

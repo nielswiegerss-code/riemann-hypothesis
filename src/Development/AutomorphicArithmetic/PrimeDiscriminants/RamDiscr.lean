@@ -8,8 +8,6 @@ import Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.Hos
 
 open NumberField IsDedekindDomain Ideal
 
-noncomputable section
-
 namespace Formalism.HC
 
 theorem dvd_discr_of_mem_sq (E : Type) [Field E] [NumberField E] {p : ℕ} (hp : p.Prime)
@@ -70,5 +68,3 @@ theorem dvd_natAbs_discr_iff {p : ℕ} (hp : p.Prime) : p ∣ (discr H.E).natAbs
   Int.natCast_dvd.symm.trans (H.dvd_discr_iff_dvd_condN hp)
 
 end Formalism.BasicNotions.Host
-
-end

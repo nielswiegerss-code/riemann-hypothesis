@@ -8,8 +8,6 @@ import Formalism.SatakeDualWeyl.KpqSubgroupCompact
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Matrix GlobalTheory.CuspRep GlobalTheory.LFun Formalism.UG GroundTheory.Automorphic UpperTheory.V.Cm
 
 namespace UpperTheory.ConvolutionTheory.BW

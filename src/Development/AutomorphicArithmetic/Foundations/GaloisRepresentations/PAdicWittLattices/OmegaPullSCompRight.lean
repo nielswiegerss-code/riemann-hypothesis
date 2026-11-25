@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory Limits AlgebraicGeometry Opposite ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory GlobalTheory.HodgeCoh GlobalTheory.CechDR
 
 namespace UpperTheory.Gal.G3.HN
@@ -111,5 +109,3 @@ theorem hodgePullS_nat_pull {X X' Y Y' : Scheme.{0}} {s : X ‚ü∂ Sp k} {s' : X' ‚
 end Comp
 
 end UpperTheory.Gal.G3.HN
-
-end

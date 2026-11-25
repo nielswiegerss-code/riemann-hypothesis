@@ -8,7 +8,6 @@ public import Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLif
 
 section
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 Formalism.L2.Host Formalism.L2.NT Formalism.IndefR.NX GlobalTheory.HeightCounting NumberField IsDedekindDomain Polynomial
-noncomputable section
 namespace GlobalTheory.HeightCounting
 
 
@@ -22,5 +21,4 @@ theorem typesOpen_withLoc_alt : ∀ (D : D7) (cf : CharFrame D) (jE : D.host.E �
   · exact fun σ lam _ => hss σ lam
   · exact fun i σ _ _ Sig ρ hP hR g => (L.rbar_tie i σ Sig ρ hP hR).2 g
 end GlobalTheory.HeightCounting
-end
 end

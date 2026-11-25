@@ -5,8 +5,6 @@ public import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ContDiff Topology
 open Set MeasureTheory
 

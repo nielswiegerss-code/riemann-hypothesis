@@ -46,8 +46,6 @@ import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsThetaInvo
 
 open UpperTheory.V.Z.GSp4Splitting PositivityTheory.RgBcC PositivityTheory.RgBcC.RealD PositivityTheory.Rg.BcB.Desc
 
-noncomputable section
-
 open NumberField GlobalTheory.CuspRep PositivityTheory.Rg.BcB GlobalTheory.CompanionTheory.TwY GlobalTheory.CompanionTheory.TwY.ThInv
 open scoped InnerProductSpace ComplexConjugate
 

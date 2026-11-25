@@ -6,8 +6,6 @@ public import Development.AutomorphicArithmetic.Foundations.Convolution.BlockHec
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory NumberField IsDedekindDomain GlobalTheory.CuspRep GlobalTheory.CompanionTheory.CTFin
 open GroundTheory.Automorphic GroundTheory.Automorphic.Reduction UpperTheory.V.Cm
 

@@ -9,7 +9,6 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Exis
 
 
 section
-noncomputable section
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 NumberField IsDedekindDomain
 namespace GlobalTheory.TypeRec.Model
 open Classical in
@@ -35,5 +34,4 @@ theorem locR_eq_rc_of_isRc_and_true_reading {hL : _root_.UpperTheory.Zero.LLC.Re
     exact hr.1 σ s τ h1
   exact key _ hs τ h1
 end GlobalTheory.TypeRec.Model
-end
 end

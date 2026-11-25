@@ -11,8 +11,6 @@ public import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain ValuativeRel Matrix Polynomial Formalism.ConjugateSelfDual ReciprocityTheory.Gal GlobalTheory.WeilDeligne GlobalTheory.LocGL GlobalTheory.LocLanglands GlobalTheory.GLq
 open GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil
 open PositivityTheory.Rg.DzCount
@@ -217,5 +215,3 @@ theorem UpperTheory.Zero.LLC.tameUniq :
     obtain ⟨e, he1, he2⟩ := st1b (Fin m → ℂ) (Fin m' → ℂ) g n (n - i) _ (a.ρ φ) _ (a'.ρ φ) z hn hm hm'
       (PositivityTheory.Rg.DzCount.DepthZeroEigenvalues.isUnit_rho a _) (PositivityTheory.Rg.DzCount.DepthZeroEigenvalues.isUnit_rho a' _) hc hc' hz2 hz1 hz3 hd
     exact (WD.mk_eq_mk.mpr (h2 m m' a a' hat hat' hai hai' e he1 he2)).symm
-
-end

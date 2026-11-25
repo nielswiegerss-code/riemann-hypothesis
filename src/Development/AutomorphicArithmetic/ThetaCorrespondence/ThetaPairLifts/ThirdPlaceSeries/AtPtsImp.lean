@@ -9,7 +9,6 @@ import Formalism.PieriBlockIdeals.MertensReciprocalElementary
 
 
 section
-noncomputable section
 open NumberField IsDedekindDomain
 open Formalism.BasicNotions Formalism.MainNotions Formalism.L2.DIV Formalism.L2.Indef Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Cx
 open Formalism.L2.Pj GlobalTheory.BigTop GlobalTheory.BigOn
@@ -27,5 +26,4 @@ theorem atPts_mono {Q Q' : ∀ {eps : ℝ} (Fm : FamP eps) (x : ℝ) (hx : Fm.x1
       Q Fm x hx i p → Q' Fm x hx i p) : _root_.GlobalTheory.BigOn.AtPtsAlt Q' :=
   Closed.imp h fun Fm _ _ ⟨a, ha⟩ => ⟨a, fun x hx hle i p hp hm => H Fm x hx i p (ha x hx hle i p hp hm)⟩
 end GlobalTheory.ExpTie
-end
 end

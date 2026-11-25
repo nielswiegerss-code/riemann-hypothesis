@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.FontaineP
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Neutral.B1 Formalism.L2.Host Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.N Polynomial
 open GlobalTheory.CuspRep GlobalTheory.WeilDeligne GlobalTheory.Pst GlobalTheory.LocLanglands GlobalTheory.LocGL GlobalTheory.GalOfCusp GlobalTheory.CoeffExt TensorProduct Module
 
@@ -32,5 +30,3 @@ theorem sat_ae_of_smooth (hS : SatLoc) {F : Type} [Field F] [NumberField F] {n :
   exact ⟨B, (h2 _ _ hσ B).2 hB⟩
 
 end UpperTheory.V.Af
-
-end

@@ -9,8 +9,6 @@ public import Mathlib.Analysis.Complex.Liouville
 
 open Complex MeasureTheory Set Filter Topology
 
-noncomputable section
-
 namespace Deduction
 
 theorem landau_cauchy {Φ : ℂ → ℂ} {z : ℂ} {r r' : ℝ} (hd : DifferentiableOn ℂ Φ (Metric.ball z r))
@@ -24,5 +22,3 @@ theorem landau_cauchy {Φ : ℂ → ℂ} {z : ℂ} {r r' : ℝ} (hd : Differenti
     (hd.diffContOnCl_ball (Metric.closedBall_subset_ball h1)) hM
 
 end Deduction
-
-end

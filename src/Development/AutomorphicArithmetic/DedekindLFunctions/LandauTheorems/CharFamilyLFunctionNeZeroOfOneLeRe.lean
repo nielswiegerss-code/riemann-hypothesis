@@ -8,8 +8,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 open Complex MeasureTheory Set Filter Topology
 
-noncomputable section
-
 namespace Deduction
 
 theorem charFamily_LFunction_ne_zero_of_one_le_re (F : CharFamily) (i : F.ι) (s : ℂ) (hs : 1 ≤ s.re) :
@@ -26,5 +24,3 @@ theorem charFamily_LFunction_ne_zero_of_one_le_re (F : CharFamily) (i : F.ι) (s
   · exact DirichletCharacter.LFunction_ne_zero_of_one_le_re _ (Or.inl h) hs
 
 end Deduction
-
-end

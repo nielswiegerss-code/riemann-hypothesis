@@ -6,8 +6,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Pow
 
 @[expose] public section
 
-noncomputable section
-
 open ContinuousAlternatingMap
 
 namespace UpperTheory.V.Lit.Dr

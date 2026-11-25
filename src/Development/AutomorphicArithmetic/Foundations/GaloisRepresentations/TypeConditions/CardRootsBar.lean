@@ -15,8 +15,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open Formalism Formalism.MainNotions Formalism.BasicNotions Formalism.MainNotions.N NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Polynomial
 
-noncomputable section
-
 namespace UpperTheory.GalS
 
 theorem om_gen_inj {D : D7} (P : PairedCharacterCondition.Pend D) (k : Fin 2) (w : PlE D.host) (hw : w ∈ placesOver D.host.E (D.host.g k))

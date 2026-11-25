@@ -5,8 +5,6 @@ public import Mathlib.Analysis.Normed.Group.Ultra
 
 @[expose] public section
 
-noncomputable section
-
 namespace UpperTheory.Gal.Gen
 
 private lemma det_norm_le_one {k : Type} [NormedField k] [IsUltrametricDist k] {N : ℕ}
@@ -86,5 +84,3 @@ theorem detLow_pf : DetLow := by
     positivity
 
 end UpperTheory.Gal.Gen
-
-end

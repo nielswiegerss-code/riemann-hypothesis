@@ -12,8 +12,6 @@ import Mathlib.Topology.Separation.Connected
 
 @[expose] public section
 
-noncomputable section
-
 open GroundTheory.Automorphic GroundTheory.Automorphic.GodementJacquet
 open Matrix GroundTheory.Automorphic.GLnLocal GroundTheory.Automorphic.Parabolic MeasureTheory GroundTheory.Automorphic.Measures
   GroundTheory.Automorphic.GJMatrix

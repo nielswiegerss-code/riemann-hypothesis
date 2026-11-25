@@ -7,8 +7,6 @@ import Mathlib.LinearAlgebra.Eigenspace.Triangularizable
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Matrix Formalism.L2.Host
 open GlobalTheory.CuspRep (Af GA finGL)
 

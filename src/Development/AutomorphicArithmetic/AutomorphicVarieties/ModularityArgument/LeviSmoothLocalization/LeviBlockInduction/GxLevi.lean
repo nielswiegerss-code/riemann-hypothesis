@@ -5,8 +5,6 @@ public import GroundTheory.AutomorphicForms.GL2.GJFELevi
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Measure GroundTheory GroundTheory.Automorphic GroundTheory.Automorphic.GLnLocal GroundTheory.Automorphic.Parabolic
 open GroundTheory.Automorphic.GodementJacquet
 open scoped NNReal ENNReal Classical ValuativeRel

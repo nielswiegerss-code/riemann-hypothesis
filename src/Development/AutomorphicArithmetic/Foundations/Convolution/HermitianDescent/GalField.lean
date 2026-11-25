@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.Foundations.Convolution.Hermitia
 
 @[expose] public section
 
-noncomputable section
-
 namespace UpperTheory.ConvolutionTheory.D
 
 open Classical in

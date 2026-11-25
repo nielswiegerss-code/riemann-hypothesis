@@ -7,8 +7,6 @@ public import Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureR
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ContDiff Topology
 
 namespace UpperTheory.V.Lit.Geo

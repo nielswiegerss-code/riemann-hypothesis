@@ -4,8 +4,6 @@ public import Development.AutomorphicArithmetic.Foundations.IwahoriReduction.Lan
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.Col
 
 namespace UpperTheory.Kd.C7

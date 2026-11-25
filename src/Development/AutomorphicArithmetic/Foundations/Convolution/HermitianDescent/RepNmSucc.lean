@@ -8,8 +8,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Polynomial
 
 namespace UpperTheory.ConvolutionTheory.D

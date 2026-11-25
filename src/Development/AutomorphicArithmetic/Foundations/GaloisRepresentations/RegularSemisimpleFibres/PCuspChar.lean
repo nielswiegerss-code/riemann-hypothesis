@@ -13,8 +13,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.SmGL GlobalTheory.Shin GlobalTheory.SplitWeil
 
 namespace UpperTheory.Gal.InertialTypesAlt

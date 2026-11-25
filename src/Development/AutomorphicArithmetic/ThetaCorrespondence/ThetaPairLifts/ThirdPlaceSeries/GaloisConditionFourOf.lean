@@ -7,7 +7,6 @@ public import Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLif
 
 
 section
-noncomputable section
 namespace Formalism.MainNotions.N
 open Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.ConjugateSelfDual ReciprocityTheory.Gal
 open NumberField IsDedekindDomain
@@ -24,5 +23,4 @@ theorem admG4_of_goodR (D : D7) (i : D.nd.Loc) (r : D.nd.X i → (Formalism.Main
   intro x v hl hS hQ g hg
   exact ((h32 i).2.2 r hr).2.2.2 x v hl hS hQ (D.nd.plOm.1 v) (D.nd.plOm.2 v) g hg
 end Formalism.MainNotions.N
-end
 end

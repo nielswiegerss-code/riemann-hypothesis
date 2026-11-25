@@ -13,8 +13,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal GlobalTheory.WeilDeligne GlobalTheory.LocLanglands DiscreteGroups.sglob.DzType
 
 namespace UpperTheory.Zero.LLC
@@ -137,5 +135,3 @@ theorem UpperTheory.Zero.LLC.resEx :
       have := hwild _ hW
       rw [map_mul, map_inv, map_pow, mul_inv_eq_one] at this
       exact this
-
-end

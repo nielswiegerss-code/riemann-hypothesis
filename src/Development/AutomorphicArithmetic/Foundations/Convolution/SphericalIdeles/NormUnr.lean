@@ -12,8 +12,6 @@ import Development.AutomorphicArithmetic.AutomorphicVarieties.PublishedTheorems.
 
 @[expose] public section
 
-noncomputable section
-
 open scoped GroundTheory.Global.AdeleBaseChange GroundTheory.Global.SemiLocal
 open NumberField IsDedekindDomain GlobalTheory.CuspRep Formalism.L2.Host Formalism.ConjugateSelfDual UpperTheory.V.Published UpperTheory.CBC UpperTheory.ConvolutionTheory.T
 

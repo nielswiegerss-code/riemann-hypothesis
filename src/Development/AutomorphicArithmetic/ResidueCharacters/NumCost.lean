@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Formalism Formalism.BasicNotions
 
 namespace UpperTheory.N.Num
@@ -142,5 +140,3 @@ theorem cost_le (L : SizeData₂ D) (P : ParameterChoice' D L) {A B C0 : ℝ} (h
   cost_le' L P hA hB hC hx hn ht (Nat.mem_primeFactors.1 hs).1 (factorization_condN D hs) hC'
 
 end UpperTheory.N.Num
-
-end

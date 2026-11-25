@@ -19,7 +19,6 @@ open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun
 open ValuativeRel
 open scoped GlobalTheory.VacAny
 open scoped GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
-noncomputable section
 namespace GlobalTheory.ThK.LocalOps
 end GlobalTheory.ThK.LocalOps
 namespace GlobalTheory.ThK.LocalOps
@@ -37,5 +36,3 @@ theorem theta_kernel_local_operators_act (_hP : _root_.GlobalTheory.FunPr.ThetaL
       fun φ₂ hφ₂ => acts_unique v _ hφ hφ₂.2 (GlobalTheory.VacBridge.rho_acts_locCo M.co B.ψ v u hu φ)⟩
 end GlobalTheory.ThK.LocalOps
 end
-end
-

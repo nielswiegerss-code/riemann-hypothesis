@@ -44,8 +44,6 @@ public import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.DegOne
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK
@@ -61,5 +59,3 @@ theorem eventually_unrAt_of_isHecke {F E : Type} [Field F] [NumberField F] [Fiel
   exact ((GlobalTheory.HeckeSplit.unrAt_iff E H w).1 hw) x hx
 
 end GlobalTheory.PairVac
-
-end

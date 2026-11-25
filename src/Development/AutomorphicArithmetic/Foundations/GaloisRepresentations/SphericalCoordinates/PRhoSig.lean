@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField
 open scoped TensorProduct Matrix Classical
 open GlobalTheory.UPel.HT GlobalTheory.UPel.HT.Gen

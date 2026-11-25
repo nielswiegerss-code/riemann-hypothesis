@@ -9,8 +9,6 @@ public import Mathlib.Topology.UrysohnsLemma
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Topology Set
 open scoped ENNReal Pointwise
 

@@ -12,8 +12,6 @@ public import Development.AbelianVarietyTheory.Proofs.CharacterTheory.StarVirtua
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.BI GlobalTheory.Shin
 
 namespace UpperTheory.Gal.InertialTypesAlt

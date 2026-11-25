@@ -40,8 +40,6 @@ import Mathlib.Tactic.ReduceModChar
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 open GlobalTheory.CuspRep GlobalTheory.PRep GlobalTheory.BCT PositivityTheory.Rg.BcB
 open UpperTheory.V.Z.Tf.GlobalTraceComparison UpperTheory.V.Z.Tf.GlobalTraceComparison.Pi UpperTheory.Zero.ConvolutionTheory.EB PositivityTheory.Rg.BcB.Desc
@@ -129,5 +127,3 @@ theorem heckeSum_pf : HeckeSum := by
   rfl
 
 end UpperTheory.V.Z.Tf.GlobalTraceComparison.Pi
-
-end

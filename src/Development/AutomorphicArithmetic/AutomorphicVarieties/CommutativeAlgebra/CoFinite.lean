@@ -54,8 +54,6 @@ public import Formalism.SharedLemmas.PrecompleteFinite
 
 @[expose] public section
 
-noncomputable section
-
 open IsLocalRing MvPowerSeries UpperTheory.V.Alg
 
 private theorem prec_cofinal {R : Type*} [CommRing R] {I J : Ideal R} (hJI : J ≤ I) {e : ℕ}

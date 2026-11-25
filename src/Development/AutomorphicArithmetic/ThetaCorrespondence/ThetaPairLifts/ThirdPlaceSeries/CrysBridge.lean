@@ -8,7 +8,6 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MkMe
 
 
 section
-noncomputable section
 section
 open NumberField IsDedekindDomain Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations Formalism.ConjugateSelfDual ReciprocityTheory.Gal
 namespace GlobalTheory.CrysFromGTwo
@@ -36,6 +35,5 @@ end
 section
 namespace GlobalTheory.AbsoluteIrreducibilityOfTraceSpan
 end GlobalTheory.AbsoluteIrreducibilityOfTraceSpan
-end
 end
 end

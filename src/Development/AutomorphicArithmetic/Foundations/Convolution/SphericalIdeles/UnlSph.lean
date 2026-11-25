@@ -16,8 +16,6 @@ import Development.AbelianVarietyTheory.Proofs.DivisorProofs.NontrivialOfIsSubqu
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain ValuativeRel
 open GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil GlobalTheory.TypeTwo GlobalTheory.ThetaGL GlobalTheory.LocGL
 open GlobalTheory.TypeTwo.PowIrrProof

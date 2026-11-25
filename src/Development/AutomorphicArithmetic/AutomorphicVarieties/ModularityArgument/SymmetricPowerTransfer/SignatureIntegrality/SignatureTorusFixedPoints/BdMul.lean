@@ -9,8 +9,6 @@ import Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument
 
 @[expose] public section
 
-noncomputable section
-
 open ValuativeRel Matrix Polynomial GlobalTheory.SmGL GlobalTheory.SplitWeil UpperTheory.V.Hi UpperTheory.V.AlgebraTools UpperTheory.V.Z.Sym UpperTheory.V.Z.Sym.Sig UpperTheory.V.Z.Sym.Loc UpperTheory.V.Z.Sym.Glob
 
 section
@@ -117,5 +115,3 @@ theorem UpperTheory.V.Z.Sym.Sig.memJ : UpperTheory.V.Z.Sym.Sig.MemJ := by
       exact ⟨GeneralLinearGroup.mk'' X hd, Units.ext rfl⟩
     have := mul_mem h5 (kc_le V (mem_Kc_of h8 h7))
     rwa [mul_inv_cancel_left] at this
-
-end
