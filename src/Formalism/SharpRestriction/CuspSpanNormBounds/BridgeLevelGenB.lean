@@ -7,8 +7,6 @@ public import Mathlib.RingTheory.DedekindDomain.Factorization
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLevelGenB
 
 open IsDedekindDomain IsDedekindDomain.HeightOneSpectrum NumberField Topology Formalism.MainNotions.S
@@ -128,5 +126,3 @@ theorem dense_mod (g : ℕ) (hg : 1 ≤ g) (y : FiniteAdeleRing (𝓞 F) F) (hy 
 variable {E : Type} [Field E] [NumberField E] [Algebra F E]
 
 end Formalism.MainNotions.BridgeLevelGenB
-
-end

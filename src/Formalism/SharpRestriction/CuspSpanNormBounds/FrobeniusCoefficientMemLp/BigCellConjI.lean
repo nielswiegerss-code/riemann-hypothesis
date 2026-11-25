@@ -6,8 +6,6 @@ public import Formalism.FormalDegreeBessel.StatementBF
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.S.Pv.Frames
 
 open MeasureTheory Matrix Formalism.QuantumDeterminants Formalism.MainNotions.S
@@ -108,5 +106,3 @@ theorem bigCell_dT {k r : ℕ} (c : Fin r → ℂ) (μ : Matrix (Fin (k + 1)) (F
   · exact absurd rfl hne
 
 end Formalism.MainNotions.S.Pv.Frames
-
-end

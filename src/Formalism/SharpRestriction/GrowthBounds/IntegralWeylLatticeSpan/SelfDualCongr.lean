@@ -17,8 +17,6 @@ import Formalism.SharpRestriction.GenusPolyhedralBounds.RelativeIndexClassSets.L
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.L2.G.RelativeIndexFlags
 
 open Formalism.BasicNotions Formalism.MainNotions.G Formalism.L2.Forms NumberField IsDedekindDomain Matrix Formalism.UG Formalism.L2.G.Cmp

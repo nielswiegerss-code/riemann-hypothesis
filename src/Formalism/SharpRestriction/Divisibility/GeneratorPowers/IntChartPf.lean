@@ -8,8 +8,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeo
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1
 
 open AlgebraicGeometry CategoryTheory NumberField

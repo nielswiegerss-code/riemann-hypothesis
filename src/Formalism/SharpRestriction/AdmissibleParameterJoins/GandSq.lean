@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.GrowthBounds.FormalGroupSystem
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.J
 
 open MvPowerSeries Formalism.MainNotions.FormalGroupSystem Formalism.MainNotions.TaylorLogMetric Formalism.MainNotions.GL3Theta

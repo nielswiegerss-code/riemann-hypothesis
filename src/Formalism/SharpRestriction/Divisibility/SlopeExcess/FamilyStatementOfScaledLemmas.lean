@@ -5,8 +5,6 @@ public import Formalism.HarderNarasimhan.ShiftInvariance
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Module Formalism.BasicNotions Formalism.MainNotions.PrimeDegreeVariant
 
 namespace Formalism.MainNotions.DIV.Proofs.ScaledLatticeNorms

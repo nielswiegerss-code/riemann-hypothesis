@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.GrowthBounds.IsResidueClassZero
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.J
 
 open Formalism.BasicNotions Formalism.MainNotions.G
@@ -27,5 +25,3 @@ theorem frobenius_step_large_order {p : ℕ} (hp : IsResidueClassZero D p) : ste
   simp [stepP, IsSg, hp]
 
 end Formalism.MainNotions.J
-
-end

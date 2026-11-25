@@ -7,8 +7,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValua
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.FBIdLB
 
 open AlgebraicGeometry CategoryTheory Limits

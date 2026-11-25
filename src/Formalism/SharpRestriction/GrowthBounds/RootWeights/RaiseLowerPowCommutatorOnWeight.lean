@@ -8,8 +8,6 @@ import Formalism.SharpRestriction.GrowthBounds.CovariantDegrees
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace Formalism.MainNotions.G.GLWeightTheory

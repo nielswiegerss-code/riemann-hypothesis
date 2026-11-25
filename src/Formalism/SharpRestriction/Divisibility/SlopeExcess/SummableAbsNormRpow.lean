@@ -13,7 +13,6 @@ public import Formalism.SharpRestriction.Divisibility.SchurIrreducible
 
 @[expose] public section
 
-noncomputable section
 open NumberField IsDedekindDomain Filter Topology Asymptotics
 
 namespace Formalism.MainNotions.DIV.Proofs.QuadraticNormBounds

@@ -9,8 +9,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.CntPartners
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Classical
 
 namespace Formalism.MainNotions.MinorIntegralityTorus
@@ -156,5 +154,3 @@ theorem det_isIntegral {E : Type*} [Field E] {n : Type*} [Fintype n] [DecidableE
   exact (M'.det).2
 
 end Formalism.MainNotions.MinorIntegralityTorus
-
-end

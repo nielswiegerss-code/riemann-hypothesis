@@ -9,8 +9,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.RingConditionOfDeltaInvari
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Pv.LocalLengthBound.OLC
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc

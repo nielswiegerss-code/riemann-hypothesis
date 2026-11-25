@@ -6,8 +6,6 @@ import Mathlib.RingTheory.PowerSeries.WeierstrassPreparation
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace Formalism.MainNotions.UnusedSlot80.DivLevR

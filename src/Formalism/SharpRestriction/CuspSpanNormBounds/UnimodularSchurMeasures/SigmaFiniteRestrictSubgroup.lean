@@ -9,8 +9,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.RegularisedP
 open Matrix MeasureTheory Filter Topology
 open scoped ENNReal NNReal
 
-noncomputable section
-
 namespace Formalism.MainNotions.LeviCoordinates
 
 open Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.B2 Formalism.FourierDecayAlt.P.B2x1
@@ -71,5 +69,3 @@ theorem left_haar_eq_smul_biinvariant {U : Set (Mat k r)} (hU : IsClosedSubgroup
     _ = c • ν := by rw [Measure.map_smul _ inc_memb.measurable.aemeasurable, map_pull ν hν.conc]
 
 end Formalism.MainNotions.LeviCoordinates
-
-end

@@ -4,7 +4,3 @@ public import Formalism.SharpRestriction.GrowthBounds.PlaneCountTheoremWithConst
 public import Mathlib.NumberTheory.Harmonic.Bounds
 
 @[expose] public section
-
-noncomputable section
-
-end

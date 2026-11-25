@@ -6,8 +6,6 @@ import Mathlib.NumberTheory.Height.NumberField
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1
 
 open AlgebraicGeometry CategoryTheory Limits NumberField MonoidalCategory CartesianMonoidalCategory MonObj

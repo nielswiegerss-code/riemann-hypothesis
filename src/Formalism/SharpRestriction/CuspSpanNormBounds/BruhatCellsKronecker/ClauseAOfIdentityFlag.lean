@@ -6,8 +6,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.JExistsNatSmulMemL
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.Lat Formalism.MainNotions.LatticeGluingRadicals NumberField Module
@@ -52,5 +50,3 @@ theorem tie_X_eq_Xa (F : FlagG S r T) : F.X = F.Xa r := by
 end Gen
 
 end Formalism.MainNotions.BridgeLemma
-
-end

@@ -8,8 +8,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.LatticeGluingRadicals
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Classical
 
 namespace Formalism.MainNotions.BridgeLemma₂
@@ -175,5 +173,3 @@ theorem c3eqv_NLam_symm {n : S.V ≃ₗ[E] S.V} (hn : n ∈ NLam Λ F) : n.symm 
 end Gen
 
 end Formalism.MainNotions.BridgeLemma₂
-
-end

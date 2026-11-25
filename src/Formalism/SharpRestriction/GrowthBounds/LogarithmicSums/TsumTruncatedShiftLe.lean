@@ -4,8 +4,6 @@ public import Mathlib.Analysis.SpecialFunctions.Log.Base
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 
 namespace Formalism.MainNotions.AuxBlock8.Pf
@@ -134,5 +132,3 @@ theorem tsum_truncated_shift_le (p y c A : ℝ) (hp : 2 ≤ p) (hc : 0 ≤ c) (h
   exact sub_le_iff_le_add.mpr (hsum.trans (add_le_add le_rfl hH))
 
 end Formalism.MainNotions.AuxBlock8.Pf
-
-end

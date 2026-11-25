@@ -6,8 +6,6 @@ public import Formalism.LocalRingCardinality.RankBoundMonotoneInDimension
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.J
 
 open Formalism.BasicNotions Formalism.MainNotions.G Formalism.FrobeniusOrbits NumberField
@@ -54,5 +52,3 @@ theorem two_readings_of_Frobenius (D : D7) : Formalism.MainNotions.CornerGLConti
   rfl
 
 end Formalism.MainNotions.J
-
-end

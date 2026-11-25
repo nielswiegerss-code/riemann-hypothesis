@@ -7,8 +7,6 @@ import Mathlib.Tactic.Lemma
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.PartialDerivativeExponent
 
 open MvPowerSeries

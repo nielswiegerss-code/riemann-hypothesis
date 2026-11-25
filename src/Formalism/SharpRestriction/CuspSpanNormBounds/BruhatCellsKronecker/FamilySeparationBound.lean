@@ -7,8 +7,6 @@ import Mathlib.RingTheory.PicardGroup
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S
@@ -86,5 +84,3 @@ theorem szf_normDD (D : D7) (hd : NumberField.discr D.host.E = NumberField.discr
   | simp [abs_pow, Nat.cast_natAbs]
 
 end Formalism.MainNotions.BridgeLemma
-
-end

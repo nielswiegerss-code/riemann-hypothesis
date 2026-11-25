@@ -6,8 +6,6 @@ import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.FormalGroupSystem.Pf
 
 open Formalism.MainNotions.G Formalism.BasicNotions Finset

@@ -5,7 +5,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.LatticeGluingRadical
 
 @[expose] public section
 
-noncomputable section
 namespace Formalism.MainNotions.BridgeLemma
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.Lat Formalism.MainNotions.LatticeGluingRadicals NumberField Module
 
@@ -77,4 +76,3 @@ theorem tie_aniso (D : D7) (T : ℕ) (hT : 0 < T) (F : LFlag (D.sp.Y 0) D.R.rS (
   simp at hp
 
 end Formalism.MainNotions.BridgeLemma
-end

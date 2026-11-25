@@ -6,7 +6,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.QuotientImageDivisi
 
 @[expose] public section
 
-noncomputable section
 open Classical
 
 namespace Formalism.MainNotions.N.Pv.LocalLengthBound

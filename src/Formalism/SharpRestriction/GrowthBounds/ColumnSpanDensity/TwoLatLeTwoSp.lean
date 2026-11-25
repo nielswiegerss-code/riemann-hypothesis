@@ -6,8 +6,6 @@ import Formalism.PolynomialDimension.WeylDim
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.CountingSumsFrames Formalism.GradedWeylDivisibility MvPolynomial Formalism.MainNotions.G.LatticeSystems
@@ -50,5 +48,3 @@ theorem twoLat_le_twoSp {O Kf : Type} [CommRing O] [Field Kf] [Algebra O Kf] (m 
   | smul c y _ hy => exact Submodule.smul_of_tower_mem _ c hy
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

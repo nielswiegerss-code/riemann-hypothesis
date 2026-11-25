@@ -9,8 +9,6 @@ import Mathlib.RingTheory.TotallySplit
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset Classical
 
 namespace Formalism.MainNotions.Proposition5Numerics

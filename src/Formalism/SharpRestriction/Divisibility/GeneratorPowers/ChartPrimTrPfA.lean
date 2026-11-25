@@ -7,8 +7,6 @@ public import Formalism.LocalToGlobal.ProjectiveLattices.ChartDirectionsIntegral
 
 set_option autoImplicit false
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.ChartPrimTrPf
 
 open AlgebraicGeometry CategoryTheory NumberField

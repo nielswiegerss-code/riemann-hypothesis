@@ -7,8 +7,6 @@ public import Formalism.SharpRestriction.GrowthBounds.MonomialFactorials.SegDist
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.GramWindowAlt
 
 open MvPolynomial Finset Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.MainNotions.G.CountingStatementReduction Formalism.MainNotions.G.SymmetricFormBlocks
@@ -186,5 +184,3 @@ theorem eps_num (Y D1 κ q h x0l fl E : ℝ) (hY : 1 ≤ Y) (hκ : 0 < κ) (hD :
   linarith
 
 end Formalism.MainNotions.G.GramWindowAlt
-
-end

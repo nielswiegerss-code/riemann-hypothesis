@@ -5,8 +5,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ColumnSystems.Pf
 
 open Formalism.MainNotions.G MvPolynomial

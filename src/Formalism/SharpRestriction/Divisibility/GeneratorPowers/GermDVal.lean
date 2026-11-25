@@ -10,8 +10,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.T
 
 set_option autoImplicit false
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.GermD
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory TopologicalSpace Opposite

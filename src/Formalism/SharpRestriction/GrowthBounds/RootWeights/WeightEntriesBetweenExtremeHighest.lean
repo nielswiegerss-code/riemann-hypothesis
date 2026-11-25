@@ -10,8 +10,6 @@ public import Formalism.SharpRestriction.GrowthBounds.RootWeights.ExistsIntegral
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace Formalism.MainNotions.G.GLWeightTheory

@@ -6,8 +6,6 @@ import Std.Tactic.BVDecide.Normalize.BitVec
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Finset MeasureTheory
@@ -151,5 +149,3 @@ theorem szh_k_le (hH : StandingHypotheses D large₂ C' Cl Cg cb Cu cT CT) (h1 :
 end Rec
 
 end Formalism.MainNotions.BridgeLemma
-
-end

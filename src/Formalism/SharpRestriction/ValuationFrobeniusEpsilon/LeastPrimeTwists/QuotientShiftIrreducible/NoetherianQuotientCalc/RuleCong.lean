@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.V.Pf.V2.Calc
 
 namespace Cong

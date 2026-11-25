@@ -5,8 +5,6 @@ import Mathlib.Algebra.Order.Archimedean.Real.Hom
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1
 
 open NumberField Formalism.MainNotions.ModuliIntegralCharts

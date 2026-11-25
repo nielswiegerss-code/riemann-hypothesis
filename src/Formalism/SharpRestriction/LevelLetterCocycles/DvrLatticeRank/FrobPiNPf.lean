@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.MapCompZero
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.ElementDenominator Formalism.MainNotions.ElementDenominator.CongruenceModules
@@ -269,5 +267,3 @@ theorem frobPiNCondition : FrobPiNStep := by
     (frobpin_sM K h' hh' (frobpin_sK_pos hl K LL hG))
 
 end Formalism.MainNotions.N.Ln34
-
-end

@@ -8,8 +8,6 @@ import Formalism.ThetaLiftIndependence.ThetaOrbitSums.LatLiftIndep
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma₂
 
 open NumberField Module Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.Lat Formalism.MainNotions.S.Cnt Formalism.HermitianLatticesTheory Formalism.ThetaLiftIndependence.LatticeLiftIndependence
@@ -151,5 +149,3 @@ theorem gluing_mass_of_iso_aut_count_genus (u : D.what₂.Word) (hpos : IsPosDef
 end Tr
 
 end Formalism.MainNotions.BridgeLemma₂
-
-end

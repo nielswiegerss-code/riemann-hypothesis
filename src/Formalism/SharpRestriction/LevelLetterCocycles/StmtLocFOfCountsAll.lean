@@ -9,8 +9,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.LocalShareBounds
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.ArithmeticCylinders Polynomial Filter Topology

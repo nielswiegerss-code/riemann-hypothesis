@@ -7,7 +7,6 @@ public import Formalism.SharpRestriction.GlobalSchurBounds.ThickPlacesCorollaryO
 
 @[expose] public section
 
-noncomputable section
 namespace Formalism.MainNotions.StandardLattice
 open NumberField Formalism.BasicNotions Finset
 

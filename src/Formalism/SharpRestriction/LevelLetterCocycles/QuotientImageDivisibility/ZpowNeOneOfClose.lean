@@ -12,8 +12,6 @@ public import Mathlib.Data.Nat.Prime.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Pv.LocalLengthBound.Val
 
 variable {LL : Type} [Field LL] (v : AddValuation LL (WithTop ℚ))

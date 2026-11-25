@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.Divisibility.GeneratorPowers.JetSubstPS
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.ExpGG
 
 open MvPowerSeries NumberField

@@ -8,8 +8,6 @@ import Mathlib.Order.Interval.Finset.Box
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.CountingSumsFrames Formalism.CountingSumsFrames.Har4 Formalism.GradedWeylDivisibility MvPolynomial
@@ -197,5 +195,3 @@ theorem explicit_map_onto_two_letter_space : ExplicitMapOntoTwoLetters := by
       rfl
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

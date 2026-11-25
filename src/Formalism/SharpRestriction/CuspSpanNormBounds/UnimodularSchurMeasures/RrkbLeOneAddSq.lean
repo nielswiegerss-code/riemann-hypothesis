@@ -6,8 +6,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.LeviCoordinates
 
 open MeasureTheory Set
@@ -39,5 +37,3 @@ theorem rrkb_lint (h : rr_FD μ Γ D) {r : G → G} (hr : ∀ y, ∃ γ ∈ Γ, 
     _ = ∫⁻ x in D, F x ∂μ := by rw [h2]
 
 end Formalism.MainNotions.LeviCoordinates
-
-end

@@ -4,8 +4,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeo
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1
 
 open MvPowerSeries ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ

@@ -22,8 +22,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset
 
 namespace Formalism.MainNotions.G.ColumnFamilies

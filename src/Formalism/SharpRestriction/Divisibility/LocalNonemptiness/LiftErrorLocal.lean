@@ -5,8 +5,6 @@ import Mathlib.Algebra.Order.Star.Rat
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.DIV.Inh
 
 open Formalism.BasicNotions NumberField IsDedekindDomain Formalism.MainNotions
@@ -104,5 +102,3 @@ theorem aMinusQ_mono (D : D7) (j : ℕ) (τ : D.what₂.Tau) {a b : ℕ} (hab : 
     exact (ih (by omega)).trans (aMinusQ_step D j τ (a + d) (by omega))
 
 end Formalism.MainNotions.DIV.Inh
-
-end

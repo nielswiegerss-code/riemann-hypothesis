@@ -6,8 +6,6 @@ import Mathlib.RingTheory.PowerSeries.NoZeroDivisors
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.FrobeniusPowerSeries.GS
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.ArcLiftingSetup PowerSeries

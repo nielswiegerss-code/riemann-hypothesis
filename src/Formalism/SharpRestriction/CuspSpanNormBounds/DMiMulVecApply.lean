@@ -10,8 +10,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.OnePlaceEstimates
 
 open MeasureTheory Matrix Finset
 
-noncomputable section
-
 namespace Formalism.MainNotions.FrameBoundFromBesselTorus
 
 open Formalism.QuantumDeterminants Formalism.MainNotions.S Formalism.MainNotions.S.ThB Formalism.BasicNotions Formalism.MainNotions.OnePlaceEstimates

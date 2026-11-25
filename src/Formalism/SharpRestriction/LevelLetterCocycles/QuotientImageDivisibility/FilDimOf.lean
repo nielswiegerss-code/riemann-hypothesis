@@ -6,8 +6,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.QuotientImageDivisibility.
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Pv.LocalLengthBound
 
 open Formalism.WeaklyAdmissibleFiltrations Module TensorProduct Formalism.BasicNotions

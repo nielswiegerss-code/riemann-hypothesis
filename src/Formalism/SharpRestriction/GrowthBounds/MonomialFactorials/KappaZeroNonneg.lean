@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.GrowthBounds.MonomialFactorials.BlockBo
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.SymmetricFormBlocks
 
 open MvPolynomial Finset Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.MainNotions.G.CountingStatementReduction
@@ -93,5 +91,3 @@ theorem restDepth_proved {CYb Cde Ck CD Cb Cc : ℝ} (CM C : ℝ) (hCYb : 1 ≤ 
     linarith
 
 end Formalism.MainNotions.G.SymmetricFormBlocks
-
-end

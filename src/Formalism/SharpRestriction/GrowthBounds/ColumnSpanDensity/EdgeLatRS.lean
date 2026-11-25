@@ -8,8 +8,6 @@ public import Formalism.SharpRestriction.GrowthBounds.ColumnSpanDensity.RhoLower
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.MainNotions.G.LatticeSystems Formalism.GradedWeylDivisibility MvPolynomial
@@ -194,5 +192,3 @@ theorem edgeLat_RS (e : Edge R.W R.Qq (m + 1)) (he : IsEdge p n' 1 e) :
 end RSLat
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

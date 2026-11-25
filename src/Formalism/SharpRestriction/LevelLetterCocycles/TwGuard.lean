@@ -7,8 +7,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions
 
 open NumberField IsDedekindDomain Formalism.BasicNotions
@@ -34,5 +32,3 @@ theorem vAdd_pos_iff_mem {K : Type} [Field K] [NumberField K] (la : HeightOneSpe
     omega
 
 end Formalism.MainNotions
-
-end

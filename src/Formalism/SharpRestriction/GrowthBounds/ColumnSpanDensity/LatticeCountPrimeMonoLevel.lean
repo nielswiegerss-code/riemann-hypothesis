@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree
@@ -266,5 +264,3 @@ theorem midLP_of (h60c : RhoLowerBoundLargeConductor) (h62 : CloudWeightLowerBou
   exact RhoL_mono R lam0 htt hF.dle le_rfl r63
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

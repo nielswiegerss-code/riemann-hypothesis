@@ -7,7 +7,3 @@ import Mathlib.RingTheory.SimpleRing.Principal
 import Mathlib.RingTheory.TotallySplit
 
 @[expose] public section
-
-noncomputable section
-
-end

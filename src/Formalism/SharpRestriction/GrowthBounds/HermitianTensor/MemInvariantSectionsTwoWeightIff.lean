@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.GrowthBounds.LatticeSystems
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.CountingSumsFrames Formalism.GradedWeylDivisibility MvPolynomial Formalism.MainNotions.G.LatticeSystems
@@ -98,5 +96,3 @@ theorem hXY_ne_zero (K : Type) [Field K] (k : ℕ) : hXY K (k + 1) ≠ 0 := by
   simp [hXY] at this
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

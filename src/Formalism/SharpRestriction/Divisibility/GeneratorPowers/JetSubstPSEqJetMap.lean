@@ -8,8 +8,6 @@ public import Formalism.SharpRestriction.Divisibility.GeneratorPowers.JetSubstPS
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.ExpGF
 
 open MvPolynomial Formalism.L2.Pj Formalism.MainNotions.ModuliIntegralCharts.H1.GermD Formalism.MainNotions.ModuliIntegralCharts.H1.FBIdJet

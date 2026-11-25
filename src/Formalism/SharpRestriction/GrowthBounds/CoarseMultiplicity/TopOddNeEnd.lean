@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.GrowthBounds.RootWeights.ExponentFactor
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ColumnSystems.Pf
 
 open Formalism.MainNotions.G MvPolynomial

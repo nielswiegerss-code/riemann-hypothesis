@@ -7,8 +7,6 @@ public import Mathlib.RingTheory.Flat.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln03.Pf
 
 open Formalism.WeaklyAdmissibleFiltrations TensorProduct

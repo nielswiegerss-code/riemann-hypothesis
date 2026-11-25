@@ -9,8 +9,6 @@ public import Formalism.SharpRestriction.GrowthBounds.ScaleEdges.ScaleZpowMono
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.Pf14
 
 open Formalism.MainNotions.G Formalism.GradedWeylDivisibility Formalism.MainNotions.SourceCleaning MvPolynomial

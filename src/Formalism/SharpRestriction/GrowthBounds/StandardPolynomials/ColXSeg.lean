@@ -8,8 +8,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ColumnSystems.Pf.GenusGluing
 
 open Formalism.MainNotions.G MvPolynomial

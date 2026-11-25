@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.MainNotions.G.LatticeSystems Formalism.GradedWeylDivisibility MvPolynomial
@@ -46,5 +44,3 @@ theorem Vsp_eq (Kf : Type) [Field Kf] {n' m : ℕ} (lam0 : Fin n' → Fin (m + 1
   rw [ite_eq_left (kp_lamAt_antitone lam0 hdom s)]
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

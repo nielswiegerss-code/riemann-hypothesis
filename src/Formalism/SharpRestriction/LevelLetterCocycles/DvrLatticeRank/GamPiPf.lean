@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.DeltaInvariantUnifo
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.ElementDenominator Formalism.MainNotions.ElementDenominator.CongruenceModules
@@ -100,5 +98,3 @@ theorem gamPiCondition : GamPiStep := by
     exact ⟨x', hx', by rw [hgam]; exact h⟩
 
 end Formalism.MainNotions.N.Ln34
-
-end

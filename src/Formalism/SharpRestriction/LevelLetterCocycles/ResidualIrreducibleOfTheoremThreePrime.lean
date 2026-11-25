@@ -7,8 +7,6 @@ import Mathlib.Algebra.AffineMonoid.UniqueSums
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.AdmissibleThreePrime
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal Polynomial NumberField IsDedekindDomain

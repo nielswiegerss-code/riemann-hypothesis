@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.ArithmeticCylinders
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.FamilyNumericLemmas
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.ArithmeticCylinders Filter Topology

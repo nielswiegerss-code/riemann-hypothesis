@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.CayleyDegreeNondegeneracy.R
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma₂
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.Lat Formalism.MainNotions.S.Cnt Formalism.HermitianLatticeCounting Formalism.MainNotions.BridgeLemma
@@ -164,5 +162,3 @@ theorem rows_KBound_of {C' Cl Cg cb Cu cT CT C0 A c : ℝ} (hH : Cnt.Hyp D large
 end KB
 
 end Formalism.MainNotions.BridgeLemma₂
-
-end

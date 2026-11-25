@@ -6,8 +6,6 @@ import Mathlib.RingTheory.Valuation.LocalSubring
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.Gaps.Loc
 
 open NumberField IsDedekindDomain Matrix Formalism.UG Formalism.BasicNotions
@@ -153,5 +151,3 @@ theorem fr_lat_of {k : ℕ} (w : HeightOneSpectrum (𝓞 F))
       simp [Matrix.mulVec, dotProduct]
 
 end Formalism.MainNotions.Gaps.Loc
-
-end

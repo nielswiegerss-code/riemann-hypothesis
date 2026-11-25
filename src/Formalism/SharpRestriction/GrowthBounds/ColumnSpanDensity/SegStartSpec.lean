@@ -7,8 +7,6 @@ public import Formalism.SharpRestriction.GrowthBounds.ColumnSpanDensity.FourDept
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree
@@ -165,5 +163,3 @@ theorem tle_of (hO : RestOddTops) {K : Cst} (hK : K.Pos) {CH : ℝ} {C : ℝ} (h
   linarith
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

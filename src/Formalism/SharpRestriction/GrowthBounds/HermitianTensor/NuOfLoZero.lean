@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.GrowthBounds.HermitianTensor.CoeffSumMo
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.CountingSumsFrames Formalism.GradedWeylDivisibility MvPolynomial Formalism.MainNotions.G.LatticeSystems
@@ -295,5 +293,3 @@ theorem resY_map (hM : SubMapP) {A B : Type} [CommRing A] [CommRing B] (φ : A �
   exact evalId_map (map φ) (r + 1 + 1) (r + 1 + 1) _
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

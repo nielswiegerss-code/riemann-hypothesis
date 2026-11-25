@@ -9,8 +9,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 set_option linter.unusedVariables false
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34.UniversalFiltration
 
 open Formalism.WeaklyAdmissibleFiltrations Module TensorProduct

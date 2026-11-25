@@ -9,8 +9,6 @@ public import Formalism.SharpRestriction.GrowthBounds.ColumnSpanDensity.Tensor
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.GradedWeylDivisibility MvPolynomial
@@ -212,5 +210,3 @@ theorem functor_comparison_of_single_weight (hIOe : ExistsIO) (hPRe : ExistsPR) 
       exact this
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

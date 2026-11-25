@@ -6,8 +6,6 @@ import Formalism.SharpRestriction.GrowthBounds.ConclusionA2
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset
 
 namespace Formalism.MainNotions.G.ColumnFamilies

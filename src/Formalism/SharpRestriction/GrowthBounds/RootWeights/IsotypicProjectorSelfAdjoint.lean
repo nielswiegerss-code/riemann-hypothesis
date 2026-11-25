@@ -6,8 +6,6 @@ import Formalism.SharpRestriction.GrowthBounds.CovariantDegrees
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset
 
 namespace Formalism.MainNotions.G.GLWeightTheory

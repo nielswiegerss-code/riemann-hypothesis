@@ -8,8 +8,6 @@ import Formalism.SharpRestriction.GrowthBounds.MultisetValuation.NcTsumOdd
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.FormalGroupSystem.Pf
 
 open Formalism.BasicNotions Finset

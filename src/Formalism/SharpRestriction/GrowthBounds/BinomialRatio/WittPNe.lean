@@ -6,8 +6,6 @@ import Formalism.SharpRestriction.GrowthBounds.ScaleEdges.ManyEdges
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ColumnSystems.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.Pf14

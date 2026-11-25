@@ -11,8 +11,6 @@ import Mathlib.Algebra.Order.Star.Int
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.V.Pf.V2.Calc
 
 open IsLocalRing Filter

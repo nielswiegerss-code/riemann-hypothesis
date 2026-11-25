@@ -8,8 +8,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.LeadMinorK
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.S.Pv.DegI
 
 open Formalism.BasicNotions Formalism.QuantumDeterminants Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.ThB Formalism.MainNotions.S.Cnt Formalism.MainNotions.BridgeLemma Formalism.MainNotions.BridgeLemma₂ Formalism.MainNotions.PlaceDegreeData MeasureTheory
@@ -26,5 +24,3 @@ theorem minpq_pos (D : D7) : 1 ≤ min (pOf (epsSH D.R)) (qOf (epsSH D.R)) := by
 
 
 end Formalism.MainNotions.S.Pv.DegI
-
-end

@@ -9,7 +9,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.LocalizationQuotien
 
 set_option linter.unusedVariables false
 
-noncomputable section
 open Classical
 
 namespace Formalism.MainNotions.N.Ln34.CrystallineExponents
@@ -298,5 +297,3 @@ theorem mem_N_of_exp (hFr : IsFractionRing O LL) (hs : W.s = 1) (T : LocLat G Qp
 end Loc
 
 end Formalism.MainNotions.N.Ln34.CrystallineExponents
-
-end

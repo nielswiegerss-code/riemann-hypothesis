@@ -40,8 +40,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.DIV.Inh
 
 open Formalism.BasicNotions Formalism.BasicNotions.DV Formalism.MainNotions Formalism.MainNotions.G Formalism.MainNotions.OrbitPlaces
@@ -118,5 +116,3 @@ theorem orbit_admissible_of_split_bound (D : D7) (h3 : 3 ≤ D.host.splitBound) 
   exact ⟨fun p hp hc => orbOK_of_class D p hp h3 hc, fun p hp hc => five_le_of_class D p hp h3 (Or.inl hc)⟩
 
 end Formalism.MainNotions.DIV.Inh
-
-end

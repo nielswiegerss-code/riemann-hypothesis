@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.Divisibility.GeneratorPowers.ChartJetTr
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.JetTr
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj NumberField

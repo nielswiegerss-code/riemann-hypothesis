@@ -18,8 +18,6 @@ public import Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClas
 open NumberField IntermediateField Ideal
 open scoped Pointwise
 
-noncomputable section
-
 namespace Formalism.HC.Der
 
 open Formalism.FrobeniusOrbits Formalism.TwoAdicCyclotomicDecomposition
@@ -590,5 +588,3 @@ theorem unramEF : ∀ (P : Ideal (𝓞 H.E)), P.IsPrime → P ≠ ⊥ → ¬ ∀
     exact Formalism.FrobeniusOrbits.Inertia.sqrt_fixed H.hyp.2.1 hd4 hp hpd P H.conj H.sqd_sq hcs h
 
 end Formalism.HC.Der
-
-end

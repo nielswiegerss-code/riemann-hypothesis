@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.DownSlotProposition
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34.ModelFPf
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.N.Ln34
@@ -178,5 +176,3 @@ theorem levQ_pt (hs : W.s = 1) (i : ZMod n) (ζ : LL) (hζ : ζ ^ PD.p = 1) (hζ
 end Lev
 
 end Formalism.MainNotions.N.Ln34.ModelFPf
-
-end

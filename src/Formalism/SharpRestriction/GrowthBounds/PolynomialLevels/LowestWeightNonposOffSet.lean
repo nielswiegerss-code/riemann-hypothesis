@@ -14,8 +14,6 @@ import Formalism.SharpRestriction.GrowthBounds.PlaneCoefficients.PlanePairsOnBlo
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset Classical
 
 namespace Formalism.MainNotions.NormalSetCounting

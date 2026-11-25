@@ -6,8 +6,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.MapCompZero
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.ElementDenominator Formalism.MainNotions.ElementDenominator.CongruenceModules
@@ -167,5 +165,3 @@ theorem gradNPf_small (π' : LetA O n) (σ M : ℕ) (hM : M ≤ 1) : GradN W T �
 end Local
 
 end Formalism.MainNotions.N.Ln34
-
-end

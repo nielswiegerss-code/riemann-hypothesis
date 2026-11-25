@@ -11,8 +11,6 @@ public import Mathlib.RingTheory.RamificationInertia.Ramification
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.J
 
 open Ideal NumberField IsDedekindDomain
@@ -146,5 +144,3 @@ theorem splits_sub (hp : p.Prime)
 end Split
 
 end Formalism.MainNotions.J
-
-end

@@ -6,8 +6,6 @@ import Formalism.SatakeDualWeyl.AdelicIwasawaHecke.CsGlob
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.ChF
 
 open Formalism.BasicNotions Formalism.L2.Forms Formalism.UG NumberField IsDedekindDomain Matrix
@@ -46,5 +44,3 @@ theorem isLattice_chart {D : D7} {T : ℕ} {bad : Set (HeightOneSpectrum (𝓞 D
   isLattice_of_hat K.lev.Lb (lat c) K.lev.Lb_fin K.lev.Lb_span (K.y c).1 (K.y_lat c)
 
 end Formalism.MainNotions.G.ChF
-
-end

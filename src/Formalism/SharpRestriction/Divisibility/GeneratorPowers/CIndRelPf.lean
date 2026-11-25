@@ -13,8 +13,6 @@ public import Mathlib.LinearAlgebra.Dimension.Constructions
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1
 
 namespace CIndRelPf

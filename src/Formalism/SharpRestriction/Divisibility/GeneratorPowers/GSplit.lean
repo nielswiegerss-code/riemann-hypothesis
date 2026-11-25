@@ -8,8 +8,6 @@ public import Mathlib.NumberTheory.RamificationInertia.Basic
 
 set_option autoImplicit false
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.GSplit
 
 open NumberField IsDedekindDomain UniqueFactorizationMonoid

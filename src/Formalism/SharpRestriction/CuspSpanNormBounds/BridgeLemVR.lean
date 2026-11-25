@@ -8,8 +8,6 @@ import Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentati
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemVR
 
 open NumberField Formalism.HermitianLatticesTheory Formalism.ThetaLiftIndependence Formalism.HermitianLattices.Ext.L3 Formalism.HermitianLattices.Ext.L3.RankOne nonZeroDivisors
@@ -111,5 +109,3 @@ theorem norm_unit (h : K →ₗ⋆[K] K →ₗ[K] K) (h1 : h 1 1 ≠ 0) {M M' : 
   exact ⟨mem_one_of_locR fun p hp => (key p hp).1, mem_one_of_locR fun p hp => (key p hp).2⟩
 
 end Formalism.MainNotions.BridgeLemVR
-
-end

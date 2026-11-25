@@ -11,8 +11,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.RamifiedCoefficientChains.S9.DLev
 
 open Module Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc IsLocalRing

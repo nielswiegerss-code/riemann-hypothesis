@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.GrowthBounds.BinomialRatio.ThresholdLow
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ColumnSystems.Pf
 
 open Formalism.MainNotions.G

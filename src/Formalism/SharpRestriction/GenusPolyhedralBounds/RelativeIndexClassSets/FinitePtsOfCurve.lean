@@ -5,8 +5,6 @@ public import Formalism.PeriodIntegrals.OrbitalBoundsConclusion.EfRankSum
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.MainNotions.WeightAlgebra Formalism.BasicNotions NumberField IsDedekindDomain Module
 
 namespace Formalism.MainNotions.Gaps.EtaleWeightGaps

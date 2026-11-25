@@ -8,8 +8,6 @@ public import Mathlib.RingTheory.TensorProduct.IsBaseChangeFree
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.RamifiedCoefficientChains.S9.RankN
 
 open Module Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc

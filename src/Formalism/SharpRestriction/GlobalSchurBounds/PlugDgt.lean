@@ -6,8 +6,6 @@ import Mathlib.Algebra.Order.Star.Int
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions
 
 open Formalism.BasicNotions Formalism.MainNotions.Pk
@@ -111,5 +109,3 @@ theorem closed_eventually_levelPrimeCoprimeStabiliser (ùíû : FamClass) (C0 : ‚Ñ
   exact eventually_level_prime_coprime_stabiliser_of_design hc
 
 end Formalism.MainNotions
-
-end

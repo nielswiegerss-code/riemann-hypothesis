@@ -8,8 +8,6 @@ public import Mathlib.Data.Rat.BigOperators
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.Pf14
 
 open Formalism.CountingSumsFrames

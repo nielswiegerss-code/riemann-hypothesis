@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.LocalizationQuotien
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.FrobeniusPowerSeries
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.ArcLiftingSetup

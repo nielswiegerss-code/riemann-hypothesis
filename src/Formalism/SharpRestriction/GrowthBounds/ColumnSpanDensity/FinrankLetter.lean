@@ -8,8 +8,6 @@ import Mathlib.Order.Interval.Finset.Box
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.CountingSumsFrames
@@ -212,5 +210,3 @@ theorem restDims_of (D : Formalism.BasicNotions.D7) (h3 : Formalism.MainNotions.
     exact_mod_cast h2
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

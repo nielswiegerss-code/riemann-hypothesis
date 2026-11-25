@@ -7,8 +7,6 @@ public import Formalism.SharpRestriction.GrowthBounds.RootWeights.MemWeightSpace
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace Formalism.MainNotions.G.GLWeightTheory

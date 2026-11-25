@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.GrowthBounds.PathWeight.LeadingDepthOne
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Classical
 
 namespace Formalism.MainNotions.G.symbolGeneratorData

@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwi
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.V.Pf.V2.Calc
 
 variable {k : ℕ} {B R : Type} [CommRing B] [CommRing R] [Algebra B R]

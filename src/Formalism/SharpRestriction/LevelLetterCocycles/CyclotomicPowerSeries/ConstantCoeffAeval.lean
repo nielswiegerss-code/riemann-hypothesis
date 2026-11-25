@@ -8,8 +8,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 namespace LevelStatements.Lv
 
 open PowerSeries IsLocalRing

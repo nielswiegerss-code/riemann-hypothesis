@@ -11,8 +11,6 @@ import Mathlib.RingTheory.HopfAlgebra.Basic
 
 open Matrix NumberField Module
 
-noncomputable section
-
 namespace Formalism.MainNotions.DIV.HookProducts.RBTie
 
 section Op

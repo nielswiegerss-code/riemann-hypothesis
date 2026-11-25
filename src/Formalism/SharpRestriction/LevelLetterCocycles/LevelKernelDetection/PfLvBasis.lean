@@ -6,8 +6,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.LevelKernelDetection.PfLvB
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln03.Pf
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.MainNotions.WachCoordinates Formalism.MainNotions.WachCoordinates.Br Formalism.ExponentWindows Formalism.ExponentWindows.G Formalism.MainNotions.N.Ln03 TensorProduct

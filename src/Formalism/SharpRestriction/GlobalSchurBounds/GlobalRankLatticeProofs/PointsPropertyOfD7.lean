@@ -8,8 +8,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.UnusedSlot33
 
 open NumberField Formalism.FrobeniusOrbits Formalism.BasicNotions Formalism.MainNotions.GlobalTheoryTheory Formalism.TwoAdicCyclotomicDecomposition Ideal
@@ -113,5 +111,3 @@ theorem ram_iff (D : D7) (p : ℕ) (hp : p.Prime) :
 end SlopeTestRemainingChoices
 
 end Formalism.MainNotions.UnusedSlot33
-
-end

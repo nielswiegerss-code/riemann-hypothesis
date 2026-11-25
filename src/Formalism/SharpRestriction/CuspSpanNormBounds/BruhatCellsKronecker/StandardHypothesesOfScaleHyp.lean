@@ -8,8 +8,6 @@ public import Mathlib.Analysis.Real.Pi.Bounds
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.ThB Formalism.MainNotions.S.Bridge Formalism.QuantumDeterminants
@@ -663,5 +661,3 @@ theorem stdHypS_of (Cg cb Cu cT CT C0 Ch Cβ : ℝ) (hCl : 8 ≤ sCl Fm) (hCh : 
 end Fam
 
 end Formalism.MainNotions.BridgeLemma
-
-end

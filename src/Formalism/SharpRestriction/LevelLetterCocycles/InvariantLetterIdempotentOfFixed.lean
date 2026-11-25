@@ -11,8 +11,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace Formalism.MainNotions.RamifiedCoefficientChains.S9.ExtensionLemmaAlt.Step2L
@@ -264,5 +262,3 @@ theorem succ_not_mem_evens [NeZero n] (hn : Even n) {d : ℕ} {c : ZMod n} (hc :
 end Sums
 
 end Formalism.MainNotions.RamifiedCoefficientChains.S9.ExtensionLemmaAlt.Step2L
-
-end

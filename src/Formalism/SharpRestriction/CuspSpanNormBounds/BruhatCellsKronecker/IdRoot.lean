@@ -6,8 +6,6 @@ import Mathlib.Algebra.Order.Star.Int
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open NumberField IsDedekindDomain
@@ -61,5 +59,3 @@ theorem id_over : ExistsPrimeAbove := by
   exact (Nat.cast_ne_zero.2 hp.ne_zero) ((Submodule.mem_bot _).1 hpQ)
 
 end Formalism.MainNotions.BridgeLemma
-
-end

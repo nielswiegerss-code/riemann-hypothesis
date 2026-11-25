@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.LeviCoordinates
 
 open MeasureTheory Set Topology
@@ -104,5 +102,3 @@ theorem rr_secondCountable (I : AutInst) (μf : Measure I.Gf) [SigmaFinite μf] 
   exact rrs_secondCountable_abs μf U hU h1 hb
 
 end Formalism.MainNotions.LeviCoordinates
-
-end

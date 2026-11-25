@@ -11,8 +11,6 @@ import Mathlib.Data.Finsupp.Pointwise
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 open Classical
 

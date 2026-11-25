@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.DvrLatticeRank.ModelFPfB
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34.MLH
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc TensorProduct
@@ -84,5 +82,3 @@ theorem nl_γ {u₀ : LetA O n} (hu₀ : u₀ ∈ W.AΔ) (hΛ : u₀ * W.γA W.g
 end Generic
 
 end Formalism.MainNotions.N.Ln34.MLH
-
-end

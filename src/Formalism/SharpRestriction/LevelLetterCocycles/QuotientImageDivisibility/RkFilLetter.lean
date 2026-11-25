@@ -10,8 +10,6 @@ import Mathlib.RingTheory.PiTensorProduct
 
 set_option linter.unusedVariables false
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Pv.LocalLengthBound
 
 open Formalism.WeaklyAdmissibleFiltrations Module TensorProduct

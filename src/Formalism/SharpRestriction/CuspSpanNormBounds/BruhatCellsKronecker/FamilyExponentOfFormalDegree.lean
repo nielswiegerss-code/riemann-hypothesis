@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.BruhatCellsKronecker
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.FourierDecayAlt Finset
@@ -39,5 +37,3 @@ theorem Tr_pos (D : D7) (u : D.what₂.Word) : 0 < Tr D u := by
   exact_mod_cast (D.mem u).A.T_prime.pos
 
 end Formalism.MainNotions.BridgeLemma
-
-end

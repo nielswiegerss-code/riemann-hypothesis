@@ -9,8 +9,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.PSDKOnOfPSDK
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.LocalSplitGroups Formalism.MainNotions.S.LocalFrameAxioms Formalism.MainNotions.LocalBesselAndTopKernel Formalism.QuantumDeterminants NumberField IsDedekindDomain ValuativeRel
@@ -83,5 +81,3 @@ theorem Dmin_top_ne (w : Point D.host.E (D.R.rS + 1)) : LocalSplitGroups.Dmin w 
   exact ptMat_det_ne w
 
 end Formalism.MainNotions.BridgeLemma
-
-end

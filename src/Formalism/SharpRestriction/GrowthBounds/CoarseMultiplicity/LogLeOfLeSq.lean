@@ -6,8 +6,6 @@ public import Mathlib.Analysis.Complex.ExponentialBounds
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ColumnSystems.Pf
 
 open Formalism.MainNotions.G

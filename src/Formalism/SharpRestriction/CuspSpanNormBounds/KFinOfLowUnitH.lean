@@ -9,8 +9,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.TheoremBConstants
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix Finset
 open scoped InnerProductSpace ENNReal
 
@@ -92,5 +90,3 @@ theorem kFin_of_lowUnitH' {ε : Fin (2 * r + k + 1) → Bool} {lam : Fin (2 * r 
 end Low
 
 end Formalism.MainNotions.KFiniteLowUnitary
-
-end

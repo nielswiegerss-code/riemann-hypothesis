@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.RamifiedCoefficient
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Pv.LocalLengthBound
 
 open Formalism.WeaklyAdmissibleFiltrations Module TensorProduct

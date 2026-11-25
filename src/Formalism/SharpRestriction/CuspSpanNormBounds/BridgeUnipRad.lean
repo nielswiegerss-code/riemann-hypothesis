@@ -5,8 +5,6 @@ public import Formalism.LocalRingCardinality.DataLevel
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeUnipRad
 
 open MeasureTheory NumberField Matrix
@@ -35,5 +33,3 @@ theorem hform_eq (J : Matrix (Fin n) (Fin n) ℂ) (x y : Fin n → ℂ) :
 end Form
 
 end Formalism.MainNotions.BridgeUnipRad
-
-end

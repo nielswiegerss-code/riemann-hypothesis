@@ -4,8 +4,6 @@ public import Formalism.LocalToGlobal.PairingIndexBounds.OrthogonalChartLevels.F
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions NumberField IsDedekindDomain Formalism.MainNotions.G Formalism.MainNotions.FormalGroupSystem Formalism.L2.G Formalism.L2.G.Cmp Formalism.L2.G.Pend Formalism.MainNotions Formalism.L2.Ker Formalism.MainNotions.G.CmpJ
 open Formalism.L2.Forms Formalism.L2.KerInert.SecondKernelInstances Formalism.L2.Col Formalism.L2.PairingIndexBounds.F Formalism.UG
 open scoped TensorProduct
@@ -45,5 +43,3 @@ theorem frM_comp (i : ℕ) (c : Lv.comp (i + 1)) (Lt Lt' : (Fl.Pj (i + 1)).Tup) 
 end Rec
 
 end Formalism.MainNotions.G.KAat
-
-end

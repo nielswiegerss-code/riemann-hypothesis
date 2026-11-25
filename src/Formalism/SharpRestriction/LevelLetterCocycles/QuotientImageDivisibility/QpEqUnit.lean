@@ -10,7 +10,6 @@ import Mathlib.RingTheory.PowerSeries.Inverse
 
 @[expose] public section
 
-noncomputable section
 open Classical
 
 namespace Formalism.MainNotions.N.Pv.LocalLengthBound

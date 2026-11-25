@@ -8,8 +8,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.ArcCoordinatesOfFra
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace Formalism.MainNotions.UnusedSlot80.LevC

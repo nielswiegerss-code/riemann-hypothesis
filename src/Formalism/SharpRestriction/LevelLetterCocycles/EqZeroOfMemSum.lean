@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.RamifiedCoefficientChains.S9.Hodge
 
 open Module Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc TensorProduct

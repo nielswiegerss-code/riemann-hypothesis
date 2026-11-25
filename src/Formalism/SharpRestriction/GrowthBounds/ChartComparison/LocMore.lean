@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.GrowthBounds.ChartComparison.LocGoodLoc
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.CmpJ
 
 open Formalism.BasicNotions Formalism.MainNotions.G Formalism.L2.G Formalism.L2.G.Cmp Formalism.L2.Forms Formalism.UG NumberField IsDedekindDomain Matrix
@@ -34,5 +32,3 @@ theorem locJ_pos_emb {T : ∀ u : D.what₂.Word, Forms0 D u} {Gt : GatTies D} {
   (K.tie u w hg).pos_emb v s x
 
 end Formalism.MainNotions.G.CmpJ
-
-end

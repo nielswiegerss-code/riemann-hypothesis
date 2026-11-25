@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.DvrLatticeRank.Mode
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34.MQ
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc PowerSeries

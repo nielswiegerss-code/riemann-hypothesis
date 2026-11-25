@@ -9,8 +9,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.SemisimpleLetterIffForallM
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.FrobeniusPowerSeries.TC
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.ArcLiftingSetup

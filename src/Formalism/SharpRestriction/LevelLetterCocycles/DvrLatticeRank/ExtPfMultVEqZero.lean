@@ -6,8 +6,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.BaseChangePreservesUnitary
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34.ExtPf
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.ElementDenominator Formalism.MainNotions.ElementDenominator.CongruenceModules TensorProduct
@@ -73,5 +71,3 @@ theorem ext_pf : Formalism.MainNotions.N.Ln34.ExtStep := by
   exact extPf_not_jump _ _ τ hfin a (by have := hadd τ a; omega) ha
 
 end Formalism.MainNotions.N.Ln34.ExtPf
-
-end

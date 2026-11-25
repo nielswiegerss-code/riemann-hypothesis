@@ -5,8 +5,6 @@ import Formalism.FormalDegreeBessel.FormalDegreeRatio.UnitaryWeylNormalHolds
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 open scoped InnerProductSpace ENNReal NNReal
 

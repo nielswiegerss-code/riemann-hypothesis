@@ -8,8 +8,6 @@ import Mathlib.Topology.Sheaves.Presheaf
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.UnusedSlot35.ExtCPf
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.LiftingTheory

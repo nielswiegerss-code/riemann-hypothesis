@@ -4,8 +4,6 @@ public import Mathlib.NumberTheory.NumberField.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.FrTanDirAlg
 
 open NumberField Matrix

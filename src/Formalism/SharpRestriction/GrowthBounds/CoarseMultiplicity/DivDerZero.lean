@@ -9,8 +9,6 @@ public import Formalism.SharpRestriction.GrowthBounds.RootWeights.IntegralPolyLi
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ColumnSystems.Pf
 
 open Formalism.MainNotions.G MvPolynomial Formalism.MainNotions.G.GLWeightTheory Formalism.MainNotions.CovariantDegrees

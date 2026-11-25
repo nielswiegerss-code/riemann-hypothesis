@@ -5,8 +5,6 @@ public import Formalism.WeaklyAdmissibleFiltrations.Statement
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.JsetEmb
 
 open Formalism.WeaklyAdmissibleFiltrations Module Polynomial TensorProduct
@@ -28,5 +26,3 @@ theorem field_inter_filtration_one_eq_zero (c : K) (hc : algebraMap K BdR c ∈ 
 end Inv
 
 end Formalism.MainNotions.N.JsetEmb
-
-end

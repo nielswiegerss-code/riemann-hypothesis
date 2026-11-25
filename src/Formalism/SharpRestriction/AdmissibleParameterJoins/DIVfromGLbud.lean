@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.Divisibility.WeightDegreeSizes
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.J
 
 open Formalism.BasicNotions
@@ -76,5 +74,3 @@ theorem gammaDiscriminant_budget_of_sizes {Cn cL CG : ℝ} (hcL : 1 ≤ cL) (hCG
   nlinarith
 
 end Formalism.MainNotions.J
-
-end

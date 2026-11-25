@@ -7,8 +7,6 @@ import Mathlib.RingTheory.TotallySplit
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.SymmetricFormBlocks
 
 open MvPolynomial Finset Formalism.GM.ProjS
@@ -156,5 +154,3 @@ theorem card_xiMons_eq (n : ℕ) : (xiMons (r := r) G n).card = dXi r n := by
 end Level
 
 end Formalism.MainNotions.G.SymmetricFormBlocks
-
-end

@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.GrowthBounds.FrobeniusPaths.ColStepFact
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset Formalism.MainNotions.G Formalism.MainNotions.CovariantDegrees
 
 namespace Formalism.MainNotions.LemmaBAlt

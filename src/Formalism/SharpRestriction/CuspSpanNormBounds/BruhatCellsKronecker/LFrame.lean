@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.BruhatCellsKronecker
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions.S Formalism.MainNotions.S.Lat NumberField Module IsDedekindDomain
@@ -102,5 +100,3 @@ theorem l_frame : UnitriangularFrameIntegral := by
   exact ⟨t * s, fun h => (P.isPrime.mem_or_mem h).elim ht hs, by rw [mul_smul]; exact h4.1⟩
 
 end Formalism.MainNotions.BridgeLemma
-
-end

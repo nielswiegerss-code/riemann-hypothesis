@@ -9,8 +9,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.SaturationPullbackOfRingCo
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace Formalism.MainNotions.UnusedSlot80.LevC

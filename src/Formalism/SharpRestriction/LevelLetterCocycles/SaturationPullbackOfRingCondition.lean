@@ -9,8 +9,6 @@ public import Mathlib.RingTheory.TensorProduct.IsBaseChangeFree
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace Formalism.MainNotions.UnusedSlot80.SatPW

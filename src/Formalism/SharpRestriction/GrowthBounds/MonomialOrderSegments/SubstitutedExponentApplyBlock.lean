@@ -9,8 +9,6 @@ import Mathlib.Topology.Sheaves.Presheaf
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset
 
 namespace Formalism.MainNotions.PlaneGram

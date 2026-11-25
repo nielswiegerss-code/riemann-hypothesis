@@ -5,8 +5,6 @@ import Formalism.SharpRestriction.GrowthBounds.CountingStatementReduction
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.SymmetricFormBlocks
 
 open MvPolynomial Finset Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.MainNotions.G.CountingStatementReduction
@@ -52,5 +50,3 @@ theorem p_le_P (u : Fin X.s) : X.p ≤ (X.S C0 CE1 CE2).P X.p u := by
     _ ≤ _ := Nat.pow_le_pow_right hp (by omega)
 
 end Formalism.MainNotions.G.SymmetricFormBlocks
-
-end

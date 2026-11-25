@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.DownSlotProposition
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.ElementDenominator Formalism.MainNotions.ElementDenominator.CongruenceModules TensorProduct
@@ -143,5 +141,3 @@ theorem framepf_levN_phi (hc : IsCrys PD T.ρ) (c : ZMod n) (ζ : LL)
 end Local
 
 end Formalism.MainNotions.N.Ln34
-
-end

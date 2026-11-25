@@ -10,8 +10,6 @@ public import Mathlib.Algebra.Algebra.Hom.Rat
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.FrTanAlg
 
 open Polynomial NumberField

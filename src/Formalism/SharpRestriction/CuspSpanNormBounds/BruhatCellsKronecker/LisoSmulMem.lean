@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.BruhatCellsKronecker
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions.S Formalism.MainNotions.S.Lat NumberField Module IsDedekindDomain
@@ -69,5 +67,3 @@ theorem l_iso (h1 : IntegralAdjointUnimodular) (h2 : IntegralRetraction) (h3 : I
     linear_combination (-(S.hT w (P0 (P0' y)))) * hθ
 
 end Formalism.MainNotions.BridgeLemma
-
-end

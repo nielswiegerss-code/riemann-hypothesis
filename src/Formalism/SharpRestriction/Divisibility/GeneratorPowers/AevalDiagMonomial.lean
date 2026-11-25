@@ -9,8 +9,6 @@ import Mathlib.RingTheory.MvPolynomial.IrreducibleQuadratic
 
 set_option autoImplicit false
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.CIndFrExp1
 
 open MvPolynomial Formalism.MainNotions.ModuliIntegralCharts.H1.PairEvaluation

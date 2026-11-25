@@ -8,8 +8,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.DvrLatticeRank.Frob
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34.ClassMapPf
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.ElementDenominator Formalism.MainNotions.ElementDenominator.CongruenceModules
@@ -246,5 +244,3 @@ theorem classmap_pf : Formalism.MainNotions.N.Ln34.ClassMapStep :=
     Formalism.MainNotions.N.Ln34.frobPiNCondition
 
 end Formalism.MainNotions.N.Ln34.ClassMapPf
-
-end

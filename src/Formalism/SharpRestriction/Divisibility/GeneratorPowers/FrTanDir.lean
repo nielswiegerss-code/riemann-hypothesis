@@ -6,8 +6,6 @@ import Formalism.SharpRestriction.Divisibility.GeneratorPowers.FrTanPf
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.FrTanDir
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj NumberField

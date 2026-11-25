@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.GenusPolyhedralBounds.RelativeIndexClas
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.MainNotions.WeightAlgebra Formalism.BasicNotions NumberField IsDedekindDomain Module Formalism.MainNotions.Gaps.T0
 
 namespace Formalism.MainNotions.Gaps.EtaleWeightGaps

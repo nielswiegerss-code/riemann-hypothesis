@@ -7,8 +7,6 @@ import Std.Tactic.BVDecide.Normalize.BitVec
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.FourierDecayAlt Finset
@@ -187,5 +185,3 @@ theorem family_critical_level_lower_bound (Fm : FamP eps) {C0 Cg cb Cu cT CT ep0
   exact critical_level_lower_bound (C0 := C0) (CV := CV) (ep0 := ep0) h40 hep hC3 hh (hx0 x hx i hh)
 
 end Formalism.MainNotions.BridgeLemma
-
-end

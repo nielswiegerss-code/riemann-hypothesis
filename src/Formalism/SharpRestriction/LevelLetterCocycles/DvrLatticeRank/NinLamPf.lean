@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.DeltaInvariantUnifo
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.ElementDenominator Formalism.MainNotions.ElementDenominator.CongruenceModules
@@ -63,5 +61,3 @@ theorem ninlam_pf : NinLamStep := by
   exact ninLamPf_local _ T _ h' w ((HW l).W_s K 1 LL hG) hw h5
 
 end Formalism.MainNotions.N.Ln34
-
-end

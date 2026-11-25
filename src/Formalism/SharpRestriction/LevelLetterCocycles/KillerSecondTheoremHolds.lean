@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.DivisibilityInvaria
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.UnusedSlot80
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc

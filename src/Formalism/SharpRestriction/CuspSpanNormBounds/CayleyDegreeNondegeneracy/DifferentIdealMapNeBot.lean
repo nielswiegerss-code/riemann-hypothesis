@@ -9,8 +9,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.JExistsNatSmulMemL
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Classical
 
 namespace Formalism.MainNotions.BridgeLemma₂
@@ -28,5 +26,3 @@ theorem basis_vector_mem_span {T : D.host.E} (F0 : FlagG (VS D) D.R.rS T) (a : F
 end Fr
 
 end Formalism.MainNotions.BridgeLemma₂
-
-end

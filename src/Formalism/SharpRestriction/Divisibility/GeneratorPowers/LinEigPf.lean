@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.Divisibility.GeneratorPowers.LinEig
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1
 
 theorem linEigSt_holds : LinEigSt := LinEig.linEig_holds

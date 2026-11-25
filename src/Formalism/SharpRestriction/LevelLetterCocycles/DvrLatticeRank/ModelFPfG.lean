@@ -6,8 +6,6 @@ import Mathlib.RingTheory.PowerSeries.Inverse
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34.ModelFPf
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.N.Ln34 TensorProduct
@@ -105,5 +103,3 @@ theorem Eπ_nzd [IsDomain O] {Eπ : LetA O n} {w : LetA O n} (hQ : W.q = w * Eπ
 end Gam
 
 end Formalism.MainNotions.N.Ln34.ModelFPf
-
-end

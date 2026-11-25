@@ -6,8 +6,6 @@ import Mathlib.Algebra.Order.Star.Int
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.Pf14
 
 open Formalism.MainNotions.G Formalism.MainNotions.SourceCleaning Formalism.MainNotions.G.WittFrameLocaliserOrders

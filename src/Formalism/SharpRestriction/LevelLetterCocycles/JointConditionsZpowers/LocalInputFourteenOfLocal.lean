@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.LiftingTheory
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N
 
 open Formalism.BasicNotions

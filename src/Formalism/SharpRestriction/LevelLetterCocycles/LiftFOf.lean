@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.CoordHomMapTrace
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.WachCoordinates.Br
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions

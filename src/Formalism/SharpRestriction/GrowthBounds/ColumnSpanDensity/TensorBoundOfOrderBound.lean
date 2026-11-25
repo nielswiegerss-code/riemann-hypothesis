@@ -7,8 +7,6 @@ import Mathlib.Algebra.Order.Star.Int
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree
@@ -179,5 +177,3 @@ theorem tensor_bound_of_order_bound (hTen : RestTensor) (hOrd : RestOrdBound) (h
         simp [hab, this]
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

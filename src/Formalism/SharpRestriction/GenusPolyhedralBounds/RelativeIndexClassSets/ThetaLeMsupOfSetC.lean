@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.MainNotions.WeightAlgebra Formalism.BasicNotions NumberField IsDedekindDomain
 
 namespace Formalism.MainNotions.Gaps.T0
@@ -123,5 +121,3 @@ theorem theta_le_msup_of_setC {large₂ : SizeData₂ D} (X : PJ D B P j) (S : S
   exact theta_le_msup X S h2 c15 c14.1 (c0.trans c13) c18
 
 end Formalism.MainNotions.Gaps.T0
-
-end

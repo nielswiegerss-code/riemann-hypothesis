@@ -13,8 +13,6 @@ public import Formalism.SharpRestriction.ParConsts
 open MeasureTheory Matrix Finset
 open scoped InnerProductSpace
 
-noncomputable section
-
 set_option linter.unusedVariables false
 
 namespace Formalism.MainNotions.BridgeCS3d

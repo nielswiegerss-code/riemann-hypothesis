@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.LocalizationQuotien
 
 @[expose] public section
 
-noncomputable section
-
 open Classical TensorProduct
 
 namespace Formalism.MainNotions.UnusedSlot80.LevC

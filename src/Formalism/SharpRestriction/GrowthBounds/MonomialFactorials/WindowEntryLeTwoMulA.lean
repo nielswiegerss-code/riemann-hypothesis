@@ -7,8 +7,6 @@ public import Formalism.SharpRestriction.GrowthBounds.MonomialFactorials.SegDist
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.SymmetricFormBlocks
 
 open MvPolynomial Finset Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.MainNotions.G.CountingStatementReduction
@@ -156,5 +154,3 @@ theorem lLL_deg_le (a : Fin X.s → ℕ) (hT : a ∈ Fintype.piFinset (fun _ : F
 end Deg
 
 end Formalism.MainNotions.G.SymmetricFormBlocks
-
-end

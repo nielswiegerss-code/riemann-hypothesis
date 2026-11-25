@@ -10,7 +10,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.WachFrobeniusLatticeUnrami
 
 @[expose] public section
 
-noncomputable section
 open Classical
 
 namespace Formalism.MainNotions.N.Pv.LocalLengthBound

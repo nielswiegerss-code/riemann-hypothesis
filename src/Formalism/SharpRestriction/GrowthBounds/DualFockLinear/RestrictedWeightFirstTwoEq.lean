@@ -6,8 +6,6 @@ import Formalism.LocalToGlobal.GroupLattices.FockModels.MkP
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.TestSideCounting
 
 open Formalism.MainNotions.G Formalism.GradedWeylDivisibility Formalism.MainNotions.SourceCleaning Formalism.MainNotions.Pf14 MvPolynomial

@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.BruhatCellsKronecker
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open NumberField
@@ -52,5 +50,3 @@ theorem l_theta : IntegralTraceSurjective := by
   exact h4.symm
 
 end Formalism.MainNotions.BridgeLemma
-
-end

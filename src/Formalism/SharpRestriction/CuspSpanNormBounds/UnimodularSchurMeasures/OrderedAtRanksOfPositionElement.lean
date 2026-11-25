@@ -7,8 +7,6 @@ import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.LeviCoordinates
 
 open MeasureTheory Matrix Finset
@@ -78,5 +76,3 @@ theorem smooth_vectors_translate {ai : CayleySignature.Mat k r} (hai : ai ∈ Fo
 end Pos
 
 end Formalism.MainNotions.LeviCoordinates
-
-end

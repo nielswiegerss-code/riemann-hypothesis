@@ -12,8 +12,6 @@ public import Mathlib.Algebra.Lie.OfAssociative
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace Formalism.MainNotions.G.GLWeightTheory

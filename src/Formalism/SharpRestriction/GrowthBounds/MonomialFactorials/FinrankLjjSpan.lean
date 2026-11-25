@@ -9,8 +9,6 @@ import Mathlib.RingTheory.TotallySplit
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.SymmetricFormBlocks
 
 open MvPolynomial Formalism.MainNotions.G Formalism.MainNotions.G.GLWeightTheory Formalism.MainNotions.G.CountingStatementReduction
@@ -69,5 +67,3 @@ theorem finrank_Ljj_span (j : Fin G.T.t → ℕ) (jp : ℕ) :
 end Lvl
 
 end Formalism.MainNotions.G.SymmetricFormBlocks
-
-end

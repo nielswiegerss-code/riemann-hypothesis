@@ -7,8 +7,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.BruhatCellsKronecker
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.J
 
 open NumberField Formalism.BasicNotions
@@ -20,5 +18,3 @@ theorem splitsF_of_splitsE (D : D7) (p : ℕ) (hp : p.Prime) (h : S.SplitsE D p)
   · simpa only [Ideal.absNorm_apply, Submodule.cardQuot_apply] using (hF v.asIdeal v.isMaximal hv).1
 
 end Formalism.MainNotions.J
-
-end

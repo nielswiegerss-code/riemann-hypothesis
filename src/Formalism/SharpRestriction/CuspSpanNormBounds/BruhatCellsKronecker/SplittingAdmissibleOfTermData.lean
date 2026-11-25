@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.Lat Formalism.MainNotions.LatticeGluingRadicals NumberField Module
@@ -74,5 +72,3 @@ theorem tie_X_le_ker {E : Type} [Field E] [NumberField E] [StarRing E] {S : HSpa
 end Packets
 
 end Formalism.MainNotions.BridgeLemma
-
-end

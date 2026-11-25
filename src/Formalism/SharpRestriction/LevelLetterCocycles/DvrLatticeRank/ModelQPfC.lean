@@ -7,8 +7,6 @@ import Mathlib.RingTheory.PowerSeries.NoZeroDivisors
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34.MQ
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc PowerSeries

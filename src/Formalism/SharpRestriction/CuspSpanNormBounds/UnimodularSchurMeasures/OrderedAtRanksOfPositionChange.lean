@@ -47,8 +47,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.LeviCoordinates
 
 open MeasureTheory Matrix Finset
@@ -69,5 +67,3 @@ variable {k r : ℕ} {H H' : Type} [NormedAddCommGroup H] [InnerProductSpace ℂ
 end Move
 
 end Formalism.MainNotions.LeviCoordinates
-
-end

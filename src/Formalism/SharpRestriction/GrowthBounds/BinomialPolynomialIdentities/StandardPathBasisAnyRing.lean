@@ -9,7 +9,6 @@ import Formalism.ThetaLogCoordinates.JacobiPathWeights.PathBasisTheorem
 
 @[expose] public section
 
-noncomputable section
 open MvPolynomial Finset
 open Formalism.MainNotions.G Formalism.MainNotions.CovariantDegrees
 

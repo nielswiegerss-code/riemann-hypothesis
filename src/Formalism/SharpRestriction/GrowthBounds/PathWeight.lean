@@ -11,8 +11,6 @@ public import Formalism.SharpRestriction.GrowthBounds.PathWeight.SymbolGenerator
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.symbolGeneratorData
 
 open Formalism.MainNotions.G Formalism.MainNotions.SourceCleaning Formalism.MainNotions.G.WittFrameLocaliserOrders

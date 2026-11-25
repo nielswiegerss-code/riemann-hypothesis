@@ -10,8 +10,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.LeadMinorK
 open MeasureTheory Matrix Finset
 open scoped InnerProductSpace ENNReal
 
-noncomputable section
-
 namespace Formalism.MainNotions.S.Inh
 
 section

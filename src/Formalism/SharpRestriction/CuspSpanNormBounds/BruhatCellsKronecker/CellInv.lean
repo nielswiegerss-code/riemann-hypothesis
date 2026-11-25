@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.BruhatCellsKronecker
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.MainNotions.S Matrix
@@ -145,5 +143,3 @@ theorem cell_sign : ColumnScalingBruhatShape := by
         rw [← hd]; simp only [Matrix.mul_assoc]
 
 end Formalism.MainNotions.BridgeLemma
-
-end

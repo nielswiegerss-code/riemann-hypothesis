@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.LatticeGluingRadical
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma₂
 
 open NumberField Module Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.Lat Formalism.MainNotions.S.Cnt Formalism.MainNotions.LatticeGluingRadicals
@@ -93,5 +91,3 @@ theorem orthLattice_isIntegral_of_unimodular (hu : Formalism.HermitianLatticesTh
 end Lat
 
 end Formalism.MainNotions.BridgeLemma₂
-
-end

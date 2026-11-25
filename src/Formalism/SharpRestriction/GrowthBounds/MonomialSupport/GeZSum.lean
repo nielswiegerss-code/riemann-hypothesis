@@ -9,8 +9,6 @@ import Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.TwiceValuationFac
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset Classical
 
 namespace Formalism.MainNotions.LetterSubstitution

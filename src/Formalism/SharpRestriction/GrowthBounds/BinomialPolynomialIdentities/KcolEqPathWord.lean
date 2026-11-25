@@ -7,8 +7,6 @@ import Std.Tactic.BVDecide.Normalize.BitVec
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset
 
 namespace Formalism.MainNotions.G.ColumnFamilies

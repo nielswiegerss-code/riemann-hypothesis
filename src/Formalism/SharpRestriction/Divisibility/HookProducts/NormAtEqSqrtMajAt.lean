@@ -9,8 +9,6 @@ import Mathlib.RingTheory.Coalgebra.CoassocSimps
 
 open Module NumberField
 
-noncomputable section
-
 namespace Formalism.MainNotions.DIV.HookProducts.FunSharp
 
 variable {K : Type} [Field K] [NumberField K] [StarRing K]

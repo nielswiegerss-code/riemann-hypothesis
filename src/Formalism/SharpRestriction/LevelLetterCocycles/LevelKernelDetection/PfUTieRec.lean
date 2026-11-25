@@ -6,8 +6,6 @@ import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln03.Pf
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.WachCoordinates Formalism.MainNotions.WachCoordinates.Br Module IsLocalRing Formalism.MainNotions.N.Ln03

@@ -6,8 +6,6 @@ import Std.Tactic.BVDecide.Normalize.BitVec
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial
 
 namespace Formalism.MainNotions.SelectionLemmas.Pf

@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermDPf
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1.ExpGB
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj NumberField

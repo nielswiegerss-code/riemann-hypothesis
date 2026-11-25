@@ -11,8 +11,6 @@ import Formalism.SharpRestriction.GrowthBounds.ScaleEdges.DvdOfAdd
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset Classical
 
 namespace Formalism.MainNotions.Proposition5Numerics

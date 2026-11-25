@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.DvrLatticeRank.Grad
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.ElementDenominator Formalism.MainNotions.ElementDenominator.CongruenceModules
@@ -181,5 +179,3 @@ theorem gradNPf_hyps (D : D7) (HW : HWOf D.loc) (F : FonOf D.loc D.locA HW)
       (sK l K) (by omega) hsl N⟩
 
 end Formalism.MainNotions.N.Ln34
-
-end

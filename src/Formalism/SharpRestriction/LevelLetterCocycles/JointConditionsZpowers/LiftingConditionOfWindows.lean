@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.DecompositionData
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N
 
 open Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.WeaklyAdmissibleFiltrations

@@ -15,8 +15,6 @@ import Mathlib.Tactic.TypeStar
 open NumberField IntermediateField Ideal
 open scoped Pointwise nonZeroDivisors
 
-noncomputable section
-
 namespace Formalism.HC.Der
 
 open Formalism.FrobeniusOrbits Formalism.TwoAdicCyclotomicDecomposition
@@ -110,5 +108,3 @@ theorem norm_mu : ∀ x : H.E, (∃ m : ℕ, 0 < m ∧ x ^ m = 1) → Algebra.no
   · rw [mul_assoc, hss, mul_one]
 
 end Formalism.HC.Der
-
-end

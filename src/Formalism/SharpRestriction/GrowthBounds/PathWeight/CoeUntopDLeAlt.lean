@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.GrowthBounds.PathWeight.GeneratorImageI
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset Classical
 
 namespace Formalism.MainNotions.G.symbolGeneratorData

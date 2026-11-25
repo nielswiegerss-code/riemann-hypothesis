@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.ParConsts
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.DIV
 
 open Formalism.BasicNotions Formalism.BasicNotions.DV
@@ -36,5 +34,3 @@ theorem La_nonneg (hS : SizeQD L) : 0 ≤ L.La := by
 end One
 
 end Formalism.MainNotions.DIV
-
-end

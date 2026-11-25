@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.GrowthBounds.FormalGroupSystem
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.FormalGroupSystem.Pf
 
 open Finset

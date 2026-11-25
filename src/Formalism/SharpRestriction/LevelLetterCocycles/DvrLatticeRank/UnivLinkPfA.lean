@@ -7,8 +7,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.BaseChangePreserves
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34.UnivLinkPf
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module Formalism.MainNotions.ElementDenominator Formalism.MainNotions.ElementDenominator.CongruenceModules TensorProduct
@@ -215,5 +213,3 @@ end Frame
 end Local
 
 end Formalism.MainNotions.N.Ln34.UnivLinkPf
-
-end

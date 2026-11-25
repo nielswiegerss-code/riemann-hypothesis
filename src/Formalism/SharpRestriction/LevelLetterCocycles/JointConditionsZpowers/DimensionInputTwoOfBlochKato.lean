@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.BlochKatoDuality
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N
 
 open Formalism.BasicNotions

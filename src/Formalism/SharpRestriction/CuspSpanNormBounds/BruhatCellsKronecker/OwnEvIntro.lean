@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.LeSCSCl
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S
@@ -65,5 +63,3 @@ theorem ownEv_intro {P : ℝ → ℝ → ∀ x, Fm.Ix x → Prop} (x0 : ℝ)
   linarith [le_max_right x0 (Fm.x1 + 1)]
 
 end Formalism.MainNotions.BridgeLemma
-
-end

@@ -5,8 +5,6 @@ import Mathlib.Tactic.Lemma
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.FrobeniusPowerSeries.CaseA
 
 lemma sg_eq (l h w S η : ℕ) : Sg l h w S η =

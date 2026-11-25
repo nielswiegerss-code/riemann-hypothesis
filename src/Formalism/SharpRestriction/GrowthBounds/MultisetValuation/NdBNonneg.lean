@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.GrowthBounds.MultisetValuation.NdLszLe
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.FormalGroupSystem.Pf
 
 open Formalism.BasicNotions Finset

@@ -50,7 +50,6 @@ public import Formalism.SharpRestriction.GenusPolyhedralBounds.RelativeIndexClas
 
 @[expose] public section
 
-noncomputable section
 namespace Formalism.MainNotions.Gaps.LevGap
 open NumberField IsDedekindDomain Matrix Formalism.UG Formalism.BasicNotions
 open scoped TensorProduct

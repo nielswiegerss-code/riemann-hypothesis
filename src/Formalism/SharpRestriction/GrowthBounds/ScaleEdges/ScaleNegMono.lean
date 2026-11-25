@@ -5,8 +5,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.Pf14
 
 open Formalism.MainNotions.G Formalism.GradedWeylDivisibility

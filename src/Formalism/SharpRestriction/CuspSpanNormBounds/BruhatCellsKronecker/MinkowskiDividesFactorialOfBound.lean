@@ -9,8 +9,6 @@ public import Formalism.SharpRestriction.GlobalSchurBounds.ThickPlacesCorollaryO
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open NumberField Module Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.Cnt
@@ -258,5 +256,3 @@ theorem absNorm_pE (D : D7) (p : Ideal (𝓞 D.host.F)) :
   rw [Ideal.absNorm_algebraMap, ← IsFractionRing.finrank_eq (𝓞 D.host.F) D.host.F (𝓞 D.host.E) D.host.E, D.sp.cm.deg2]
 
 end Formalism.MainNotions.BridgeLemma
-
-end

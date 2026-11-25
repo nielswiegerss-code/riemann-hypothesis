@@ -11,8 +11,6 @@ import Mathlib.Tactic.TypeStar
 open NumberField IntermediateField Ideal
 open scoped Pointwise
 
-noncomputable section
-
 namespace Formalism.HC.Der
 
 open Formalism.FrobeniusOrbits Formalism.TwoAdicCyclotomicDecomposition
@@ -124,5 +122,3 @@ theorem frob_iff_inertia {G S : Type*} [Group G] [CommRing S] [MulSemiringAction
     rwa [← mul_smul, inv_mul_cancel_right, sub_add_sub_cancel] at h1
 
 end Formalism.HC.Der
-
-end

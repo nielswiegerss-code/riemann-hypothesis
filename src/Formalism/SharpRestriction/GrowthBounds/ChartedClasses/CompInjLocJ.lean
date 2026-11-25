@@ -5,8 +5,6 @@ import Formalism.LocalToGlobal.GroupLattices.TiedFamilies.TiePtRec
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.KAat
 
 open Formalism.BasicNotions Formalism.MainNotions.G Formalism.L2.G Formalism.L2.G.Cmp Formalism.L2.Forms Formalism.UG NumberField IsDedekindDomain Matrix Formalism.MainNotions.G.CmpJ
@@ -80,5 +78,3 @@ theorem chX_stepInOf (Fo : FormsIn M (i + 1) hi) (Lc : LocIn X u w hg Lv i Fo.Ch
   }
 
 end Formalism.MainNotions.G.KAat
-
-end

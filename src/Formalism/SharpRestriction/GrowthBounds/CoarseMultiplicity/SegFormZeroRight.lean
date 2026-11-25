@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.GrowthBounds.CoarseMultiplicity.RestBlo
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ColumnSystems.Pf
 
 open Formalism.MainNotions.G MvPolynomial

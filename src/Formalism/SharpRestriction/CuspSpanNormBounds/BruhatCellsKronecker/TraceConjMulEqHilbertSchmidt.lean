@@ -5,8 +5,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.PlaceDegreeData
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open MeasureTheory Matrix Finset
@@ -31,5 +29,3 @@ theorem exists_highest_weight_unit (ε : Fin n → Bool) (lam : Fin n → ℝ) (
 end SlopeTestRemainingChoices
 
 end Formalism.MainNotions.BridgeLemma
-
-end

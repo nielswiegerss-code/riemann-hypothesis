@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.GrowthBounds.MonomialFactorials.BlockBo
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.G.SymmetricFormBlocks
 
 open MvPolynomial Finset Formalism.MainNotions.G Formalism.MainNotions.flipOneThree Formalism.MainNotions.G.CountingStatementReduction
@@ -184,5 +182,3 @@ theorem restFree_proved (hS : SegFacts C0 CE1 CE2 X) : RestFree C0 CE1 CE2 X := 
   Finset.Subset.antisymm (idx_sub hS dl aTop aTop' ha ha') (idx_sub hS dl aTop' aTop ha' ha)
 
 end Formalism.MainNotions.G.SymmetricFormBlocks
-
-end

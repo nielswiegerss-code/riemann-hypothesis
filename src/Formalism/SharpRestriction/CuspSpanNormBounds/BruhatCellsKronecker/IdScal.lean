@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.BruhatCellsKronecker
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.MainNotions.S Formalism.BasicNotions Formalism.MainNotions.S.Lat Formalism.MainNotions.LatticeGluingRadicals Module
@@ -272,5 +270,3 @@ theorem id_scal : EqualFlagsScalar := by
     exact this
 
 end Formalism.MainNotions.BridgeLemma
-
-end

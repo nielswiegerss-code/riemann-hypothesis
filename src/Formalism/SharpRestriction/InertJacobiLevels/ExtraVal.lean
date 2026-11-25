@@ -5,8 +5,6 @@ public import Formalism.LocalRingCardinality.RhoDetPrimeEqMuTildeMulChiPow
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.Inhab
 
 open Formalism.BasicNotions NumberField IsDedekindDomain IsLocalRing
@@ -21,5 +19,3 @@ theorem resChar_mem (w : D.what₂.places.Pl) : ((D.what₂.places.resChar w : �
 end Rec
 
 end Formalism.MainNotions.Inhab
-
-end

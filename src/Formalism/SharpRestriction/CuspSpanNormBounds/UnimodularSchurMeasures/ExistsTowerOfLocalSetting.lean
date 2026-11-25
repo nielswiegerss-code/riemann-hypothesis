@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.LeviCoordinates
 
 open MeasureTheory Matrix Finset
@@ -25,5 +23,3 @@ theorem halfInt_of_integrality (k r : ℕ) (u : Fin k → ℝ) (v : Fin (k - 1) 
   linarith
 
 end Formalism.MainNotions.LeviCoordinates
-
-end

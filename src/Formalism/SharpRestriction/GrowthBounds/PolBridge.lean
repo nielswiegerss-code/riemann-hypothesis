@@ -17,8 +17,6 @@ public import Formalism.SharpRestriction.GrowthBounds.RootWeights.ContravariantI
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial
 
 namespace Formalism.MainNotions.G.PolBridge

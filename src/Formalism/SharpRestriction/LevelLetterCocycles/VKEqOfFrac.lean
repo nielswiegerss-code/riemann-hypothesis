@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.BlochKatoPhases
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.TwOe
 
 open Formalism.MainNotions.BlochKatoReduction.Gen
@@ -57,5 +55,3 @@ theorem nval_map (hinj : Function.Injective (algebraMap R R')) [Module.Finite R 
   exact mul_div_mul_left _ _ (by exact_mod_cast he)
 
 end Formalism.MainNotions.TwOe
-
-end

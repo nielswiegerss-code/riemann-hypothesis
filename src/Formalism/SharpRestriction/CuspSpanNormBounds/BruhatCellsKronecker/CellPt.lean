@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.BruhatCellsKronecker
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.BridgeLemma
 
 open Formalism.MainNotions.S
@@ -138,5 +136,3 @@ theorem cell_point : MonomialMatrixIsPoint := by
   simp only [dite_eq_left b.isLt, Fin.eta, mono, Fin.ext_iff]
 
 end Formalism.MainNotions.BridgeLemma
-
-end

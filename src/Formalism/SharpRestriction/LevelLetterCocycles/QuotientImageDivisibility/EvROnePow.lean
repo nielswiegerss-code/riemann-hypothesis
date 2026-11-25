@@ -17,7 +17,6 @@ public import Mathlib.RingTheory.Polynomial.Cyclotomic.Roots
 
 @[expose] public section
 
-noncomputable section
 open Classical
 
 namespace Formalism.MainNotions.N.Pv.LocalLengthBound.LB

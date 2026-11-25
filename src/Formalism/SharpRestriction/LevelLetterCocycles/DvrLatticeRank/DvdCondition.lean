@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.Ln34.DvdPf
 
 open Formalism.BasicNotions Formalism.BasicNotions.Loc Module

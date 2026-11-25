@@ -7,8 +7,6 @@ public import Mathlib.RingTheory.FiniteType
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.V.Pf.V2.Calc
 
 open DirectSum

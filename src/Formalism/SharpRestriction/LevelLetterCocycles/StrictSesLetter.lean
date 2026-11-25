@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.LemmasUnramifiedOfR
 
 @[expose] public section
 
-noncomputable section
-
 open Classical TensorProduct
 
 namespace Formalism.MainNotions.UnusedSlot80.Strict
@@ -49,5 +47,3 @@ theorem p4YL (D : D7) (HW : HWOf D.loc) (F : FonOf D.loc D.locA HW) (hL : Formal
 end Rec
 
 end Formalism.MainNotions.UnusedSlot80.Strict
-
-end

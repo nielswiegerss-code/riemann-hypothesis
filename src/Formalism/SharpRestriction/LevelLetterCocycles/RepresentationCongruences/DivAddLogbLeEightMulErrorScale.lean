@@ -5,8 +5,6 @@ import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.N.FrobeniusPowerSeries
 
 private theorem natCast_inv_and_sub_one_inv_bounds_of_eleven_le (l : ℕ) (hl : 11 ≤ l) :

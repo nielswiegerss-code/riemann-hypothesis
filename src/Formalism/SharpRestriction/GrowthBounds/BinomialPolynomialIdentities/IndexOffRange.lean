@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.GrowthBounds.FrobeniusPaths.DividedPowe
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Finset
 
 namespace Formalism.MainNotions.G.ColumnFamilies

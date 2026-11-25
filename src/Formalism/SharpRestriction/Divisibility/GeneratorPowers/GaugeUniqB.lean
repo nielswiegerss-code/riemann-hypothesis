@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.Divisibility.GeneratorPowers.GermFunPf
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.ModuliIntegralCharts.H1
 
 open MvPolynomial Formalism.L2.Pj

@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.GrowthBounds.ColumnSpanDensity.NumBase
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.flipOneThree.Pf
 
 open Formalism.MainNotions.G Formalism.MainNotions.flipOneThree
@@ -234,5 +232,3 @@ theorem lowb_of {C₀ CH : ℝ} {X : Dat} (h : X.Hyp C₀ CH) : X.b' / 3 ≤ X.b
   linarith
 
 end Formalism.MainNotions.flipOneThree.Pf
-
-end

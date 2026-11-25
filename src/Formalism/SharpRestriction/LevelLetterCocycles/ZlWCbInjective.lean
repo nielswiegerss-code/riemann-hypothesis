@@ -5,8 +5,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.InvariantsGenerator
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.MainNotions.InvariantsGenerators.InvariantsFromGenerators
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.tableLineDegreeTwo Formalism.MainNotions.LocalSituation TensorProduct
