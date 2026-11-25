@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Definitions.ThetaValues.ExistsRootNotMem
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.CoefExtC
 
 section General
@@ -83,5 +81,3 @@ theorem exists_extC_bijective_unique : ∀ (D : D7) (G : Type) [Group G] [Fintyp
   exact h4 v
 
 end GlobalTheory.CoefExtC
-
-end

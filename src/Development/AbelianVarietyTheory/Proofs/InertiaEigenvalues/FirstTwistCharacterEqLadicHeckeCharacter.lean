@@ -20,8 +20,6 @@ open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formal
 open Formalism.MainNotions.IntegralHeckeForms (TwOK ClsQ HkIdx V0 Fm0)
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.TwChiGal
 
 open GlobalTheory.GalChar (IsGal toQ inQ block)
@@ -64,5 +62,3 @@ theorem firstTwistCharacter_eq_ladic_heckeCharacter : ∀ (D : D7) (cf : CharFra
   exact ⟨n, this ▸ h'⟩
 
 end GlobalTheory.TwChiGal
-
-end

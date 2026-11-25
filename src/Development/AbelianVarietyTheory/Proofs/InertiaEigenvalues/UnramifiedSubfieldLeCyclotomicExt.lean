@@ -8,8 +8,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Finrank
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc TensorProduct GlobalTheory.NL
 
-noncomputable section
-
 namespace GlobalTheory.NL.Points
 
 variable {l : ℕ} [Fact l.Prime]

@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormPow
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations GlobalTheory.Cyc PowerSeries
 
 namespace GlobalTheory.Cyc.InvBasis

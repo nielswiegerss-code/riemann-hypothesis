@@ -19,8 +19,6 @@ open scoped TensorProduct
 open GlobalTheory.ConjTwist GlobalTheory.GalTw ReciprocityTheory.ChartRestriction.G.Geo.Tor
 open Classical
 
-noncomputable section
-
 namespace GlobalTheory.ConjDatum
 
 section Gen

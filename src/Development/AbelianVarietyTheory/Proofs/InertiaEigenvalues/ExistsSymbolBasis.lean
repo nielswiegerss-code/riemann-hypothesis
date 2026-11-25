@@ -13,8 +13,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.N Formalism.MainNotions.LocalSituation GlobalTheory.Cyc
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.DeRhamSymbolBasis
 
 open GlobalTheory.DeRhamSymbol

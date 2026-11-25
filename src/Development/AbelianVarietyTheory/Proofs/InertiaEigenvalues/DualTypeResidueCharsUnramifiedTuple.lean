@@ -16,8 +16,6 @@ open Formalism.IndefR.Links (PolF)
 open Formalism.L2.NTheta (IsIdemAt)
 open scoped TensorProduct
 
-noncomputable section
-
 
 
 namespace GlobalTheory.ExportSeries.TupleChars
@@ -127,5 +125,3 @@ theorem tuple_chars : ∀ {D : D7} {S T : HSp D} (B : Base S T), B.Good → ∀ 
   rwa [inv_one, mul_one] at this
 
 end GlobalTheory.ExportSeries.TupleChars
-
-end

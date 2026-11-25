@@ -7,8 +7,6 @@ public import Mathlib.LinearAlgebra.Eigenspace.Basic
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.Per.FilLetUnram
 
 section Abstract

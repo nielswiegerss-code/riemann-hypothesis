@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsSt
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations TensorProduct PowerSeries GlobalTheory.Prism GlobalTheory.BKReal GlobalTheory.Per GlobalTheory.BSP
 open scoped Formalism.Per NNReal
 

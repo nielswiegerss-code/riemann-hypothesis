@@ -9,8 +9,6 @@ import Mathlib.Tactic.Linter.Style
 
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions.N TensorProduct Module
 
-noncomputable section
-
 namespace GlobalTheory.GenSpan
 
 open GlobalTheory.TateTop ReciprocityTheory.Gal

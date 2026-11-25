@@ -12,8 +12,6 @@ open Formalism.IndefR.Lev Formalism.IndefR.Mult Formalism.IndefR.Datum Formalism
 open scoped TensorProduct InnerProductSpace
 open GlobalTheory.RawLift
 
-noncomputable section
-
 open scoped GlobalTheory.GaugeEx
 
 namespace GlobalTheory.RallisMeas
@@ -55,5 +53,3 @@ theorem lagTerm_stronglyMeasurable : ∀ (D : D7) (ψ : AddChar (AF D.host.F) �
   exact hG.stronglyMeasurable.integral_prod_right' (ν := μ.restrict 𝓕)
 
 end GlobalTheory.RallisMeas
-
-end

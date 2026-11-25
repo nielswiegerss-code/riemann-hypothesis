@@ -62,8 +62,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil ValuativeRel Matrix Topology Filter
 
-noncomputable section
-
 namespace GlobalTheory.SuperCusp
 
 theorem exists_dual_infinite {Q : Type} [AddCommGroup Q] [Module ℂ Q] (w : ℕ → Q) (hw : ∀ r, w r ≠ 0) :

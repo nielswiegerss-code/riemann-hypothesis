@@ -11,8 +11,6 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NoTowerQ
 
 open Formalism.BasicNotions Formalism.BasicNotions.Loc ValuativeRel GroundTheory.LocalField GlobalTheory.PMon.Ram
 
-noncomputable section
-
 namespace GlobalTheory.PMon.Ram
 
 theorem padic_mem_integer_iff (l : ℕ) [Fact l.Prime] (a : ℚ_[l]) : a ∈ 𝒪[ℚ_[l]] ↔ ‖a‖ ≤ 1 := by
@@ -65,5 +63,3 @@ theorem mem_integer_iff_norm_le_and_valuation_lt_one_iff_norm_lt (l : ℕ) [Fact
   rw [← not_le, ← not_le, h1]
 
 end GlobalTheory.PMon.Ram
-
-end

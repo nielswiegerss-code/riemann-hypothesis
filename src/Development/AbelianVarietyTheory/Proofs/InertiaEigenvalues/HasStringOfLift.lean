@@ -12,8 +12,6 @@ open Formalism.IndefR.Lev Formalism.IndefR.Mult Formalism.IndefR.Datum Formalism
 open scoped TensorProduct InnerProductSpace
 open GlobalTheory.DownLift
 
-noncomputable section
-
 namespace GlobalTheory.LiftInjProof
 
 variable {D : D7} {G : Type} [Group G] [Fintype G] {Pl0 T : Type} {A : FamIn D.what₂.LL G Pl0 T D.R.m}
@@ -47,5 +45,3 @@ theorem liftInj_of_typeNZ : ∀ (D : D7) (G : Type) [Group G] [Fintype G] (Pl0 T
   exact hT h hops s (hasString_of_lift R i A.μ0 (fun w => IsConjPl w w) hU1 hU2 hPE hDE hops hx hF) y hy hyG hy0
 
 end GlobalTheory.LiftInjProof
-
-end

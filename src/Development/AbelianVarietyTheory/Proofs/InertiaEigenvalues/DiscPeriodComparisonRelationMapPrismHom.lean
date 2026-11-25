@@ -9,8 +9,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormBre
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations TensorProduct PowerSeries GlobalTheory.Prism GlobalTheory.BKReal GlobalTheory.Per GlobalTheory.BSP
 open scoped Formalism.Per NNReal
 
-noncomputable section
-
 namespace GlobalTheory.BSP.Height
 
 theorem isDiscMap_comp' {l : ℕ} {A A' A'' : Type} [CommRing A] [CommRing A'] [CommRing A'']

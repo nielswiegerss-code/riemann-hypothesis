@@ -6,8 +6,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RatioIn
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Module TensorProduct
 
 namespace GlobalTheory.Per.FontaineBound

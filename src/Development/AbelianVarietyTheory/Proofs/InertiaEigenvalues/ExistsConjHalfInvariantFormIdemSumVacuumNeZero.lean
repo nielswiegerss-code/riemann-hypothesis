@@ -25,8 +25,6 @@ open scoped TensorProduct Classical
 
 open GlobalTheory.LevelSeries
 
-noncomputable section
-
 namespace GlobalTheory.LevelSeries.IdemSumForm
 
 open GlobalTheory.SplitScalar
@@ -238,5 +236,3 @@ theorem exists_invariant_form_idemSum : ∀ (D : D7) (ψ : AddChar (AF D.host.F)
     (fun l hl hlh => hfc l hl hlh) (fun l hl hlh => hfe l hl (by rwa [GlobalTheory.DualPairCheck.cA_cA] at hlh))
 
 end GlobalTheory.LevelSeries
-
-end

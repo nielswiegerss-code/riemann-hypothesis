@@ -14,8 +14,6 @@ public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.EqOrIsCon
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 Formalism.L2.Host NumberField IsDedekindDomain GlobalTheory.HeightCounting
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.FormInner
 
 section Plain
@@ -127,5 +125,3 @@ theorem level_le_Umax {D : D7} {M : MtFam D} {tup : D.what₂.Tup → Fin D.R.m 
     exact hu fun h' => h'.elim hg hq
 
 end GlobalTheory.FormInner
-
-end

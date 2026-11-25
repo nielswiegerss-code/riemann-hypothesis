@@ -8,7 +8,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.PhiGam.Range
 open GlobalTheory.PhiGam
 open scoped LaurentSeries PowerSeries

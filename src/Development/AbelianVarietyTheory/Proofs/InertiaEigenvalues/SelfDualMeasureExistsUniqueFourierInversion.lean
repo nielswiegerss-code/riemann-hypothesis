@@ -11,8 +11,6 @@ public import Mathlib.Topology.LocallyConstant.Algebra
 
 open GlobalTheory.JR Matrix MeasureTheory Filter Topology
 
-noncomputable section
-
 namespace GlobalTheory.JR.SelfDualUniq
 
 variable {V : Type} [AddCommGroup V] [TopologicalSpace V] [MeasurableSpace V]

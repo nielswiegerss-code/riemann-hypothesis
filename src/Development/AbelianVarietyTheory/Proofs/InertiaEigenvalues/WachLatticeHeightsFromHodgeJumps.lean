@@ -61,8 +61,6 @@ import Mathlib.Topology.Sheaves.Init
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc TensorProduct GlobalTheory.NL Formalism.MainNotions.DeltaInvariantLattices
 
-noncomputable section
-
 namespace GlobalTheory.NL.Heights
 
 section Series

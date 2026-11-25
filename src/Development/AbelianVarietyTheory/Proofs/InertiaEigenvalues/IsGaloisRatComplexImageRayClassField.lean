@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.PublishedTheorems.PublishedFoundations.N
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain GlobalTheory.NT GlobalTheory.Published GlobalTheory.RayTopGalois GlobalTheory.FieldSize
 
 namespace GlobalTheory.RayNatGalois
@@ -93,5 +91,3 @@ theorem isGalois_fieldRange : ∀ {K H : Type} [Field K] [NumberField K] [IsGalo
   exact IsGalois.of_algEquiv (AlgEquiv.ofInjectiveField j.toRatAlgHom)
 
 end GlobalTheory.RayNatGalois
-
-end

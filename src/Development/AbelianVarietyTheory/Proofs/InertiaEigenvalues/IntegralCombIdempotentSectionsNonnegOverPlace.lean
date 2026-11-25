@@ -6,8 +6,6 @@ import Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.HeckeV
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.IdemInt
 
 open AlgebraicGeometry CategoryTheory Limits NumberField IsDedekindDomain ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor Formalism.L2.Pj GlobalTheory.IndefiniteRowSideFullHecke.UnusedSlot39

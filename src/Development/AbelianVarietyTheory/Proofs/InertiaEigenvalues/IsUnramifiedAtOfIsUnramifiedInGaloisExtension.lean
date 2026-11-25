@@ -5,8 +5,6 @@ public import Mathlib.NumberTheory.RamificationInertia.Galois
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.NT
 
 open NumberField IsDedekindDomain
@@ -27,5 +25,3 @@ theorem isUnramifiedAt_of_unramIn {K L : Type} [Field K] [NumberField K] [Field 
   exact Ideal.ramificationIdx_eq_one_iff.1 h2.symm
 
 end GlobalTheory.NT
-
-end

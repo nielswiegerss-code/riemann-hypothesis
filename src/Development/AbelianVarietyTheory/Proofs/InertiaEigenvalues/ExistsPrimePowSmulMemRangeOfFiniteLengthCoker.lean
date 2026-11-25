@@ -6,8 +6,6 @@ public import Mathlib.RingTheory.FiniteLength
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.BK
 
 open PowerSeries

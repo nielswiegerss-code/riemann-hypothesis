@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.Selmer
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N
 open scoped ENNReal
 
@@ -102,5 +100,3 @@ theorem conclusion_iff (π : D.nd.X i) (ρ : GE D.nd →* GL (Fin D.R.r) (D.nd.O
 end Terms
 
 end GlobalTheory.Proof.QuotientLengthInfimum
-
-end

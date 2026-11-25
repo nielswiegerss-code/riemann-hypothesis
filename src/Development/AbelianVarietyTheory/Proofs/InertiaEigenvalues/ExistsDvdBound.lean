@@ -52,8 +52,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.LocCoh
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions.N TensorProduct PowerSeries GlobalTheory.Prism GlobalTheory.BKReal GlobalTheory.Per GlobalTheory.BSP GlobalTheory.MemLoc GlobalTheory.Pst GlobalTheory.BKLim GlobalTheory.Cong Matrix
 open scoped Formalism.Per NNReal
 
-noncomputable section
-
 namespace GlobalTheory.BKLim.BetaBd
 
 variable {l : ℕ} [hl : Fact l.Prime] {K : FinExt l}
@@ -99,5 +97,3 @@ theorem exists_dvd_bound (u : OC l) (hu : u ≠ 0) : ∃ a : ℕ, ∀ (x y : OC 
   exact ⟨b, by rw [← hb, mul_comm]⟩
 
 end GlobalTheory.BKLim.BetaBd
-
-end

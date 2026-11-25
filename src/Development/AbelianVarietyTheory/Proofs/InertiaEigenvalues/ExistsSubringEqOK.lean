@@ -17,8 +17,6 @@ open GlobalTheory.JR Matrix MeasureTheory Filter Topology
 
 open Polynomial
 
-noncomputable section
-
 namespace GlobalTheory.JR.Et
 
 variable {F E : Type} [NontriviallyNormedField F] [NontriviallyNormedField E] [NormedAlgebra F E] [StarRing E]

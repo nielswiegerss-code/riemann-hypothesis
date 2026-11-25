@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsSt
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations TensorProduct PowerSeries GlobalTheory.Prism GlobalTheory.BKReal GlobalTheory.Per GlobalTheory.BSP
 open scoped Formalism.Per NNReal
 
-noncomputable section
-
 namespace GlobalTheory.BSP
 
 variable {l : ℕ} [hl : Fact l.Prime]

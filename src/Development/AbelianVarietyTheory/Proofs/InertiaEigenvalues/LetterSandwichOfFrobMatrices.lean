@@ -6,8 +6,6 @@ import Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.WachLettersFr
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.WachLettersCompare
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Module GlobalTheory.IndefiniteRowSideFullHecke.LetterBasisDecomposition GlobalTheory.IndefiniteRowSideFullHecke.WachLettersFreeness

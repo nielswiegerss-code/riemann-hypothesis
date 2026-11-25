@@ -20,8 +20,6 @@ open Classical
 
 
 
-noncomputable section
-
 namespace GlobalTheory.HalfOInt
 
 open Formalism.IndefR.Fin.LevelGroupLemmas.Lat Matrix

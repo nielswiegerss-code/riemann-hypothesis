@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsG
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Formalism.Per
 
 namespace GlobalTheory.PMon.Gauss
@@ -24,5 +22,3 @@ theorem isGauss_gC_target : ∀ (l : ℕ) [Fact l.Prime] (ρ : ℝ), (l : ℝ)�
   fun l _ ρ h0 h1 => isGauss_gC_of_le l ρ h0 h1
 
 end GlobalTheory.PMon.Gauss
-
-end

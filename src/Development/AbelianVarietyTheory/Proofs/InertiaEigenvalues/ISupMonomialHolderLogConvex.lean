@@ -6,8 +6,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsGauss
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Formalism.Per
 
 namespace GlobalTheory.PMon.Gauss
@@ -69,5 +67,3 @@ theorem gC_basic_values : ∀ (l : ℕ) [Fact l.Prime] (ρ : ℝ), (l : ℝ)⁻�
   · rw [tc, hN.2.2.2.2, gA_teichmuller]
 
 end GlobalTheory.PMon.Gauss
-
-end

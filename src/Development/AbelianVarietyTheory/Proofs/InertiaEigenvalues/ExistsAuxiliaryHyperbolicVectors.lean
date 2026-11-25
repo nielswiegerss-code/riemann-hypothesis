@@ -9,8 +9,6 @@ import Formalism.LocalRingCardinality.SpanPowerMembership.HasStrictFDerivAtExpZe
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.LamTie.AuxiliaryPrimeFunction
 
 section General

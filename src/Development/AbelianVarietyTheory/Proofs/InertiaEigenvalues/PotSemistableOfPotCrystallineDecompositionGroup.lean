@@ -25,7 +25,6 @@ import ReciprocityTheory.Automorphisms.PlaceA
 
 @[expose] public section
 
-noncomputable section
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 Formalism.L2.Host Formalism.L2.NT NumberField IsDedekindDomain Polynomial GlobalTheory.HeightCounting GlobalTheory.RowTie GlobalTheory.SplitRead GlobalTheory.NPin GlobalTheory.PendOf
 open Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations
 open TensorProduct Module GlobalTheory.Pst

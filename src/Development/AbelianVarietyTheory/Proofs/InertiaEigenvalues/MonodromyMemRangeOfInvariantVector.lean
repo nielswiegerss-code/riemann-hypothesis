@@ -9,8 +9,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 open PowerSeries GlobalTheory.BK
 
-noncomputable section
-
 namespace GlobalTheory.BK
 
 variable {O K : Type} [CommRing O] [NormedField K] [IsUltrametricDist K] [Algebra O K]

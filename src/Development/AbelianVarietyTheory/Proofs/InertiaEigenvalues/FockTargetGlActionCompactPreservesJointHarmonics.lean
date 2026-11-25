@@ -52,8 +52,6 @@ open Formalism.IndefR.Lev Formalism.IndefR.Mult Formalism.IndefR.Datum Formalism
 open scoped TensorProduct InnerProductSpace
 open GlobalTheory.DownLift
 
-noncomputable section
-
 namespace GlobalTheory.CompactHarm
 
 open MvPolynomial

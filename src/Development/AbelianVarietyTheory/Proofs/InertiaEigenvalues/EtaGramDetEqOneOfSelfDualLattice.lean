@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SelfDua
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.UnitLemma.Unimod
 
 open GlobalTheory.UnitLemma Polynomial

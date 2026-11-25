@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OverExt
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.UnitLemma.Unr
 
 open GlobalTheory.UnitLemma

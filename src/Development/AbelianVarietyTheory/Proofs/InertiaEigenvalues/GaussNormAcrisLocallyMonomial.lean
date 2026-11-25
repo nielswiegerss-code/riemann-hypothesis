@@ -51,8 +51,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open Filter Topology
 open GlobalTheory.PMon.Gauss
 open scoped Formalism.Per
@@ -215,5 +213,3 @@ theorem gC_monomial_near : ∀ (l : ℕ) [Fact l.Prime] (x : Formalism.Per.Acris
       fun r hr => hsub ⟨(le_max_left _ _).trans_lt (h1a.trans_le hr.1), hr.2⟩⟩
 
 end GlobalTheory.PMon.Gauss
-
-end

@@ -23,8 +23,6 @@ open GlobalTheory.DownLift
 open GlobalTheory.DownLift.GenFinite
 open GlobalTheory.DownLift.SplitCoef
 
-noncomputable section
-
 
 
 namespace GlobalTheory.DownLift.SplitCoef
@@ -105,5 +103,3 @@ theorem coef_isSBHalf_uniform : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ) (S
     exact hkx (hsupp ℓ hℓ x hx hne)
 
 end GlobalTheory.DownLift.SplitCoef
-
-end

@@ -10,8 +10,6 @@ open scoped Formalism.Per
 open GlobalTheory.BKGal.HatVal
 open scoped GlobalTheory.BKGal.HatVal
 
-noncomputable section
-
 namespace GlobalTheory.BKGal.HatVal
 
 variable {l : ℕ} [Fact l.Prime] {O : Type} [CommRing O] [Algebra ℤ_[l] O]

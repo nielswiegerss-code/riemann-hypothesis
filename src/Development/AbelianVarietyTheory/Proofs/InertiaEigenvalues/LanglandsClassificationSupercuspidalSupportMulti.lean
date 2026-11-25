@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HasSupp
 
 @[expose] public section
 
-noncomputable section
-
 open ValuativeRel GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil GlobalTheory.LocGL GlobalTheory.Published
 
 namespace GlobalTheory.LocGL

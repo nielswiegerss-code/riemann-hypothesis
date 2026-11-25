@@ -17,8 +17,6 @@ import Development.AbelianVarietyTheory.Proofs.TwistedOperators.OmPureTensorOOfF
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR Formalism.IndefR.Datum IsDedekindDomain NumberField Matrix GlobalTheory.ExportSeries GlobalTheory.ConjTwist
 open Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.FWT Formalism.L2.Pj
 open scoped TensorProduct
@@ -121,5 +119,3 @@ theorem act_ioP (hC : GlobalTheory.Hk3.Core R F) {B : Base (Vc D i) (Wc D i)} (h
   exact act_ioP_inf hC hB h hψ ht _ a.2 x w
 
 end GlobalTheory.CoefActIo
-
-end

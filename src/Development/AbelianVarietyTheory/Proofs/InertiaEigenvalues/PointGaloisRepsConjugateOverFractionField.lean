@@ -6,8 +6,6 @@ import Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.ResidualConst
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.PointRepConj
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal NumberField IsDedekindDomain GlobalTheory.IndefiniteRowSideFullHecke.CongruenceModuleMatrices
@@ -35,5 +33,3 @@ theorem main : GlobalTheory.TwSys.Cheb → ∀ {R : Ranks} {H : Host R} {what₂
   exact exists_gl_of_equiv _ _ e he
 
 end GlobalTheory.PointRepConj
-
-end

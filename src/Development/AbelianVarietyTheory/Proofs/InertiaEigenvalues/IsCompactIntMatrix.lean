@@ -11,8 +11,6 @@ public import Mathlib.MeasureTheory.Measure.Haar.Basic
 
 open Matrix MeasureTheory Topology
 
-noncomputable section
-
 namespace GlobalTheory.JR.MeasExist
 
 theorem isOpen_intMatrix (r : ℕ) (k : Type) [NontriviallyNormedField k] [IsUltrametricDist k] :

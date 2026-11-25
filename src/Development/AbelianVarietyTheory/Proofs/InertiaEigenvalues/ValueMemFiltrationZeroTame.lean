@@ -19,8 +19,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalPeriodR
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations TensorProduct PowerSeries GlobalTheory.Prism GlobalTheory.BK GlobalTheory.BKReal GlobalTheory.BKGal GlobalTheory.Per Matrix
 open scoped Formalism.Per
 
-noncomputable section
-
 namespace GlobalTheory.BKGal.ValueFil
 
 section Rings

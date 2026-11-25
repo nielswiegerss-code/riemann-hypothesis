@@ -7,8 +7,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.EmbeddingTypeJumps
 
 open Formalism Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations
 
-noncomputable section
-
 namespace GlobalTheory.WachHyp
 
 theorem jump_mem (S : LocalSituation.Sit) (T : LocLat S.G S.Qp S.LL S.O) (τ : S.K →ₐ[S.Qp] S.LL) (a : ℤ)

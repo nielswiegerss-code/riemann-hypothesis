@@ -13,8 +13,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations TensorProduct PowerSeries GlobalTheory.Prism GlobalTheory.BKReal GlobalTheory.Per GlobalTheory.BSP GlobalTheory.MemLoc
 open scoped Formalism.Per NNReal
 
-noncomputable section
-
 namespace GlobalTheory.SeedF
 
 variable {l : ℕ} [Fact l.Prime]

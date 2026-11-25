@@ -12,7 +12,6 @@ public import Mathlib.LinearAlgebra.Eigenspace.Minpoly
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.TopSteps.ExtPair
 open GlobalTheory.PhiGam GlobalTheory.AdmLoc GlobalTheory.Models GlobalTheory.TopSteps
 open scoped LaurentSeries PowerSeries

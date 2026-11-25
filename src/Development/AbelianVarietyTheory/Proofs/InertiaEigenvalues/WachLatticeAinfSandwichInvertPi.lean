@@ -10,8 +10,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WachLat
 
 open Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations TensorProduct GlobalTheory.HWL Module
 
-noncomputable section
-
 namespace GlobalTheory.HWL.SandProof
 
 section Generic

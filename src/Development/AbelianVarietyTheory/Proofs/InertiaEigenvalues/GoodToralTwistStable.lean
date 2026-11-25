@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsE
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil GlobalTheory.LocGL
 
 namespace GlobalTheory.RecT
@@ -32,5 +30,3 @@ theorem good_tw_iff (x : IrrGL (k := k)) (χ : kˣ →* ℂˣ) (hχ : IsSmoothCh
 theorem good_nu_iff (x : IrrGL (k := k)) (s : ℂ) : Good (x.nu s) ↔ Good x := good_tw_iff x _ _
 
 end GlobalTheory.RecT
-
-end

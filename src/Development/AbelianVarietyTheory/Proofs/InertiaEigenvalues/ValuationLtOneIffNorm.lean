@@ -6,8 +6,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism Formalism.MainNotions Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Polynomial Module TensorProduct GlobalTheory.Pass
 
 namespace GlobalTheory.BridgeInertia
@@ -67,5 +65,3 @@ theorem inertEq : ∀ D : D7, InertEq D := by
   · exact (Subgroup.closure_le _).2 fun σ hσ => (key σ).2 hσ
 
 end GlobalTheory.BridgeInertia
-
-end

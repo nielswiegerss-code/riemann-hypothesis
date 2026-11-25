@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.InjP
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.TypeLeaf
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.MainNotions.ArithmeticCylinders Formalism.ConjugateSelfDual ReciprocityTheory.Gal Polynomial NumberField IsDedekindDomain

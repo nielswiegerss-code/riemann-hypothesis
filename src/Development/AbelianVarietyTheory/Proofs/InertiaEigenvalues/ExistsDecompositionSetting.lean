@@ -15,8 +15,6 @@ import ReciprocityTheory.Automorphisms.PlaceA
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 NumberField IsDedekindDomain Polynomial GlobalTheory.EtaJoin GlobalTheory.CoefDuty
 
-noncomputable section
-
 namespace GlobalTheory.AbsoluteIrreducibilityOfTraceSpan
 
 open GlobalTheory.IndefiniteRowSideFullHecke.CongruenceModuleMatrices
@@ -120,5 +118,3 @@ theorem charpoly_eq_of_isHeckeGalois (hC : GlobalTheory.TwSys.Cheb) (D : D7) (i 
   rwa [← Matrix.coe_units_inv, inv_inv] at this
 
 end GlobalTheory.AbsoluteIrreducibilityOfTraceSpan
-
-end

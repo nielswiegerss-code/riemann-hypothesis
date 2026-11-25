@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PeriodDiscExte
 
 open Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations TensorProduct GlobalTheory.HWL GlobalTheory.HWL.Cmp
 
-noncomputable section
-
 namespace GlobalTheory.HWL.Mat
 
 section Abstract

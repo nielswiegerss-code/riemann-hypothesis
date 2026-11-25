@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsSplitAtOfIsS
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N GlobalTheory.DefiniteBC
 
 namespace GlobalTheory.DefiniteBCFrozen
@@ -28,5 +26,3 @@ theorem isBC_of_isBaseChange {R : Ranks} {H : Host R} {what₂ : Rows.Data R} {N
   rfl
 
 end GlobalTheory.DefiniteBCFrozen
-
-end

@@ -6,8 +6,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HarishC
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.GLq
 
 open Polynomial Formalism.MainNotions.ArithmeticCylinders

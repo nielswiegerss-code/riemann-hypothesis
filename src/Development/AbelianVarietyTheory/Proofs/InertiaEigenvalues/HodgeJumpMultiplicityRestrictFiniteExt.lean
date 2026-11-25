@@ -14,8 +14,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions.N TensorProduct Module
 
-noncomputable section
-
 namespace GlobalTheory.JumpRestrict
 
 open GlobalTheory.DRFil

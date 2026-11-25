@@ -13,8 +13,6 @@ import Development.AutomorphicArithmetic.IntegralCasts.IsOpenStabOfMemNhds
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Matrix GlobalTheory.CuspRep GlobalTheory.CuspGeneric
 
 namespace GlobalTheory.CuspGeneric
@@ -61,5 +59,3 @@ theorem exists_stdPsi : ∀ (E : Type) [Field E] [NumberField E], ∃ ψ : AddCh
   exact hy
 
 end GlobalTheory.CuspGeneric
-
-end

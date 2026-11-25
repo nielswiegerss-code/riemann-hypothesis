@@ -10,8 +10,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SgnLatS
 
 open GlobalTheory.UnitLemma GlobalTheory.UnitLemma.Desc Polynomial Filter Topology
 
-noncomputable section
-
 namespace GlobalTheory.UnitLemma.Move
 
 variable {K : UQ} (B : InvAlg K)

@@ -48,8 +48,6 @@ import Mathlib.Topology.Sheaves.Init
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc TensorProduct GlobalTheory.NL Formalism.MainNotions.DeltaInvariantLattices
 
-noncomputable section
-
 namespace GlobalTheory.NL.NygaardExtension
 
 theorem map_incl_smul {O R R' M : Type} [CommRing O] [CommRing R] [CommRing R'] [Algebra O R]

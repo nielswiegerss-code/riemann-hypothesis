@@ -20,8 +20,6 @@ open scoped TensorProduct InnerProductSpace
 open GlobalTheory.DownLift
 open GlobalTheory.DownLift.GenFinite
 
-noncomputable section
-
 namespace GlobalTheory.DownLift.TypeLaw
 
 variable {D : D7}

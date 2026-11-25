@@ -5,7 +5,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CloseVe
 
 @[expose] public section
 
-noncomputable section
 open GlobalTheory.PhiGam GlobalTheory.AdmLoc GlobalTheory.Models
 open scoped LaurentSeries PowerSeries
 namespace GlobalTheory.PhiGam.CloseTw

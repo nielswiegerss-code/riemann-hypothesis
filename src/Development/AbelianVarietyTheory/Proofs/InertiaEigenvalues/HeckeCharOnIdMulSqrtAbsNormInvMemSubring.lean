@@ -6,7 +6,6 @@ public import Formalism.LocalToGlobal.UnitaryNorms.IsUnitaryNormOf
 
 open NumberField IsDedekindDomain
 
-noncomputable section
 open scoped nonZeroDivisors
 
 namespace GlobalTheory.HeckeIdealValue

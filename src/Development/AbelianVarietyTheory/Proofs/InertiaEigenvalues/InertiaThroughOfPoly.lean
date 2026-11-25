@@ -51,8 +51,6 @@ import ReciprocityTheory.GaloisValuations.GlobalA
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism Formalism.MainNotions Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Polynomial Module TensorProduct GlobalTheory.Pass
 
 namespace GlobalTheory.PassPoly
@@ -106,5 +104,3 @@ theorem Dpcris_stable (g : G) : ∀ x ∈ PC.Dpcris ρ, actVB PC.PD ρ g x ∈ P
 end
 
 end GlobalTheory.PassPoly
-
-end

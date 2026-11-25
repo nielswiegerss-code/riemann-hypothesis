@@ -8,7 +8,6 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BoundAtTwoT
 
 open NumberField IsDedekindDomain Formalism Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations GlobalTheory.NLink
 
-noncomputable section
 namespace GlobalTheory.NLink.AmbSub
 
 variable {D : D7}

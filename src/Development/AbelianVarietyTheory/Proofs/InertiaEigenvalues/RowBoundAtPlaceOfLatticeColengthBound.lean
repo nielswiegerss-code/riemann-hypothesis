@@ -5,8 +5,6 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BoundAtTwoT
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.RowAtOfColLen
 
 open NumberField IsDedekindDomain Formalism Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations GlobalTheory.NLink
@@ -21,5 +19,3 @@ theorem main : ∀ (D : D7) (i : D.nd.Loc) (r : D.nd.X i → (GE D.nd →* GL (F
   exact_mod_cast h4
 
 end GlobalTheory.RowAtOfColLen
-
-end

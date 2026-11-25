@@ -15,8 +15,6 @@ open Formalism.IndefR.Lev Formalism.IndefR.Mult Formalism.IndefR.Datum Formalism
 open scoped TensorProduct InnerProductSpace
 open GlobalTheory.RawLift
 
-noncomputable section
-
 namespace GlobalTheory.GoodModUnr
 
 open GlobalTheory.IdemSupport

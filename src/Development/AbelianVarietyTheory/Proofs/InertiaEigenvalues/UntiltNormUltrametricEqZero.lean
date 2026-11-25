@@ -8,7 +8,6 @@ public import Development.AbelianVarietyTheory.CrystallinePeriods.RingBasics
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc GlobalTheory.MemLoc
 open scoped Formalism.Per
 
-noncomputable section
 namespace GlobalTheory.TiltAbs
 
 variable {l : ℕ} [Fact l.Prime]

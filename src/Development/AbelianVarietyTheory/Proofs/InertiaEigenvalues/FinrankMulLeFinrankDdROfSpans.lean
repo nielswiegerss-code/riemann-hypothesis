@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.LocCoh
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.DRFil
 
 open Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions.N Formalism.BasicNotions Formalism.BasicNotions.Loc TensorProduct Module

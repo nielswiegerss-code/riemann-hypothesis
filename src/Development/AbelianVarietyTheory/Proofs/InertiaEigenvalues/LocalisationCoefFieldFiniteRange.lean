@@ -10,8 +10,6 @@ import ReciprocityTheory.Automorphisms.PlaceA
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 NumberField IsDedekindDomain Polynomial GlobalTheory.EtaJoin GlobalTheory.CoefDuty
 
 namespace GlobalTheory.Proof.CoefField
@@ -78,5 +76,3 @@ theorem coefField_range : ∀ {R : Ranks} {H : Host R} {what₂ : Rows.Data R} (
   exact exists_coefField (A.iotaQ i) (A.iotaQ_alg i)
 
 end GlobalTheory.Proof.CoefField
-
-end

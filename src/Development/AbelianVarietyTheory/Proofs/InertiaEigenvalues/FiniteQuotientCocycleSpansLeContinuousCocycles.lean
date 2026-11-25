@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteQ
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism Formalism.MainNotions Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Module GlobalTheory.Pass GlobalTheory.Cut
 
 namespace GlobalTheory.Cut.CocN
@@ -53,5 +51,3 @@ theorem main : ∀ (D : D7) (i : D.nd.Loc) (r : D.nd.X i → (GE D.nd →* GL (F
   rfl
 
 end GlobalTheory.Cut.CocN
-
-end

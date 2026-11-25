@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardLeO
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.RedFun
 
 open GlobalTheory.PhiGam GlobalTheory.AdmLoc GlobalTheory.Models GlobalTheory.TopSteps GlobalTheory.Present GlobalTheory.RedFun Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc

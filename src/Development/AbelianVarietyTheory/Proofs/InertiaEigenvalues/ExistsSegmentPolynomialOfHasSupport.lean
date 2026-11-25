@@ -10,8 +10,6 @@ import Development.AutomorphicSpectrum.Proofs.GlobalProofs.HasSupportOfIsSubquot
 open GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil GlobalTheory.LocGL
 open Classical
 
-noncomputable section
-
 namespace GlobalTheory.LocGL.ZelevinskyExpansion
 
 variable {k : Type} [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]

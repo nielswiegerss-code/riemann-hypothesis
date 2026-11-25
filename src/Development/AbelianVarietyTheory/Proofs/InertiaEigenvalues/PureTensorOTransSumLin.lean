@@ -19,8 +19,6 @@ open scoped TensorProduct Classical
 open GlobalTheory.SingleDatum
 
 
-noncomputable section
-
 namespace GlobalTheory.SingleDatum
 
 theorem pureTensorO_finsetSum {D : D7} {ψ : AddChar (AF D.host.F) ℂ} {θ : InfFam D} {S T : HSp D}
@@ -77,5 +75,3 @@ theorem pureTensorO_transSum_lin : ∀ (D : D7) (H : Geo.Tor.Host D.host.E) (Dw 
     exact absurd (Finset.mem_univ q) h
 
 end GlobalTheory.SingleDatum
-
-end

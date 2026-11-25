@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CentralIdem
 
 open Formalism Formalism.MainNotions Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations Formalism.L2 NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Module Polynomial GlobalTheory.Pass GlobalTheory.PendOf
 
-noncomputable section
-
 namespace GlobalTheory.PendOf.PrTypeProof
 
 theorem typeSum_indep (D : D7) (i : D.nd.Loc) : iSupIndep (typeSum D i) := by
@@ -64,5 +62,3 @@ theorem main : ∀ D : D7, (∀ i, Nonempty (Sec D i)) → PrType D := by
     exact Finset.sum_eq_zero fun y _ => key y (by rw [hp]; simp)
 
 end GlobalTheory.PendOf.PrTypeProof
-
-end

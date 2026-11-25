@@ -12,8 +12,6 @@ public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.Subsingle
 
 open GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil ValuativeRel Filter Topology
 
-noncomputable section
-
 namespace GlobalTheory.CuspCoef
 
 section Lemmas

@@ -11,8 +11,6 @@ public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCon
 open NumberField IsDedekindDomain Matrix Polynomial Formalism.L2.Host Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.UG Formalism.BasicNotions GlobalTheory.CuspRep GlobalTheory.UnitaryBC GlobalTheory.DiscSpec GlobalTheory.BCWords GlobalTheory.Published
 open GlobalTheory.ThetaPull
 
-noncomputable section
-
 namespace GlobalTheory.ConjPairLoc
 
 theorem irred_comp {G H V : Type} [Group G] [Group H] [AddCommGroup V] [Module ℂ V] (ρ : Representation ℂ H V)
@@ -62,5 +60,3 @@ theorem map_conjLoc_surjective [IsCMField E] (v : HeightOneSpectrum (𝓞 E)) :
   exact congrArg (pLoc E v) (cFin_cFin _)
 
 end GlobalTheory.ConjPairLoc
-
-end

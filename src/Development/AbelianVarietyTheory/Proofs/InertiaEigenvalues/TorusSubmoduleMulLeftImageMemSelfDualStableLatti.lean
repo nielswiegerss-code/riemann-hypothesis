@@ -6,8 +6,6 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Unit
 
 open GlobalTheory.UnitLemma Polynomial
 
-noncomputable section
-
 namespace GlobalTheory.UnitLemma.TorusAction
 
 open InvAlg

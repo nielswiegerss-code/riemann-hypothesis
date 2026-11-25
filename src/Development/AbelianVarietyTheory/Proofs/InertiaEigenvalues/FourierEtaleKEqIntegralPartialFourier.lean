@@ -8,7 +8,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 open GlobalTheory.JR Matrix MeasureTheory Filter Topology
 
-noncomputable section
 namespace GlobalTheory.FourKFub
 
 variable {F E : Type} [NontriviallyNormedField F] [NontriviallyNormedField E] [NormedAlgebra F E] [StarRing E]

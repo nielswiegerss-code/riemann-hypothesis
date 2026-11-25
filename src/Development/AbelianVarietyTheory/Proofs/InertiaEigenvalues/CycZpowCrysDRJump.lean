@@ -9,8 +9,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MemFilP
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.CycPow
 
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions.N TensorProduct Module

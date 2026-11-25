@@ -7,7 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 open GlobalTheory.UnitLemma GlobalTheory.UnitLemma.Desc Polynomial Filter Topology
 
-noncomputable section
 namespace GlobalTheory.UnitLemma.Desc
 
 theorem norm_prod_one {F R₁ R₂ : Type} [Field F] [CommRing R₁] [CommRing R₂] [Algebra F R₁] [Algebra F R₂]

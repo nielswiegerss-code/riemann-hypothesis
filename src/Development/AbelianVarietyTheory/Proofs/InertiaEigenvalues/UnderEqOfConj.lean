@@ -14,8 +14,6 @@ open Formalism.IndefR.Lev Formalism.IndefR.Mult Formalism.IndefR.Datum Formalism
 open scoped TensorProduct InnerProductSpace
 open GlobalTheory.RawLift
 
-noncomputable section
-
 namespace GlobalTheory.RawLift.Small
 
 theorem under_eq_of_conj {D : D7} {P P' : HeightOneSpectrum (𝓞 D.host.E)} (h : Formalism.IndefR.Lev.IsConjPl P P') :
@@ -30,5 +28,3 @@ theorem under_eq_of_conj {D : D7} {P P' : HeightOneSpectrum (𝓞 D.host.E)} (h 
   rwa [e]
 
 end GlobalTheory.RawLift.Small
-
-end

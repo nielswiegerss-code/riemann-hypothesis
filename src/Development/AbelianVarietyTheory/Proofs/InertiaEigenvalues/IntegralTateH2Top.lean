@@ -13,8 +13,6 @@ import Mathlib.Tactic.Linter.Style
 
 open Formalism Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.WeaklyAdmissibleFiltrations
 
-noncomputable section
-
 namespace GlobalTheory.IntTateTop
 
 open GlobalTheory.TateTop GlobalTheory.PadicH2Separated

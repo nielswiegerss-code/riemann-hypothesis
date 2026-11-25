@@ -25,8 +25,6 @@ open Classical
 
 
 
-noncomputable section
-
 namespace GlobalTheory.FlatVecExist
 
 open GlobalTheory.PlaceModel

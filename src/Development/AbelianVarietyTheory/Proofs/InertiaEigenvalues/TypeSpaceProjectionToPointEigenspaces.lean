@@ -13,8 +13,6 @@ import Formalism.LocalToGlobal.IndefiniteForms.IndefSide
 
 open Formalism.BasicNotions Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 Formalism.L2.DIV Formalism.L2.Indef NumberField IsDedekindDomain GlobalTheory.EtaJoin
 
-noncomputable section
-
 namespace GlobalTheory.EtaJoin.TypeTieProof
 
 theorem exists_ext_semilin {L V W U ι : Type} [Field L] [AddCommGroup V] [Module L V] [AddCommGroup W] [Module ℂ W]

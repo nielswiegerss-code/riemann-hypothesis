@@ -7,8 +7,6 @@ public import Mathlib.RingTheory.Adjoin.PowerBasis
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.UnitLemma.Unr
 
 open GlobalTheory.UnitLemma Polynomial

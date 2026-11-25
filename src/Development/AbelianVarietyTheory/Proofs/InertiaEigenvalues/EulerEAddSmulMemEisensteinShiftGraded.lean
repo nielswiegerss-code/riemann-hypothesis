@@ -5,8 +5,6 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsEqMul
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Proof.eulerE_add_smul_mem_eisenstein_shift_graded
 
 open PowerSeries GlobalTheory.BK

@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.Acris0Torsio
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Formalism.Per
 open Filter Topology
 
@@ -129,5 +127,3 @@ theorem gC_logConvex : ∀ (l : ℕ) [Fact l.Prime] (x : Formalism.Per.Acris l) 
     max_eq_left (mul_nonneg (Real.rpow_nonneg (g₁.1 x).1 _) (Real.rpow_nonneg (g₂.1 x).1 _))] at this
 
 end GlobalTheory.PMon.Gauss
-
-end

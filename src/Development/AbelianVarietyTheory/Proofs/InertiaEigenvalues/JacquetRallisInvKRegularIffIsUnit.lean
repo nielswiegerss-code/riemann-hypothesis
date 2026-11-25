@@ -8,8 +8,6 @@ public import ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.UniNilp
 
 open GlobalTheory.JR Matrix MeasureTheory Filter Topology
 
-noncomputable section
-
 namespace GlobalTheory.JR.EtInv
 
 section Gen

@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open PowerSeries GlobalTheory.BK
 
 namespace GlobalTheory.Proof.breuilKisin_descent_operator_preserves_lattice

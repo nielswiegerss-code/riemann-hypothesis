@@ -46,8 +46,6 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsUnitarisa
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain GlobalTheory.CuspRep GlobalTheory.UnitaryBC GlobalTheory.SmGL GlobalTheory.DefiniteBC GlobalTheory.BcSpeh
 
 namespace GlobalTheory.DiscreteSpectrumCM
@@ -144,5 +142,3 @@ theorem spehInf_eq (d : ℕ) (m : Multiset ℂ) : GlobalTheory.SphGal.spehInf d 
   rfl
 
 end GlobalTheory.DiscreteSpectrumCM
-
-end

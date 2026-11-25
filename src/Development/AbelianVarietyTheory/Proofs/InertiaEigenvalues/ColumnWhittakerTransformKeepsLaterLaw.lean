@@ -8,8 +8,6 @@ import Development.AutomorphicArithmetic.IntegralCasts.IsOpenStabOfMemNhds
 
 open NumberField IsDedekindDomain MeasureTheory Matrix GlobalTheory.CuspRep GlobalTheory.CuspGeneric
 
-noncomputable section
-
 namespace GlobalTheory.CuspGeneric
 
 section Mat

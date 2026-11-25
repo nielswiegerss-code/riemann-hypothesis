@@ -10,8 +10,6 @@ public import Mathlib.FieldTheory.Galois.Infinite
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.Loc GlobalTheory.Cyc
 
 namespace GlobalTheory.Cyc.AlmostTrace

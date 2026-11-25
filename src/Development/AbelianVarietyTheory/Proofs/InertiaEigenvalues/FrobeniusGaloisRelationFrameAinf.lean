@@ -10,8 +10,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.LocCoh
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions.N TensorProduct PowerSeries GlobalTheory.Prism GlobalTheory.BKReal GlobalTheory.Per GlobalTheory.BSP GlobalTheory.MemLoc GlobalTheory.Pst GlobalTheory.BKLim GlobalTheory.Cong Matrix
 open scoped Formalism.Per NNReal
 
-noncomputable section
-
 namespace GlobalTheory.GalPhi
 
 variable {l : ℕ} [Fact l.Prime]
@@ -71,5 +69,3 @@ theorem GlobalTheory.GalPhi.galPhi : ∀ (l : ℕ) [Fact l.Prime] (K : FinExt l)
     refine Matrix.ext fun i j => ?_; exact (σA_frobenius _ _).symm
   rw [h1, h2] at h
   exact h
-
-end

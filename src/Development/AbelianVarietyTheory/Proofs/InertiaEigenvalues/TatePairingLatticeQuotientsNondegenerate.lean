@@ -13,8 +13,6 @@ import Mathlib.Tactic.ReduceModChar
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.TateFin
 
 section Core

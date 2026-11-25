@@ -8,8 +8,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TiltSep
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.N Formalism.MainNotions.LocalSituation GlobalTheory.Cyc GlobalTheory.Decompl
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.DecomplFrob
 
 variable {l : ℕ} [Fact l.Prime]

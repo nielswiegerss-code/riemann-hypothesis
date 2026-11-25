@@ -19,8 +19,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.CoverFrameMod
 
 section Exp

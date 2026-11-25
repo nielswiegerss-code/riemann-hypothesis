@@ -16,8 +16,6 @@ import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SeriesKillsAvg
 
 open GlobalTheory.GLq GlobalTheory.MirAvg Polynomial
 
-noncomputable section
-
 namespace GlobalTheory.GLq.DetRoot
 
 open scoped Classical

@@ -55,8 +55,6 @@ open scoped TensorProduct InnerProductSpace
 open GlobalTheory.RawLift
 open Classical
 
-noncomputable section
-
 namespace GlobalTheory.BadOrth
 
 
@@ -92,5 +90,3 @@ open GlobalTheory.PlaceModel GlobalTheory.PlaceModelSum
 
 
 end GlobalTheory.BadOrth
-
-end

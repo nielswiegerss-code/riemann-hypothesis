@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations GlobalTheory.Pst TensorProduct
 open scoped Formalism.Per
 
@@ -47,5 +45,3 @@ theorem act_zpow (g : GQ l) (a : ℤ) :
   exact h2
 
 end GlobalTheory.PMon.Inhab
-
-end

@@ -5,8 +5,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.BlochKatoPhases
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.TripleGal.HodgeOfAtt
 
 open GlobalTheory.TripleGal Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions Formalism.MainNotions.N Formalism.MainNotions.BlochKatoReduction Formalism.MainNotions.BlochKatoReduction.Gen Formalism.ConjugateSelfDual ReciprocityTheory.Gal NumberField IsDedekindDomain Polynomial
@@ -29,5 +27,3 @@ theorem not_mem_pD (D : D7) (i : D.ntw.Tw) {v : HeightOneSpectrum (𝓞 D.host.E
   · exact not_mem_placesOver_of_ne D.host.pde_prime hl (Ne.symm h) v hv' hv
 
 end GlobalTheory.TripleGal.HodgeOfAtt
-
-end

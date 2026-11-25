@@ -18,8 +18,6 @@ open scoped TensorProduct
 open GlobalTheory.ConjTwist GlobalTheory.GalTw ReciprocityTheory.ChartRestriction.G.Geo.Tor
 open Classical
 
-noncomputable section
-
 namespace GlobalTheory.ConjHalfDual
 
 open Formalism.IndefR.Fin.LevelGroupLemmas.Lat
@@ -73,5 +71,3 @@ theorem mem_latO_iff_of_conjHalf : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ)
     rw [hdec, _root_.GlobalTheory.LatVac.symplO_add_right, _root_.GlobalTheory.LatVac.symplO_add_right, t2, t3, add_zero, add_zero, t1]
 
 end GlobalTheory.ConjHalfDual
-
-end

@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism Formalism.MainNotions Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Module GlobalTheory.Cut
 
 namespace GlobalTheory.CutTrivIne
@@ -74,5 +72,3 @@ theorem main : âˆ€ (D : D7) (i : D.nd.Loc) (C : Submodule (D.nd.O i) (GE D.nd â†
   exact h3
 
 end GlobalTheory.CutTrivIne
-
-end

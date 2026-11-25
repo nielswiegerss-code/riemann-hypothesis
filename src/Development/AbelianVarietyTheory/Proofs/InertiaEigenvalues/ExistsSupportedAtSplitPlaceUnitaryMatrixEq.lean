@@ -23,8 +23,6 @@ open GlobalTheory.DownLift.GenFinite
 open GlobalTheory.IndefiniteRowSideFullHecke.RestrictedTensorSplitting (FinPl idem SplitProj IsIdemOf IsProjAt adjCo grpCo frCo)
 open GlobalTheory.DownLift.GenSplit
 
-noncomputable section
-
 namespace GlobalTheory.DownLift.GenSplit
 
 theorem exists_suppAt_grpCo_eq : ∀ (D : D7) (V : HSp D) (v : FinPl D) (φ : SplitProj D v) (e : Formalism.L2.Theta.AE D),
@@ -39,5 +37,3 @@ theorem exists_suppAt_grpCo_eq : ∀ (D : D7) (V : HSp D) (v : FinPl D) (φ : Sp
   rfl
 
 end GlobalTheory.DownLift.GenSplit
-
-end

@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.VacC
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR Formalism.IndefR.Datum IsDedekindDomain NumberField Matrix GlobalTheory.ExportSeries GlobalTheory.ExportSeries.DualType
 open Formalism.IndefR.Links (PolF)
 
-noncomputable section
-
 
 
 
@@ -69,5 +67,3 @@ theorem redFn_eq_one_of_suppAt : ∀ {D : D7} {V : HSp D} (β : GL (Fin V.rank) 
   split_ifs <;> simp
 
 end GlobalTheory.ExportSeries
-
-end

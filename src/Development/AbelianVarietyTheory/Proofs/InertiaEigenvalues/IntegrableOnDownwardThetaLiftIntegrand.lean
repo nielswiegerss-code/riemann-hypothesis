@@ -15,8 +15,6 @@ open scoped TensorProduct InnerProductSpace
 open GlobalTheory.DownLift
 open GlobalTheory.DownLift.GenFinite
 
-noncomputable section
-
 open scoped ComplexOrder
 
 namespace GlobalTheory.DownLift.GenFinite
@@ -55,5 +53,3 @@ theorem integrableOn_downIntegrand : ∀ (D : D7) (G : Type) [Group G] [Fintype 
   exact key
 
 end GlobalTheory.DownLift.GenFinite
-
-end

@@ -13,8 +13,6 @@ open Formalism.IndefR.Lev Formalism.IndefR.Mult Formalism.IndefR.Datum Formalism
 open scoped TensorProduct InnerProductSpace
 open GlobalTheory.RawLift
 
-noncomputable section
-
 namespace GlobalTheory.RawLift.LevelFix
 
 variable {D : D7} {G : Type} [Group G] [Fintype G] {Pl0 T : Type} {A : FamIn D.what₂.LL G Pl0 T D.R.m}
@@ -32,5 +30,3 @@ theorem levChi_flag_one (R : RealDat D A Ks) (i : Fin D.R.m) (t : T) :
   exact congrArg Units.val this
 
 end GlobalTheory.RawLift.LevelFix
-
-end

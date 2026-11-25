@@ -23,8 +23,6 @@ open GlobalTheory.HeckeGal (Gab toAb IsGlobalArtin)
 open Formalism.L2.Host (embLL0)
 
 
-noncomputable section
-
 namespace GlobalTheory.SeriesTie.PlacesGood
 
 variable {D : D7}
@@ -118,5 +116,3 @@ theorem placesOK : ∀ (D : D7) (Γ : Type) [Group Γ] [Fintype Γ] (Pl0 I0 T : 
       exact count_AA_eq_zero (hpp p hp).2.2.1 (hmem _ hm)
 
 end GlobalTheory.SeriesTie.PlacesGood
-
-end

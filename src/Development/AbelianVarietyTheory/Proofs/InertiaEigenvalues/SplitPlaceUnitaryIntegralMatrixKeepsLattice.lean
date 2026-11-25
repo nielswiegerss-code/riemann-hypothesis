@@ -19,8 +19,6 @@ open GlobalTheory.DownLift.GenFinite
 open GlobalTheory.IndefiniteRowSideFullHecke.RestrictedTensorSplitting (FinPl idem SplitProj IsIdemOf IsProjAt adjCo grpCo frCo)
 open GlobalTheory.DownLift.GenSplit
 
-noncomputable section
-
 namespace GlobalTheory.DownLift.SplitIntLift
 
 theorem exists_lift {R K O : Type} [CommRing R] [CommRing K] [CommRing O] {n : ℕ} (S : Subring R) (π : R →+* K)
@@ -122,5 +120,3 @@ theorem lift_of_integral : ∀ (D : D7) (V : HSp D) (β : GL (Fin V.rank) (Forma
       exact hsf
 
 end GlobalTheory.DownLift.SplitIntLift
-
-end

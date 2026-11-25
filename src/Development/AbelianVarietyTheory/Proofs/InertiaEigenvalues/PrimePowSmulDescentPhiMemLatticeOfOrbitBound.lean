@@ -6,8 +6,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PowSmul
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.BK
 
 open PowerSeries Filter Topology Matrix

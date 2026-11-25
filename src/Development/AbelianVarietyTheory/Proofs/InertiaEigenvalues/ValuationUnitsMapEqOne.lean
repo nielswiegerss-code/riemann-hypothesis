@@ -11,8 +11,6 @@ public import Mathlib.NumberTheory.Padics.LocalField
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 Formalism.L2.NT NumberField IsDedekindDomain Polynomial GlobalTheory.TypeRec GlobalTheory.GLq GlobalTheory.GLp GlobalTheory.SerSys
 
-noncomputable section
-
 namespace GlobalTheory.GLp.Supp
 
 open GlobalTheory.SmGL GlobalTheory.PRep ValuativeRel

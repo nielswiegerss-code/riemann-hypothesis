@@ -9,8 +9,6 @@ public import Mathlib.RingTheory.PowerSeries.Evaluation
 
 @[expose] public section
 
-noncomputable section
-
 open PowerSeries GlobalTheory.NB.LT
 
 namespace GlobalTheory.NB.LT

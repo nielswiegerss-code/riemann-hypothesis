@@ -11,8 +11,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations TensorProduct PowerSeries GlobalTheory.Prism GlobalTheory.BKReal GlobalTheory.Per GlobalTheory.BSP
 open scoped Formalism.Per NNReal
 
-noncomputable section
-
 namespace GlobalTheory.BSP.ProjDescent
 
 section SlopeTestRemainingChoices

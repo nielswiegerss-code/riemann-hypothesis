@@ -7,8 +7,6 @@ public import Formalism.LocalRingCardinality.RhoDetPrimeEqMuTildeMulChiPow
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N
 
 namespace GlobalTheory.Proof.ConjugatePlaces
@@ -47,5 +45,3 @@ variable (H)
 end Host
 
 end GlobalTheory.Proof.ConjugatePlaces
-
-end

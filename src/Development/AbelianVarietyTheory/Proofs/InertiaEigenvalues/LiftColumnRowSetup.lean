@@ -11,8 +11,6 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BoundAtTwoT
 
 open NumberField IsDedekindDomain Formalism Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations GlobalTheory.NLink
 
-noncomputable section
-
 namespace GlobalTheory.LiftExpSplit
 
 open Module
@@ -82,5 +80,3 @@ theorem mem_window (L : SizeData₂ D) (a : ℤ) (ha : |(a : ℝ)| ≤ Formalism
   constructor <;> omega
 
 end GlobalTheory.LiftExpSplit
-
-end

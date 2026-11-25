@@ -12,8 +12,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 open GlobalTheory.GLq Formalism.MainNotions.ArithmeticCylinders Polynomial
 open scoped Classical
 
-noncomputable section
-
 namespace GlobalTheory.CharDec
 
 theorem isClass_of_isChar {G : Type} [Group G] {χ : G → ℂ} (h : IsChar χ) : IsClass χ := by

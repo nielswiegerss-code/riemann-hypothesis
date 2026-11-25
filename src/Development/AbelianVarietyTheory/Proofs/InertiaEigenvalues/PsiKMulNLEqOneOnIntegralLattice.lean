@@ -9,8 +9,6 @@ public import Mathlib.Analysis.Normed.Group.Ultra
 
 open GlobalTheory.JR Matrix MeasureTheory Filter Topology
 
-noncomputable section
-
 namespace GlobalTheory.JR.NormInt
 
 variable {F E : Type} [NontriviallyNormedField F] [NontriviallyNormedField E] [NormedAlgebra F E] [StarRing E]

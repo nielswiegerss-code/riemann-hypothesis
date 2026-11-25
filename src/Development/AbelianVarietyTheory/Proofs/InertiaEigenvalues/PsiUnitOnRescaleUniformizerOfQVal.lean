@@ -13,8 +13,6 @@ open AlgebraicGeometry CategoryTheory CategoryTheory.Limits MonoidalCategory Car
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Out ReciprocityTheory.ChartRestriction.G.Geo.Tor
 open ReciprocityTheory.ChartRestriction.G.DVR.QForm (QVal IsQ bOf)
 
-noncomputable section
-
 namespace GlobalTheory.TauTwist
 
 open ReciprocityTheory.ChartRestriction.G.DVR ReciprocityTheory.ChartRestriction.G.Out
@@ -67,5 +65,3 @@ theorem psiUnitOn_rescale_of_qVal : ∀ (T : Formalism.L2.Pj.CDVR) (D : DegPre T
     exact (gs_pull (𝟙 _) (jK T.V) x _ (hW hx) _).symm
 
 end GlobalTheory.TauTwist
-
-end

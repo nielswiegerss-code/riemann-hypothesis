@@ -14,8 +14,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR Formalism.IndefR.Datum IsDedekindDomain NumberField Formalism.ConjugateSelfDual ReciprocityTheory.Gal GlobalTheory.ExportSeries GlobalTheory.SeriesTie
 
-noncomputable section
-
 
 
 
@@ -125,5 +123,3 @@ theorem spread_restrict : ∀ (D : D7) (N : NData D.R D.host D.what₂) (X : NTw
     rw [spread_conj hY hch hQ c (hQQ hv) hc hvP (hsub P hPh'), spread_conj hY hch hQ' _ hv hc hvP hPh']
 
 end GlobalTheory.SpreadRestrict
-
-end

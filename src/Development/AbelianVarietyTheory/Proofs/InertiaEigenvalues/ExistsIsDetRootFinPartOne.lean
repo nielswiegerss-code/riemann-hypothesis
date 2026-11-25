@@ -10,7 +10,6 @@ import Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsAlgebraMap
 
 @[expose] public section
 
-noncomputable section
 open NumberField IsDedekindDomain
 open scoped TensorProduct
 open Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Formalism.L2.Theta Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR Formalism.IndefR.Links

@@ -12,7 +12,6 @@ import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaus
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.GaussExt
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc GlobalTheory.MemLoc Filter Topology
 open scoped Formalism.Per

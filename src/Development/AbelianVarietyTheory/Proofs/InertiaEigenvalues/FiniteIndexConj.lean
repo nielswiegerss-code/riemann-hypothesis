@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.RowsExhaust
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 NumberField IsDedekindDomain Polynomial GlobalTheory.EtaJoin GlobalTheory.CoefDuty
 
-noncomputable section
-
 namespace GlobalTheory.CongIndex
 
 theorem bounded_cover {L : Type} [Field L] [NumberField L] [IsCMField L] {n : ℕ} {J : Subgroup (GAf L n)}
@@ -49,5 +47,3 @@ theorem finite_index_conj : ∀ (L : Type) [Field L] [NumberField L] [IsCMField 
   exact hu
 
 end GlobalTheory.CongIndex
-
-end

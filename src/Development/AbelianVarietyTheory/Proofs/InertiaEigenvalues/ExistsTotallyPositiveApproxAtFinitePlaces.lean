@@ -11,8 +11,6 @@ public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
 
 open NumberField IsDedekindDomain
 
-noncomputable section
-
 namespace GlobalTheory.FinPlaceApproxPos
 
 theorem exists_approx_totally_positive (F : Type) [Field F] [NumberField F]

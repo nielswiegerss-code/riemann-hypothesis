@@ -6,8 +6,6 @@ public import Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.OrderOfSignGroupDv
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.FrobeniusOrbits GlobalTheory.IndefiniteRowSideFullHecke.SplitPlaceTypes
 open GlobalTheory.SplitRowProbe
 
@@ -201,5 +199,3 @@ theorem place_type_conj : ∀ (D : D7) (i : D.nd.Loc), SplitRowPrime D.host (D.n
   · exact (root_ne D i w w' hw hw' hc (by simpa using hn0) ht (e ▸ ht')).elim
 
 end GlobalTheory.SplitType
-
-end

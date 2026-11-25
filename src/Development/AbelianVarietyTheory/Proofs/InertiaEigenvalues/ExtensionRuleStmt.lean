@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ResBound
 open GlobalTheory.AdmLoc GlobalTheory.TopSteps Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions
 open TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.ExtDict
 
 section Generic

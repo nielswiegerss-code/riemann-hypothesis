@@ -12,8 +12,6 @@ open Formalism.IndefR.Lev Formalism.L2.DIV Formalism.IndefR.Mult
 
 
 
-noncomputable section
-
 namespace GlobalTheory.SplitOffS0
 
 theorem main : ∀ {D : D7} {N : NData D.R D.host D.what₂} {X : NTw D.R D.host D.what₂ D.LL0 N} {ρ : Setup X}, ρ.Good → ∀ (i : X.Tw) (Q : Finset (Pl D.host.E)), (∀ P' ∈ Q, P' ∈ X.S0 i) → ∀ (P : Pl D.host.E), IsSplitPl D.host P → P ∉ X.S0 i → Bridge.SplitOff P (Q : Set (Pl D.host.E)) := by

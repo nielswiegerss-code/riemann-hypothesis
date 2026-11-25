@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Trip
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.TripleGal Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions Formalism.MainNotions.N Formalism.MainNotions.BlochKatoReduction Formalism.MainNotions.BlochKatoReduction.Gen Formalism.ConjugateSelfDual ReciprocityTheory.Gal NumberField IsDedekindDomain
 
 namespace GlobalTheory.ReadEmbEx
@@ -79,5 +77,3 @@ theorem exists_readEmb : ∀ (D : D7) (bkP : BlochKatoReduction.BK D) (i : D.ntw
   exact ⟨_, h, fun v' hv' τ' hc x n d hx => h _ n d ((hc x n d).1 hx)⟩
 
 end GlobalTheory.ReadEmbEx
-
-end

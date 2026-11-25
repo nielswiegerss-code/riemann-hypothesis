@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.Crysta
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.CrysExtCrit
 
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions.N TensorProduct Module

@@ -49,7 +49,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.PhiGam.Compare
 open GlobalTheory.PhiGam
 open scoped LaurentSeries PowerSeries

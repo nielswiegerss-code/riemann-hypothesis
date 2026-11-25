@@ -21,8 +21,6 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsWildInert
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 NumberField IsDedekindDomain Polynomial GlobalTheory.EtaJoin GlobalTheory.CoefDuty
 
-noncomputable section
-
 namespace GlobalTheory.LiftPoint
 
 theorem root_map_eq {K : Type} [Field K] {V : Type} [AddCommGroup V] [Module K V] [FiniteDimensional K V]

@@ -10,8 +10,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 open GlobalTheory.GLq Formalism.MainNotions.ArithmeticCylinders Polynomial
 open scoped Classical
 
-noncomputable section
-
 namespace GlobalTheory.GLq.ZOrth
 
 open GlobalTheory.BadShare GlobalTheory.BadShare.Basic

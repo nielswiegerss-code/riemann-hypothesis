@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsUnitaryAde
 
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.L2.Pj Formalism.IndefR.Datum Formalism.IndefR.Lift
 
-noncomputable section
-
 namespace GlobalTheory.SplitChange
 
 variable {D : D7} {ψ : AddChar (AF D.host.F) ℂ} {V W : HSp D} {χV χW ν : (AE D)ˣ →* Circle}
@@ -97,5 +95,3 @@ theorem change_of_splitting (D : D7) (ψ : AddChar (AF D.host.F) ℂ) (V W : HSp
   exact change_of_splitting_pair D ψ V W _ _ ν om ho hν hF
 
 end GlobalTheory.SplitChange
-
-end

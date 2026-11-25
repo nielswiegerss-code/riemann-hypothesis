@@ -13,7 +13,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.FiniteA
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.PhiGam.TwistShift
 open GlobalTheory.PhiGam
 open scoped LaurentSeries PowerSeries

@@ -12,8 +12,6 @@ public import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
 
 open Module
 
-noncomputable section
-
 namespace GlobalTheory.DVRQuotCount
 
 open scoped TensorProduct DirectSum

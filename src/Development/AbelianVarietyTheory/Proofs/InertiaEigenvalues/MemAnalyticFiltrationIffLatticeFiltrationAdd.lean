@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Exis
 
 @[expose] public section
 
-noncomputable section
-
 open PowerSeries Matrix
 
 namespace GlobalTheory.BK.FilAn

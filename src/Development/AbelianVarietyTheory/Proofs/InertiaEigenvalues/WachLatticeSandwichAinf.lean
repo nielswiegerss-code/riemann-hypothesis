@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Definitions.Foundations.HTBasis
 open Formalism.WeaklyAdmissibleFiltrations Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions.N Formalism.MainNotions.LocalSituation GlobalTheory.Cyc
 open TensorProduct Module
 
-noncomputable section
-
 namespace GlobalTheory.Sandwich
 
 section Abstract

@@ -11,8 +11,6 @@ open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.Weakl
 open scoped Formalism.Per NNReal
 open Matrix
 
-noncomputable section
-
 namespace GlobalTheory.BSP
 
 variable {l : ℕ} [hl : Fact l.Prime]

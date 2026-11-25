@@ -46,7 +46,6 @@ public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCon
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 Formalism.L2.Host NumberField IsDedekindDomain
 open ValuativeRel Matrix GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil GlobalTheory.LocGL GlobalTheory.RecT GlobalTheory.HeightCounting
-noncomputable section
 
 namespace GlobalTheory.SplitTypeCompl
 
@@ -73,5 +72,3 @@ theorem exists_padic_equiv : ∀ (D : D7) (s : SplitPlace D.host.E), s.v ∈ gPl
   exact ⟨D.host.g k, inferInstance, φ, h⟩
 
 end GlobalTheory.SplitTypeCompl
-
-end

@@ -8,8 +8,6 @@ public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsCrystal
 
 open Formalism.WeaklyAdmissibleFiltrations Module TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.HTW.Rec
 
 section PotTransport

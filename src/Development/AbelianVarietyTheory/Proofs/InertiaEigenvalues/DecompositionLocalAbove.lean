@@ -6,8 +6,6 @@ public import Formalism.SharpRestriction.LevelLetterCocycles.AdmissibleParameter
 
 open NumberField IsDedekindDomain Formalism Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.MainNotions Formalism.MainNotions.N Formalism.WeaklyAdmissibleFiltrations Module
 
-noncomputable section
-
 namespace GlobalTheory.JumpWin
 
 theorem finset_of_rat (F : Finset ℚ) (n N : ℕ) (P : ℤ → Prop) (hF : F.card ≤ n)
@@ -121,5 +119,3 @@ theorem GlobalTheory.jumps_WpO_T2O_window : ∀ (D : D7) (L : SizeData₂ D) (ep
     · intro h0
       have := ((hW 0).2.2.1).1 h0
       exact (hf _ hj.1 hj.2 ρ').2.2.1 up (by simpa using this)
-
-end

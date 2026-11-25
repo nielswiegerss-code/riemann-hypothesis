@@ -6,7 +6,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.PhiGam.SenShift
 open GlobalTheory.PhiGam
 open scoped LaurentSeries PowerSeries

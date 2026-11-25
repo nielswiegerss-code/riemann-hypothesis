@@ -12,8 +12,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ThetaBdRPlus
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc GlobalTheory.MemLoc
 open scoped Formalism.Per
 
-noncomputable section
-
 namespace GlobalTheory.LogU
 
 variable {l : ℕ} [Fact l.Prime]

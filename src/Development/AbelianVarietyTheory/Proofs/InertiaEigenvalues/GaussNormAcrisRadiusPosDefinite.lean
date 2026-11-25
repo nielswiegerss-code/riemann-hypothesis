@@ -8,8 +8,6 @@ public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Monomia
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Formalism.Per
 
 namespace GlobalTheory.PMon.Gauss
@@ -61,5 +59,3 @@ theorem gC_pos_of_ne_zero : ∀ (l : ℕ) [Fact l.Prime] (x : Formalism.Per.Acri
 
 
 end GlobalTheory.PMon.Gauss
-
-end
