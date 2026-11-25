@@ -6,8 +6,6 @@ public import Formalism.HermitianCurvature.FrameExists2
 
 open Matrix Finset
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.FrameExtension
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Qr Formalism.FourierDecayAlt.P Formalism.FourierDecayAlt.P.QrD

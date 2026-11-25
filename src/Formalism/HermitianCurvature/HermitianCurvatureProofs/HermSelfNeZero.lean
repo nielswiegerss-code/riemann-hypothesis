@@ -17,8 +17,6 @@ open Matrix Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayA
 
 namespace Formalism.FourierDecayAlt.P.CutMP.JfS.Sym
 
-noncomputable section
-
 variable {k r : ℕ}
 
 theorem herm_proj_zero (x z : Fin (2 * r + k + 1) → ℂ) (hc : herm (Hpk k r) z z ≠ 0) :
@@ -132,7 +130,5 @@ theorem coreW {z : Fin (2 * r + k + 1) → ℂ} (hz : inWb k r z) (hT : 0 < Tz k
   have e : u = α • z + (u - α • z) := by abel
   rw [e, mulVec_add, mulVec_smul, hξz0, stepB _ hu' hu'z, hb0, herm_zero_right]
   simp
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.JfS.Sym

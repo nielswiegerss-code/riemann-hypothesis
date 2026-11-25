@@ -8,8 +8,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.B
 open MeasureTheory Matrix
 open scoped InnerProductSpace
 
-noncomputable section
-
 namespace PI.WBL.FSW
 
 open Formalism.QuantumDeterminants Formalism.MainNotions.S Formalism.MainNotions.S.ThB Formalism.BasicNotions PI.BesselLine PI.WBL

@@ -11,8 +11,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.BetaSesquilinearity
 open Matrix Finset
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.JFxE
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.P.BetaSesquilinearity

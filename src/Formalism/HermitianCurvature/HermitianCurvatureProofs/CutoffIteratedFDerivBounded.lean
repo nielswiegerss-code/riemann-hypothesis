@@ -9,8 +9,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 open Matrix Set
 open scoped ComplexConjugate ContDiff Topology
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.AdmissibleLieWords
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.P.BetaSesquilinearity PI.UnitaryCorollaryDerivatives.CRH

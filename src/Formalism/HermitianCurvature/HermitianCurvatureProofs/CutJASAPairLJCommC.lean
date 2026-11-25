@@ -15,8 +15,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.JfBetaAdjCOfLemmaBN
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutMP.JA.SA
 
 open NumberField Formalism.FourierDecayAlt.P.CutMP Formalism.FourierDecayAlt.P.CutMP.JA
@@ -98,5 +96,3 @@ theorem self_adjoint_commutation_compact : SAJCommC :=
   sAJCommC_of_adjComm Formalism.FourierDecayAlt.P.CutMP.JA.FFS.adjoint_commutation_holds
 
 end Formalism.FourierDecayAlt.P.CutMP.JA.SA
-
-end

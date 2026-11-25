@@ -15,8 +15,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 open Matrix MeasureTheory Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PositiveOrbitOpen
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.JF

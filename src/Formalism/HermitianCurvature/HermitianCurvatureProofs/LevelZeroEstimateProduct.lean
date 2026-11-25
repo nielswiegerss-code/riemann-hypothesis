@@ -11,8 +11,6 @@ open Finset Filter Topology Formalism.FourierDecayAlt Formalism.FourierDecayAlt.
 
 open scoped ComplexOrder
 
-noncomputable section
-
 open Classical
 
 namespace Cx1
@@ -133,7 +131,5 @@ theorem cutoff_of_parts : C.CutoffOfParts := by
   intro E _ _ _ Wp Wq _ _ _ _ S H _ _ Vt hPG Kr hK0 Th e Y hY
   filter_upwards [hPG Y hY] with ε hε p hp q hq _
   exact hε p hp q hq
-
-end
 
 end Formalism.FourierDecayAlt.P

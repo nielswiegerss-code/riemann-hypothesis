@@ -13,8 +13,6 @@ namespace Formalism.FourierDecayAlt.P.CutBPEq
 open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.TBB Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.P.CutBP2
 open scoped ContDiff
 
-noncomputable section
-
 attribute [local instance] Matrix.normedAddCommGroup Matrix.normedSpace
 
 section clm
@@ -146,7 +144,5 @@ theorem shifted_decay : FpmShDecay := by
     push_cast; ring
   rw [← hA'] at hb'
   exact ⟨K * (‖Φ‖ * b), hK _ _ hb'⟩
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBPEq

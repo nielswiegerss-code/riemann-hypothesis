@@ -14,8 +14,6 @@ import Mathlib.Tactic.TypeStar
 open Matrix MeasureTheory Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PBE
 
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants

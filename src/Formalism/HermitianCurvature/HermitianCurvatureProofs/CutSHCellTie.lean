@@ -9,8 +9,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.WCellMemOmPlus
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutSH
 
 private theorem castV_liftVec_liftVec_eq_castV_liftVec_succ {k j ρ m n : ℕ} (e : 1 + ρ = m) (h1 : j + m = n)
@@ -50,4 +48,3 @@ theorem cell_compatibility : CellTie := by
   exact consC_castM_ιLev_mem_DomR_of_mem_DomR e ht _ _ x.1 x.2 hx
 
 end Formalism.FourierDecayAlt.P.CutSH
-

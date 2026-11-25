@@ -13,8 +13,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 open MeasureTheory Matrix
 open scoped InnerProductSpace ENNReal ComplexConjugate ContDiff
 
-noncomputable section
-
 
 
 namespace Formalism.FourierDecayAlt.P.DDSmoothness

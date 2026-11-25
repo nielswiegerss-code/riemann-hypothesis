@@ -8,8 +8,6 @@ namespace Formalism.FourierDecayAlt.P.CutBP
 
 open Formalism.FourierDecayAlt Filter Topology
 
-noncomputable section
-
 theorem xD_dil (φ : ℝ → ℝ) {ε : ℝ} (hε : 0 < ε) :
     xD (fun y => φ (y / ε)) = fun x => xD φ (x / ε) := by
   funext x
@@ -79,7 +77,5 @@ theorem truncated_supremum_bound_holds : NFCutSup := by
   · rw [xD_iterate_eq_ite_of_const_on_open isOpen_Ioi 1 (fun z hz => h1 z (le_of_lt hz)) q (x / ε) hy1]
     refine le_trans ?_ (le_max_right _ _)
     split_ifs <;> simp
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBP

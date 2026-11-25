@@ -11,8 +11,6 @@ namespace Formalism.FourierDecayAlt.P.CutBP
 
 open Formalism.FourierDecayAlt Formalism.QuantumDeterminants
 
-noncomputable section
-
 section aux
 
 variable {P : M.Par}
@@ -44,7 +42,5 @@ theorem nf_pow_le (G : ℝ) (hG : 0 ≤ G) {a N : ℕ} (ha : a ≤ N) : G ^ a �
     linarith
 
 end aux
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBP

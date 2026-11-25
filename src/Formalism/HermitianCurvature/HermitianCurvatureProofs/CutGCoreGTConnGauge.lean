@@ -9,8 +9,6 @@ open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt
 
 namespace Formalism.FourierDecayAlt.P.CutMP.Gauge.GC
 
-noncomputable section
-
 theorem mulQ_zbP (P : M.Par) (f : MA.SmQ P.r P.TT) (q : MA.Qp P.r P.TT) :
     ((mulQ P (MA.DQ P).zbP f : MA.SmQ P.r P.TT) : MA.Qp P.r P.TT → ℂ) q = star q.1.2 * (f : MA.Qp P.r P.TT → ℂ) q := mul_conjCoordinate_apply P f q
 
@@ -74,7 +72,5 @@ theorem gauge_transform_holds : GTCGauge := by
     fun ρ => ⟨(hu ρ).1, fun ζ hζ => ((hu ρ).2 ζ hζ).1⟩
   exact ⟨isFrameB_phase P Bs e u he hu', kapF_phase P Bs d e u hu' hk,
     nabF_phase P hTT Bs d e A B' u hAB hC hu⟩
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.Gauge.GC

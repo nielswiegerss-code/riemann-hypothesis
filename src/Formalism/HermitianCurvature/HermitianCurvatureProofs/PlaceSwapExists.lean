@@ -15,8 +15,6 @@ namespace Formalism.FourierDecayAlt.P.CutBPEq
 
 open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.TBB Formalism.QuantumDeterminants Formalism.FourierDecayAlt.P.CutBP Formalism.FourierDecayAlt.P.CutBP2 Matrix
 
-noncomputable section
-
 theorem place_swap_exists : PlaceSwapExists := by
   intro P Wp Wq Wq' _ _ _ _ _ _ _ _ _ p u'' π'' l0 hty hok hl1 hl2
   let Bs : B.RealPlaceData P.k P.r Wp Wq' :=
@@ -49,7 +47,5 @@ theorem place_swap_exists : PlaceSwapExists := by
     exact ⟨rfl, rfl, rfl, rfl, rfl, rfl, rfl, rfl⟩
   · show T'.base.π' = π''
     rw [hTb]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBPEq

@@ -10,8 +10,6 @@ open Formalism.FourierDecayAlt
 
 namespace Formalism.FourierDecayAlt.P.CutMP
 
-noncomputable section
-
 theorem site_vector_eq_tensor_product (P : M.Par) (L : R.LevelData (MA.A P (MA.DQ P)) P.r) (hL : MA.IsModelLevel P (MA.DQ P) L)
     (y : ℂ) (b : Fin 2) : Wd.v0 (MA.sites P (MA.DQ P)) y b = L.Tprod y b 0 := by
   obtain ⟨hp, -, hc, hci, -⟩ := hL
@@ -54,7 +52,5 @@ theorem mirror_residue_model_holds : JDRModelV := by
   intro P L hL y
   refine ⟨fun b => site_vector_eq_tensor_product P L hL (y : ℂ) b, fun a => ?_⟩
   rw [star_site_vector_eq_tensor P L hL (y : ℂ) a, Complex.conj_ofReal]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

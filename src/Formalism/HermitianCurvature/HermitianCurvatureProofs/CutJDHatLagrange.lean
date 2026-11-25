@@ -9,8 +9,6 @@ open Formalism.FourierDecayAlt
 
 namespace Formalism.FourierDecayAlt.P.CutMP
 
-noncomputable section
-
 theorem jdl_pow (d : ℕ) (ν : Fin (d + 1) → ℝ) (hν : Function.Injective ν) (k : ℕ) (hk : k ≤ d) (y : ℂ) :
     y ^ k = ∑ j, lagC ν j y * ((ν j : ℝ) : ℂ) ^ k := by
   classical
@@ -49,7 +47,5 @@ theorem hat_lagrange_decay_holds : JDHatLagrange := by
   intro P L ν hν y
   exact ⟨jdl_interp (fun s => L.R0 s) (P.r + 1) (Formalism.FourierDecayAlt.P.MAx3.G.raising_operator_polynomial P L 0) ν hν y,
     jdl_interp (fun s => L.R0v s) (P.r + 1) (Formalism.FourierDecayAlt.P.MAx3.L.raising_variant_polynomial P L 0) ν hν y⟩
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

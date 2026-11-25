@@ -7,8 +7,6 @@ public import Mathlib.Topology.TietzeExtension
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 open scoped InnerProductSpace
 

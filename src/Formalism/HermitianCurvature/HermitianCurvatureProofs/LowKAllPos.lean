@@ -13,8 +13,6 @@ import Mathlib.Tactic.TypeStar
 
 open Matrix Finset
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Qr Formalism.FourierDecayAlt.P.QrD

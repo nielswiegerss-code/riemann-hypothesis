@@ -4,8 +4,6 @@ public import Formalism.HermitianCurvature.StatementQ
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P
 
 open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q

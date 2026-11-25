@@ -20,8 +20,4 @@ namespace Formalism.FourierDecayAlt.P.CutBP.GT
 open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.P.GermRateSplit Finset Filter Topology MeasureTheory
 open scoped ComplexConjugate InnerProductSpace
 
-noncomputable section
-
-end
-
 end Formalism.FourierDecayAlt.P.CutBP.GT

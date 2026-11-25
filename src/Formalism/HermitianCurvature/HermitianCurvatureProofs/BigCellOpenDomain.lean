@@ -9,8 +9,6 @@ import Mathlib.Tactic.Linter.Style
 open Matrix MeasureTheory Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.BigCellOpenDomain
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.JF

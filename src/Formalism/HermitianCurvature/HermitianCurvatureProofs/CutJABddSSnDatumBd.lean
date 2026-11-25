@@ -13,8 +13,6 @@ import Mathlib.Tactic.TypeStar
 
 open Formalism.FourierDecayAlt
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutMP.JA
 
 open NumberField Formalism.FourierDecayAlt.P.CutMP Formalism.FourierDecayAlt.P.BetaSesquilinearity Formalism.FourierDecayAlt.B

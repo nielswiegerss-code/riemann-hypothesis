@@ -9,8 +9,6 @@ namespace Formalism.FourierDecayAlt.P.PBK
 open Formalism.FourierDecayAlt Finset Filter Topology MeasureTheory
 open scoped ComplexConjugate InnerProductSpace
 
-noncomputable section
-
 open Classical
 
 variable {H : Type} [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H]
@@ -49,7 +47,5 @@ theorem GermD.germLoc_tail (hG : GermD s β ε Y ut bt SS) (Gk : ι × ℂ → �
     · rfl
   · rw [← hN σ h hh h' hh']
     exact h3 h hh h' hh' σ
-
-end
 
 end Formalism.FourierDecayAlt.P.PBK

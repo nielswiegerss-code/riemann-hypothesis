@@ -11,8 +11,6 @@ open scoped ComplexConjugate Matrix
 
 namespace Formalism.FourierDecayAlt.P.CutMP.JA.SSn.Rep.Core.TC
 
-noncomputable section
-
 section hs
 
 variable {Wp Wq : Type} [NormedAddCommGroup Wp] [InnerProductSpace ℂ Wp] [NormedAddCommGroup Wq]
@@ -115,7 +113,5 @@ theorem theta_constancy_assembly : ThConstOfCut := by
   have := (main π hex.choose hex.choose_spec).choose_spec ζ hζ Xf hXf hfix
   subst hρ
   exact this
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.JA.SSn.Rep.Core.TC

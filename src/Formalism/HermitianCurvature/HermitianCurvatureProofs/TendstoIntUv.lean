@@ -9,8 +9,6 @@ import Formalism.HermitianCurvature.StatementQ
 open Matrix MeasureTheory Filter Topology
 open scoped ComplexConjugate InnerProductSpace ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P5.HerB
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Wd Formalism.FourierDecayAlt.P5 Formalism.FourierDecayAlt.P5.HerA

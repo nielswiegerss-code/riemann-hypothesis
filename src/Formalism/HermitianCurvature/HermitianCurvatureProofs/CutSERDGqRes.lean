@@ -10,8 +10,6 @@ import Mathlib.Algebra.Ring.IsFormallyReal
 open MeasureTheory
 open scoped Matrix
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutSE
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Wd Formalism.FourierDecayAlt.P5

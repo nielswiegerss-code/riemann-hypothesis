@@ -12,8 +12,6 @@ open Formalism.FourierDecayAlt
 
 namespace Formalism.FourierDecayAlt.P.CutMP
 
-noncomputable section
-
 open scoped ContDiff
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.P.BetaSesquilinearity PI.UnitaryCorollaryDerivatives.CRH Formalism.FourierDecayAlt.P.AdmissibleLieWords
@@ -24,7 +22,5 @@ theorem jdh_pd_star {N κ : ℕ} {P : Matrix (Fin N) (Fin N) ℂ → ℂ} (h : U
 
 theorem polynomial_decay_admissible : JDPolyOK := by
   apply GlobalTheory.HatNF.polyOp_ok
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

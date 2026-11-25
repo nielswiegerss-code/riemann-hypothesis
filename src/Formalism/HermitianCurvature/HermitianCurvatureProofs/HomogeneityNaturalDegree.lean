@@ -8,8 +8,6 @@ public import Mathlib.Algebra.MvPolynomial.CommRing
 
 open Formalism.FourierDecayAlt Formalism.QuantumDeterminants MvPolynomial
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PartialDerivativeAlgebra
 
 variable {N : ℕ}

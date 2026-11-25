@@ -12,8 +12,6 @@ open MeasureTheory
 
 namespace Formalism.FourierDecayAlt.P.CutMP.SmoothTransferRegularity
 
-noncomputable section
-
 section ctw
 
 variable {d : ℕ}
@@ -216,7 +214,5 @@ theorem classical_to_weak_solution : ClassToWeak := by
     · rw [hPu x hx, zero_mul]
     · rw [hφ0 x hx, mul_zero]
   rw [h0, integral_zero]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.SmoothTransferRegularity

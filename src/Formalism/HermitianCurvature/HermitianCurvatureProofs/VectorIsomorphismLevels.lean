@@ -8,8 +8,6 @@ import Formalism.HermitianCurvature.CompositeFormulaLevelZero
 
 open Matrix MeasureTheory
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PBFV
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Wd Formalism.YangianSpanCharacter.T Formalism.FourierDecayAlt.P5

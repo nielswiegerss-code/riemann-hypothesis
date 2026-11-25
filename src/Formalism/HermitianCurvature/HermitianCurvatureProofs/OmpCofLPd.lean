@@ -8,8 +8,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.HomogeneityN
 open Matrix Finset
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.TLC
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.TL Formalism.FourierDecayAlt.P.PartialDerivativeAlgebra

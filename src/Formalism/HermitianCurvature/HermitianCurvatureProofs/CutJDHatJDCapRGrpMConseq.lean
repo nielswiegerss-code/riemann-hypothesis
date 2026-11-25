@@ -17,8 +17,6 @@ open scoped ContDiff
 
 namespace Formalism.FourierDecayAlt.P.CutMP
 
-noncomputable section
-
 section pbop
 
 variable {r : ℕ} {X : Type*} [NormedAddCommGroup X] [NormedSpace ℂ X]
@@ -261,7 +259,5 @@ theorem jDRvConseq_of (hC : JDRvCont) : JDRvConseq := by
     exact hC (Wq →L[ℂ] Wp) r Y _ hOx (fun c' hc' => hc'.1) (fun c' => Φ c' x) hsmooth c ⟨hc, hx.2⟩ a
   simp only [Pi.add_apply]
   rw [hsw 0, hsw 1]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

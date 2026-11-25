@@ -15,8 +15,6 @@ namespace Formalism.FourierDecayAlt.P.CutMP
 
 open Matrix
 
-noncomputable section
-
 section
 
 variable {k r : ℕ}
@@ -97,7 +95,5 @@ theorem residue_top_holds : JDRTop := by
     congr 2
     · simp
     · apply Fin.ext; simp [Q.posL, wI]; omega
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

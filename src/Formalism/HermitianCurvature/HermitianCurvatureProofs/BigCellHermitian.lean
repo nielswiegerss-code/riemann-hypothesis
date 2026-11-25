@@ -10,8 +10,6 @@ import Mathlib.Tactic.Lemma
 
 open Matrix MeasureTheory Filter Topology
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.BigCellHermitian
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.JF Formalism.FourierDecayAlt.P.TwoByOneBlock

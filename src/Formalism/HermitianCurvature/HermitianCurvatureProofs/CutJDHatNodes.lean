@@ -8,8 +8,6 @@ open Formalism.FourierDecayAlt
 
 namespace Formalism.FourierDecayAlt.P.CutMP
 
-noncomputable section
-
 theorem hat_nodes_decay_holds : JDHatNodes := by
   intro P
   classical
@@ -33,7 +31,5 @@ theorem hat_nodes_decay_holds : JDHatNodes := by
         ((Mb + ((j : ℕ) : ℝ) + M.rho P π i : ℝ) : ℂ) := by push_cast; ring
     rw [hc]
     exact Complex.ofReal_ne_zero.2 (ne_of_gt hpos)
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

@@ -11,8 +11,6 @@ import Mathlib.Tactic.TypeStar
 
 open Matrix MeasureTheory Filter Topology
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.ChartIntegralLocal
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.P.B4 Formalism.FourierDecayAlt.P.Ux1 Formalism.FourierDecayAlt.P.Ux10

@@ -10,8 +10,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.CutJDHatPoly
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.P.BetaSesquilinearity
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutSE
 
 section

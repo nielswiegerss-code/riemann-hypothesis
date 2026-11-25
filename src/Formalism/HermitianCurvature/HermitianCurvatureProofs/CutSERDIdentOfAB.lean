@@ -9,8 +9,6 @@ public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
 
 open MeasureTheory
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutSE
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Wd Formalism.FourierDecayAlt.P5

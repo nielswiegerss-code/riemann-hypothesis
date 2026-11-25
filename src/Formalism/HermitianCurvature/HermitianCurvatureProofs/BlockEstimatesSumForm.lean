@@ -8,8 +8,6 @@ public import Mathlib.Analysis.Matrix.Order
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.BaseGramNonnegativity
 
 open Formalism.FourierDecayAlt.crystallineComparison Formalism.FourierDecayAlt.TB
@@ -58,4 +56,3 @@ theorem estBlockOfSumForm_ok : EstBlockOfSumForm := by
     exact h.trans (mul_le_mul_of_nonneg_right hMv hX)
 
 end Formalism.FourierDecayAlt.P.BaseGramNonnegativity
-

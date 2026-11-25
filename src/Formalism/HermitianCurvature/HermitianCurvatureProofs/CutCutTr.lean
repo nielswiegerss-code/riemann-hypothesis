@@ -17,8 +17,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutMP
 
 attribute [local instance] Matrix.normedAddCommGroup Matrix.normedSpace

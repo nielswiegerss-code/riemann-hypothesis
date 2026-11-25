@@ -10,8 +10,6 @@ open scoped ContDiff
 
 namespace Formalism.FourierDecayAlt.P.CutMP
 
-noncomputable section
-
 theorem class_lower_decay_holds : JDCCLower := by
   intro k r Wp Wq _ _ _ _ _ _ Θ d A hd hG F hF hFA
   have hO : IsOpen (∅ : Set (B.Mat k r)) := isOpen_empty
@@ -41,7 +39,5 @@ theorem class_lower_decay_holds : JDCCLower := by
       rw [sub_add_cancel]; exact InCC_Rw T.word_lie (hFA _)
     exact ⟨_, prodBound hO hcov (sCkOn_mono le_top hc1)
       (fun u v hu hv hl g hg _ => (hC u v hu hv hl g hg).1) hc (fun g _ hg => by simp at hg)⟩
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

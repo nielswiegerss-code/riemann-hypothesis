@@ -8,8 +8,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.InvariantOpe
 open Matrix MeasureTheory
 open scoped ComplexConjugate InnerProductSpace
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P5.HerA
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Wd Formalism.FourierDecayAlt.P5

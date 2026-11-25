@@ -12,8 +12,6 @@ namespace Formalism.FourierDecayAlt.P.PBL
 open Formalism.FourierDecayAlt Formalism.QuantumDeterminants NumberField
 open scoped ComplexConjugate ComplexOrder
 
-noncomputable section
-
 section thr
 
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {Wp Wq : InfinitePlace E → Type}
@@ -60,7 +58,5 @@ theorem lamTop_thr (hC : 28 * Real.exp 1 ≤ Cc) (hB : KB.IsLeadingFormSetting C
   linarith [hFT]
 
 end thr
-
-end
 
 end Formalism.FourierDecayAlt.P.PBL

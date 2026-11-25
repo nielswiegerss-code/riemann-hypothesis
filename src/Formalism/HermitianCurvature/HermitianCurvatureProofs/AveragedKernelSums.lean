@@ -8,8 +8,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.FirstKernelP
 
 
 
-noncomputable section
-
 open Formalism.DoubleCosetMeasures Formalism.FourierDecayAlt.A5 Formalism.FourierDecayAlt.A6 Matrix
 open scoped ComplexConjugate
 

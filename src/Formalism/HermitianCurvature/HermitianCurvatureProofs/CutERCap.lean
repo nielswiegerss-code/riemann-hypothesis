@@ -16,8 +16,6 @@ namespace Formalism.FourierDecayAlt.P.CutMP.ER
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants
 open scoped ComplexConjugate
 
-noncomputable section
-
 attribute [local instance] Matrix.normedAddCommGroup Matrix.normedSpace
 
 section consts
@@ -108,7 +106,5 @@ theorem beta_form_congr_holds : BetaCongr := by
     rw [h, one_smul]
   · have h := Formalism.FourierDecayAlt.P.Qx8.JF_congr D (F := F') (F' := F₁') (a := 1) (fun g hg => by rw [one_smul, hF' g hg]) hg.1
     rw [h, one_smul]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.ER

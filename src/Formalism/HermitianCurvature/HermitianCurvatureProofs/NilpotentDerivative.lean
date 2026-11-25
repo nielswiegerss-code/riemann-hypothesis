@@ -12,8 +12,6 @@ open scoped ContDiff
 
 namespace Formalism.FourierDecayAlt.P.CutMP.SmoothTransferRegularity
 
-noncomputable section
-
 theorem nd_deriv_smul_const {E : Type*} [NormedAddCommGroup E] [NormedSpace ℂ E] (φ : ℝ → ℂ) (v : E) :
     deriv (fun t => φ t • v) 0 = deriv φ 0 • v := by
   by_cases hφ : DifferentiableAt ℝ φ 0
@@ -61,7 +59,5 @@ theorem nilpotent_derivative : NDiff := by
         fun t : ℝ => psi k r D.z cStd (NormedSpace.exp ((t : ℂ) • X)) • J g :=
       funext fun t => hL g (nd_om_mem hg) _ (nd_exp_mem hX t)
     rw [e, nd_deriv_smul_const]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.SmoothTransferRegularity

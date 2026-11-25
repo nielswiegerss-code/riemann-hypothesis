@@ -10,8 +10,6 @@ import Formalism.RealPlaceAnalysis.RealPlaceTaylor.ShiftedGeneratorEqIteSmulAdd
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.BorderedDeterminants
 
 open Formalism.REAL Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Qr

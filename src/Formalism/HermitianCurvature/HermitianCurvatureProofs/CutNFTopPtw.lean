@@ -16,8 +16,6 @@ namespace Formalism.FourierDecayAlt.P.CutBP
 
 open Formalism.FourierDecayAlt Formalism.QuantumDeterminants Filter Topology MeasureTheory
 
-noncomputable section
-
 attribute [local instance] Matrix.normedAddCommGroup Matrix.normedSpace
 
 section vec
@@ -141,7 +139,5 @@ theorem top_pointwise_all_levels_holds : NFTopPtwAll := by
   have hF : B.CkOn ⊤ (B.GV P.k P.r) (TBBx4.fpm p f (fun _ => ContinuousLinearMap.id ℂ Wq) p₀) :=
     ckOn_fpm p p₀ hf (Formalism.FourierDecayAlt.P.CutMP.ER.ckOn_const' _)
   exact Filter.Eventually.of_forall fun c => nFTopPtw_of p hCb hχ hF hw.1 c
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBP

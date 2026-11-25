@@ -11,8 +11,6 @@ open Matrix Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayA
 
 namespace Formalism.FourierDecayAlt.P.CutMP.JfS.Sym
 
-noncomputable section
-
 variable {k r : ℕ}
 
 theorem hpk_mulVec (x : Fin (2 * r + k + 1) → ℂ) (i : Fin (2 * r + k + 1)) :
@@ -69,7 +67,5 @@ theorem trace_xuv (ξ : B.Mat k r) (u v : Fin (2 * r + k + 1) → ℂ) :
     refine Finset.sum_congr rfl (fun j _ => ?_)
     ring
   rw [Xuv, Matrix.mul_sub, Matrix.trace_sub, key, key]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.JfS.Sym

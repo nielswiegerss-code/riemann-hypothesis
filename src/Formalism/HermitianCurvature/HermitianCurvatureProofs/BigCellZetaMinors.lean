@@ -12,8 +12,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.RegularisedP
 
 open Matrix MeasureTheory Filter
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.BigCellZetaMinors
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.JF

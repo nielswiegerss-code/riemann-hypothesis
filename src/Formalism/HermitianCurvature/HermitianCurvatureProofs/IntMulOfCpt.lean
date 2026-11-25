@@ -8,8 +8,6 @@ import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 open MeasureTheory Filter Topology
 open scoped ComplexConjugate ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P5.HerB
 
 section Wirt

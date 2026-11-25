@@ -11,8 +11,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.SiteTranspor
 open Matrix MeasureTheory
 open scoped ENNReal NNReal
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PTieL
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.P.PBH Formalism.FourierDecayAlt.P.PTieB

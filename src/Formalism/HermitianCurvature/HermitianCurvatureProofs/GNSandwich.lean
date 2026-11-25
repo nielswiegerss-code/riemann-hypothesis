@@ -7,8 +7,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.ContinuousMu
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 open scoped InnerProductSpace ENNReal NNReal
 

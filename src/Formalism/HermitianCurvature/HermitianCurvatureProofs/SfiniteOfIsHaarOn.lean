@@ -7,8 +7,6 @@ import Formalism.HermitianCurvature.StatementQ
 
 open MeasureTheory
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P5
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Wd

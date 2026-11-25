@@ -9,8 +9,6 @@ public import Mathlib.Topology.Algebra.MvPolynomial
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Filter Topology
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.DifferentialOperatorClasses
 
 section ops

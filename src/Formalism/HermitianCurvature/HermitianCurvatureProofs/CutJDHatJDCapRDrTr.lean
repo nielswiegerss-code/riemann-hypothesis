@@ -10,8 +10,6 @@ namespace Formalism.FourierDecayAlt.P.CutMP
 
 open Gauge Gauge.VLem
 
-noncomputable section
-
 section
 
 variable {Wp Wq : Type} [NormedAddCommGroup Wp] [InnerProductSpace ℂ Wp] [NormedAddCommGroup Wq]
@@ -102,7 +100,5 @@ theorem residue_derivative_transition : JDRDrTr := by
   · have h := (drtr_listc hpl hk he (List.finRange P.r) Φ hΦ).2
     rw [← ec, ← hDr] at h
     exact congrFun h ρ
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

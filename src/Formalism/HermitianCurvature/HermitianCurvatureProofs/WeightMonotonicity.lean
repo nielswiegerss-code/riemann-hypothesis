@@ -15,8 +15,6 @@ import Mathlib.Tactic.TypeStar
 
 open Matrix Finset
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.DegreeMapArithmetic
 
 open Formalism.REAL Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Qr

@@ -9,8 +9,6 @@ public import Mathlib.Algebra.Star.UnitaryStarAlgAut
 open Matrix Formalism.QuantumDeterminants
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.HermitianProjections
 
 lemma strict_pow_apply {m : ℕ} (M : Matrix (Fin m) (Fin m) ℂ) (hM : ∀ i j : Fin m, j ≤ i → M i j = 0) :

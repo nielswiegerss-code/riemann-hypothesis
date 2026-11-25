@@ -13,8 +13,6 @@ namespace Formalism.FourierDecayAlt.P.PBJoint
 
 open Formalism.FourierDecayAlt.P
 
-noncomputable section
-
 theorem toBuiltPlace {E : Type} [Field E] [NumberField E] [NumberField.IsCMField E]
     {Wp Wq : NumberField.InfinitePlace E → Type}
     [∀ x, NormedAddCommGroup (Wp x)] [∀ x, InnerProductSpace ℂ (Wp x)] [∀ x, NormedAddCommGroup (Wq x)]
@@ -55,7 +53,5 @@ theorem prod_dlB {E : Type} [Field E] [NumberField E] [IsCMField E] {Wp Wq : Inf
   rw [div_div_eq_mul_div]
   congr 1
   ring
-
-end
 
 end Formalism.FourierDecayAlt.P.PBJoint

@@ -10,8 +10,6 @@ namespace Formalism.FourierDecayAlt.P.PBL
 open Formalism.FourierDecayAlt Formalism.QuantumDeterminants
 open scoped ComplexConjugate ComplexOrder
 
-noncomputable section
-
 open Classical
 
 theorem ptEntry_append_start (rest : C.LPt) : ∀ (H : C.LPt) (a b : ℕ),
@@ -95,7 +93,5 @@ theorem topOf_big (p : KB.Pl P Wp Wq) (F : B.Mat P.k P.r → (Wq →L[ℂ] Wp)) 
     simp
 
 end top
-
-end
 
 end Formalism.FourierDecayAlt.P.PBL

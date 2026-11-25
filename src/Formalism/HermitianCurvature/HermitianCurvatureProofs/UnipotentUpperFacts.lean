@@ -13,8 +13,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.LinearChangeOfVaria
 open Matrix Formalism.FourierDecayAlt Formalism.QuantumDeterminants
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P
 
 namespace UnipotentUpperFacts

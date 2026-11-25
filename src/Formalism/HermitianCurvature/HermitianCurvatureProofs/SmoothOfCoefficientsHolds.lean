@@ -10,8 +10,6 @@ open scoped ContDiff
 
 namespace Formalism.FourierDecayAlt.P.CutMP.SmoothTransferRegularity
 
-noncomputable section
-
 attribute [local instance] Matrix.normedAddCommGroup Matrix.normedSpace
 
 theorem smooth_of_coefficients_holds : SmoothOfCoeffs := by
@@ -28,7 +26,5 @@ theorem smooth_of_coefficients_holds : SmoothOfCoeffs := by
     refine Finset.sum_congr rfl fun i _ => ?_
     rw [← hJF i g (hg' i) hgG]
     rfl
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.SmoothTransferRegularity

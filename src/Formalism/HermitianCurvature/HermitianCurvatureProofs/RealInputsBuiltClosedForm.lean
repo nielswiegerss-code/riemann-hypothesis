@@ -10,8 +10,6 @@ open Finset NumberField MeasureTheory Formalism.FourierDecayAlt
 
 namespace Formalism.FourierDecayAlt.P
 
-noncomputable section
-
 theorem jct_rd_pos (E : Type) [Field E] [NumberField E] : 0 < S6.rd E := by
   unfold S6.rd
   apply Real.rpow_pos_of_pos
@@ -64,7 +62,5 @@ theorem energy_of_built_setting : JCT.EnergyOfLemmaE := by
   have h4 : jv v = 1 / Γ * (B.normSq (T v).base (f v)).toReal := by exact_mod_cast h3
   rw [h4]
   ring
-
-end
 
 end Formalism.FourierDecayAlt.P

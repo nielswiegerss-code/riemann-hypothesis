@@ -11,8 +11,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.TheoremPIntegralOfP
 open Matrix MeasureTheory Filter Topology
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PBG
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.P.B4 Formalism.FourierDecayAlt.P.ChartIntegralLocal Formalism.FourierDecayAlt.P.SmoothnessOnGoodSet

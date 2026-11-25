@@ -22,8 +22,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 open Matrix MeasureTheory Filter Topology
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.JF
@@ -222,5 +220,3 @@ theorem thetaJ_of_adjComm (hAC : Formalism.FourierDecayAlt.P.CutMP.JA.FFS.AdjCom
   rw [e1, ← e2, hrep _ hJck g hg]
 
 end Formalism.FourierDecayAlt.P.CutMP.JA.LT
-
-end

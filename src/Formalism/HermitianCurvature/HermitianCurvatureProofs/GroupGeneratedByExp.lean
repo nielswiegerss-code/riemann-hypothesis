@@ -12,8 +12,6 @@ import Mathlib.Topology.UniformSpace.Matrix
 
 open Matrix Finset Filter Topology
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q

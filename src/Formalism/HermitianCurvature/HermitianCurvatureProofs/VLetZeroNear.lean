@@ -11,8 +11,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.OrbitalInteg
 open Matrix Finset MeasureTheory
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PBG
 
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants

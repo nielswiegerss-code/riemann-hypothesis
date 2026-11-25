@@ -10,8 +10,6 @@ namespace Formalism.FourierDecayAlt.P.FormNormSumIdentities
 open Finset
 open scoped ComplexConjugate InnerProductSpace
 
-noncomputable section
-
 section hilbert
 
 variable {ι κ : Type*} {H : Type*} [NormedAddCommGroup H] [InnerProductSpace ℂ H]
@@ -61,7 +59,5 @@ theorem norm_sum_le_of_form {W : Type*} [SeminormedAddCommGroup W] [Module ℂ W
     simpa [abs_of_nonneg (norm_nonneg _)] using (pow_le_pow_iff_left₀ (norm_nonneg _) (by positivity) two_ne_zero).1 h2
 
 end hilbert
-
-end
 
 end Formalism.FourierDecayAlt.P.FormNormSumIdentities

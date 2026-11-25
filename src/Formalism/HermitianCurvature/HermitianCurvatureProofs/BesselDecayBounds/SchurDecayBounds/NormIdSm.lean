@@ -11,8 +11,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.B
 open MeasureTheory Matrix
 open scoped InnerProductSpace ENNReal
 
-noncomputable section
-
 namespace PI.WBL.NIS
 
 open Formalism.QuantumDeterminants Formalism.MainNotions.S Formalism.MainNotions.S.ThB Formalism.BasicNotions PI.BesselLine PI.WBL PI.WBL.FSW Formalism.MainNotions.InverseNormDecayBounds Formalism.MainNotions.BridgeLemma₄

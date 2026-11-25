@@ -16,8 +16,6 @@ namespace Formalism.FourierDecayAlt.P.CutMP.Gauge.GC.SSAdjH
 
 open Formalism.FourierDecayAlt.P.CutMP.Gauge.GC Formalism.FourierDecayAlt.P.CutMP.Gauge Formalism.FourierDecayAlt.P.NFx4
 
-noncomputable section
-
 section pt
 
 variable {Wp Wq : Type} [NormedAddCommGroup Wp] [InnerProductSpace ℂ Wp] [NormedAddCommGroup Wq]
@@ -148,7 +146,5 @@ theorem pt_of_tests {U : Set ℂ} (hU : IsOpen U) {H : ℂ → ℂ} (hH : Contin
   have := hball x hx
   simp only [Set.mem_setOf_eq, not_forall, exists_prop]
   exact ⟨this.2, this.1⟩
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.Gauge.GC.SSAdjH

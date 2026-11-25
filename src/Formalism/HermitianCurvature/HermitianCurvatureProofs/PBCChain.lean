@@ -10,8 +10,6 @@ namespace Formalism.FourierDecayAlt.P.PBC
 open Formalism.FourierDecayAlt Finset Filter Topology MeasureTheory NumberField
 open scoped ComplexConjugate ComplexOrder
 
-noncomputable section
-
 open Classical
 
 theorem tsum_mix {ι W : Type} (Wd : Finset W) (m : ι → ℝ) (hm0 : ∀ i, 0 ≤ m i) (hms : Summable m)
@@ -117,7 +115,5 @@ theorem nstV_eq (S : C.HidaSetting E Wp Wq) (ε : ℝ) (i s : ℕ) (w : S.W) (Y 
   rw [e, mul_div_assoc]
 
 end setting
-
-end
 
 end Formalism.FourierDecayAlt.P.PBC

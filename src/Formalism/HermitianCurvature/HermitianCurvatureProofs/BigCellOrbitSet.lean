@@ -8,8 +8,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.OrbitalInteg
 
 open MeasureTheory
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.JFxA3
 
 open Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.JF

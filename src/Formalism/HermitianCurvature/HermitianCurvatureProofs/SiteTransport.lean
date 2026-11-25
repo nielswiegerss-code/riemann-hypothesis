@@ -7,8 +7,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.BlockRelatio
 open Matrix MeasureTheory
 open scoped ENNReal
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PTieB
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.P.PBH

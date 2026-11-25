@@ -9,8 +9,6 @@ import Mathlib.Topology.Separation.CompletelyRegular
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 open scoped InnerProductSpace
 

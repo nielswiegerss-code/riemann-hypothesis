@@ -13,8 +13,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.CutLimE
 open Matrix MeasureTheory
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.FormNormSumIdentities
 
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B

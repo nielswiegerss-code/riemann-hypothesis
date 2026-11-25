@@ -7,7 +7,6 @@ import Mathlib.Algebra.Order.Star.Real
 
 open Finset Filter Topology Formalism.FourierDecayAlt Formalism.FourierDecayAlt.TC
 open scoped ComplexInnerProductSpace ComplexOrder ComplexConjugate
-noncomputable section
 open Classical
 namespace Formalism.FourierDecayAlt.P.DensitySumsAndDomination
 
@@ -241,5 +240,3 @@ theorem densChain : DensChain := by
   exact ⟨hmain, hmain.trans (hLe f _ (hSize k r f hk))⟩
 
 end Formalism.FourierDecayAlt.P.DensitySumsAndDomination
-
-end

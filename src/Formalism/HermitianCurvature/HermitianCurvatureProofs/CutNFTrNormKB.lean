@@ -10,8 +10,6 @@ namespace Formalism.FourierDecayAlt.P.CutBP
 
 open Formalism.FourierDecayAlt Formalism.QuantumDeterminants MeasureTheory
 
-noncomputable section
-
 section aux
 
 variable {P : M.Par}
@@ -88,7 +86,5 @@ theorem trace_norm_bound_constant_one : NFTrNormKB := by
     _ = 1 * (∏ l : Fin P.r, Complex.normSq (c l.castSucc)) *
           TBB.Ew p (fun _ => 1) H (P.r + 1) [] (TBB.bigPt P.r c) := by
         rw [hprod, one_mul]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBP

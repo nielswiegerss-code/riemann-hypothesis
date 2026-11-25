@@ -9,8 +9,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.LevelPointCo
 open MeasureTheory
 open scoped ComplexConjugate ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutSH
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.P5 Formalism.FourierDecayAlt.P.PBH

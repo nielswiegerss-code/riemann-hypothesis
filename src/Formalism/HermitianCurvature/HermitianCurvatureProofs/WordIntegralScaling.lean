@@ -9,8 +9,6 @@ public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
 
 open Matrix MeasureTheory Filter
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.WordIntegralScaling
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.JF

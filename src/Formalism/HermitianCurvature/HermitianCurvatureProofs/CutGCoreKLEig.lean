@@ -12,8 +12,6 @@ open Matrix Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayA
 
 namespace Formalism.FourierDecayAlt.P.CutMP.Gauge.GC
 
-noncomputable section
-
 namespace KLEigPf
 
 variable {Wp Wq : Type} [NormedAddCommGroup Wp] [NormedSpace ℂ Wp] [NormedAddCommGroup Wq] [NormedSpace ℂ Wq]
@@ -142,7 +140,5 @@ theorem lie_eigenvalue_holds : KLEig := by
     fun ρ σ h => ⟨(Y₀ : ℂ), fun he => h (hY₀ he)⟩
   classical
   exact alg Qρ (fun σ Y => M.xC P σ Y) C E hK.1 hK.2.1 hsep hid ρ
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.Gauge.GC

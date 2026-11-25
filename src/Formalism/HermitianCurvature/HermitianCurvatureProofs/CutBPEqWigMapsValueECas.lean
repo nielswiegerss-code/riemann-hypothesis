@@ -9,8 +9,6 @@ import Formalism.HermitianCurvature.StatementQr
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.WigCas
 
 open Formalism.REAL Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Qr
@@ -41,5 +39,3 @@ theorem cas_comm {A : Type*} [Ring A] {n : ℕ} {E : Fin n → Fin n → A} (hE 
   abel
 
 end Formalism.FourierDecayAlt.P.WigCas
-
-end

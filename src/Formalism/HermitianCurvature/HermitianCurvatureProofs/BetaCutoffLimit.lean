@@ -15,8 +15,6 @@ import Mathlib.Algebra.Order.Star.Real
 open MeasureTheory Filter Topology
 open scoped ComplexConjugate ENNReal
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.JCTx2
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B

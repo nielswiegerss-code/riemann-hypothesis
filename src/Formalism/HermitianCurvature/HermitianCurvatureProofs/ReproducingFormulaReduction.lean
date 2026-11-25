@@ -10,8 +10,6 @@ public import Mathlib.MeasureTheory.Integral.IntegrableOn
 open MeasureTheory Matrix
 open scoped InnerProductSpace ENNReal
 
-noncomputable section
-
 
 
 namespace Formalism.FourierDecayAlt.P.MatrixMultiplicationContinuity

@@ -14,8 +14,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LevelTransfer.SecondCap
 open Matrix Finset
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.DiagonalScalarMatrices
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q

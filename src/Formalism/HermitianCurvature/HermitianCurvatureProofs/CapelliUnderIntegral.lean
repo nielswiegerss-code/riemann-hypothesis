@@ -9,8 +9,6 @@ import Formalism.HermitianCurvature.StatementJF
 
 open Matrix MeasureTheory Filter
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CapelliUnderIntegral
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.JF

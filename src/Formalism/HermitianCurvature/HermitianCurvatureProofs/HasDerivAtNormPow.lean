@@ -8,8 +8,6 @@ import Mathlib.Analysis.InnerProductSpace.Calculus
 
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.GaugeNormPower
 
 open Formalism.QuantumDeterminants

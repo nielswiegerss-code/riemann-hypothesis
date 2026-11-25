@@ -12,8 +12,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.KfinOfMemLowKSub
 open MeasureTheory Matrix
 open scoped InnerProductSpace ENNReal
 
-noncomputable section
-
 namespace PI.WBL.S5
 
 open Formalism.QuantumDeterminants Formalism.MainNotions.S Formalism.MainNotions.S.ThB Formalism.BasicNotions PI.BesselLine PI.WBL PI.WBL.Cv PI.WBL.Cv.BeC

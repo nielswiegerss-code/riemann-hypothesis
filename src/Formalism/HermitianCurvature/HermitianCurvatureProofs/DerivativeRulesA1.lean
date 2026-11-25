@@ -11,8 +11,6 @@ import Mathlib.Tactic.Lemma
 open Matrix Filter Topology
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.SmoothnessOrderArithmetic
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.P.B4 Formalism.FourierDecayAlt.P.Ux1 Formalism.FourierDecayAlt.P.Ux10

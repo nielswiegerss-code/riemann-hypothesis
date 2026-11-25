@@ -8,8 +8,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open Matrix MeasureTheory Filter
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.WordKeyIdentity
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.JF

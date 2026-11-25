@@ -14,8 +14,6 @@ namespace Formalism.FourierDecayAlt.P
 
 open MeasureTheory Filter Topology Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt
 
-noncomputable section
-
 theorem compact_support_facts : TL.CptFacts := by
   intro k r Wp Wq _ _ _ _ _ Bs F hF
   obtain ⟨hFs, ⟨R, hR⟩, ε, hε, hεF⟩ := hF
@@ -71,7 +69,5 @@ theorem compact_support_facts : TL.CptFacts := by
       show Gf k r Bs.z Bs.z' g < ε
       by_contra hge
       exact hgn ⟨hg, lt_of_lt_of_le hε (not_lt.1 hge), by simp⟩
-
-end
 
 end Formalism.FourierDecayAlt.P

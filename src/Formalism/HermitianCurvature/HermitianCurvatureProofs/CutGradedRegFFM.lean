@@ -18,8 +18,6 @@ namespace Formalism.FourierDecayAlt.P.CutMP.Gr
 
 open NumberField
 
-noncomputable section
-
 section thr
 
 end thr
@@ -56,7 +54,5 @@ theorem jf_mem_FFlM [FiniteDimensional ℂ Wp] [FiniteDimensional ℂ Wq] (D : B
       (Formalism.FourierDecayAlt.P.conjugation_invariance_every_setting k r Wp Wq D) D.π_rep D.π'_rep g h hh h' hh'
 
 end jf
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.Gr

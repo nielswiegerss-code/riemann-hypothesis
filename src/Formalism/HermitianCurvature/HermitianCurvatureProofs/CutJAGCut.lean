@@ -15,8 +15,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.BetaSesquili
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.P.BetaSesquilinearity
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutMP.JA
 
 attribute [local instance] Matrix.normedAddCommGroup Matrix.normedSpace
@@ -162,5 +160,3 @@ theorem gcut_graded (z z' : Fin (2 * r + k + 1) → ℂ) (h : ℝ → ℝ) (ε :
 end gcut
 
 end Formalism.FourierDecayAlt.P.CutMP.JA
-
-end

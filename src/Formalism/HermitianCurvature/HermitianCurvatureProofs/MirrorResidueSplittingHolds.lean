@@ -11,8 +11,6 @@ open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.MA Formalism.FourierDec
 
 namespace Formalism.FourierDecayAlt.P.CutMP
 
-noncomputable section
-
 section
 variable {P : M.Par} {L : LevelData (A P (DQ P)) P.r}
 
@@ -158,7 +156,5 @@ theorem mirror_residue_splitting_holds : MirrorResidueSplittingModelAlgebra := b
       _ = L.Dr * ggA P (DQ P) * (m0A P (DQ P) y * L.Avr y + L.Bvr y) + X * L.Dr * S12 P (DQ P) y * L.Avr y := by
           rw [e1, e2, cD]; simp only [mul_add, add_mul, mul_assoc]; abel
   rw [hR]; abel
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

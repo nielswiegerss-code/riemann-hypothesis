@@ -12,8 +12,6 @@ namespace Formalism.FourierDecayAlt.P.TBBx3
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants Filter Topology MeasureTheory
 open scoped ComplexConjugate ENNReal
 
-noncomputable section
-
 variable {P : M.Par} {Wp Wq : Type} [NormedAddCommGroup Wp] [InnerProductSpace ℂ Wp] [NormedAddCommGroup Wq]
   [InnerProductSpace ℂ Wq] [FiniteDimensional ℂ Wp] [FiniteDimensional ℂ Wq]
 
@@ -115,7 +113,5 @@ theorem limZeroAt_of_limits (p : KB.Pl P Wp Wq) (nn : ℝ → ℝ) (χ : ℝ →
   · right
     push Not at hb
     exact div_nonpos_of_nonpos_of_nonneg (mul_nonpos_of_nonneg_of_nonpos hsz0 hb.le) hn0
-
-end
 
 end Formalism.FourierDecayAlt.P.TBBx3

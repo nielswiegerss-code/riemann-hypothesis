@@ -12,8 +12,6 @@ namespace Formalism.FourierDecayAlt.P.PBL
 open Formalism.FourierDecayAlt Formalism.QuantumDeterminants NumberField
 open scoped ComplexConjugate ComplexOrder
 
-noncomputable section
-
 open Classical
 
 section C1
@@ -85,7 +83,5 @@ theorem gN_psdC (hA : P5.ThmPActualCpt) (hFP : FormPosCpt) (hB : KB.IsLeadingFor
   rw [uY_mem S p F v ε j hj w Y x hx, uY_mem S p F v ε j hj w Y y hy, gN_uB hB F hF v ε hε j hj w x y]
 
 end C1
-
-end
 
 end Formalism.FourierDecayAlt.P.PBL

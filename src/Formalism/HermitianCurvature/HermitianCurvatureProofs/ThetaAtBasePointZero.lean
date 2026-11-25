@@ -11,8 +11,6 @@ open Set Filter Topology Complex MeasureTheory intervalIntegral
 
 namespace Formalism.FourierDecayAlt.P.CutMP.Gauge.GC.Ann
 
-noncomputable section
-
 variable {TT : ℝ} {α : ℂ → ℂ}
 
 theorem theta_at_base_point_zero : th TT α (x0 TT) = 0 := by
@@ -36,7 +34,5 @@ theorem circleIntegral_eq (hTT : 0 ≤ TT) :
   refine intervalIntegral.integral_congr fun θ _ => ?_
   simp only [deriv_circleMap, smul_eq_mul, circleMap_eq hTT θ, bet]
   ring
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.Gauge.GC.Ann

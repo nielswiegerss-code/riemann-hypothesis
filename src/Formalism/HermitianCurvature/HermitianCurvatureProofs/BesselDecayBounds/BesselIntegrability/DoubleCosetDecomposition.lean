@@ -8,8 +8,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayB
 open MeasureTheory Matrix
 open scoped InnerProductSpace
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P
 
 open Formalism.QuantumDeterminants

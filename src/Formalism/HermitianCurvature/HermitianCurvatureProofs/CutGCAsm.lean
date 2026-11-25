@@ -9,8 +9,6 @@ open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt
 
 namespace Formalism.FourierDecayAlt.P.CutMP.Gauge.GC
 
-noncomputable section
-
 theorem toSm_of_mem (P : M.Par) {u : MA.Qp P.r P.TT → ℂ} (h : u ∈ MA.smSub P.r P.TT) (q : MA.Qp P.r P.TT) :
     (MA.toSm P u : MA.Qp P.r P.TT → ℂ) q = u q := by
   unfold MA.toSm
@@ -42,7 +40,5 @@ theorem assumption_on_sections_holds : AsmSec := by
     toSm_of_mem P (hRaw Wp Wq P Bs hPl hk e he Dc Φ hΦ ρ') q']
   unfold rawR
   rw [hq'c, (hagree q'.1.2 (interior_subset hq'V)).1]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.Gauge.GC

@@ -10,8 +10,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.BetaSesquili
 
 open Formalism.FourierDecayAlt
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutMP.JA
 
 open NumberField Formalism.FourierDecayAlt.P.CutMP
@@ -59,5 +57,3 @@ theorem locCC_smul {S : C.HidaSetting E Wp Wq} {T : ∀ v : Fin S.f, D.LevTower 
 end loc
 
 end Formalism.FourierDecayAlt.P.CutMP.JA
-
-end

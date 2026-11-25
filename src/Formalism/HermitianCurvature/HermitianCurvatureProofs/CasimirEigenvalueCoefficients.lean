@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 open Matrix Finset Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.B

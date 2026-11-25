@@ -12,8 +12,6 @@ namespace Formalism.FourierDecayAlt.P.SignAntidiagonal
 
 open Formalism.FourierDecayAlt.C3 Formalism.QuantumDeterminants Formalism.QuantumDeterminants.WeylGroupFacts
 
-noncomputable section
-
 section N1
 
 variable {k r : ℕ}
@@ -37,7 +35,5 @@ theorem herm_expand (v w : Fin (2 * r + k + 1) → ℂ) :
 
 
 end N1
-
-end
 
 end Formalism.FourierDecayAlt.P.SignAntidiagonal

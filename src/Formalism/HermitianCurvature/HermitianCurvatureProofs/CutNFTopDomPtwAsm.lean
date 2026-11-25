@@ -14,8 +14,6 @@ namespace Formalism.FourierDecayAlt.P.CutBP
 
 open Formalism.FourierDecayAlt Formalism.QuantumDeterminants Filter Topology MeasureTheory
 
-noncomputable section
-
 lemma nf_norm_sum_sq_le {E : Type*} [SeminormedAddCommGroup E] {n : ℕ} (x : Fin n → E) :
     ‖∑ i, x i‖ ^ 2 ≤ (n : ℝ) * ∑ i, ‖x i‖ ^ 2 := by
   have h1 : ‖∑ i, x i‖ ≤ ∑ i, ‖x i‖ := norm_sum_le _ _
@@ -135,7 +133,5 @@ lemma nf_block {Wp Wq : Type} [NormedAddCommGroup Wp] [InnerProductSpace ℂ Wp]
     _ = (n : ℝ) * Kt ^ 2 * ∑ q, d ^ 2 * ‖B.hsVec (E.comp (W q))‖ ^ 2 := by
         rw [Finset.mul_sum, Finset.mul_sum, Finset.mul_sum, Finset.mul_sum]
         refine Finset.sum_congr rfl fun q _ => by ring
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBP

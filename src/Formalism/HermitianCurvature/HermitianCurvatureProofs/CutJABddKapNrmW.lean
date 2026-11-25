@@ -14,8 +14,6 @@ open scoped ComplexConjugate Matrix
 
 namespace Formalism.FourierDecayAlt.P.CutMP.JA
 
-noncomputable section
-
 variable {k r : ℕ}
 
 theorem kap_Dw_emb (μ : Matrix (Fin (k + 1)) (Fin (k + 1)) ℂ) :
@@ -91,7 +89,5 @@ theorem kap_nrmW_contDiff (z : Fin (2 * r + k + 1) → ℂ) :
 
 theorem weighted_norm_facts_hold : NrmWFacts := fun _ _ z hz _ =>
   ⟨kap_nrmW_contDiff z, fun _ hh a => kap_nrmW_mulVec hz hh a⟩
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.JA

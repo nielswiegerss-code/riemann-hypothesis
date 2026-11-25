@@ -11,8 +11,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.BaseIndexCon
 open Matrix
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutHL
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.P.LevelPointCoordinates

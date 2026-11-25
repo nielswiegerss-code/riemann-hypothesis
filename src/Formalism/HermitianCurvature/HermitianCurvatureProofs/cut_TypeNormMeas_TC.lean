@@ -14,8 +14,6 @@ namespace Formalism.FourierDecayAlt.P.CutBP.TNM
 
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants Matrix
 
-noncomputable section
-
 section cov
 
 variable {k r : ℕ} {W : Type} [NormedAddCommGroup W] [NormedSpace ℂ W] [FiniteDimensional ℂ W]
@@ -158,7 +156,5 @@ theorem type_commutation_holds : TypeComm := by
   have hsplit : x = E x + (x - E x) := by abel
   have hy : E (x - E x) = 0 := by rw [map_sub, hidem, sub_self]
   conv_lhs => rw [hsplit, map_add (f := _), map_add (f := _), hker _ hy, add_zero, kg x]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBP.TNM

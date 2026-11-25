@@ -8,8 +8,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.UhMeasurableSet
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 open scoped InnerProductSpace ENNReal NNReal
 

@@ -12,8 +12,6 @@ import Mathlib.Tactic.TypeStar
 
 open MeasureTheory Matrix
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PBN
 
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants

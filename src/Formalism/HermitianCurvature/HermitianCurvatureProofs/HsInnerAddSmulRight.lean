@@ -8,8 +8,6 @@ public import Mathlib.CategoryTheory.Category.Basic
 open MeasureTheory
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P5
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Wd

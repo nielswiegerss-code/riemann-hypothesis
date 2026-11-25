@@ -16,8 +16,6 @@ namespace Formalism.FourierDecayAlt.P.CutMP
 
 open Matrix
 
-noncomputable section
-
 theorem vtop_rows (k r : ℕ) (s : Fin (k + 1)) : rowsNv k r (Fin.last r) s = rowsN k r (Fin.last r) s := by
   funext j
   apply Fin.ext
@@ -53,7 +51,5 @@ theorem mirror_residue_top_holds : JDRvTop := by
   rw [eh]
   simp only [Q.ybv, Q.xv, fvec, es, et]
   simp
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

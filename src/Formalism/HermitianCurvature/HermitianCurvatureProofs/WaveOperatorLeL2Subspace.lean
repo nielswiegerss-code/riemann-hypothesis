@@ -7,8 +7,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.LevelZeroFormIntegr
 
 open MeasureTheory
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutSE
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Wd Formalism.FourierDecayAlt.P5 Formalism.FourierDecayAlt.P5.HerA Formalism.FourierDecayAlt.P5.HerB Formalism.FourierDecayAlt.P5.HerC

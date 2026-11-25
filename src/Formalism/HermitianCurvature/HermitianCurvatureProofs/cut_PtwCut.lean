@@ -18,8 +18,6 @@ namespace Formalism.FourierDecayAlt.P.CutBP
 
 open Matrix MeasureTheory Filter Topology Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt
 
-noncomputable section
-
 section loc
 
 variable {k r : ℕ} {Wp Wq : Type} [NormedAddCommGroup Wp] [InnerProductSpace ℂ Wp] [NormedAddCommGroup Wq]
@@ -126,7 +124,5 @@ theorem bigCell_pos (p : KB.Pl P Wp Wq) (q : (Fin P.r → ℂ) × ℂ)
 
 
 end place
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBP

@@ -19,8 +19,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.UnipotentCoordinate
 open Matrix
 open scoped ComplexConjugate ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.SingleEntryHermitianProducts
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.P.CapelliWordSumExpansion Formalism.FourierDecayAlt.P.PBG

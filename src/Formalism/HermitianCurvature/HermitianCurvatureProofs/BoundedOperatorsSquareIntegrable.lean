@@ -11,8 +11,6 @@ open Formalism.FourierDecayAlt MeasureTheory
 
 namespace Formalism.FourierDecayAlt.P.CutMP
 
-noncomputable section
-
 theorem bounded_operators_square_integrable : BoundedOperatorsSquareIntegrable := by
   intro P L hTT hL b hb u hu π
   have hLaw : (MA.DQ P).Laws P.TT := Formalism.FourierDecayAlt.P.analytic_laws P.r P.TT hTT.le
@@ -38,7 +36,5 @@ theorem bounded_operators_square_integrable : BoundedOperatorsSquareIntegrable :
         rw [norm_mul]; exact mul_le_mul_of_nonneg_right (hMb q π π') (norm_nonneg _)
     _ = C * ∑ π', ‖MA.evQ P (u π') q‖ := (Finset.mul_sum _ _ _).symm
     _ ≤ ‖C * ∑ π' ∈ Finset.univ, ‖MA.evQ P (u π') q‖‖ := le_abs_self _
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP

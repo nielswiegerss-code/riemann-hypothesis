@@ -14,8 +14,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 open Matrix Finset
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PBG
 
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants

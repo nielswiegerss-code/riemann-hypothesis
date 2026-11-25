@@ -6,8 +6,6 @@ public import Formalism.HermitianCurvature.StatementQr
 
 open MeasureTheory Filter Topology
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P
 
 theorem one_parameter_differentiable : Formalism.FourierDecayAlt.Qr.OneParamDiff := by

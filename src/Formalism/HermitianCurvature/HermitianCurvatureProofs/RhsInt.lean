@@ -11,8 +11,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.OpApplyZeroN
 open Matrix MeasureTheory
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PBH
 
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants

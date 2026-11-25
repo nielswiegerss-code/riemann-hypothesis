@@ -11,8 +11,6 @@ open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt
 
 namespace Formalism.FourierDecayAlt.P.CutMP.Gauge.GC.GTK
 
-noncomputable section
-
 open Formalism.FourierDecayAlt.P.CutMP.Gauge
 
 section hs
@@ -166,7 +164,5 @@ theorem gauge_kappa_of_point_line : GTKapOfCut := by
     have hkap : MA.kap P (MA.DQ P) f = Matrix.diagonal fun σ => algebraMap ℂ (MA.DQ P).Pr (f σ) := rfl
     rw [hkap, VLem.actA_diag]
     rfl
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.Gauge.GC.GTK

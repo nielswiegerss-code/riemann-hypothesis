@@ -10,8 +10,6 @@ import Mathlib.RingTheory.PiTensorProduct
 
 open Matrix
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.HeadLetterLemmas
 
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.P.PBG

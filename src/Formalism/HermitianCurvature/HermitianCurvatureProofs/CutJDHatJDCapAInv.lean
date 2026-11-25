@@ -27,8 +27,6 @@ import Mathlib.Tactic.TypeStar
 open Matrix Finset
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutMP.CapInv
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.P.BetaSesquilinearity Formalism.FourierDecayAlt.P.JFxB Formalism.FourierDecayAlt.P.JFxE

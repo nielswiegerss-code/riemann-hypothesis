@@ -9,8 +9,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.SumDualVecto
 open Matrix Finset Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.CutMP
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt
@@ -83,5 +81,3 @@ theorem crd_pbOp_QL_last_comm :
   exact (PCommPf.tL_crd_comm z z' (Fin.last r) Dc Ψ ho hΨ.1 l Y a b hc hg hgD).2
 
 end Formalism.FourierDecayAlt.P.CutMP
-
-end

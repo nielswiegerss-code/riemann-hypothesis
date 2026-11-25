@@ -9,8 +9,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.TwoByOneBloc
 open Matrix Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.NFRadRedA
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.NF

@@ -20,8 +20,6 @@ open scoped ComplexConjugate Matrix
 
 namespace Formalism.FourierDecayAlt.P.CutMP.JA.SSn.Rep.Core.TC.PR.PH
 
-noncomputable section
-
 theorem rot_normSq (θ : ℝ) (ζ : ℂ) : Complex.normSq (rot θ ζ) = Complex.normSq ζ := by
   unfold rot
   rw [map_mul, Complex.normSq_eq_norm_sq, Complex.norm_exp_ofReal_mul_I]
@@ -357,7 +355,5 @@ theorem phase_invariance_of_truncation : PhaseInvOfCut := by
   · rw [map_smul, map_smul, hfin1 ζ hζ, ContinuousLinearMap.comp_smul, ContinuousLinearMap.comp_smul,
       ContinuousLinearMap.comp_smul, smul_comm]
   · rw [map_smul, ContinuousLinearMap.comp_smul, ← hRdef, smul_comm, ← hfin2]
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP.JA.SSn.Rep.Core.TC.PR.PH

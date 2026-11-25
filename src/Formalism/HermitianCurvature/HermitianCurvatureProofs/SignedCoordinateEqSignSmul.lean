@@ -7,8 +7,6 @@ public import Formalism.HermitianCurvature.TopDensNonnegOfKappa
 open MeasureTheory
 open scoped ComplexOrder
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P5
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Wd

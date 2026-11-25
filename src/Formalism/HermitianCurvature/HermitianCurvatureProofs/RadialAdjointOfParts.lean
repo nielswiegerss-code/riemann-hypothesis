@@ -9,8 +9,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.PositiveOrbi
 open Matrix MeasureTheory Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.JFxG
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.JF

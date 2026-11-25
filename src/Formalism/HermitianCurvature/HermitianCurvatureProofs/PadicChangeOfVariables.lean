@@ -7,8 +7,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.IntegralLatt
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Formalism.DoubleCosetMeasures Formalism.FourierDecayAlt.A5 Formalism.FourierDecayAlt.A6 Filter Topology
 open scoped ComplexConjugate
 

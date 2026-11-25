@@ -14,8 +14,6 @@ namespace Formalism.FourierDecayAlt.P.CutBP2
 
 open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.TBB Formalism.QuantumDeterminants MeasureTheory
 
-noncomputable section
-
 section hs
 
 variable {Wp Wq Wq' Wq'' : Type} [NormedAddCommGroup Wp] [InnerProductSpace ℂ Wp] [FiniteDimensional ℂ Wp]
@@ -182,7 +180,5 @@ theorem normaliser_across_places : NormAtShOfAmaps := by
           ((Gp p γ)⁻¹ ^ (2 * p₀) * (Gp p γ ^ p₀) ^ 2) by ring, hcanc, mul_one]
   rw [e]
   exact mul_le_mul_of_nonneg_left hX hnn
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBP2

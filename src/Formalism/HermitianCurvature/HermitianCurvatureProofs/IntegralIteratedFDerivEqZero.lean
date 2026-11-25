@@ -12,8 +12,6 @@ public import Mathlib.Analysis.Calculus.ContDiff.Comp
 
 open MeasureTheory Module
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P5.HerC.Fou
 
 variable {V : Type*} [NormedAddCommGroup V] [InnerProductSpace ℝ V] [FiniteDimensional ℝ V] [MeasurableSpace V]

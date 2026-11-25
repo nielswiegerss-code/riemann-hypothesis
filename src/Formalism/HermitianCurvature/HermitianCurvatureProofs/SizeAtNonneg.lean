@@ -11,8 +11,6 @@ namespace Formalism.FourierDecayAlt.P.PBA
 
 open Formalism.FourierDecayAlt
 
-noncomputable section
-
 theorem pair_prob {W : Type} {s t : Finset W} {a b : W → ℝ} (ha : TB.IsProb s a) (hb : TB.IsProb t b) :
     TB.IsProb (s ×ˢ t) (fun x => a x.1 * b x.2) := by
   refine ⟨fun x => mul_nonneg (ha.1 _) (hb.1 _), fun x hx => ?_, ?_⟩
@@ -99,7 +97,5 @@ theorem Nst_eq {ε : ℝ} {i : ℕ} (hi : i ≤ S.G.r + 1) (s : ℕ) (w : S.W) (
       ((C.Word.size S.P w.1 : ℝ) : ℂ) = _
   simp only [C.HidaSetting.gram, ite_eq_left hi, loc_join, KB.gN, Finset.prod_div_distrib, hsz,
     Finset.sum_div, mul_div_assoc]
-
-end
 
 end Formalism.FourierDecayAlt.P.PBA

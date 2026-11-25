@@ -7,8 +7,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.WordCorrespo
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PBO
 
 open Formalism.FourierDecayAlt

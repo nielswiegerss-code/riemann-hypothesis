@@ -12,8 +12,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.SlicesFinite
 
 open MeasureTheory
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PBE
 
 open Formalism.FourierDecayAlt Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.P.JCTx6 Formalism.FourierDecayAlt.P.JCTx6.Pos

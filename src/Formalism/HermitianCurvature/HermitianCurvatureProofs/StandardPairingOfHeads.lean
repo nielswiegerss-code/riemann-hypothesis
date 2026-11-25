@@ -7,8 +7,6 @@ public import Formalism.HermitianCurvature.HermitianCurvatureProofs.StandardPair
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.PBO
 
 open Formalism.FourierDecayAlt

@@ -13,8 +13,6 @@ import Mathlib.Tactic.TypeStar
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P.HighestWeightPolynomials
 
 open Formalism.REAL Formalism.FourierDecayAlt.Q Formalism.FourierDecayAlt.Qr

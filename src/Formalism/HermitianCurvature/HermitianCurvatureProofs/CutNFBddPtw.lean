@@ -11,8 +11,6 @@ namespace Formalism.FourierDecayAlt.P.CutBP
 
 open Formalism.FourierDecayAlt Formalism.QuantumDeterminants
 
-noncomputable section
-
 theorem pointwise_bound_normal_form_holds : NFBddPtw := by
   intro P L hTT hL b hb
   obtain ⟨C, Mx, hSA, hC, hM⟩ := Formalism.FourierDecayAlt.P.MAx3.AD.SAB_closure (hTTp := hTT) (hL := hL)
@@ -38,7 +36,5 @@ theorem pointwise_bound_normal_form_holds : NFBddPtw := by
     _ = _ := by
       rw [Finset.sum_const, Finset.card_univ, nsmul_eq_mul]
       ring
-
-end
 
 end Formalism.FourierDecayAlt.P.CutBP

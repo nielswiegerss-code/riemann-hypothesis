@@ -10,8 +10,6 @@ namespace Formalism.FourierDecayAlt.P.PBL
 open Formalism.FourierDecayAlt Formalism.QuantumDeterminants NumberField
 open scoped ComplexConjugate ComplexOrder
 
-noncomputable section
-
 open Classical
 
 section lists
@@ -50,7 +48,5 @@ theorem rhyp_of {P : M.Par} (l0 : ℕ) (a : List C.Letter) (e : Wd.Ix (Fin a.len
   | y :: ys, H => ⟨H [] y ys rfl, rhyp_of l0 a e ρ Pv C ys fun ys₁ y' ys₂ h => H (y :: ys₁) y' ys₂ (by rw [h]; rfl)⟩
 
 end lists
-
-end
 
 end Formalism.FourierDecayAlt.P.PBL

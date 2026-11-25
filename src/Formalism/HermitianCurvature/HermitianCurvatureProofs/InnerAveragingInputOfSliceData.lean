@@ -9,8 +9,6 @@ import Formalism.RealPlaceAnalysis.StatementA
 
 open Matrix
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.P
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.C6

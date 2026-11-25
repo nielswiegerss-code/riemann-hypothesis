@@ -22,8 +22,6 @@ namespace Formalism.FourierDecayAlt.P.CutMP
 
 open NumberField
 
-noncomputable section
-
 attribute [local instance] Matrix.normedAddCommGroup Matrix.normedSpace
 
 section gen
@@ -195,7 +193,5 @@ theorem transfer_commutation_holds : JDJComm := by
   intro x hx
   have hq : x ∈ JF.QDom S.G.k S.G.r (T v).base.z (T v).base.z' := ⟨hx.1, by rw [← hTT]; exact hx.2⟩
   exact hth _ (Formalism.FourierDecayAlt.P.BigCellHermitian.gqDom (T v).base hq)
-
-end
 
 end Formalism.FourierDecayAlt.P.CutMP
