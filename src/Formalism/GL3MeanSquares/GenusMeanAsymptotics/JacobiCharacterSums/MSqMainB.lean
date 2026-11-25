@@ -12,8 +12,6 @@ public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.LogarithmicIntegralBounds
 
 theorem meansq_split (I : Finset ℕ) (c : ℕ → ℝ) (hc : ∀ n, 0 ≤ c n) (r : ℕ → ℕ → ℕ) (A : ℕ → ℕ → ℝ)

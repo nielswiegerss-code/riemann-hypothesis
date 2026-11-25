@@ -12,8 +12,6 @@ public import Mathlib.LinearAlgebra.FreeModule.PID
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.F
 
 theorem linearIndependent_coe_basis''' {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E]

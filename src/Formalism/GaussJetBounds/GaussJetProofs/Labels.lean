@@ -5,7 +5,6 @@ public import Formalism.GaussJetBounds.GaussJetProofs.NormDetLeOneOfEntries
 
 @[expose] public section
 
-noncomputable section
 open scoped BigOperators
 
 namespace Formalism.DworkPowerSeriesWeights

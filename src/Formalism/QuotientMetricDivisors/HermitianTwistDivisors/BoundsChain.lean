@@ -6,8 +6,6 @@ public import Formalism.QuotientMetricDivisors.Statement
 
 open Module NumberField IsDedekindDomain
 
-noncomputable section
-
 namespace Formalism.DivisionValues
 
 theorem lw_nonneg' {K : Type} [Field K] [NumberField K] (w : HeightOneSpectrum (𝓞 K)) :

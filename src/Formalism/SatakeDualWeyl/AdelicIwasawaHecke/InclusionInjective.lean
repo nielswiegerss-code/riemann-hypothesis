@@ -6,8 +6,6 @@ public import Mathlib.RingTheory.Flat.Basic
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix TensorProduct
 
 namespace Formalism.UG.P

@@ -8,8 +8,6 @@ import Mathlib.RingTheory.HopfAlgebra.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.BasicNotions.Examples₂.GatR
 
 open QuadraticAlgebra IsLocalRing

@@ -5,8 +5,6 @@ public import Formalism.LandauZeroFreeBounds.ExceptionalZeroBounds.ExistsLocalZe
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.ZeroFreeDirichlet
 
 theorem landau_local3 : LandauLocal3 :=

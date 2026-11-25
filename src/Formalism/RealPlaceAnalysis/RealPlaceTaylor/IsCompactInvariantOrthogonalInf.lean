@@ -11,8 +11,6 @@ public import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
 open scoped InnerProductSpace
 open Finset
 
-noncomputable section
-
 namespace Formalism.REAL
 
 theorem mem_compactSpan_self {V : Type*} [AddCommGroup V] [Module ℂ V] {n : ℕ} (ε : Fin n → Bool)

@@ -5,8 +5,6 @@ public import Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Stabstd
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix TensorProduct NumberField IsDedekindDomain
 
 namespace Formalism.UG.P

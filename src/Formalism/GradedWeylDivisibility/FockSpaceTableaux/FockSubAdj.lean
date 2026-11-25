@@ -10,8 +10,6 @@ import Mathlib.Tactic.TypeStar
 
 open MvPolynomial Formalism.REAL
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 lemma LFocks_subAdj {σ : Type*} [Fintype σ] [DecidableEq σ] (U : Matrix σ σ ℂ)

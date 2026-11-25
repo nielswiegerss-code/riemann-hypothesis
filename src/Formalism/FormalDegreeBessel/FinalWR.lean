@@ -6,8 +6,6 @@ import Formalism.FormalDegreeBessel.FormalDegreeRatio.WRWeyl
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.QuantumDeterminants
 
 theorem presOps : PresOps := preserved_operators_holds

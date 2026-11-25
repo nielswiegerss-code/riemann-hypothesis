@@ -14,8 +14,6 @@ open PowerSeries
 
 universe u
 
-noncomputable section
-
 namespace Formalism.ELL.WeierstrassSubstitution
 
 theorem mvsubst_psubst {K : Type u} [Field K] {τ σ : Type} (w : PowerSeries K)

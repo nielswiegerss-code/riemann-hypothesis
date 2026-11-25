@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 open scoped InnerProductSpace
 open Finset
 
-noncomputable section
-
 namespace Formalism.REAL
 
 section WDA

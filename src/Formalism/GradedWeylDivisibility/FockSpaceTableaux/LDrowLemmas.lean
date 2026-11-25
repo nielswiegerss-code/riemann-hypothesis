@@ -8,8 +8,6 @@ import Mathlib.Tactic.TypeStar
 
 open MvPolynomial Finset
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 lemma ldrow_rowAct_diag_eq {R : Type*} [CommRing R] {k n : ℕ} (t : Fin k → R) :

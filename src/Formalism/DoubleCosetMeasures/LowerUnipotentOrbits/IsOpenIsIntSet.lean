@@ -5,8 +5,6 @@ import Mathlib.Topology.Algebra.Group.Units
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 
 namespace Formalism.DoubleCosetMeasures.P

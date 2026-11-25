@@ -12,8 +12,6 @@ import Mathlib.Tactic.TypeStar
 
 open NumberField Module
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3
 
 namespace GramDeterminantPositive

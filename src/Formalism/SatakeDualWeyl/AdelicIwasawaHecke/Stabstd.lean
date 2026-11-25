@@ -4,8 +4,6 @@ public import Formalism.SatakeDualWeyl.Statement
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.UG.P
 
 open Matrix

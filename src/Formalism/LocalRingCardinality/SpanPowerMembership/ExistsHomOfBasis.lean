@@ -7,8 +7,6 @@ import Mathlib.Topology.Sheaves.Presheaf
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.BasicNotions.Examples₂
 
 open NumberField IsDedekindDomain

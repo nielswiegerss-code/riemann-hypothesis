@@ -5,8 +5,6 @@ import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.BoxTail
 
 theorem tail_num_rpow (x ε : ℝ) (hx : 0 < x) :

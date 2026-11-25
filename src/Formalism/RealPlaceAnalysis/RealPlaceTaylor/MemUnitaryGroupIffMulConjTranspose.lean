@@ -9,8 +9,6 @@ import Mathlib.Tactic.Lemma
 
 open Matrix
 
-noncomputable section
-
 namespace Formalism.REAL
 
 lemma f1alg_isUnit_J {n : ℕ} (ε : Fin n → Bool) : IsUnit (Jm ε) :=

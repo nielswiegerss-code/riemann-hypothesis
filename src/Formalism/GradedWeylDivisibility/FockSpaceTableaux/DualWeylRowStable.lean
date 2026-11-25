@@ -7,8 +7,6 @@ public import Formalism.GradedWeylDivisibility.FockSpaceTableaux.LRowstLemmas
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 theorem dualWeylModuleRowActionStable : DualWeylRowStable := by

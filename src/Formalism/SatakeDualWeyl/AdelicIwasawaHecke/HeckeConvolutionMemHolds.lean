@@ -5,8 +5,6 @@ public import Formalism.SatakeDualWeyl.AdelicIwasawaHecke.FiniteCosetsInDoset
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.UG.P
 
 open Formalism.UG

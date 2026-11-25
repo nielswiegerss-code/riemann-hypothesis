@@ -15,8 +15,6 @@ open PowerSeries
 
 universe u
 
-noncomputable section
-
 namespace Formalism.ELL
 
 namespace WeierstrassCoordinateSubstitution

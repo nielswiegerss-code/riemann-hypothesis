@@ -6,8 +6,6 @@ public import Formalism.WindowSums.PowerSeriesRelationList
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.TruncatedSeriesCounting.RamifiedCoefficientChains
 
 open Polynomial

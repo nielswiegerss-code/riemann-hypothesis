@@ -8,8 +8,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 open Module NumberField IsDedekindDomain
 open scoped Matrix
 
-noncomputable section
-
 namespace Formalism.DivisionValues
 
 namespace ValuationZeroReduction

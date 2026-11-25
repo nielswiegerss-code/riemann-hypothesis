@@ -8,8 +8,6 @@ import Mathlib.Tactic.Lemma
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.LogarithmicIntegralBounds
 
 private lemma intervalIntegrable_inv_log_two {Y : ℝ} (hY : 2 ≤ Y) :

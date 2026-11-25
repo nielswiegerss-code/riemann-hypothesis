@@ -8,8 +8,6 @@ public import Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepre
 
 open NumberField Module
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3
 
 namespace OrbitRepresentatives

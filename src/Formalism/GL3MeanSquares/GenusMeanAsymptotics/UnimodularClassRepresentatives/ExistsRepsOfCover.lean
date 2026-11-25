@@ -11,8 +11,6 @@ import Mathlib.Tactic.TypeStar
 
 open Module
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3
 
 namespace OrbSum

@@ -10,8 +10,6 @@ import Mathlib.Algebra.Ring.IsFormallyReal
 open NumberField Module Filter Topology
 open scoped Classical
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.BoxSum
 
 variable {K F : Type} [Field K] [NumberField K] [StarRing K] [Field F] [NumberField F] [Algebra F K]

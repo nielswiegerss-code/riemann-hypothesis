@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.HN
 
 theorem exists_smul_mem_of_finrank_eq {E : Type*} [AddCommGroup E] (S N : Submodule ℤ E) [Module.Finite ℤ S]

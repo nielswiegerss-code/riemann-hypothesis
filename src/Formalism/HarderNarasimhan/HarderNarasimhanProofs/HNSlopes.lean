@@ -15,8 +15,6 @@ import Mathlib.Topology.Sheaves.Presheaf
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.HN
 
 theorem card_filter_val_lt_alt (n m : ℕ) (hm : m ≤ n) :

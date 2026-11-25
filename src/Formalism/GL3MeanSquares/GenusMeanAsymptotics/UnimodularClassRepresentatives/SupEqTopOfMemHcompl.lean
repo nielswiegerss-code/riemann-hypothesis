@@ -16,8 +16,6 @@ public import Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepre
 
 open NumberField Module Matrix
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.OrthogonalBases
 
 variable {K F : Type} [Field K] [NumberField K] [StarRing K] [Field F] [NumberField F] [Algebra F K]

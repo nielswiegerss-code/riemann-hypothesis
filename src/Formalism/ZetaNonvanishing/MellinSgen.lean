@@ -11,8 +11,6 @@ import Mathlib.Tactic.Lemma
 
 open Complex MeasureTheory Set Filter Topology ArithmeticFunction
 
-noncomputable section
-
 namespace Formalism
 
 lemma continuous_mxS (n : ℕ) : Continuous (mxS n) := by

@@ -8,8 +8,6 @@ import Mathlib.Tactic.TypeStar
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.HN
 
 theorem imageLattice_mono {R V E : Type*} [Ring R] [AddCommGroup V] [Module R V]

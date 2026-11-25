@@ -13,8 +13,6 @@ public import Mathlib.MeasureTheory.Integral.DominatedConvergence
 open MeasureTheory Filter Asymptotics Complex
 open scoped FourierTransform RealInnerProductSpace SchwartzMap
 
-noncomputable section
-
 namespace Formalism.H
 
 variable {V : Type*} [NormedAddCommGroup V] [InnerProductSpace ℝ V] [FiniteDimensional ℝ V]

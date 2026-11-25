@@ -11,8 +11,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 open Module NumberField IsDedekindDomain
 
-noncomputable section
-
 namespace Formalism.DivisionValues
 
 theorem log_abs_norm_eq_two_sum (K : Type) [Field K] [NumberField K] [_root_.NumberField.IsTotallyComplex K]

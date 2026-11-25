@@ -8,8 +8,6 @@ import Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentati
 open NumberField Module
 open scoped Classical
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.BoxCube
 
 open BoxSum

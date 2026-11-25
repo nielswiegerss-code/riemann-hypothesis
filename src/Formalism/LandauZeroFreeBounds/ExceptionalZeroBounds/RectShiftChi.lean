@@ -12,8 +12,6 @@ public import Formalism.LFunctionBounds.ExpSumLowerBound
 
 open Complex Filter Topology
 
-noncomputable section
-
 namespace Formalism.ZeroFreeDirichlet
 
 lemma neg_log_deriv_differentiableAt {q : ℕ} [NeZero q] {χ : DirichletCharacter ℂ q} (hχ : χ ≠ 1) {w : ℂ}

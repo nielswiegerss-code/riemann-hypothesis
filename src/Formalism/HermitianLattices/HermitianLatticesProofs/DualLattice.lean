@@ -15,7 +15,6 @@ public import Mathlib.RingTheory.Flat.TorsionFree
 @[expose] public section
 
 open Module
-noncomputable section
 namespace Formalism.HermitianLatticesTheory
 
 section

@@ -14,8 +14,6 @@ import Mathlib.RingTheory.PicardGroup
 open NumberField IntermediateField Ideal
 open scoped Pointwise nonZeroDivisors
 
-noncomputable section
-
 namespace Formalism.FrobeniusOrbits
 
 open Formalism.TwoAdicCyclotomicDecomposition

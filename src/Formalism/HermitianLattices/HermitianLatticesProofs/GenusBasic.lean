@@ -6,8 +6,6 @@ public import Formalism.HermitianLattices.HermitianLatticesProofs.IsomAct
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.HermitianLatticesTheory
 
 section SlopeTestRemainingChoices

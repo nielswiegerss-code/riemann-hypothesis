@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.REAL
 
 theorem quantumMinorRowSkew_holds : QSkewRow := by

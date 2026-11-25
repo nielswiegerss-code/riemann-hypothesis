@@ -8,8 +8,6 @@ public import Mathlib.Analysis.Complex.Basic
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.LogarithmicIntegralBounds
 
 theorem meansq_expand (PP I : Finset ℕ) (c : ℕ → ℝ) (hc : ∀ n, 0 ≤ c n) (κ : ℕ → ℂ)

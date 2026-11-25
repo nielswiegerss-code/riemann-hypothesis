@@ -7,8 +7,6 @@ public import Formalism.GradedWeylDivisibility.FockSpaceTableaux.LBidetdomLemmas
 
 open MvPolynomial Finset
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 theorem bideterminantDominance : BideterminantDominance := by

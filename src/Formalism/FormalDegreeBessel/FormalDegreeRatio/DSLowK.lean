@@ -8,8 +8,6 @@ import Mathlib.Tactic.TypeStar
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.QuantumDeterminants
 
 open Formalism.REAL

@@ -4,8 +4,6 @@ public import Formalism.DistinguishedUnitIdeals.Statement
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.ExponentWindows
 
 open PowerSeries

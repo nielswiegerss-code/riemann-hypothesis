@@ -10,8 +10,6 @@ public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.REAL
 
 private theorem epow_zero_apply {A : Type*} [Ring A] {n : ℕ} (E : Fin n → Fin n → A)

@@ -5,8 +5,6 @@ public import Mathlib.Analysis.SpecificLimits.Basic
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 open Finset
 

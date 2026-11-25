@@ -12,8 +12,6 @@ import Mathlib.Tactic.Linter.Style
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.LatticeIndexTer.LatticeIndexDeterminant
 
 theorem arith (x y d va vb ve ve' : ℕ∞) (h1 : ve = x + d) (h2 : ve' = y + d)

@@ -6,8 +6,6 @@ public import Mathlib.NumberTheory.LegendreSymbol.JacobiSymbol
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.LogarithmicIntegralBounds
 
 theorem jacobi_congr {a b s : ℕ} (h : a ≡ b [MOD s]) : jacobiSym (a : ℤ) s = jacobiSym (b : ℤ) s := by

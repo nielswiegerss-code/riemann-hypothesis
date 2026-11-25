@@ -5,8 +5,6 @@ import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.N2
 
 theorem second_descent_statement_holds : Stat2 := by

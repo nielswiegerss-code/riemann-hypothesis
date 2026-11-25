@@ -4,8 +4,6 @@ public import Formalism.WachLatticeTwists.LagrangeExtensionCocycles.StatementTop
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.N2
 
 open Polynomial Formalism.CoboundaryTransfers

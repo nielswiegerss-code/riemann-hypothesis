@@ -8,8 +8,6 @@ public import Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.
 open scoped TensorProduct
 open Finset
 
-noncomputable section
-
 namespace Formalism.REAL
 
 theorem casimir_central_holds : CasCentral := by

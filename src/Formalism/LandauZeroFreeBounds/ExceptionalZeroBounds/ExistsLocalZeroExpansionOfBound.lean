@@ -12,8 +12,6 @@ public import Formalism.ZeroFreeRegion.ZetaLogDerivativeBounds.ZeroFactor
 
 open Complex Filter Topology Metric
 
-noncomputable section
-
 namespace Formalism.ZeroFreeDirichlet
 
 /-- In the local Landau expansion, the coefficient at each zero is its analytic order. -/

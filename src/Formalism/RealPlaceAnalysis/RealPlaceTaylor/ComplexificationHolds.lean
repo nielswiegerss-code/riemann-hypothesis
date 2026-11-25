@@ -7,8 +7,6 @@ import Mathlib.Tactic.Lemma
 
 open Matrix
 
-noncomputable section
-
 namespace Formalism.REAL
 
 lemma f1auxiliary_hs_eq {n : ℕ} (g : Matrix (Fin n) (Fin n) ℂ) : hs g = (trace (gᴴ * g)).re := by

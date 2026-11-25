@@ -9,8 +9,6 @@ import Mathlib.Tactic.Lemma
 
 open Filter Topology ArithmeticFunction ArithmeticFunction.vonMangoldt Complex LSeries
 
-noncomputable section
-
 namespace Formalism.HF.P
 
 variable {q : ℕ} [NeZero q] {a : ZMod q}

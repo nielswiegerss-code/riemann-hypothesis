@@ -11,8 +11,6 @@ public import Mathlib.Analysis.Complex.Exponential
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 open Finset Real
 

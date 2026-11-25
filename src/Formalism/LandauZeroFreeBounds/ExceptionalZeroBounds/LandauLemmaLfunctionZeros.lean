@@ -10,8 +10,6 @@ import Mathlib.Tactic.Lemma
 
 open Complex
 
-noncomputable section
-
 namespace Formalism.ZeroFreeDirichlet
 
 lemma landau_lemma_lfunction_zeros (hLL : LandauLocal3) {C : ℝ}

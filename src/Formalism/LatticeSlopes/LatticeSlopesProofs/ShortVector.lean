@@ -10,8 +10,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 open Module Submodule MeasureTheory
 
-noncomputable section
-
 namespace Formalism.F
 
 universe u

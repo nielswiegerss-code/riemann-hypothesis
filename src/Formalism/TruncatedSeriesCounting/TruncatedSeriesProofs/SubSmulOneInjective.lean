@@ -8,8 +8,6 @@ public import Mathlib.LinearAlgebra.Quotient.Pi
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.TruncatedSeriesCounting.RamifiedCoefficientChains
 
 open Module

@@ -7,8 +7,6 @@ import Formalism.FockPairing
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 section general

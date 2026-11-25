@@ -11,8 +11,6 @@ import Mathlib.RingTheory.RegularLocalRing.Defs
 
 open Module NumberField NumberField.InfinitePlace
 
-noncomputable section
-
 namespace Formalism.HN
 
 theorem sizeMu_rpow_eq (f J C d : ℝ) (hf : 0 < f) (hJ : 0 < J) (hC : 0 < C) (hd : 0 < d) :

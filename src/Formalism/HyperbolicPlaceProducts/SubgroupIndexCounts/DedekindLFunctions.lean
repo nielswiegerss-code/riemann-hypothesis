@@ -7,8 +7,6 @@ public import Mathlib.RingTheory.DedekindDomain.Factorization
 
 open Module
 
-noncomputable section
-
 namespace Formalism.SLP.P
 
 private theorem exists_span_singleton_eq_of_le_span_singleton {R M : Type} [CommRing R] [IsDedekindDomain R]
@@ -114,5 +112,3 @@ theorem card_submodules_le_of_dedekind : Formalism.SLP.SubmoduleCountDed := by
         rw [Nat.card_pi, Finset.prod_const, Finset.card_univ, Fintype.card_fin]
 
 end Formalism.SLP.P
-
-end

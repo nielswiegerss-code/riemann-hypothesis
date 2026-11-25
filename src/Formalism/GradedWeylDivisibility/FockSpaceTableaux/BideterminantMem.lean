@@ -7,8 +7,6 @@ public import Formalism.GradedWeylDivisibility.FockSpaceTableaux.LBidetLemmas
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 theorem sum_initW_eq_shapeDeg {n K : ℕ} (sz : Fin K → ℕ) :

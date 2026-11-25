@@ -12,8 +12,6 @@ import Mathlib.Tactic.Lemma
 
 open NumberField Polynomial Matrix
 
-noncomputable section
-
 namespace Formalism.HF.P
 
 lemma quad_not_sq_rat (a : ℤ) (ha : Squarefree a) (h1 : a ≠ 1) : ∀ b : ℚ, b ^ 2 ≠ (a : ℚ) := by

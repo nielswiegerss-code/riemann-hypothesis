@@ -15,8 +15,6 @@ open Module
 
 set_option linter.deprecated false
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.MeanA
 
 theorem exists_mul_sub_one_mem_pow {R : Type*} [CommRing R] {𝔭 : Ideal R} (h𝔭 : 𝔭.IsMaximal) {t : R}

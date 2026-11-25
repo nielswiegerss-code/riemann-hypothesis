@@ -10,8 +10,6 @@ import Mathlib.Tactic.Linter.Style
 open MeasureTheory Module Metric Set
 open scoped Pointwise
 
-noncomputable section
-
 namespace Formalism.FN.SuccessiveMinima
 
 variable {E : Type} [NormedAddCommGroup E] [NormedSpace ℝ E] [FiniteDimensional ℝ E]

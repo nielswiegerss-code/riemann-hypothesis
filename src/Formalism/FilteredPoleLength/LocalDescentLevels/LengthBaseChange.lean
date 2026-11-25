@@ -52,8 +52,6 @@ public import Mathlib.RingTheory.OrderOfVanishing.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.LatticeBaseChangeAlt
 
 open Module TensorProduct

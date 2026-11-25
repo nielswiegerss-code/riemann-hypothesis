@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 theorem rowGen_X (R : Type*) [CommRing R] {r n : ℕ} (a b : Fin r) (v : Fin r × Fin n) :

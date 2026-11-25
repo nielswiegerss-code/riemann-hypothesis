@@ -6,8 +6,6 @@ import Mathlib.Algebra.Ring.IsFormallyReal
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.N2
 
 theorem residue_finite_holds : StatResFinite := by

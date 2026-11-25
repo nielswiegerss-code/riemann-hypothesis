@@ -11,8 +11,6 @@ import Mathlib.Tactic.Linter.Style
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.F
 
 universe u

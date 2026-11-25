@@ -5,8 +5,6 @@ import Mathlib.Algebra.Order.Star.Int
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.NOK
 
 open PowerSeries

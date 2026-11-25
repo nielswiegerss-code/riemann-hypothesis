@@ -10,8 +10,6 @@ public import Formalism.ZeroFreeRegion.ZetaLogDerivativeBounds.ZetaInvBound
 
 open Complex Filter Topology
 
-noncomputable section
-
 namespace Formalism.ZF
 
 open ComplexPowerDifferenceIntegral in

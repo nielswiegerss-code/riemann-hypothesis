@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 theorem lsat_spec_colAddGen {R : Type*} [CommRing R] {r n : ℕ} (l j : Fin n) (c : R) :

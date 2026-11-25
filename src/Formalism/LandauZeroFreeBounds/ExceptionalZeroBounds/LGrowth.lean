@@ -10,8 +10,6 @@ import Mathlib.Tactic.Lemma
 
 open Complex Finset
 
-noncomputable section
-
 namespace Formalism.ZeroFreeDirichlet
 
 lemma character_sum_range_modulus_eq_zero {q : ℕ} [NeZero q] (χ : DirichletCharacter ℂ q) (hχ : χ ≠ 1) :

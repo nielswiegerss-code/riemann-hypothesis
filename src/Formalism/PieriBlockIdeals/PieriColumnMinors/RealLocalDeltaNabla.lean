@@ -10,8 +10,6 @@ import Formalism.RankGapBounds.CloudMinFalse
 
 open MvPolynomial TensorProduct
 
-noncomputable section
-
 namespace Formalism.CohomologicalDescent.RealLocalDeltaNabla
 
 open Formalism.GradedWeylDivisibility Formalism.UG Formalism.RankGapBounds.JumpSetsAlt Formalism.RankGapBounds.FormsTensorLocalization Formalism.CohomologicalDescent.LA Formalism.CohomologicalDescent.SL2BinomialLattices

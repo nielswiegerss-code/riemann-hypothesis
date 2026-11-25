@@ -6,8 +6,6 @@ public import Formalism.HermitianLattices.StatementMass
 
 open NumberField Module
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3
 
 variable {K : Type} [Field K] [NumberField K] [StarRing K]

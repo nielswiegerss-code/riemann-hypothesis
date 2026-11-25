@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.F
 
 theorem gram_sum_smul_eq_transpose_mul {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E]

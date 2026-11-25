@@ -10,8 +10,6 @@ open MvPowerSeries
 
 namespace Formalism.BaseCaseIdentities
 
-noncomputable section
-
 open Classical
 
 variable {k : Type*} [Field k] {Z : Type*} {C : Type*}
@@ -80,7 +78,5 @@ namespace Data
 variable [Fintype Z] [Fintype C] (D : Data k Z C)
 
 end Data
-
-end
 
 end Formalism.BaseCaseIdentities

@@ -11,8 +11,6 @@ import Mathlib.Tactic.TypeStar
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.NG
 
 namespace ColKerChi

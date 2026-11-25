@@ -6,8 +6,6 @@ public import Formalism.GradedWeylDivisibility.StatementA
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 private theorem applyWord_hw_mem_dualWeyl

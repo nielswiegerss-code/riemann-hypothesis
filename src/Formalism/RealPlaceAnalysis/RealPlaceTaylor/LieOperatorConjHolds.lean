@@ -10,8 +10,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Shift
 open Matrix Finset
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.REAL
 
 open scoped Matrix.Norms.Elementwise

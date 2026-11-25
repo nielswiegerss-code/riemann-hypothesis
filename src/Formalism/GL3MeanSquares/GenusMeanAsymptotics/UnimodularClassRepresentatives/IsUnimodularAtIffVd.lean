@@ -17,8 +17,6 @@ public import Mathlib.RingTheory.DedekindDomain.Factorization
 
 open NumberField Module
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3
 
 variable {K F : Type} [Field K] [NumberField K] [StarRing K] [Field F] [NumberField F] [Algebra F K]

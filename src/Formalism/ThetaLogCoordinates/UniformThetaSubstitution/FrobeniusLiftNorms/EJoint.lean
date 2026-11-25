@@ -7,8 +7,6 @@ public import Formalism.GaussJetBounds.StatementI
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 open Finset
 

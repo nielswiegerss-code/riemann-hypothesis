@@ -7,8 +7,6 @@ public import Mathlib.Analysis.Complex.AbsMax
 
 open Complex Filter Topology Metric
 
-noncomputable section
-
 namespace Formalism.ZF
 
 lemma landauLocal_logDeriv_prod (Z : Finset ℂ) (m : ℂ → ℕ) (z : ℂ)

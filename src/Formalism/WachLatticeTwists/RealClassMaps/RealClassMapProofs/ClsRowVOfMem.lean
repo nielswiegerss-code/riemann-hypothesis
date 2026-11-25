@@ -11,8 +11,6 @@ open Formalism.NG Formalism.RepresentationBoundsCohomology.BR Formalism.Represen
 open NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.RepresentationBoundsCohomology.LOC
 open ReciprocityTheory.ChartRestriction.T2 (GK PadicCoeff FracTop IsCyc IsCycOn IsFGTop cupFG toH1Cocycles traceH1 transportCocycles)
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.FIN
 
 theorem kRowRange (O : Type) [CommRing O] [IsDomain O] [IsDiscreteValuationRing O]

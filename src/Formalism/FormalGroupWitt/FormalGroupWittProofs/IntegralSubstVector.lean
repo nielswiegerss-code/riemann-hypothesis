@@ -5,8 +5,6 @@ import Formalism.EllipticTorsion.EllipticTorsionProofs.NDeriv
 
 @[expose] public section
 
-noncomputable section
-
 universe u v w
 
 namespace Formalism.FG.IntegralSubstitution

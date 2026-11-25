@@ -14,8 +14,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 open NumberField Module
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.D2
 
 variable {K F : Type} [Field K] [NumberField K] [StarRing K] [Field F] [NumberField F] [Algebra F K]

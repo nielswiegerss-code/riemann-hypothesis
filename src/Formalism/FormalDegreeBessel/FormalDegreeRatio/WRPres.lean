@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.QuantumDeterminants
 
 namespace WRPres

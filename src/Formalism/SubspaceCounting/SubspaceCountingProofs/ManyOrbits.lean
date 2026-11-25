@@ -7,8 +7,6 @@ import Mathlib.NumberTheory.Height.NumberField
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 
 namespace Formalism.G0

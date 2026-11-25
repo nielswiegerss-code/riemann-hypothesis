@@ -5,7 +5,6 @@ import Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Levelaf
 
 @[expose] public section
 
-noncomputable section
 namespace Formalism.UG.P
 open Formalism.UG IsDedekindDomain IsDedekindDomain.HeightOneSpectrum NumberField
 open scoped WithZero

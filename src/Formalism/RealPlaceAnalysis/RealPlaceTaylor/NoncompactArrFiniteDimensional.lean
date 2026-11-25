@@ -11,8 +11,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 open scoped InnerProductSpace
 open Finset
 
-noncomputable section
-
 namespace Formalism.REAL
 
 section U2

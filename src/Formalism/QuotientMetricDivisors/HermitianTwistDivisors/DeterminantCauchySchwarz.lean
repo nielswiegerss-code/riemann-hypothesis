@@ -14,8 +14,6 @@ public import Mathlib.Algebra.Star.UnitaryStarAlgAut
 open Matrix
 open scoped Matrix ComplexOrder MatrixOrder Matrix.Norms.L2Operator
 
-noncomputable section
-
 namespace Formalism.DivisionValues
 
 lemma one_le_det_one_add {m : Type*} [Fintype m] [DecidableEq m] {Z : Matrix m m ℂ}

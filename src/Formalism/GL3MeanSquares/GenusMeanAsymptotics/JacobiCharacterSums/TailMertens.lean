@@ -7,8 +7,6 @@ public import Mathlib.NumberTheory.Chebyshev
 
 open Finset ArithmeticFunction
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.BoxTail
 
 theorem tail_mertens_psi (N : ℕ) :

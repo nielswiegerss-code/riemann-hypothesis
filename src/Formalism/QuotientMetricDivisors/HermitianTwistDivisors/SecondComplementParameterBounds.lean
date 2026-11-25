@@ -11,8 +11,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 open Module NumberField IsDedekindDomain Finset
 
-noncomputable section
-
 namespace Formalism.DivisionValues
 
 namespace PlaceSumConjugation

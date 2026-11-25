@@ -7,8 +7,6 @@ public import Formalism.GradedWeylDivisibility.FockSpaceTableaux.LSatLemmas
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 theorem dualWeylModuleMap : DualWeylMap := by

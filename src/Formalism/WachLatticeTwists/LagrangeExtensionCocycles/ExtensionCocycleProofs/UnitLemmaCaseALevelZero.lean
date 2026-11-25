@@ -6,8 +6,6 @@ public import Mathlib.NumberTheory.Multiplicity
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.N2
 
 open Polynomial

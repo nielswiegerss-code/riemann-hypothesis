@@ -8,8 +8,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.LogarithmicIntegralBounds
 
 theorem soutPart_pos (m₀ N : ℕ) : 0 < soutPart m₀ N := by

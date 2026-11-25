@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 open MvPolynomial Finset
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 private theorem colExp_apply {r n h : ℕ} (c : Fin h → Fin r) (hh : h ≤ n) (a : Fin r)

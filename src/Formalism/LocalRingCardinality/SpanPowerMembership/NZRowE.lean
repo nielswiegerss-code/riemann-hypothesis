@@ -13,8 +13,6 @@ public import Formalism.LocalRingCardinality.SpanPowerMembership.NZTypeH
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.BasicNotions.Examples₂.NZ
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.BasicNotions.Examples₂

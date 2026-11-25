@@ -13,8 +13,6 @@ import Mathlib.RingTheory.TotallySplit
 
 open Module NumberField
 
-noncomputable section
-
 namespace Formalism.ExtensionFiltration
 
 theorem log_covolume_slope_mu :

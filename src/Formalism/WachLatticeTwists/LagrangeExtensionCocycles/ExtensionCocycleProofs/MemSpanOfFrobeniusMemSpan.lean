@@ -5,8 +5,6 @@ public import Formalism.LagrangeIdealLifts.LiftLagrangeIdealInt
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.N2
 
 open Polynomial

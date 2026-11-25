@@ -12,8 +12,6 @@ import Formalism.LatticeSlopes.LatticeSlopesProofs.SlopeInequality
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.F
 
 theorem rank_eq_finrank_span {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E]

@@ -11,8 +11,6 @@ import Mathlib.Tactic.TypeStar
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.HN
 
 section

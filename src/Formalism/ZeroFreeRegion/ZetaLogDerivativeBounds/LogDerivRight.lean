@@ -9,8 +9,6 @@ public import Mathlib.NumberTheory.Harmonic.ZetaAsymp
 open Complex Filter Topology ArithmeticFunction LSeries
 open scoped LSeries.notation
 
-noncomputable section
-
 namespace Formalism.ZF
 
 theorem logDerivBoundRightHalfPlane : LogDerivRight := by

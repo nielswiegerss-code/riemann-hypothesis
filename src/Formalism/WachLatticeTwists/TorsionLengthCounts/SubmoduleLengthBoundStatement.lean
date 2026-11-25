@@ -7,8 +7,6 @@ public import Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthKerOf
 
 open Module IsDiscreteValuationRing Matrix
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology
 
 theorem submoduleLengthBound_statement : Formalism.RepresentationBoundsCohomology.SubmoduleLengthBound := by

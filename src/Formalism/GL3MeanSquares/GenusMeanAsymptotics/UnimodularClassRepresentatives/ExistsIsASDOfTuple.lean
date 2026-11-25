@@ -11,8 +11,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.U0
 
 open WA Module

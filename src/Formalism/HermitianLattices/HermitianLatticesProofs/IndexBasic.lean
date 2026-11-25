@@ -13,8 +13,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 open Module
 
-noncomputable section
-
 namespace Formalism.HermitianLatticesTheory
 
 section Fin

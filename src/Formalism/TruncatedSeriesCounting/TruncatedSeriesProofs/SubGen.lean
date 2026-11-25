@@ -8,8 +8,6 @@ public import Mathlib.LinearAlgebra.FreeModule.PID
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.TruncatedSeriesCounting.RamifiedCoefficientChains
 
 open Formalism.WachCohomologyFacts.PLenBound in

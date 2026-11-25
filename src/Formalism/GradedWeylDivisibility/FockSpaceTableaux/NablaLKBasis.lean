@@ -12,8 +12,6 @@ import Mathlib.Tactic.Lemma
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 lemma span_map_weightBasis_eq_dualWeyl {R K : Type} [CommRing R] [IsDomain R] [Field K] [Algebra R K] {k n : ℕ}

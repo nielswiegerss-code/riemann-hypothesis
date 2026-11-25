@@ -10,8 +10,6 @@ import Mathlib.Tactic.Lemma
 
 open Finset Polynomial
 
-noncomputable section
-
 namespace Formalism.CyclotomicNorms
 
 namespace Sqf

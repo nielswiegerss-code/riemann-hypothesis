@@ -8,8 +8,6 @@ public import Mathlib.Analysis.PSeriesComplex
 
 open Complex Filter Topology
 
-noncomputable section
-
 namespace Formalism.ZF
 
 namespace ComplexPowerDifferenceIntegral

@@ -16,8 +16,6 @@ import Mathlib.Tactic.Linter.Style
 open Module NumberField IsDedekindDomain
 open scoped Matrix ComplexOrder
 
-noncomputable section
-
 namespace Formalism.BranchingDeterminantCap
 
 open Formalism.HN

@@ -10,8 +10,6 @@ import Mathlib.Tactic.Lemma
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix NumberField
 
 namespace Formalism.UG.P

@@ -6,8 +6,6 @@ public import Mathlib.RingTheory.DedekindDomain.Ideal.Basic
 
 @[expose] public section
 
-noncomputable section
-
 open nonZeroDivisors
 
 namespace Formalism.HermitianLatticesTheory

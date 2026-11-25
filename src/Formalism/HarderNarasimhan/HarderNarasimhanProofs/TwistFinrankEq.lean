@@ -10,8 +10,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 open Module NumberField
 
-noncomputable section
-
 namespace Formalism.HN
 
 theorem twist_finrank_eq (K : Type) [Field K] [NumberField K] [_root_.NumberField.IsTotallyComplex K] :

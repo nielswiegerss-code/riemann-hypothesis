@@ -10,8 +10,6 @@ import Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 open Finset
 

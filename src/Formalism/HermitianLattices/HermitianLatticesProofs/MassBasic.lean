@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 
 open NumberField
 
-noncomputable section
-
 namespace Formalism.HermitianLatticesTheory
 
 section MassBasicAux

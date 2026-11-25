@@ -10,8 +10,6 @@ import Mathlib.Topology.Sheaves.Presheaf
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.HN
 
 private lemma finSup_mem_zl {R V E : Type*} [Ring R] [AddCommGroup V] [Module R V]

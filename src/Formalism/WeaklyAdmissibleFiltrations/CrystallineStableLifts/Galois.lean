@@ -4,8 +4,6 @@ public import Formalism.WeaklyAdmissibleFiltrations.CocyclesFunctorial
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.WeaklyAdmissibleFiltrations
 
 open Module TensorProduct

@@ -12,8 +12,6 @@ import Mathlib.Tactic.Lemma
 
 open NumberField IntermediateField
 
-noncomputable section
-
 namespace Formalism.FrobeniusOrbits
 
 open Formalism.TwoAdicCyclotomicDecomposition

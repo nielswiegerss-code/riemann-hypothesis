@@ -10,8 +10,6 @@ public import Mathlib.NumberTheory.Primorial
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.LogarithmicIntegralBounds
 
 open Formalism.HermitianLattices.ZeroFreeRegionGL2

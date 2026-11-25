@@ -7,8 +7,6 @@ public import Formalism.GrowthSums.StatementA
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 open Finset
 

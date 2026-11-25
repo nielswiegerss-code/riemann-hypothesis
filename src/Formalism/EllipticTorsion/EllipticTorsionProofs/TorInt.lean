@@ -9,8 +9,6 @@ import Mathlib.Tactic.Lemma
 
 universe u
 
-noncomputable section
-
 namespace Formalism.ELL.TorsionIntegralEllipticTorsion
 
 open WeierstrassCurve Formalism.ELL

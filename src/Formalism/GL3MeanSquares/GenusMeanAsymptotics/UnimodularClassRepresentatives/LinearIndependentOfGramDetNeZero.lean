@@ -13,8 +13,6 @@ import Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentati
 
 open NumberField Module Matrix
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.LocF
 
 open Formalism.HermitianLattices.Ext.L3.WA

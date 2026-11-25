@@ -9,8 +9,6 @@ import Mathlib.Algebra.Order.Star.Real
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.LogarithmicIntegralBounds
 
 open Formalism.HermitianLattices.ZeroFreeRegionGL2

@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.ringDataObjects
 
 open Formalism.NG Formalism.TruncatedSeriesCounting.TruncatedSeriesCountingIdentities

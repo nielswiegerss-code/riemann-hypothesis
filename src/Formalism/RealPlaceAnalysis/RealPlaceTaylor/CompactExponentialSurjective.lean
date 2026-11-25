@@ -13,7 +13,6 @@ public import Mathlib.Analysis.CStarAlgebra.Spectrum
 open Matrix
 open scoped Matrix.Norms.L2Operator
 
-noncomputable section
 namespace Formalism.REAL
 
 lemma norm_log_sq_le_unit_circle (z : ℂ) (hz : ‖z‖ = 1) : ‖Complex.log z‖ ^ 2 ≤ 3 * ‖z - 1‖ ^ 2 := by

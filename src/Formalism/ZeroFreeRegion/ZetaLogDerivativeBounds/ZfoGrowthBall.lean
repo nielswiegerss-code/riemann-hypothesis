@@ -8,8 +8,6 @@ import Mathlib.Tactic.Lemma
 
 open Complex Metric
 
-noncomputable section
-
 namespace Formalism.ZF
 
 lemma zfo_ball_facts {σ τ : ℝ} {w : ℂ} (hw : w ∈ closedBall ((σ : ℂ) + τ * I) (1 / 2)) :

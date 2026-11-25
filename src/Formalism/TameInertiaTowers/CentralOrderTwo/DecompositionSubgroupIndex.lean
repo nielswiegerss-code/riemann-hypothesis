@@ -14,8 +14,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 open NumberField Ideal
 open scoped Pointwise
 
-noncomputable section
-
 namespace Formalism.TwoAdicCyclotomicDecomposition
 
 theorem two_intCast_mem_iff {L : Type} [Field L] [NumberField L]

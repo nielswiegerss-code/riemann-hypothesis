@@ -9,8 +9,6 @@ import Mathlib.Tactic.Lemma
 
 open Complex
 
-noncomputable section
-
 namespace Formalism.ZeroFreeDirichlet
 
 lemma one_le_modulus_real (q : ℕ) [NeZero q] : (1 : ℝ) ≤ q := by

@@ -4,8 +4,6 @@ public import Formalism.HermitianLattices.StatementLat
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.HermitianLatticesTheory
 
 section SlopeTestRemainingChoices

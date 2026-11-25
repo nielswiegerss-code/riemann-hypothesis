@@ -10,8 +10,6 @@ import Mathlib.Tactic.TypeStar
 
 open MvPolynomial Formalism.REAL
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 section general

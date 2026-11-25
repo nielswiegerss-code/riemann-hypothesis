@@ -12,8 +12,6 @@ import Mathlib.Tactic.Lemma
 
 open Formalism.UG
 
-noncomputable section
-
 namespace Formalism.UG.P
 
 variable {L : Type} [Field L] [Valued L (WithZero (Multiplicative ℤ))]

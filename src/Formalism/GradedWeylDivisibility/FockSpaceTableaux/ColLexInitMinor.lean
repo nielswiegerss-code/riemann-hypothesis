@@ -6,8 +6,6 @@ public import Formalism.GradedWeylDivisibility.StatementC
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 open scoped MonomialOrder

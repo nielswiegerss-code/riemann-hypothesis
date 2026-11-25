@@ -4,8 +4,6 @@ public import Formalism.DistinguishedUnitIdeals.Statement
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.ExponentWindows
 
 theorem pow_apply_sub_mem {R M : Type} [CommRing R] [AddCommGroup M] [Module R M]

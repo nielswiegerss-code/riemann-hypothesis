@@ -9,8 +9,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 open NumberField
 
-noncomputable section
-
 namespace Formalism.HermitianLatticesTheory
 
 section SlopeTestRemainingChoices

@@ -7,8 +7,6 @@ public import Mathlib.Analysis.Analytic.Order
 
 open Complex Set Filter Topology
 
-noncomputable section
-
 namespace Formalism.ZF
 
 theorem exists_factorization_of_sum_order (z₀ : ℂ) (r R₁ : ℝ) (hR : R₁ < r) :

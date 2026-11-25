@@ -12,8 +12,6 @@ public import Mathlib.Analysis.SpecialFunctions.JapaneseBracket
 open MeasureTheory Filter Asymptotics Complex Metric
 open scoped RealInnerProductSpace
 
-noncomputable section
-
 namespace Formalism.H
 
 namespace PoissonPeriodization

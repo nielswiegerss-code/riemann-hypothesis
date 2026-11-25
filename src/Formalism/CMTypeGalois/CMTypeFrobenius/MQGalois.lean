@@ -10,8 +10,6 @@ import Mathlib.Tactic.Lemma
 
 open Polynomial
 
-noncomputable section
-
 namespace Formalism.Q3
 
 section MQ

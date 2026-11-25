@@ -13,8 +13,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 open Module NumberField
 open scoped Matrix
 
-noncomputable section
-
 namespace Formalism.BranchingDeterminantCap
 
 namespace OrthogonalSumAlt

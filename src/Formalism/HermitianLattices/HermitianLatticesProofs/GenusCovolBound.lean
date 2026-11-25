@@ -13,8 +13,6 @@ import Mathlib.Algebra.Order.Star.Rat
 
 open Module NumberField
 
-noncomputable section
-
 namespace Formalism.HermitianLatticesTheory
 
 section PartA

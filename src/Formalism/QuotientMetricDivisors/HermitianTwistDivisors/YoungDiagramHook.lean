@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.DivisionValues
 
 open Formalism.LatticeIndexTer (ph)

@@ -8,8 +8,6 @@ public import Formalism.WachLatticeTwists.LagrangeExtensionCocycles.ExtensionCoc
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.N2
 
 theorem unit_lemma_prime_case_holds : StatWPrime := by

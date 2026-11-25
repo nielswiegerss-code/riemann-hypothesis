@@ -5,7 +5,6 @@ public import Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.
 
 @[expose] public section
 
-noncomputable section
 open scoped BigOperators
 
 universe u v w

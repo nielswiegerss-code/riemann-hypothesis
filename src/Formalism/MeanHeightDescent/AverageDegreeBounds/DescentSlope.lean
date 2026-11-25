@@ -15,8 +15,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 open Module NumberField
 
-noncomputable section
-
 namespace Formalism.ExtensionFiltration
 
 open Formalism.HN

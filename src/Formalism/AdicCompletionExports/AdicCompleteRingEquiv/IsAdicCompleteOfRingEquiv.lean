@@ -7,8 +7,6 @@ public import Formalism.WachLatticeTwists.RamifiedBlockRings.Statement
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.RepresentationBoundsCohomology.ringDataObjects (AbsIrr BlockDiagonalIrreducibleAt)
 open Formalism.RepresentationBoundsCohomology.FIN (IsCycG)
 

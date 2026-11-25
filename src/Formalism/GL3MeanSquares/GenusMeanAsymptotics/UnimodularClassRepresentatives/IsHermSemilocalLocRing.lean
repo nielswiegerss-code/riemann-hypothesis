@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 
 open NumberField
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.WA
 
 variable {K : Type} [Field K] [NumberField K] [StarRing K]

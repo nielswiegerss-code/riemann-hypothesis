@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.LogarithmicIntegralBounds
 
 open Formalism.HermitianLattices.ZeroFreeRegionGL2

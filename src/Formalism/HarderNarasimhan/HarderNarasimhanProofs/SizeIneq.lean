@@ -14,8 +14,6 @@ import Mathlib.Tactic.TypeStar
 
 open Module NumberField
 
-noncomputable section
-
 namespace Formalism.HN
 
 section SlopeTestRemainingChoices

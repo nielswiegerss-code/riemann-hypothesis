@@ -45,8 +45,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.WeaklyAdmissibleFiltrations
 
 open Module TensorProduct

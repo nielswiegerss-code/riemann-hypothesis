@@ -7,8 +7,6 @@ import Mathlib.Tactic.Lemma
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.REAL
 
 lemma rho_card_le {n : ℕ} (p : Fin n → Prop) [DecidablePred p] :

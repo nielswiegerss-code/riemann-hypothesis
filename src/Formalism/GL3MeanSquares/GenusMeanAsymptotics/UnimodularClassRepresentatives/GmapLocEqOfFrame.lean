@@ -9,8 +9,6 @@ public import Formalism.HermitianLattices.HermitianLatticesProofs.TraceReal
 
 open NumberField Module
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.WA
 
 variable {K V : Type} [Field K] [NumberField K] [StarRing K] [AddCommGroup V] [Module K V]

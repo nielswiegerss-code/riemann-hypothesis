@@ -7,7 +7,6 @@ import Mathlib.Order.CompletePartialOrder
 
 @[expose] public section
 
-noncomputable section
 open scoped BigOperators
 
 universe u

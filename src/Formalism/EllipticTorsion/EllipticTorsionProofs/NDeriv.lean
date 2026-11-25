@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open PowerSeries
 
 namespace Formalism.ELL.SubstitutionCoefficientCongruence

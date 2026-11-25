@@ -6,8 +6,6 @@ public import Mathlib.Algebra.MvPolynomial.Monad
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 open Finset MvPolynomial
 

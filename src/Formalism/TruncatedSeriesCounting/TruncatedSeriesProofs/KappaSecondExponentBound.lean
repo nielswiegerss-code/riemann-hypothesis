@@ -4,8 +4,6 @@ public import Formalism.TruncatedSeriesCounting.RamifiedValuationInequality
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.TruncatedSeriesCounting.RamifiedCoefficientChains
 
 theorem second_exponent_bound : MaxZeroExponentInequality := by

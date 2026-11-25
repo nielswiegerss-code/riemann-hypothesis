@@ -7,8 +7,6 @@ public import Mathlib.Analysis.SumIntegralComparisons
 
 open Complex Filter Topology LSeries ArithmeticFunction
 
-noncomputable section
-
 namespace Formalism.ZF
 
 namespace MoebiusInverseZetaBounds

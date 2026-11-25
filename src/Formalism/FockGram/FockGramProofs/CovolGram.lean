@@ -7,8 +7,6 @@ public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
 
 open Matrix LinearMap Module MeasureTheory
 
-noncomputable section
-
 namespace Formalism.E
 
 theorem covolumeEqSqrtDetGram : CovolGram := by

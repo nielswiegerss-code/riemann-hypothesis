@@ -4,8 +4,6 @@ public import Formalism.CoboundaryTransfers.Statement
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.CoboundaryTransfers
 
 namespace WachMod

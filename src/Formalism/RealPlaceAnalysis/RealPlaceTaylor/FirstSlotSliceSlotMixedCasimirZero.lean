@@ -7,8 +7,6 @@ public import Formalism.RealPlaceAnalysis.StatementU
 open scoped InnerProductSpace
 open Finset
 
-noncomputable section
-
 namespace Formalism.REAL
 
 section U3Basic

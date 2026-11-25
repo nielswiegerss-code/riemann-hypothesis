@@ -4,7 +4,6 @@ public import Formalism.GaussJetBounds.FrameJetEval
 
 @[expose] public section
 
-noncomputable section
 open scoped BigOperators
 
 namespace Formalism.DworkPowerSeriesWeights

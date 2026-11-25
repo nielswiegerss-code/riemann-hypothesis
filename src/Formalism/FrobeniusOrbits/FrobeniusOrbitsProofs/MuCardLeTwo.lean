@@ -12,8 +12,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open NumberField IntermediateField Ideal
 
-noncomputable section
-
 namespace Formalism.FrobeniusOrbits
 
 open Formalism.TwoAdicCyclotomicDecomposition

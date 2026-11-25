@@ -11,8 +11,6 @@ import Mathlib.Tactic.TypeStar
 
 open Module
 
-noncomputable section
-
 namespace Formalism.HN
 
 theorem gramBlock_norm_sum_sq {P F : Type*} [Fintype P] [NormedAddCommGroup F]

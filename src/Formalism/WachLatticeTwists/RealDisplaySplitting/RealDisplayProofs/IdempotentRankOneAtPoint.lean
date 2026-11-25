@@ -8,8 +8,6 @@ import Formalism.WachLatticeTwists.CoprimeLiftBounds.Statement
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.SF
 
 open Formalism.NG Formalism.TruncatedSeriesCounting.TruncatedSeriesCountingIdentities Formalism.RepresentationBoundsCohomology.BR Formalism.RepresentationBoundsCohomology.ringDataObjects

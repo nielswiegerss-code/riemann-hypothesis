@@ -10,8 +10,6 @@ open Formalism.NG
 open ReciprocityTheory.Gal Formalism.RepresentationBoundsCohomology.LOC Formalism.RepresentationBoundsCohomology.JT Formalism.RepresentationBoundsCohomology.T2
 open ReciprocityTheory.ChartRestriction.T2 (GK PadicCoeff FracTop IsCyc RealLatG fracBilinear)
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.LocallyConstantCohomology
 
 theorem bkInIso : StatBKInIso := by

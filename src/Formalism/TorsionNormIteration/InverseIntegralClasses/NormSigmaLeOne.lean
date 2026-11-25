@@ -5,8 +5,6 @@ public import Mathlib.RingTheory.PowerSeries.Expand
 
 @[expose] public section
 
-noncomputable section
-
 open PowerSeries
 
 universe u v

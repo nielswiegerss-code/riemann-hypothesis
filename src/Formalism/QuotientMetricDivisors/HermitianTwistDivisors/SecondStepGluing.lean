@@ -14,8 +14,6 @@ import Mathlib.Tactic.TypeStar
 open Module NumberField IsDedekindDomain
 open scoped Matrix
 
-noncomputable section
-
 namespace Formalism.DivisionValues
 
 namespace GluingInclusion

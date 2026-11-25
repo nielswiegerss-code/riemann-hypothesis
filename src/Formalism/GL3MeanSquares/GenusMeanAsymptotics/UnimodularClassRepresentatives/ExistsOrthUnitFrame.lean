@@ -14,8 +14,6 @@ public import Mathlib.LinearAlgebra.Dimension.Constructions
 
 open Module
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.LocF
 
 open Formalism.HermitianLattices.Ext.L3.WA

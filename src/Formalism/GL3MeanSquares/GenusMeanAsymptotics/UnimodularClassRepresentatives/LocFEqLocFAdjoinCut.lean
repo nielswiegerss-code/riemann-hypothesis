@@ -20,8 +20,6 @@ import Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentati
 
 open NumberField Module
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.PinC
 
 variable {K F V V' : Type} [Field K] [NumberField K] [StarRing K] [Field F] [NumberField F]

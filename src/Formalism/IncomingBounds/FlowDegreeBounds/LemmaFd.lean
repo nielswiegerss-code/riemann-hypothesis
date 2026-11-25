@@ -10,7 +10,6 @@ public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 @[expose] public section
 
-noncomputable section
 open scoped BigOperators
 
 namespace Formalism.IncomingBounds

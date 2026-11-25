@@ -11,8 +11,6 @@ public import Mathlib.Analysis.Calculus.LogDeriv
 
 open Complex Metric
 
-noncomputable section
-
 namespace Formalism.ZF
 
 lemma zflb_exists_log {f : ℂ → ℂ} {z₀ : ℂ} {R : ℝ}

@@ -7,8 +7,6 @@ import Mathlib.RingTheory.PiTensorProduct
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.REAL
 
 theorem generatorPowCovariance_holds : EpowCov := by

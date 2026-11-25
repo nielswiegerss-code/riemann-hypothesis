@@ -22,8 +22,6 @@ public import Mathlib.LinearAlgebra.Eigenspace.Minpoly
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.ringDataObjects
 
 open Formalism.NG Formalism.TruncatedSeriesCounting.TruncatedSeriesCountingIdentities

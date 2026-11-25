@@ -13,8 +13,6 @@ import Mathlib.Tactic.TypeStar
 
 open NumberField Ideal
 
-noncomputable section
-
 namespace Formalism.TwoAdicCyclotomicDecomposition
 
 theorem odd_intCast_mem_iff {L : Type} [Field L] [NumberField L] (p : ℕ)

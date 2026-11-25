@@ -6,8 +6,6 @@ public import Formalism.DoubleCosetMeasures.Statement
 
 
 
-noncomputable section
-
 open Matrix
 
 namespace Formalism.DoubleCosetMeasures.P

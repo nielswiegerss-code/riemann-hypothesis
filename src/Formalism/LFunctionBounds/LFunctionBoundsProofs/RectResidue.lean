@@ -9,8 +9,6 @@ import Mathlib.Tactic.Linter.Style
 
 open Complex
 
-noncomputable section
-
 namespace Formalism.FX
 
 theorem rectangle_residue : RectResidue := by

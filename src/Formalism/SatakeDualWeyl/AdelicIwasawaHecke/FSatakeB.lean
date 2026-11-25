@@ -8,8 +8,6 @@ import Mathlib.Tactic.Linter.Style
 
 open Formalism.UG
 
-noncomputable section
-
 namespace Formalism.UG.P
 
 variable {L : Type} [Field L] [Valued L (WithZero (Multiplicative ℤ))] {σ : L →+* L} {n : ℕ}

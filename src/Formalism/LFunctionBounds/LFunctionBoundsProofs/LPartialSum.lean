@@ -7,8 +7,6 @@ public import Formalism.LFunctionBounds.LFunctionBoundsProofs.LFunctionEqGOfOneL
 
 open Complex Filter Topology
 
-noncomputable section
-
 namespace Formalism.FX
 
 

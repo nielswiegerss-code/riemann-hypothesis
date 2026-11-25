@@ -8,8 +8,6 @@ import Formalism.JacobiWeightFamilies.Statement
 
 open Finset
 
-noncomputable section
-
 namespace Formalism.D5
 
 open Formalism Formalism.WT

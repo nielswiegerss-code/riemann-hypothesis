@@ -7,8 +7,6 @@ import Mathlib.Tactic.Lemma
 
 open Finset ArithmeticFunction
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.BoxTail
 
 lemma tail_diff_split (g : ℕ → ℂ) {a b : ℕ} (hab : a ≤ b) :

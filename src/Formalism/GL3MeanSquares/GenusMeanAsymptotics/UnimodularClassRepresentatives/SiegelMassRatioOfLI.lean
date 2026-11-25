@@ -15,8 +15,6 @@ import Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentati
 
 open NumberField Module
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3
 
 theorem massConst_all (hH : HermRepUnram) (hLI : LIStat) {K F : Type} [Field K] [NumberField K]

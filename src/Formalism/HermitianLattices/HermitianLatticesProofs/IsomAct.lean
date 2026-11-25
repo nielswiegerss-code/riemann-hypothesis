@@ -7,8 +7,6 @@ import Mathlib.RingTheory.Coalgebra.CoassocSimps
 
 open Module
 
-noncomputable section
-
 namespace Formalism.HermitianLatticesTheory
 
 section SlopeTestRemainingChoices

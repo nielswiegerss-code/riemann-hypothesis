@@ -14,8 +14,6 @@ public import Mathlib.LinearAlgebra.Eigenspace.Basic
 open scoped InnerProductSpace
 open Finset
 
-noncomputable section
-
 namespace Formalism.REAL
 
 section KT2Gen

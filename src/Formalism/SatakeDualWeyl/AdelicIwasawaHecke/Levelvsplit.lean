@@ -4,8 +4,6 @@ public import Formalism.SatakeDualWeyl.Statement
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix TensorProduct NumberField IsDedekindDomain
 
 namespace Formalism.UG.P

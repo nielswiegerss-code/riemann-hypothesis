@@ -5,8 +5,6 @@ import Formalism.HermitianLattices.HermitianLatticesProofs.DualBasic
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.HermitianLatticesTheory
 
 section SlopeTestRemainingChoices

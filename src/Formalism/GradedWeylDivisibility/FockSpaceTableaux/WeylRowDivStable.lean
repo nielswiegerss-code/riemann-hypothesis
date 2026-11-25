@@ -8,8 +8,6 @@ import Formalism.GradedWeylDivisibility.FockSpaceTableaux.LRowdivLemmas
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 theorem weylModuleRowDividedPowerStable : WeylRowDivStable := by

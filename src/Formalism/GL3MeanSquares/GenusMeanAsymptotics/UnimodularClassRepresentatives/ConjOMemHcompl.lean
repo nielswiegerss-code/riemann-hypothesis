@@ -9,8 +9,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 open NumberField
 
-noncomputable section
-
 namespace Formalism.HermitianLattices.Ext.L3.SplitA
 
 variable {K : Type} [Field K] [NumberField K] [StarRing K]

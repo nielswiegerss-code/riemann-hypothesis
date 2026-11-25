@@ -18,8 +18,6 @@ public import Mathlib.Analysis.SpecialFunctions.Exponential
 open Matrix Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 namespace Formalism.REAL
 
 section F3ALinfty

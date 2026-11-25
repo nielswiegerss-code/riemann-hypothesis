@@ -11,8 +11,6 @@ import Mathlib.Tactic.TypeStar
 
 open Module Submodule
 
-noncomputable section
-
 namespace Formalism.HN
 
 theorem le_of_imageLattice_le {R V E : Type*} [Ring R] [AddCommGroup V] [Module R V]

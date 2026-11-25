@@ -6,8 +6,6 @@ public import Formalism.GradedWeylDivisibility.StatementD
 
 open MvPolynomial
 
-noncomputable section
-
 namespace Formalism.GradedWeylDivisibility
 
 theorem row_action_mul : RowActMul := by

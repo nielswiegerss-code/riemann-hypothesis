@@ -17,8 +17,6 @@ public import Mathlib.RingTheory.LocalRing.Module
 
 open Module
 
-noncomputable section
-
 namespace Formalism.RepresentationBoundsCohomology.ringDataObjects
 
 open Formalism.NG Formalism.TruncatedSeriesCounting.TruncatedSeriesCountingIdentities

@@ -10,8 +10,6 @@ import Mathlib.Tactic.TypeStar
 
 open NumberField IntermediateField Ideal
 
-noncomputable section
-
 namespace Formalism.FrobeniusOrbits
 
 open Formalism.TwoAdicCyclotomicDecomposition

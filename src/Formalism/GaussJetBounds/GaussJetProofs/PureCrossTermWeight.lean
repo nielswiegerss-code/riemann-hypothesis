@@ -7,7 +7,6 @@ public import Mathlib.Data.Nat.Choose.Dvd
 
 @[expose] public section
 
-noncomputable section
 open scoped BigOperators
 
 universe u v w

@@ -4,8 +4,6 @@ public import Formalism.EllipticTorsion.FormalGroupPointsTorsionFree
 
 @[expose] public section
 
-noncomputable section
-
 universe u
 
 namespace Formalism.ELL.FormalGroupPointsSubgroup

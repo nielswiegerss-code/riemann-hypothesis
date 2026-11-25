@@ -7,7 +7,6 @@ public import Formalism.IncomingBounds.FlowDegreeBounds.ProdRangeEqFactorialMulP
 
 @[expose] public section
 
-noncomputable section
 open scoped BigOperators
 
 universe u v

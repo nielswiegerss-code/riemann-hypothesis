@@ -12,8 +12,6 @@ import Mathlib.Tactic.Linter.Style
 open Complex Filter Topology ArithmeticFunction LSeries
 open scoped LSeries.notation ArithmeticFunction.Moebius
 
-noncomputable section
-
 namespace Formalism.ZeroFreeDirichlet
 
 lemma norm_term_twist_moebius_le {q : ℕ} (χ : DirichletCharacter ℂ q) (s : ℂ) (n : ℕ) :

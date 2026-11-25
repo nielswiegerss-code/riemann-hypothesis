@@ -10,8 +10,6 @@ public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
 
 open Complex MeasureTheory
 
-noncomputable section
-
 namespace Formalism.ZF
 
 theorem norm_integral_compl_le (f : ℝ → ℂ) (B T : ℝ) (hB : 0 ≤ B) (hT : 0 < T)

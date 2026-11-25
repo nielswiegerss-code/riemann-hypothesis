@@ -9,8 +9,6 @@ import Mathlib.RingTheory.PiTensorProduct
 
 open Finset Classical
 
-noncomputable section
-
 namespace Formalism.NG
 
 theorem colPsiKer : StatColPsiKer := by
