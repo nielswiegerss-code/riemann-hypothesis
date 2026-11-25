@@ -18,8 +18,6 @@ open GlobalTheory.Core.Rk.IP
 open GlobalTheory.Core.Rk.Exh GlobalTheory.RegSW
 open GlobalTheory.Core.Rk.SumBox
 
-noncomputable section
-
 namespace GlobalTheory.Core.Rk.SumBox
 
 variable {D : D7}
@@ -97,4 +95,3 @@ theorem selfDual_sumLatO : ∀ (D : D7) (B W H : HSp D) (o : OrthDec B W H) (LW 
     exact (mem_sumLatO o LW LH _).2 ⟨_, hA, _, hB, rfl⟩
 
 end GlobalTheory.Core.Rk.SumBox
-end

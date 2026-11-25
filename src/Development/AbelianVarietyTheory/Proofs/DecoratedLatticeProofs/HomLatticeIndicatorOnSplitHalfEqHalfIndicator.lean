@@ -48,8 +48,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow GlobalTheory.Un
 open GlobalTheory.FinPl
 open scoped TensorProduct Pointwise
 
-noncomputable section
-
 namespace GlobalTheory.FinPl.LatIndHalf
 
 variable {D : D7} {k : Type} [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]
@@ -168,5 +166,3 @@ theorem GlobalTheory.FinPl.LatIndHalf.extFun_latInd_eq_halfInd : ∀ (D : D7) (k
     · rw [ite_eq_left (key.1 h), ite_eq_left ⟨h, ht⟩]
     · rw [ite_eq_right fun h' => h (key.2 h'), ite_eq_right fun h' => h h'.1]
   · rw [ite_eq_right ht, ite_eq_right fun h => ht h.2]
-
-end

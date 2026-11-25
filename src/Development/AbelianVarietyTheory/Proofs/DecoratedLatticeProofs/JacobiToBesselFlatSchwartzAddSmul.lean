@@ -49,8 +49,6 @@ public import Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory Matrix ValuativeRel
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.LocMod GlobalTheory.StepData
 
@@ -146,5 +144,3 @@ theorem flatFB_add_smul : ∀ (D : D7), FlatLaw D → ∀ (ψ : AddChar (AF D.ho
   simp only [flatFun, evalAt_add hψ.1.1 J.d B.d st.vS st.vT hf hg, Pi.add_apply, mul_add]
 
 end GlobalTheory.FlatAdd
-
-end

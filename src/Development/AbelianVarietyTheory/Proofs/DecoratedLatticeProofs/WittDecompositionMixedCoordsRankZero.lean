@@ -9,8 +9,6 @@ public import Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow
 open scoped TensorProduct
@@ -62,5 +60,3 @@ theorem mixRankZero : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), (∀ (S S�
     fun S S₀ d => rankZero_trivial S S₀ d⟩
 
 end GlobalTheory.Unf
-
-end

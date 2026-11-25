@@ -6,7 +6,6 @@ public import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.Exi
 
 @[expose] public section
 
-noncomputable section
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.SymChain GlobalTheory.SeeSaw ValuativeRel GlobalTheory.LocMod
 open scoped TensorProduct
@@ -31,4 +30,3 @@ theorem exists_isCombAt {D : D7} {k : Type} [Field k] [ValuativeRel k] [Topologi
   · exact ⟨0, by simp, fun Tm _ Φ₀ Φ _ h' => (h ⟨Φ, h'⟩).elim⟩
 
 end GlobalTheory.LocMod.CombAt
-end

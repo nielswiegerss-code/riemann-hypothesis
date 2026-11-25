@@ -18,8 +18,6 @@ open scoped TensorProduct Classical
 open GlobalTheory.KJInf Formalism.L2.Ker
 open GlobalTheory.SeeSaw GlobalTheory.Unf
 
-noncomputable section
-
 namespace GlobalTheory.ChartLevRead
 
 theorem exists_finM_GfC {D : D7} (V : HSp D) {n : ℕ} (hn : V.rank = n)
@@ -52,5 +50,3 @@ theorem levData : ∀ {B : Base} {X : PreX B.toPre} (I : TC B X) (l : I.Laws) (Z
     exact congrArg K.lev.chi (huniq (φ g) κ ((hφ g).trans hκ.symm))
 
 end GlobalTheory.ChartLevRead
-
-end

@@ -11,8 +11,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Stan
 open scoped Pointwise TensorProduct
 open IsDedekindDomain NumberField
 
-noncomputable section
-
 namespace GlobalTheory.FinPl
 
 theorem CMAdele_eq_zero_of_infinite_and_finite_components_zero (D : D7) (a : AE D) (h0 : infPart D a = 0) (hw : ∀ w : Pl D, compAt D w a = 0) :

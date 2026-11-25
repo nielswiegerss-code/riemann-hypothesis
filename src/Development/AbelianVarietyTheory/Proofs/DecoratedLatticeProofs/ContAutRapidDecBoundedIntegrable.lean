@@ -11,8 +11,6 @@ open scoped TensorProduct
 open GlobalTheory.Unf
 open scoped ComplexOrder ENNReal NNReal ContDiff
 
-noncomputable section
-
 namespace GlobalTheory.Unf
 
 theorem contAut_rapidDec_bounded_integrable : ∀ (D : D7) (V : HSp D), CoCpt V → ∀ φ : GA D V → ℂ, IsContAut V φ → RapidDec V φ ∧ (∃ C : ℝ, ∀ g, ‖φ g‖ ≤ C) ∧ ∀ v : Vol V, IntegrableOn φ v.𝓕 v.μ := by
@@ -22,5 +20,3 @@ theorem contAut_rapidDec_bounded_integrable : ∀ (D : D7) (V : HSp D), CoCpt V 
   exact ⟨hr, hr.bounded, fun v => hr.integrableOn_fundamentalDomain v.haar v.fund⟩
 
 end GlobalTheory.Unf
-
-end

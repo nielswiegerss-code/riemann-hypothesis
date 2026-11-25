@@ -10,7 +10,6 @@ import Development.AbelianVarietyTheory.Proofs.FoundationProofs.PadicIsNonarchim
 open NumberField IsDedekindDomain MeasureTheory ValuativeRel Matrix Formalism.BasicNotions Formalism.HermitianLatticesTheory Formalism.L2.DIV Formalism.L2.Col GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.TwBridge
 open GlobalTheory.SymBridge (toLoc IsOrd yPos xPos IsCompl)
 
-noncomputable section
 namespace GlobalTheory.TwBridge.LevOrb
 open GlobalTheory.TwBridge.Lev
 

@@ -13,7 +13,6 @@ import Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurable
 
 open ValuativeRel GlobalTheory.SplitWeil Matrix
 
-noncomputable section
 namespace GlobalTheory.CharDualMat
 
 open ValuativeRel Matrix in

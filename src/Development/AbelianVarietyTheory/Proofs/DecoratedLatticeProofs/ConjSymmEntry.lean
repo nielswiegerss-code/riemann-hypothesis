@@ -6,7 +6,6 @@ public import Development.AbelianVarietyTheory.Definitions.LatticeFrames.PhiTopA
 
 open NumberField IsDedekindDomain MeasureTheory ValuativeRel Matrix Formalism.BasicNotions Formalism.HermitianLatticesTheory Formalism.L2.DIV Formalism.L2.Col GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.SymChain GlobalTheory.SymBridge
 
-noncomputable section
 namespace GlobalTheory.SymBridge.Coords
 
 theorem xPos_lt {κ τ j : ℕ} (a : XIx (Fin κ) (Fin τ) j) : xPos a < κ + j * (τ + 1) := by

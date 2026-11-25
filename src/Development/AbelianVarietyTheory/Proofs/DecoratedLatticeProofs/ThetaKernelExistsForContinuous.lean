@@ -58,8 +58,6 @@ open GlobalTheory.Mem.Th (CptF)
 open GlobalTheory.Core.Rk.IP
 open GlobalTheory.Core.Rk.Exh GlobalTheory.RegSW
 
-noncomputable section
-
 namespace GlobalTheory.Core.Rk.Collect
 
 variable {D : D7}

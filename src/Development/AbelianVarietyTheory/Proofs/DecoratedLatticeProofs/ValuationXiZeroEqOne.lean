@@ -57,8 +57,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SplitWeil GlobalTheory.LatPair GlobalTheory.SeeSaw GlobalTheory.FinPl ValuativeRel
 open scoped TensorProduct nonZeroDivisors
 
-noncomputable section
-
 namespace GlobalTheory.SeeSaw.CoreGlue
 
 open GlobalTheory.FinPl.FrameLat GlobalTheory.SeeSaw.LiftModel
@@ -226,5 +224,3 @@ theorem line_of_glued {p : SplitPt D k} {ρ : ℕ} {B : BesLev D ρ} {M : Lat B.
     exact mul_mem h (mul_mem ((Valuation.mem_integer_iff _ _).2 hu.le) s.2)
 
 end GlobalTheory.SeeSaw.CoreGlue
-
-end

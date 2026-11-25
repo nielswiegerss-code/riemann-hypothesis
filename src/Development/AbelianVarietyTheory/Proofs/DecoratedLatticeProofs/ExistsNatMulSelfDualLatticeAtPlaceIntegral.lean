@@ -6,7 +6,6 @@ import Formalism.LocalRingCardinality.SpanPowerMembership.ExampleLayerExistsGene
 
 @[expose] public section
 
-noncomputable section
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.FinPl GlobalTheory.MixPer GlobalTheory.MixModel GlobalTheory.IwaPlace Matrix
 open NumberField
 open scoped TensorProduct
@@ -84,5 +83,3 @@ theorem exists_mul_mem_intAt : ∀ (D : D7) (S : HSp D) (v : Pl D) (Λ : AddSubg
   exact FrameLat.mul_mem_intAE (finPart_incA_mem (hint l k)) (key k)
 
 end GlobalTheory.IwaPlace.SDBound
-
-end

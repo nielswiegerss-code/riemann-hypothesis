@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.T2S
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory ValuativeRel Matrix IsLocalRing GlobalTheory.LatPair GlobalTheory.SplitWeil GlobalTheory.FinPl
 open GlobalTheory.IndefiniteRowSideFullHecke.AppendedVectorData (cosetInd mainDatum Lifts InDual)
 open GlobalTheory.FinPl.Comm (fpair)
@@ -166,5 +164,3 @@ theorem fpair_charInd_cosetInd (k : Type) [Field k] [ValuativeRel k] [Topologica
     simp [h0]
 
 end GlobalTheory.FinPl.CosetPairing
-
-end

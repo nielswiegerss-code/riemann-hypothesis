@@ -15,8 +15,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open NumberField IsDedekindDomain Matrix MeasureTheory GlobalTheory.Mem GlobalTheory.Mem.Col2 GlobalTheory.MixPer GlobalTheory.KJInf GlobalTheory.SeeSaw GlobalTheory.Fam GlobalTheory.AdForm
 open scoped TensorProduct Classical
 
-noncomputable section
-
 namespace GlobalTheory.Core.Rk.Top
 
 theorem exists_pairB_of_range_eq {ι : Type} [Fintype ι] {n : ℕ} (G G' : ι → Matrix (Fin n) (Fin n) ℂ) (lam : ι → DomWeight n)
@@ -108,5 +106,3 @@ theorem exists_pairB_of_isJ : ∀ {B : GlobalTheory.Mem.Base} {X : PreX B.toPre}
   exact exists_pairB_of_range_eq _ _ _ _ e j hJ.inj hr ℓ
 
 end GlobalTheory.Core.Rk.Top
-
-end

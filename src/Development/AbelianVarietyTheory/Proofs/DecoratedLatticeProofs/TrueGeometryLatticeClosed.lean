@@ -53,7 +53,6 @@ open scoped TensorProduct Classical
 open GlobalTheory.StepData GlobalTheory.SplitWeil
 open ValuativeRel
 
-noncomputable section
 namespace GlobalTheory.LevProd.SamePlace
 
 open GlobalTheory.FinPl (Lat latV Moves SplitPt)
@@ -106,4 +105,3 @@ theorem moves_of_mem_KO (hsd : IsSelfDualC V L) (hL : IntIn q V F L) {g : GA D V
 
 
 end GlobalTheory.LevProd.SamePlace
-end

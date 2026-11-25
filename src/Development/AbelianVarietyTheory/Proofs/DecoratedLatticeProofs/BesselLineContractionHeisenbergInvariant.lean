@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsUnitaryS
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory Matrix ValuativeRel GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.LocMod
 
 namespace GlobalTheory.Unf.ContrHeis
@@ -84,5 +82,3 @@ theorem contr_heisO : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), IsStdChar D
   exact covolOne_integral_add vL.covol G per x
 
 end GlobalTheory.Unf.ContrHeis
-
-end

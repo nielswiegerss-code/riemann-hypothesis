@@ -55,8 +55,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.Spl
 open scoped TensorProduct nonZeroDivisors
 open scoped Pointwise
 
-noncomputable section
-
 namespace GlobalTheory.LevYZero
 
 open Formalism.IndefR.Lev Formalism.L2.DIV

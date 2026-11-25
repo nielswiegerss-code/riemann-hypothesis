@@ -58,8 +58,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.RestrictedTensorSplitting (SplitPro
 open GlobalTheory.IndefiniteRowSideFullHecke.VolumeFlatSection (Blocks parahoric datum)
 open GlobalTheory.Chain GlobalTheory.ChainFr GlobalTheory.PairLift GlobalTheory.Chain.RealIt
 
-noncomputable section
-
 namespace GlobalTheory.PlaceProjAt
 
 theorem algebraMap_mem_iff {D : D7} {v : HeightOneSpectrum (𝓞 D.host.F)} (φ : SplitProj D v)

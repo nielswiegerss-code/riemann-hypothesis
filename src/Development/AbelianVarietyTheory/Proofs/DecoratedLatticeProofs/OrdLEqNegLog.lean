@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.EqOfHasValueAtInfin
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.AdelicU GlobalTheory.Doubling GlobalTheory.PRep
 open Formalism.UG (IsUnifV qV IsUnramInv GU KU IsInertAt Hecke ordL)
@@ -82,5 +80,3 @@ theorem absEv_inert : ∀ (F E : Type) [Field F] [NumberField F] [Field E] [Numb
   ring
 
 end GlobalTheory.AbsInert
-
-end

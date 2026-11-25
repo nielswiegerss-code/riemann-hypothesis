@@ -46,8 +46,6 @@ open MeasureTheory ValuativeRel Matrix IsLocalRing GlobalTheory.LatPair GlobalTh
 open GlobalTheory.IndefiniteRowSideFullHecke.AppendedVectorData (cosetInd mainDatum)
 open GlobalTheory.FinPl.Comm (fpair)
 
-noncomputable section
-
 namespace GlobalTheory.FinPl.Comm
 
 theorem fpair_charInd_dualInd : ∀ (k : Type) [Field k] [ValuativeRel k] [TopologicalSpace k]
@@ -100,5 +98,3 @@ theorem fpair_charInd_dualInd : ∀ (k : Type) [Field k] [ValuativeRel k] [Topol
   simp only [hF, integral_zero]
 
 end GlobalTheory.FinPl.Comm
-
-end

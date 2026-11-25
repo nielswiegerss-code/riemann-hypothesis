@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Definitions.LatticeFrames.JointSmooth
 
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory Matrix ValuativeRel GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SeeSaw GlobalTheory.FinPl
 
-noncomputable section
-
 open IsDedekindDomain NumberField
 
 namespace GlobalTheory.LocMod.LevelPlaces
@@ -34,5 +32,3 @@ theorem splitPt_v_eq_under {D : D7} {k : Type} [Field k] [ValuativeRel k] [Topol
   exact h1 ((place_comp hΦ hε).2.2 P (Ne.symm hne))
 
 end GlobalTheory.LocMod.LevelPlaces
-
-end

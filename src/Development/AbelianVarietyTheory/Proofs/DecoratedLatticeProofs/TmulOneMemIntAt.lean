@@ -45,8 +45,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SplitWeil GlobalTheory.LatPair GlobalTheory.SeeSaw GlobalTheory.FinPl ValuativeRel
 open scoped TensorProduct nonZeroDivisors
 
-noncomputable section
-
 namespace GlobalTheory.SeeSaw.IdVMul
 
 variable {D : D7}
@@ -204,5 +202,3 @@ theorem idV_mul_gen : ∀ (D : D7) (v : Pl D) (𝔞 𝔟 : FI D) (x y : D.host.E
     exact incA_mul_mem hx0 hx ht
 
 end GlobalTheory.SeeSaw.IdVMul
-
-end

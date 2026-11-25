@@ -21,8 +21,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open GlobalTheory.Chain GlobalTheory.ChainFr GlobalTheory.PairLift GlobalTheory.Chain.RealIt
 open scoped TensorProduct InnerProductSpace ComplexConjugate
 
-noncomputable section
-
 namespace GlobalTheory.VacCoefAtPlace
 
 open GlobalTheory.ArchRec GlobalTheory.IndefiniteRowSideFullHecke.BarMatrix GlobalTheory.IndefiniteRowSideFullHecke.RestrictedTensorSplitting

@@ -11,8 +11,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.KJInf Formalism.L2.Forms GlobalTheory.SeeSaw
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.SeeSaw.KUni
 
 variable {D : D7} {V : HSp D}

@@ -16,7 +16,6 @@ open Formalism.IndefR.Mult Formalism.IndefR.Datum MeasureTheory NumberField IsDe
 open Formalism.L2.SG.RowsJoinPinned Formalism.L2.SG.RowDict Formalism.L2.SG.PoincareInHH.PoincareSetting
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.MiS GlobalTheory.Core.Mi
 open GlobalTheory.MiTop GlobalTheory.SeeSaw GlobalTheory.Fam ValuativeRel IsLocalRing GlobalTheory.FinPl
-noncomputable section
 
 namespace GlobalTheory.MiTop
 
@@ -31,5 +30,3 @@ theorem fixAux {D : D7} (X : Formalism.L2.SG.HidaSetting.HidaSetting D) (h : X.B
   exact (GlobalTheory.Core.SBesLevi.bridge_fix D g _).2 (hR p hp)
 
 end GlobalTheory.MiTop
-
-end

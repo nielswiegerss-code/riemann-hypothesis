@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Definitions.LatticeFrames.IntegrandSZero
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.LFun
 
 open NumberField IsDedekindDomain
@@ -64,5 +62,3 @@ theorem dSfun_analytic_ne_zero : ∀ (D : D7) (S : Set (FinPl D)) (a b : ℕ), A
       (GlobalTheory.LFun.hasProd_dv S a b hs).multipliable.hasProd⟩⟩
 
 end GlobalTheory.Core.Rk.IP
-
-end

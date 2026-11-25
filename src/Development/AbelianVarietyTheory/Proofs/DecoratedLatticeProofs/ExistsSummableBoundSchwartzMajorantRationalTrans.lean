@@ -62,8 +62,6 @@ open GlobalTheory.Core.Rk.IP GlobalTheory.Core.Rk.SWLaw
 open GlobalTheory.Core.Rk.SW
 open scoped ContDiff
 
-noncomputable section
-
 namespace GlobalTheory.Unf.MajLoc
 
 theorem exists_compact_sub {G : Type*} [AddGroup G] [TopologicalSpace G] [IsTopologicalAddGroup G] (K Q : Set G)
@@ -128,5 +126,3 @@ theorem summable_bound : ∀ (D : D7) (θ : InfFam D), IsInfFam θ → ∀ m n :
       fun k hk => hKK k hk x hx⟩
 
 end GlobalTheory.Unf.MajLoc
-
-end

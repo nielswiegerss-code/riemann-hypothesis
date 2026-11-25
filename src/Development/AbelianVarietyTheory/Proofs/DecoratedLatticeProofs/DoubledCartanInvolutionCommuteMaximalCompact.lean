@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Definitions.Foundations.EventuallyEqOfIs
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Core.Rk.IP.Cartan
 
 open scoped ComplexConjugate Matrix NNReal
@@ -98,5 +96,3 @@ theorem cartan_dbl : ∀ (D : D7) (θ : InfFam D) (A : HSp D) (sA : RealMat A) (
     exact h
 
 end GlobalTheory.Core.Rk.IP.Cartan
-
-end

@@ -56,8 +56,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open NumberField IsDedekindDomain Matrix MeasureTheory ValuativeRel GlobalTheory.Mem GlobalTheory.Mem.Col2 GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.Core.Rk GlobalTheory.AdForm GlobalTheory.SeeSaw
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.SeeSaw.StdOff
 
 section Gen
@@ -164,5 +162,3 @@ theorem mem_latV_int {S : HSp D} {L : Lat S} (hL : ∀ z, z ∈ L ↔ z ∈ intV
 end Gen
 
 end GlobalTheory.SeeSaw.StdOff
-
-end

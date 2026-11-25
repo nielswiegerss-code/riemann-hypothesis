@@ -41,8 +41,6 @@ import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntAEMulMem
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.FinPl GlobalTheory.MixPer GlobalTheory.MixModel GlobalTheory.IwaPlace Matrix
 open scoped TensorProduct
 
@@ -199,5 +197,3 @@ theorem isSDAt_comap (D : D7) (S : HSp D) (v : Pl D) (g : GA D S) (hg : g ∈ gr
     (hermAt_mt S g) Λ hΛ
 
 end GlobalTheory.IwaPlace.SdComap
-
-end

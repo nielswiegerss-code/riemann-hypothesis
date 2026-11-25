@@ -51,8 +51,6 @@ import Mathlib.Topology.Sheaves.Init
 open Formalism.BasicNotions NumberField IsDedekindDomain
 open scoped nonZeroDivisors
 
-noncomputable section
-
 namespace GlobalTheory.Core.Int.ProdPrimePow
 
 theorem vAdd_eq_count {K : Type} [Field K] [NumberField K] (v : HeightOneSpectrum (𝓞 K)) {x : K}

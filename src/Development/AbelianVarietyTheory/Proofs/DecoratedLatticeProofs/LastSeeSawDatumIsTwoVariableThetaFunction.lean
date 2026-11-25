@@ -11,8 +11,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow GlobalTheory.Unf GlobalTheory.SeeSaw GlobalTheory.FinPl
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.LastBiTheta
 
 variable {D : D7}
@@ -151,5 +149,3 @@ theorem isBiTheta_lastBi : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), IsStdC
     exact h2
 
 end GlobalTheory.LastBiTheta
-
-end

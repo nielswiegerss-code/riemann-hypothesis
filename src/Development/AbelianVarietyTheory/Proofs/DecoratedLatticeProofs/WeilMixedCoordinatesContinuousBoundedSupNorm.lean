@@ -14,8 +14,6 @@ open scoped TensorProduct
 open GlobalTheory.Unf
 open scoped ComplexOrder ENNReal NNReal ContDiff
 
-noncomputable section
-
 namespace GlobalTheory.MixCont
 
 variable {D : D7}

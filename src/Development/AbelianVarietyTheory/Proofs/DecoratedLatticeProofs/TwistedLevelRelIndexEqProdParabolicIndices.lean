@@ -52,7 +52,6 @@ open scoped TensorProduct InnerProductSpace ComplexConjugate
 open GlobalTheory.ChainOnto GlobalTheory.ChainTw
 open GlobalTheory.IndefiniteRowSideFullHecke.RestrictedTensorSplitting (SplitProj IsProjAt IsIdemOf LiftsChar rdA grpCo frCo gAt)
 open GlobalTheory.IndefiniteRowSideFullHecke.VolumeFlatSection (Blocks parahoric datum)
-noncomputable section
 
 namespace GlobalTheory.TwistIndex
 
@@ -174,5 +173,3 @@ theorem relIndex_twist : ∀ (D : D7) (c : Com D) (w : Twist D) (j : ℕ) (s : P
   rfl
 
 end GlobalTheory.TwistIndex
-
-end

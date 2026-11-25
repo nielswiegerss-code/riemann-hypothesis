@@ -44,8 +44,6 @@ import Development.AbelianVarietyTheory.Definitions.LatticeFrames.JointSmooth
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.FinPl GlobalTheory.MixPer GlobalTheory.MixModel GlobalTheory.Unf GlobalTheory.LatPair GlobalTheory.SplitWeil GlobalTheory.SeeSaw ValuativeRel IsLocalRing Matrix
 open GlobalTheory.IndefiniteRowSideFullHecke.AppendedVectorData (lastKer InDual)
 
-noncomputable section
-
 namespace GlobalTheory.FinPl.ExtZero
 
 variable {D : D7}
@@ -153,5 +151,3 @@ theorem extFun_tensRow (D : D7) (k : Type) [Field k] [ValuativeRel k] [Topologic
 end Frames
 
 end GlobalTheory.FinPl.ExtZero
-
-end

@@ -51,8 +51,6 @@ public import Development.AbelianVarietyTheory.Definitions.Foundations.EqPlaceId
 
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory Matrix ValuativeRel GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.LocMod
 
-noncomputable section
-
 namespace GlobalTheory.FlatColLaw
 
 variable {D : D7} {k : Type} [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]
@@ -184,5 +182,3 @@ theorem law_dual_col : ∀ (D : D7), FlatLaw D → GlobalTheory.FinPl.FlatLaws D
   exact smul_right_injective _ (Circle.coe_ne_zero _) hlaw
 
 end GlobalTheory.FlatColLaw
-
-end

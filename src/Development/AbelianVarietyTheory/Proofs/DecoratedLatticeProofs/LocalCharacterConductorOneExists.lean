@@ -18,8 +18,6 @@ open GlobalTheory.RootEx GlobalTheory.Mem GlobalTheory.Mem.Col2 GlobalTheory.Spl
 open scoped TensorProduct Classical
 open Topology
 
-noncomputable section
-
 namespace GlobalTheory.WeilCondUnif
 
 open GlobalTheory.FinPl GlobalTheory.SplitCharCond

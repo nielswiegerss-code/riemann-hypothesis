@@ -14,8 +14,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SplitWeil GlobalTheory.LatPair GlobalTheory.SeeSaw GlobalTheory.FinPl ValuativeRel
 open scoped TensorProduct nonZeroDivisors
 
-noncomputable section
-
 namespace GlobalTheory.MiTop.GluedLine
 
 open GlobalTheory.FinPl.FrameLat GlobalTheory.SeeSaw.LiftModel
@@ -40,5 +38,3 @@ theorem valuation_xi_zero_eq_one (p : SplitPt D k) (hp : p.UnitAA) : valuation k
   first | exact _root_.GlobalTheory.LevPrimeData.splitPlace_valuation_cmImaginaryGenerator_eq_one | exact @_root_.GlobalTheory.LevPrimeData.splitPlace_valuation_cmImaginaryGenerator_eq_one | apply _root_.GlobalTheory.LevPrimeData.splitPlace_valuation_cmImaginaryGenerator_eq_one <;> assumption
 
 end GlobalTheory.MiTop.GluedLine
-
-end

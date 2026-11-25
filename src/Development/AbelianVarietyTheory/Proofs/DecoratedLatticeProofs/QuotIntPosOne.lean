@@ -56,7 +56,6 @@ open MeasureTheory ValuativeRel Matrix GlobalTheory.SplitWeil GlobalTheory.RootE
 open GlobalTheory.IndefiniteRowSideFullHecke.FourierJacobiAverage (app HasTensorVal fl opEFJ IsQuotIntFJ IsFJ Represents app_coe)
 open GlobalTheory.IndefiniteRowSideFullHecke.FramePositiveSum (IsCO rescale volR)
 
-noncomputable section
 namespace GlobalTheory.PosOneCell
 
 section Lemmas

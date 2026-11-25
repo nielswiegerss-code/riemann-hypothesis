@@ -48,8 +48,6 @@ open scoped TensorProduct
 
 
 
-noncomputable section
-
 namespace GlobalTheory.LatVHat
 
 theorem gen_mem (D : D7) (S : HSp D) (L : Lat S) (α : Af D.host.F) (hα : α ∈ intAf D.host.F) (x : Fin S.rank → D.host.E)

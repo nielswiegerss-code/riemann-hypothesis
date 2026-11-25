@@ -49,8 +49,6 @@ import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntAEMulMem
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.FinPl ValuativeRel NumberField
 open IsDedekindDomain
 open scoped TensorProduct
@@ -326,5 +324,3 @@ theorem hasConductor_one : ∀ (D : D7) (k : Type) [Field k] [ValuativeRel k] [T
     exact Circle.ext h1
 
 end GlobalTheory.SplitCharCond
-
-end

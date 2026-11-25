@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Definitions.LatticeFrames.IsRealCoord
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.BridgeDict
 
 open NumberField Matrix Formalism.MainNotions.S

@@ -13,7 +13,6 @@ open Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR Formalism.IndefR.Links
 open scoped TensorProduct InnerProductSpace ComplexConjugate
 open GlobalTheory.ChainOnto
 
-noncomputable section
 namespace GlobalTheory.ChainOnto.LStab
 section General
 variable {F E : Type} [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E] {n : ℕ}

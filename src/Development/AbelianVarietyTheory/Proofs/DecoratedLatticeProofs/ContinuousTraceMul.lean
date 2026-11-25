@@ -19,8 +19,6 @@ import Formalism.LocalToGlobal.ProjectiveLattices.ErealAddIInf
 
 @[expose] public section
 
-noncomputable section
-
 section Cont
 
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta
@@ -45,5 +43,3 @@ open GlobalTheory.Core.Rk.SW GlobalTheory.Core.Rk.SWQ
 open Formalism.UG (IsUnifV qV Ov ordL diagJ)
 open GlobalTheory.LFun (KGL toCompl IsSplitChart IsSatVecGL satEig)
 open scoped Classical
-
-end

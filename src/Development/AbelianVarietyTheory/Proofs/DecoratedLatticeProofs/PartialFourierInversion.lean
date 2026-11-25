@@ -15,7 +15,6 @@ public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.PadicIsNo
 open MeasureTheory ValuativeRel Matrix GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.SymChain
 open scoped Topology
 
-noncomputable section
 namespace GlobalTheory.LocFlat.PartialFourier
 
 theorem eventually_add_invariant {X : Type*} [TopologicalSpace X] [AddCommGroup X] [IsTopologicalAddGroup X]

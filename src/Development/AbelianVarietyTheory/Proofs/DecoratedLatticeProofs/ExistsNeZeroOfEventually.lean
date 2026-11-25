@@ -6,7 +6,6 @@ public import Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMea
 
 open ValuativeRel GlobalTheory.SplitWeil Matrix
 
-noncomputable section
 namespace GlobalTheory.SBUnif
 
 variable {k : Type} [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]

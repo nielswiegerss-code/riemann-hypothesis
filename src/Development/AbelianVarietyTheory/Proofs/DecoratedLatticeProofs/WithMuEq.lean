@@ -6,8 +6,6 @@ public import Development.AbelianVarietyTheory.Definitions.LatticeFrames.HzUnit
 
 open GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.SymChain GlobalTheory.SeeSaw ValuativeRel Matrix
 
-noncomputable section
-
 namespace GlobalTheory.SeeSaw.MuUnits
 
 variable {k : Type} [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]

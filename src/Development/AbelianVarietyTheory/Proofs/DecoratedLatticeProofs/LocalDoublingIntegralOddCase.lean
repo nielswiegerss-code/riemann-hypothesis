@@ -37,7 +37,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.FourierJacobiAverage (app HasTensor
 open GlobalTheory.IndefiniteRowSideFullHecke.FramePositiveSum (IsCO)
 open scoped TensorProduct
 
-noncomputable section
 namespace GlobalTheory.LocFlat.ContrSum
 
 open GlobalTheory.LocFlat.CFac

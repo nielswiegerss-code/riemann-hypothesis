@@ -49,8 +49,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow
 open scoped TensorProduct
 open GlobalTheory.Unf
 
-noncomputable section
-
 namespace GlobalTheory.BoxSlice
 
 open GlobalTheory.MixModel.OrthDec
@@ -110,5 +108,3 @@ theorem main : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), IsStdChar D ψ (-1
   · rw [o.heisO_boxS, AddEquiv.apply_symm_apply, heisO_zero']
 
 end GlobalTheory.BoxSlice
-
-end

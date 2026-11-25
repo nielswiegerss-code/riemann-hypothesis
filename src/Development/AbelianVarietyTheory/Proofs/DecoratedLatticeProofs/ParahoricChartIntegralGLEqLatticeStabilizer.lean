@@ -25,7 +25,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.RestrictedTensorSplitting (SplitPro
 open GlobalTheory.IndefiniteRowSideFullHecke.VolumeFlatSection (Blocks parahoric datum)
 open GlobalTheory.Chain GlobalTheory.ChainFr GlobalTheory.PairLift GlobalTheory.Chain.RealIt
 
-noncomputable section
 namespace GlobalTheory.ChartStab
 
 

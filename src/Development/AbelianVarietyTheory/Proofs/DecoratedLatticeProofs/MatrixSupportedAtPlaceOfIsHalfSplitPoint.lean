@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Definitions.LatticeFrames.JointSmooth
 
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory Matrix ValuativeRel GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SeeSaw GlobalTheory.FinPl
 
-noncomputable section
-
 namespace GlobalTheory.FinPl.SplitHalfSupp
 
 theorem mxAt_of_isHalf_above : ∀ (D : D7) (k : Type) [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]
@@ -20,5 +18,3 @@ theorem mxAt_of_isHalf_above : ∀ (D : D7) (k : Type) [Field k] [ValuativeRel k
   exact hw i j
 
 end GlobalTheory.FinPl.SplitHalfSupp
-
-end

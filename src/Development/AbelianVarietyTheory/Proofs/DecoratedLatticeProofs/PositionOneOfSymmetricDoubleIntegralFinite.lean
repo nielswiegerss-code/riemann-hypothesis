@@ -110,7 +110,6 @@ theorem GlobalTheory.PosOne.exUp_represents : ∀ (k : Type) [Field k] [Valuativ
     · obtain ⟨β, u⟩ := z
       simp only [Function.uncurry_apply_pair, norm_mul, Circle.norm_coe, one_mul, le_refl]
 
-noncomputable section
 namespace GlobalTheory.PosOne
 
 theorem om_one_comp {k : Type} [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]

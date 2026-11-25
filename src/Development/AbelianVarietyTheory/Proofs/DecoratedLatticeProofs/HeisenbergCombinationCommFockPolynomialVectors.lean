@@ -50,8 +50,6 @@ open Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR Formalism.IndefR.Links
 open scoped TensorProduct InnerProductSpace ComplexConjugate
 open GlobalTheory.ChainOnto
 
-noncomputable section
-
 namespace GlobalTheory.FockFiniteHeis
 
 variable {D : D7}
@@ -142,5 +140,3 @@ theorem heis_comb_pureTensorO : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ) (�
   rw [(ft.2 (y i) (hy i)).2 sS BS sT BT φ]
 
 end GlobalTheory.FockFiniteHeis
-
-end

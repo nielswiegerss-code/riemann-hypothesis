@@ -46,8 +46,6 @@ import Mathlib.Topology.Sheaves.Init
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.FinPl.MovesSplit
 
 open GlobalTheory.FinPl GlobalTheory.FinPl.KSplit GlobalTheory.FinPlLoc
@@ -124,5 +122,3 @@ theorem GlobalTheory.FinPl.moves_iff_moves_on_off : ∀ {D : D7} (S : HSp D) (g 
       rw [mem_latV_iff_all S L R hy, mem_latV_iff_all S L R (mulVec_mem S _ hy)]
       exact h y fun i => idAt_mono (fun _ _ => trivial) (hy i)
     exact ⟨key _, key _⟩
-
-end

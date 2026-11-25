@@ -23,7 +23,6 @@ import Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeUnip
 
 open NumberField IsDedekindDomain MeasureTheory ValuativeRel Matrix Formalism.BasicNotions Formalism.HermitianLatticesTheory Formalism.L2.DIV Formalism.L2.Col GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.TwBridge
 
-noncomputable section
 namespace GlobalTheory.VolBridge
 
 theorem relIndex_comap_of_dense_image {Γ G : Type} [Group Γ] [Group G] (φ : Γ →* G)

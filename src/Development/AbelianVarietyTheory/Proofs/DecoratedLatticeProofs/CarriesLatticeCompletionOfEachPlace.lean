@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Proofs.HeightProofs.MemAdelicLatticeIffL
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.FinPl.MovesPl
 
 open GlobalTheory.FinPl GlobalTheory.FinPl.KSplit GlobalTheory.FinPl.KOpen
@@ -65,5 +63,3 @@ theorem moves_of_places : ∀ {D : D7} (S : HSp D) (g : GA D S) (L M : Lat S) (Q
     exact and_congr (hvv _ t1) (hQ' _ t2)
 
 end GlobalTheory.FinPl.MovesPl
-
-end

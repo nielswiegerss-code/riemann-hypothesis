@@ -16,8 +16,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow GlobalTheory.Unf GlobalTheory.SeeSaw
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.SeeSaw.PerSumProof
 
 variable {D : D7}
@@ -86,5 +84,3 @@ theorem perSum_all : ∀ D : D7, PerSum D := by
   exact Finset.sum_congr rfl fun i _ => integral_const_mul _ _
 
 end GlobalTheory.SeeSaw
-
-end

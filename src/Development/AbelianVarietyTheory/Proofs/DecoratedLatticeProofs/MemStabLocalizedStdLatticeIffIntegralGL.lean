@@ -7,7 +7,6 @@ public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.MemIntegr
 
 open NumberField IsDedekindDomain MeasureTheory ValuativeRel Matrix Formalism.L2.Col GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.VolBridge
 
-noncomputable section
 namespace GlobalTheory.VolBridge.StabRead
 
 variable {E k : Type} [Field E] [NumberField E] [Field k] [ValuativeRel k]

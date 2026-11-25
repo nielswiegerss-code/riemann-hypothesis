@@ -54,8 +54,6 @@ public import Development.AbelianVarietyTheory.Proofs.HeightProofs.ExistsBlockOr
 
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.L2.Theta Formalism.IndefR.Mult
 
-noncomputable section
-
 namespace GlobalTheory.KFinLoc
 
 open GlobalTheory.IndefiniteRowSideFullHecke.BarMatrix GlobalTheory.IndefiniteRowSideFullHecke.KTypeExtension
@@ -130,5 +128,3 @@ theorem kFin_smooth_absIrr (hH : GlobalTheory.Published.HarishChandraModules) (D
   exact ⟨hs, a, ha, GlobalTheory.KFinIrr.absIrr_kFin D V S M τ _ _ T R _ 0 U.toLinearEquiv a hM hAI.2 hAI.1 ha⟩
 
 end GlobalTheory.KFinLoc
-
-end

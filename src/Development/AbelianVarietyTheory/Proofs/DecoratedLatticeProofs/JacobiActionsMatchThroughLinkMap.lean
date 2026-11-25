@@ -41,8 +41,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow
 open scoped TensorProduct
@@ -117,5 +115,3 @@ theorem link_point (D : D7) (ρ σ : ℕ) (B : BesLev D σ) (L' : HSp D) (ζ' : 
       smul_smul, ← map_mul, l.norm, inv_mul_cancel_left₀ hN]
 
 end GlobalTheory.Unf.LinkPoint
-
-end

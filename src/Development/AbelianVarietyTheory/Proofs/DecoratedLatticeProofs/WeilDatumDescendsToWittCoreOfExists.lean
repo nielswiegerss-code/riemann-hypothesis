@@ -6,8 +6,6 @@ public import Formalism.LocalToGlobal.BesselHermitianTheta.LemmasChr
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow
 open scoped TensorProduct
@@ -26,5 +24,3 @@ theorem descent_of_weilDatumExists : ∀ D : D7, GlobalTheory.IndefiniteRowSideF
   · exact hW S T₀ ψ χS χT h.std h.hecS h.hecT h.resS (resEta_core d h.resT)
 
 end GlobalTheory.Unf
-
-end

@@ -12,8 +12,6 @@ import Mathlib.Tactic.Linter.Style
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Datum IsDedekindDomain NumberField Matrix
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.FamTrace
 
 
@@ -75,5 +73,3 @@ theorem levelVL_eq_of_std {F E : Type} [Field F] [NumberField F] [Field E] [Numb
   exact congrArg _ (e1.trans e2.symm)
 
 end GlobalTheory.FamTrace
-
-end

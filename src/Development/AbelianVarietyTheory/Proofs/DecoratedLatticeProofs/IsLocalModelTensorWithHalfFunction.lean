@@ -41,7 +41,6 @@ import Development.AbelianVarietyTheory.Definitions.LatticeFrames.JointSmooth
 
 @[expose] public section
 
-noncomputable section
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Datum MeasureTheory Matrix ValuativeRel GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SplitWeil GlobalTheory.SeeSaw GlobalTheory.AdForm GlobalTheory.LocMod
 
 namespace GlobalTheory.LocMod.TensorModel
@@ -104,4 +103,3 @@ theorem isModel_tensor : ∀ (D : D7) (k : Type) [Field k] [ValuativeRel k] [Top
     exact hP.modul _ (hSB Ψ.1 Ψ.2) _ (half_sum_cA he hy)
 
 end GlobalTheory.LocMod.TensorModel
-end

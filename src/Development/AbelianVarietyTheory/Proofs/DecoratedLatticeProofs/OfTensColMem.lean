@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow GlobalTheory.Unf GlobalTheory.LatPair GlobalTheory.SplitWeil ValuativeRel IsLocalRing
 open GlobalTheory.FinPl
@@ -75,5 +73,3 @@ theorem tens_SB_iff : ∀ (k : Type) [Field k] [ValuativeRel k] [TopologicalSpac
     fun Ψ b hΨ hb => Comm.tensRow_mem hΨ hb, fun Ψ b h hb => TensSB.of_tensRow_mem h hb⟩
 
 end GlobalTheory.FinPl
-
-end

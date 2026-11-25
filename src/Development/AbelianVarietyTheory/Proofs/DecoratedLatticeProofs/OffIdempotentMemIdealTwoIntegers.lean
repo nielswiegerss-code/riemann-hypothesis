@@ -52,8 +52,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open NumberField IsDedekindDomain Matrix MeasureTheory GlobalTheory.Mem GlobalTheory.Mem.Col2 GlobalTheory.MixPer GlobalTheory.Core.Rk GlobalTheory.AdForm
 open scoped TensorProduct Classical
 
-noncomputable section
-
 namespace GlobalTheory.OffIdemTwo
 open GlobalTheory.IdemSupport GlobalTheory.OffIdemDen
 

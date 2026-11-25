@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WittCoreEm
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.FinPl GlobalTheory.MixPer GlobalTheory.MixModel GlobalTheory.IwaPlace Matrix
 open IsDedekindDomain NumberField
 open scoped TensorProduct
@@ -103,5 +101,3 @@ theorem exists_trace_one_at_tame : ∀ (D : D7) (v : Pl D) (ε : AE D) (hεε : 
     · exact GlobalTheory.AdIdem.idempotent_mem_intAE D _ (by rw [← map_mul, hsp.1])
 
 end GlobalTheory.IwaPlace
-
-end

@@ -8,7 +8,6 @@ public import Development.AbelianVarietyTheory.Definitions.LatticeFrames.PhiTopA
 open NumberField IsDedekindDomain MeasureTheory ValuativeRel Matrix
 open Formalism.BasicNotions Formalism.HermitianLatticesTheory Formalism.L2.DIV Formalism.L2.Col
 
-noncomputable section
 namespace GlobalTheory.AtTypeExists
 open GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.SymChain GlobalTheory.SymBridge
 

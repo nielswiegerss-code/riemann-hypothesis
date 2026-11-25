@@ -11,8 +11,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.LinksDefs
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Transport.TwistRead
 
 section Gen

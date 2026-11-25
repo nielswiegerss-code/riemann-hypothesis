@@ -48,8 +48,6 @@ public import Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory Matrix
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf
 
-noncomputable section
-
 namespace GlobalTheory.FlatShiftPf
 
 variable {D : D7}

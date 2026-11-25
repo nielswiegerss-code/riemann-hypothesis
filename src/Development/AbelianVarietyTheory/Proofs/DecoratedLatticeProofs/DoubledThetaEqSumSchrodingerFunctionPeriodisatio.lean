@@ -15,8 +15,6 @@ open GlobalTheory.Mem.Th (CptF)
 open GlobalTheory.Core.Rk.IP GlobalTheory.Core.Rk.SWLaw
 open GlobalTheory.Core.Rk.SW
 
-noncomputable section
-
 namespace GlobalTheory.Core.Rk.SchPeriod
 
 theorem theta_eq_sum_sch : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), IsStdChar D ψ (-1) → ∀ (A B : HSp D) (ν : Measure (WO A B)) (𝓨 : Set (WO A B)), IsCovolOne (ratL B A) ν 𝓨 → ∀ f, IsThetaFunO ψ (dblSp A) B f → ∀ x : Mx D B.rank A.rank, (Summable fun ξ : Matrix (Fin B.rank) (Fin A.rank) D.host.E => ‖sch ψ A B ν 𝓨 f (x + rat ξ)‖) ∧ HasSum (fun ξ : Matrix (Fin B.rank) (Fin A.rank) D.host.E => sch ψ A B ν 𝓨 f (x + rat ξ)) (f ((dblDec A).extX B x)) := by
@@ -38,5 +36,3 @@ theorem theta_eq_sum_sch : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), IsStdC
   exact ⟨summable_norm_iff.2 H.summable, H⟩
 
 end GlobalTheory.Core.Rk.SchPeriod
-
-end

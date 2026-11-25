@@ -6,8 +6,6 @@ import Development.AbelianVarietyTheory.Definitions.LatticeFrames.JointSmooth
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum
 open NumberField IsDedekindDomain GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.SeeSaw GlobalTheory.LatPair GlobalTheory.SplitWeil
 open GlobalTheory.Unf GlobalTheory.FinPl ValuativeRel IsLocalRing
@@ -126,5 +124,3 @@ theorem val_eq_unif_and_unit : ∀ (D : D7) (k : Type) [Field k] [ValuativeRel k
   exact lt_irrefl _ h3
 
 end GlobalTheory.FinPl.SplitPt
-
-end

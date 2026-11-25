@@ -44,8 +44,6 @@ import Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValHalfInf
 
 @[expose] public section
 
-noncomputable section
-
 open scoped NNReal TensorProduct
 open NumberField Matrix Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR.Datum
 open GlobalTheory.AutomorphicL2Unitary GlobalTheory.Doubling GlobalTheory.Eis GlobalTheory.Eis.Conv GlobalTheory.MixModel GlobalTheory.RegSW
@@ -120,5 +118,3 @@ theorem bound_aux {E A : Type} [Field E] [CommRing A] (j : E →+* A) {s : Aˣ} 
   rw [map_apply, hm₀ m (by omega) _ (hw i x) _ h3, map_zero]
 
 end GlobalTheory.GodementSectionReduction
-
-end

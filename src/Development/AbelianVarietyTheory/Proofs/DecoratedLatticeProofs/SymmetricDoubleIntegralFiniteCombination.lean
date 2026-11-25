@@ -13,7 +13,6 @@ public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzF
 open MeasureTheory ValuativeRel Matrix GlobalTheory.SplitWeil GlobalTheory.RootEx
 open GlobalTheory.IndefiniteRowSideFullHecke.FourierJacobiAverage (app HasTensorVal opEFJ IsQuotIntFJ)
 
-noncomputable section
 namespace GlobalTheory.PosOne.SymComb
 open GlobalTheory.RootEx.Unfolding (opL orbit_locallyConstant)
 

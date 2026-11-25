@@ -12,8 +12,6 @@ public import Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField
 open GlobalTheory.PlaceModel
 
@@ -111,5 +109,3 @@ theorem lattice_facts (hψ : IsStdChar D ψ (-1)) (hS : IsSelfDualC S ΛS) (hT :
 end Lattice
 
 end GlobalTheory.LocReduction
-
-end

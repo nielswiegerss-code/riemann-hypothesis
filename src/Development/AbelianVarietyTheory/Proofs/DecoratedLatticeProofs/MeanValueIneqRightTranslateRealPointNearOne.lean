@@ -15,8 +15,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.CuspGeo.MeanValue
 
 section Abstract
@@ -199,5 +197,3 @@ theorem mean_value : ∀ (D : D7) (θ : D.what₂.Tau → (Ainf D.host.F ⊗[D.h
       _ = K * C₀ * Fintype.card ι * δ * ∑ q ∈ B, c q := by ring
 
 end GlobalTheory.CuspGeo.MeanValue
-
-end

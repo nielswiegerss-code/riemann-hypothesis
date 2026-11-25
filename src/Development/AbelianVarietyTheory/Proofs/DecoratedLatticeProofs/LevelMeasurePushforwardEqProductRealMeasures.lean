@@ -59,7 +59,6 @@ open Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Lev Formalism.Inde
 open scoped TensorProduct InnerProductSpace ComplexConjugate
 open GlobalTheory.LiftRows GlobalTheory.AdelicScalar GlobalTheory.IndefiniteRowSideFullHecke.TwistedLevelValues
 
-noncomputable section
 namespace GlobalTheory.RealBoxMeasure
 
 variable {D : D7}

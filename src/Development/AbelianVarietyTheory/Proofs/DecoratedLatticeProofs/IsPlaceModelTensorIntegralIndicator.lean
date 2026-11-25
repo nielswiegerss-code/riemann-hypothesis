@@ -7,7 +7,6 @@ import Development.AbelianVarietyTheory.Definitions.LatticeFrames.JointSmooth
 
 @[expose] public section
 
-noncomputable section
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Datum MeasureTheory Matrix ValuativeRel GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SplitWeil GlobalTheory.SeeSaw GlobalTheory.AdForm GlobalTheory.LocMod
 
 namespace GlobalTheory.LocMod.TOneModel
@@ -142,5 +141,3 @@ theorem isPlaceModel_tensorOne : ∀ (D : D7) (k : Type) [Field k] [ValuativeRel
     exact hT'.vac
 
 end GlobalTheory.LocMod.TOneModel
-
-end

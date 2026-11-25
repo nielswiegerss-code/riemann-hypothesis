@@ -11,8 +11,6 @@ public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.Exist
 open Formalism.BasicNotions Formalism.MainNotions.S Formalism.L2.Forms
 open scoped InnerProductSpace Matrix
 
-noncomputable section
-
 namespace GlobalTheory.DualWeylType
 
 open GlobalTheory.ConjugateType

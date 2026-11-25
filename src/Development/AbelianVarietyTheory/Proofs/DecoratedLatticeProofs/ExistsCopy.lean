@@ -50,8 +50,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.LinksDefs
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.SeeSaw.TopLevel
 
 section Gen
@@ -159,5 +157,3 @@ open scoped TensorProduct
 
 
 end GlobalTheory.SeeSaw.TopLevel
-
-end

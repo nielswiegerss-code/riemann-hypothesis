@@ -8,7 +8,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open GlobalTheory.KJInf Formalism.L2.Forms Formalism.BasicNotions MvPolynomial
 
-noncomputable section
 namespace GlobalTheory.KJInf.ClsVal
 variable {ι : Type} [Fintype ι] {a b : ℕ}
 

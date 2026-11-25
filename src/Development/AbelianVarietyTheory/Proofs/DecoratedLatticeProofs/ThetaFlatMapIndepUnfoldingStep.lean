@@ -51,8 +51,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow GlobalTheory.Unf GlobalTheory.SeeSaw GlobalTheory.FinPl
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.FlatIndep
 
 variable {D : D7} {ψ : AddChar (AF D.host.F) ℂ}
@@ -112,5 +110,3 @@ theorem flat_indep : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), (∀ (ρ : �
     exact flatAt_indep _ _ s'.vS.covol s.vS.covol s'.vT.covol s.vT.covol _ _ _ hf
 
 end GlobalTheory.FlatIndep
-
-end

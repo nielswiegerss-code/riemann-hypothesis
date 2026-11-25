@@ -11,8 +11,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow
 open scoped TensorProduct
 open GlobalTheory.Unf
 
-noncomputable section
-
 namespace GlobalTheory.Unf.LastSteps
 
 variable {D : D7}
@@ -159,5 +157,3 @@ theorem lastLaw : ∀ D : D7, LastLaw D := by
     ha hb hCφ hCF hCa hCb
 
 end GlobalTheory.Unf.LastSteps
-
-end

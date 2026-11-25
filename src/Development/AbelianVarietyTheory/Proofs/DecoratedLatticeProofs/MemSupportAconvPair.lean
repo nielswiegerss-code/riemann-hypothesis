@@ -51,8 +51,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.FramePositiveSum (IsCO)
 open scoped TensorProduct
 open GlobalTheory.QVal GlobalTheory.FinPl
 
-noncomputable section
-
 namespace GlobalTheory.QValOuter
 
 open AddMonoidAlgebra in
@@ -169,4 +167,3 @@ theorem trc_mul (e e' : GA D V →₀ ℂ) (f : GA D V → ℂ) :
 end Trc
 
 end GlobalTheory.QValOuter
-end

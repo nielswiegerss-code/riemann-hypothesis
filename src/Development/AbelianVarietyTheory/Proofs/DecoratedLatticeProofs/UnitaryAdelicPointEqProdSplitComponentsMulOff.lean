@@ -49,8 +49,6 @@ open NumberField IsDedekindDomain Matrix MeasureTheory GlobalTheory.Mem GlobalTh
 open GlobalTheory.Unf GlobalTheory.Grow GlobalTheory.FinPl ValuativeRel IsLocalRing
 open scoped TensorProduct Pointwise
 
-noncomputable section
-
 namespace GlobalTheory.FinPl.LocProd
 
 variable {D : D7}
@@ -131,5 +129,3 @@ theorem eq_prod_gl_mul_off : ∀ (D : D7) (S : HSp D) (k : Type) [Field k] [Valu
   rw [hker, map_mul, map_inv, map_list_prod_single φ (fun i => (β i).gl (g i)) j h1 J hJ (hall j), hκ, inv_mul_cancel]
 
 end GlobalTheory.FinPl.LocProd
-
-end

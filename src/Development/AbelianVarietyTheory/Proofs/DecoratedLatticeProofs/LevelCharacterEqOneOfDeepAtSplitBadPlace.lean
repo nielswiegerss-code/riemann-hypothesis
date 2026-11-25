@@ -27,8 +27,6 @@ open GlobalTheory.SeeSaw GlobalTheory.Unf
 open GlobalTheory.Mem.Col2.AdT
 open Filter Topology
 
-noncomputable section
-
 open Formalism.L2.DIV Formalism.L2.Col Formalism.UG
 
 namespace GlobalTheory.Mem.Col2.AdT.SplitChi
@@ -182,5 +180,3 @@ theorem chi_eq_one_of_deep : ∀ {B : Base} {X : PreX B.toPre} (I : TC B X), I.O
   exact chi_eq_one_of_pow S.chi x ⟨z, hz⟩ n (hchi _) (S.chi_triv _ fun v' _ => hyv v')
 
 end GlobalTheory.Mem.Col2.AdT.SplitChi
-
-end

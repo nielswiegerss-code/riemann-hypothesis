@@ -14,8 +14,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.LinksDefs
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.SeeSaw.BaseFrame
 
 section Gen
@@ -102,5 +100,3 @@ open NumberField IsDedekindDomain Matrix MeasureTheory ValuativeRel GlobalTheory
 open scoped TensorProduct
 
 end GlobalTheory.SeeSaw.BaseFrame
-
-end

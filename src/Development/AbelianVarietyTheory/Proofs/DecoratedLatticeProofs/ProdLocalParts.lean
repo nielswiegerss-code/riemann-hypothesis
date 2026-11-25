@@ -13,8 +13,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow GlobalTheory.Un
 open scoped TensorProduct
 open GlobalTheory.LocMod GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.SymChain ValuativeRel
 
-noncomputable section
-
 namespace GlobalTheory.LevelCut
 
 open GlobalTheory.SplitCut

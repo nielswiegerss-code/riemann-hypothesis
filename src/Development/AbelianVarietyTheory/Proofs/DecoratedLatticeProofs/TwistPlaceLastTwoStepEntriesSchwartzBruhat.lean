@@ -14,7 +14,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.FourierJacobiAverage (app HasTensor
 open GlobalTheory.IndefiniteRowSideFullHecke.FramePositiveSum (IsCO)
 open scoped TensorProduct
 
-noncomputable section
 namespace GlobalTheory.QPl.LastTwo
 
 theorem entries_mem_SB : ∀ (D : D7) (c : Comm D) (v : VCom c) χ (Q : QAt v χ) α yb, Q.T.xiPen (box _ Q.c₂) (Q.rep Q.s 0 rfl α) yb ∈ SB _ ∧ Q.T.xiTop (box _ Q.c₂) Q.ψk Q.ν (-1) yb ∈ SB _ := by
@@ -46,4 +45,3 @@ theorem entries_mem_SB : ∀ (D : D7) (c : Comm D) (v : VCom c) χ (Q : QAt v χ
     · intro x; ext (i | i) j <;> rfl
 
 end GlobalTheory.QPl.LastTwo
-end

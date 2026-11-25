@@ -10,7 +10,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Datum MeasureTheory Matrix ValuativeRel IsLocalRing GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.LatPair GlobalTheory.SplitWeil GlobalTheory.SeeSaw GlobalTheory.FinPl
 
-noncomputable section
 namespace GlobalTheory.LastKerRep
 variable {k : Type} [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]
 variable {n n₂ : Type} [Fintype n] [DecidableEq n] [Fintype n₂] [DecidableEq n₂]
@@ -184,5 +183,3 @@ theorem GlobalTheory.SeeSaw.lastKernel_reps :
       (fun y => (hKer i y).trans (by rw [glue_ker])) (hVal i)) x
   · have := hΛ i
     exact GlobalTheory.IndefiniteRowSideFullHecke.IndicatorFunctionIdentity.phiOne_mem _ _
-
-end

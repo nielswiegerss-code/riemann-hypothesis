@@ -48,8 +48,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow
 open scoped TensorProduct
 open GlobalTheory.Unf
 
-noncomputable section
-
 namespace GlobalTheory.Unf.LinkExist
 
 theorem star_smul_vec {D : D7} {n : ℕ} (k : D.host.E) (v : Fin n → D.host.E) : star (k • v) = star k • star v := by

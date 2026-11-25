@@ -11,8 +11,6 @@ import Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.Valuati
 
 open NumberField IsDedekindDomain MeasureTheory ValuativeRel Matrix Formalism.BasicNotions Formalism.HermitianLatticesTheory Formalism.L2.DIV Formalism.L2.Col GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.SymChain GlobalTheory.SymBridge
 
-noncomputable section
-
 namespace GlobalTheory.StabRef
 
 variable {E : Type} [Field E] [NumberField E] {P : HeightOneSpectrum (𝓞 E)} {q : ℕ}

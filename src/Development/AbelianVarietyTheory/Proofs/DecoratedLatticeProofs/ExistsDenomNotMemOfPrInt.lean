@@ -17,8 +17,6 @@ open GlobalTheory.Unf GlobalTheory.Grow GlobalTheory.FinPl ValuativeRel IsLocalR
 open scoped TensorProduct Pointwise
 open GlobalTheory.PhiOneVal
 
-noncomputable section
-
 namespace GlobalTheory.PhiOneVal
 
 theorem mem_prime_iff_pr_inv_notMem {D : D7} {k : Type} [Field k] [ValuativeRel k] [TopologicalSpace k]
@@ -51,5 +49,3 @@ theorem exists_denom_notMem_of_pr_int : ∀ {D : D7} {k : Type} [Field k] [Valua
     exact mul_mem ha h2
 
 end GlobalTheory.PhiOneVal
-
-end

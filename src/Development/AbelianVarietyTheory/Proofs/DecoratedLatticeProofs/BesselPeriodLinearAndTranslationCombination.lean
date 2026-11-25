@@ -9,8 +9,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow GlobalTheory.Unf GlobalTheory.SeeSaw
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.SeeSaw.TrcProof
 
 variable {D : D7}
@@ -67,5 +65,3 @@ theorem per_linear_trc : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), IsStdCha
     TrcProof.per_sum_right hψ B hφ e.support e (fun g => rTrans g f) hT⟩
 
 end GlobalTheory.SeeSaw
-
-end

@@ -16,8 +16,6 @@ open Formalism.MainNotions.SchurIrreducible (IsSplit)
 open GlobalTheory.LGrp (bcParam)
 open GlobalTheory.LFun (toCompl locMat locChar IsSplitChart IsInertChart IsFrameAt KGL IsSatVecGL IsSatVecU eulerFac UnrAt LvTw dv Fam)
 
-noncomputable section
-
 namespace GlobalTheory.Doubling.AbsSplit
 
 theorem norm_eq_zpow {F : Type} [Field F] [NumberField F] (v : HeightOneSpectrum (𝓞 F)) {a : Fv F v} (ha : a ≠ 0) :

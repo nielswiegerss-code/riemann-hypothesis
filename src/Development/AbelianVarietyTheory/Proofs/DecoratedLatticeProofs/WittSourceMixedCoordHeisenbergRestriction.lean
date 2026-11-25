@@ -50,8 +50,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow
 open scoped TensorProduct
 open GlobalTheory.Unf
 
-noncomputable section
-
 namespace GlobalTheory.Bridge
 
 open GlobalTheory.MixModel
@@ -167,5 +165,3 @@ theorem heis_bridge : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ) (S S₀ T : 
     fun c => mem_NI_hyp d _ (d.nC_jX c) (d.pY_nC c) 0 (by rw [d.nC_j0, Matrix.mul_zero, add_zero])⟩
 
 end GlobalTheory.Bridge
-
-end

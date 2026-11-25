@@ -27,8 +27,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions Form
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.SeeSaw GlobalTheory.StepData GlobalTheory.SymChain GlobalTheory.LocMod GlobalTheory.MiS GlobalTheory.MiTop GlobalTheory.Fam ValuativeRel
 open scoped TensorProduct Classical
 
-noncomputable section
-
 namespace GlobalTheory.StepComb
 
 variable {D : D7}
@@ -230,5 +228,3 @@ theorem exists_comb_of_isStepVecOf : ∀ (D : D7) (ψ : AddChar (AF D.host.F) �
   exact ⟨d, fun u hu => mxAt_of_mem_half (add_mem hI (GlobalTheory.LastOpPf.cA_mem_idAt hI)) (hd u hu), hf⟩
 
 end GlobalTheory.StepComb
-
-end

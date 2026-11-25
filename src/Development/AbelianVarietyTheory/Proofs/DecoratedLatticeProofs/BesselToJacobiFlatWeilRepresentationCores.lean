@@ -22,8 +22,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow
 open scoped TensorProduct
 open GlobalTheory.Unf
 
-noncomputable section
-
 namespace GlobalTheory.Unf.FlatCommBF
 
 variable {D : D7}

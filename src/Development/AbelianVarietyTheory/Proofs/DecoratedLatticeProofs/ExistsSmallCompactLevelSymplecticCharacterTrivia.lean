@@ -54,8 +54,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow
 open scoped TensorProduct ContDiff Topology
 open GlobalTheory.Unf
 
-noncomputable section
-
 namespace GlobalTheory.SmallLevel
 
 theorem exists_open_subgroup (F : Type) [Field F] [NumberField F] (V : Set (Af F)) (hV : V ∈ 𝓝 (0 : Af F)) :
@@ -180,5 +178,3 @@ theorem exists_small_level : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), IsSt
   exact h5
 
 end GlobalTheory.SmallLevel
-
-end

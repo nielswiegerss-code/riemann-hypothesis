@@ -54,8 +54,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Topology Filter
 
 namespace GlobalTheory.HeckeSplitAll.Approx
@@ -278,5 +276,3 @@ theorem strong_approx (v₀ : HeightOneSpectrum (𝓞 F)) (t : InfiniteAdeleRing
   · exact ⟨_, hc, key o fun w => (ho w).trans (lt_add_one C)⟩
 
 end GlobalTheory.HeckeSplitAll.Approx
-
-end

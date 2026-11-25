@@ -14,8 +14,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.SphericalZero (ip delta swSec sZero
 open GlobalTheory.Mem.Th (CptF)
 open GlobalTheory.Core.Rk.IP
 
-noncomputable section
-
 namespace GlobalTheory.Core.Rk.SphCoef
 
 variable {D : D7}
@@ -87,5 +85,3 @@ theorem isSphCoef_rcoef : GlobalTheory.Published.CuspRapidDecay → ∀ (D : D7)
     exact petersson_rTr (hR _) h2 _
 
 end GlobalTheory.Core.Rk.SphCoef
-
-end

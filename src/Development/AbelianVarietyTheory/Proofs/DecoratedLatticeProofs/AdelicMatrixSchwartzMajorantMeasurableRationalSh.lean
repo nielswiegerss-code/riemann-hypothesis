@@ -18,8 +18,6 @@ open scoped TensorProduct
 open GlobalTheory.Unf
 open scoped ComplexOrder ENNReal NNReal ContDiff
 
-noncomputable section
-
 open scoped Pointwise
 
 namespace GlobalTheory.Unf.MajMeas
@@ -188,5 +186,3 @@ theorem GlobalTheory.Unf.maj_measurable_rat : ∀ (D : D7) (θ : InfFam D), IsIn
   obtain ⟨σ, hσ⟩ := GlobalTheory.RealLineAt.exists_inverse_chart hθ
   exact ⟨fun m n K hK => ⟨isClosed_inBox hσ K hK, continuous_realSize hθ, fun N => measurable_maj hσ K hK N,
     fun R => isCompact_box hσ K hK R⟩, fun m n k x hx K hK => maj_rat_le θ m n k x hx K hK⟩
-
-end

@@ -9,7 +9,6 @@ import Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.Valuati
 
 open MeasureTheory ValuativeRel Matrix GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData
 
-noncomputable section
 namespace GlobalTheory.FlatFactor
 
 theorem fill_add_single {k : Type} [Field k] {m m' : Type} [Fintype m] [DecidableEq m] [Fintype m'] [DecidableEq m']

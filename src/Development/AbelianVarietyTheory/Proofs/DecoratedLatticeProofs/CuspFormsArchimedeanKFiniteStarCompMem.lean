@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Definitions.LatticeFrames.IntegrandSZero
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ComplexConjugate Matrix NNReal
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.L2.Pj Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField
 open GlobalTheory.AutomorphicL2Unitary GlobalTheory.Cusp GlobalTheory.AdelicU GlobalTheory.Doubling GlobalTheory.Cont
@@ -42,5 +40,3 @@ theorem conj_comp_mem_A0 : ∀ (D : D7) (θ : InfFam D) (A : HSp D) (cA : CptF A
   exact GlobalTheory.Mem.AutConj.isAutFunSm_star D θ hθ A u hs
 
 end GlobalTheory.Core.Rk.CuspConj
-
-end

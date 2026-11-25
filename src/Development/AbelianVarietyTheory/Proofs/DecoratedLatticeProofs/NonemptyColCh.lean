@@ -15,7 +15,6 @@ open scoped TensorProduct Classical
 open GlobalTheory.StepData ValuativeRel
 
 
-noncomputable section
 namespace GlobalTheory.Fam.TopLocFac
 
 
@@ -31,4 +30,3 @@ theorem nonempty_colCh {D : D7} (u : D.what₂.Word) (C : ColumnChain D.R D.what
      Ram := fun _ => Set.univ, S := fun _ => id, rd := fun _ _ _ _ _ => 0, cV := fun _ => 1, cK := fun _ => 1, cP := 1 }⟩
 
 end GlobalTheory.Fam.TopLocFac
-end

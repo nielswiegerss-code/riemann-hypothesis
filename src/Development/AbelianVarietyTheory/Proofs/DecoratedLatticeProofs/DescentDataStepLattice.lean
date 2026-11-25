@@ -19,8 +19,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Unf GlobalTheory.See
 open scoped TensorProduct Classical
 open GlobalTheory.Fam
 
-noncomputable section
-
 namespace GlobalTheory.MidVacLat
 
 variable {D : D7}

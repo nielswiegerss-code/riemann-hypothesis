@@ -47,8 +47,6 @@ import Mathlib.Topology.Sheaves.Init
 
 open Formalism.BasicNotions Formalism.MainNotions GlobalTheory.Diag.PG
 
-noncomputable section
-
 namespace GlobalTheory.Diag.PG.NodeParameters
 
 theorem y_ge {eps x : ℝ} (he : 0 < eps) (hx : (4 + 18 / eps) ^ (3 / eps) ≤ x) :

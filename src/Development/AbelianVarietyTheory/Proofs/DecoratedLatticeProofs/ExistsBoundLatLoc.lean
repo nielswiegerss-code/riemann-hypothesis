@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Definitions.Foundations.Hermitian
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.LocalLatticeBound
 
 open scoped TensorProduct NNReal
@@ -61,5 +59,3 @@ theorem exists_bound_latLoc {F E : Type} [Field F] [NumberField F] [Field E] [Nu
   | neg y _ hy => exact abs_neg_le v hy
 
 end GlobalTheory.LocalLatticeBound
-
-end

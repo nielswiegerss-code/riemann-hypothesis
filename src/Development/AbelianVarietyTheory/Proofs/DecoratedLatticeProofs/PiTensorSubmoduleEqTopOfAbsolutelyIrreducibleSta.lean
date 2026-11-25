@@ -9,8 +9,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open scoped TensorProduct Classical
 
-noncomputable section
-
 namespace GlobalTheory.TensorIrr
 
 open GlobalTheory.Chain.IoLift

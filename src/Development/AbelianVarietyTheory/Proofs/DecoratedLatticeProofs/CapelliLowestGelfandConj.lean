@@ -36,8 +36,6 @@ open GlobalTheory.Mem.AutSpace (SmFun)
 open GlobalTheory.Size (sobO thetaLevel)
 open GlobalTheory.ThetaDens
 
-noncomputable section
-
 namespace GlobalTheory.CapelliLowest
 
 theorem single_comm {N : ℕ} (a b c d : Fin N) :

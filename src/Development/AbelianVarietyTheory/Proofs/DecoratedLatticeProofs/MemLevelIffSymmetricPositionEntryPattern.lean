@@ -7,7 +7,6 @@ public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.Unipotent
 
 open MeasureTheory ValuativeRel Matrix GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.StepData GlobalTheory.SymChain
 
-noncomputable section
 namespace GlobalTheory.SymPattern
 open GlobalTheory.IndefiniteRowSideFullHecke.FramePositiveSum
 
