@@ -43,8 +43,6 @@ import Mathlib.Tactic.ReduceModChar
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.L2.Col Formalism.L2.DIV Formalism.L2.Ker Formalism.UG Formalism.L2.Forms GlobalTheory.Mem GlobalTheory.Mem.Chr GlobalTheory.Mem.Col2 GlobalTheory.Mem.Col2.TC Matrix
 
-noncomputable section
-
 theorem GlobalTheory.Mem.Col2.TC.dualL_one_eq_dual {E : Type} [Field E] [NumberField E] [StarRing E] {n : ℕ} (σ : E →+* E)
     (hσ : ∀ x, σ x = star x) (L : Submodule (𝓞 E) (Fin n → E)) :
     dualL σ (1 : Matrix (Fin n) (Fin n) E) L = Formalism.HermitianLatticesTheory.dual (hStd E n) L := by
@@ -69,5 +67,3 @@ theorem GlobalTheory.Mem.Col2.TC.ldG_eq_dual_hStd : ∀ {B : Base} {X : PreX B.t
   unfold LdG
   rw [hG]
   exact GlobalTheory.Mem.Col2.TC.dualL_one_eq_dual _ (fun x => rfl) L
-
-end

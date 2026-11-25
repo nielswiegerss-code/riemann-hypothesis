@@ -47,8 +47,6 @@ import Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsRegularFnIffO
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory AlgebraicGeometry NumberField
 open ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor
 open GlobalTheory GlobalTheory.Cartier GlobalTheory.ProjVar GlobalTheory.TrueGeo GlobalTheory.CxPts GlobalTheory.ShFam

@@ -45,8 +45,6 @@ import Mathlib.Tactic.ReduceModChar
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.L2.Col Formalism.L2.DIV Formalism.L2.Ker Formalism.UG Formalism.L2.Forms GlobalTheory.Mem GlobalTheory.Mem.Chr GlobalTheory.Mem.Col2 GlobalTheory.Mem.Col2.TC GlobalTheory.Mem.Col2.HAt Matrix
 
-noncomputable section
-
 namespace GlobalTheory.Mem.Col2.HAt
 
 variable {D : D7} {u : D.what₂.Word}
@@ -144,5 +142,3 @@ theorem seenCl_atT : ∀ {B : Base} {X : PreX B.toPre} (I : TC B X), I.Ok → TC
   fun _ _ _ _ _ _ F _ _ u => seenCl_of (F u).atT
 
 end GlobalTheory.Mem.Col2.HAt
-
-end

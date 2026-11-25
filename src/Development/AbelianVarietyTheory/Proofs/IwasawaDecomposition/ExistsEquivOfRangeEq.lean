@@ -47,8 +47,6 @@ import Formalism.QuotientMetricDivisors.Statement
 
 @[expose] public section
 
-noncomputable section
-
 open Module NumberField IsDedekindDomain Formalism.DivisionValues Formalism.L2.DIV Formalism.L2.Indef Formalism.BasicNotions
 open scoped Matrix InnerProductSpace ComplexOrder
 
@@ -119,5 +117,3 @@ theorem majAt_eq_of_normAt [_root_.NumberField.IsTotallyComplex K] {V ι W κ : 
 end Polar
 
 end GlobalTheory.Mem.RowSides
-
-end

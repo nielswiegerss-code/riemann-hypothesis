@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.Toroidal GlobalTheory.LocM GlobalTheory.PolFan
 
 namespace GlobalTheory.PolFan.ConeSub

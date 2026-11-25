@@ -10,8 +10,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta GlobalTheory.Mem.Th MeasureTheory IsDedekindDomain NumberField Matrix
 open Formalism.IndefR.Datum GlobalTheory.Mem.WeilTransport
 open scoped TensorProduct ComplexOrder
@@ -122,5 +120,3 @@ theorem exists_thetaFun_ne_zero : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ),
   · exact exists_of_isCoord hψ (isCoord_large W V hr)
 
 end GlobalTheory.Mem.ThetaNonzero
-
-end

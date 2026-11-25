@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.Heise
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Complex Matrix GlobalTheory.RealWeil GlobalTheory.Mem.Lift
 open scoped RealInnerProductSpace ContDiff Real ComplexOrder Topology
 
@@ -67,5 +65,3 @@ theorem fderiv_eq_quad_comm : ∀ (V : Type) [NormedAddCommGroup V] [NormedSpace
   module
 
 end GlobalTheory.Mem.Lift
-
-end

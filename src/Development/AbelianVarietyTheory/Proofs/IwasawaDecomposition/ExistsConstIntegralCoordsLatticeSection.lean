@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open Topology
 
 namespace GlobalTheory.ShFam.Hor.LogCh

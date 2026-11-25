@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ExistsUniqueSpec
 
 @[expose] public section
 
-noncomputable section
-
 open AlgebraicGeometry CategoryTheory Limits NumberField
 open ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor Formalism.L2.Pj GlobalTheory.LocM GlobalTheory.ShFam.Pad GlobalTheory.ProjSpace GlobalTheory.FlagEmb
 open GlobalTheory.Points GlobalTheory.ProjFrac

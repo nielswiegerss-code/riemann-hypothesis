@@ -52,8 +52,6 @@ import Mathlib.Topology.Sheaves.Init
 open NumberField IsDedekindDomain MeasureTheory Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.GaugeEx
 open scoped TensorProduct NNReal ENNReal
 
-noncomputable section
-
 namespace GlobalTheory.FrameStep
 
 open Formalism.UG (cT cT_mul cT_one UJ)

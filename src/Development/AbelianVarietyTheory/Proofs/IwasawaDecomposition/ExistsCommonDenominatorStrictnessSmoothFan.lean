@@ -42,8 +42,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HomExtNormal
 
 open NumberField ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.Toroidal GlobalTheory.LocM GlobalTheory.TorRef GlobalTheory.PolFan GlobalTheory.PolCell
 
-noncomputable section
-
 namespace GlobalTheory.PolCell
 
 variable {O : Type} [CommRing O] {bar : O → O} {φ : InvFun O} {X X₁ : Type} [AddCommGroup X] [Module O X]

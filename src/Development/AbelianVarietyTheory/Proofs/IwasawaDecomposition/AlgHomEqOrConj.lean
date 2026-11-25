@@ -10,8 +10,6 @@ import Formalism.LocalToGlobal.GaloisLevelStructure.DefsAut
 
 open NumberField IsDedekindDomain ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2
 
-noncomputable section
-
 namespace GlobalTheory.SplitPlaceExt
 
 variable {L : Type} [Field L] [NumberField L] [IsCMField L]

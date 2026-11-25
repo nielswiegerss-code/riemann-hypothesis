@@ -8,8 +8,6 @@ public import Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverM
 
 @[expose] public section
 
-noncomputable section
-
 open AlgebraicGeometry CategoryTheory Limits TopologicalSpace
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor ReciprocityTheory.AnForm.R
 open GlobalTheory.ProjSpace GlobalTheory.Cartier

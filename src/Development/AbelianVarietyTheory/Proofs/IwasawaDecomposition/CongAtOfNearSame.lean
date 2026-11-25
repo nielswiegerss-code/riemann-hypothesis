@@ -13,8 +13,6 @@ import Mathlib.Tactic.Linter.Style
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.L2.Col Formalism.L2.DIV Formalism.L2.Ker Formalism.UG Formalism.L2.Forms GlobalTheory.Mem GlobalTheory.Mem.Chr GlobalTheory.Mem.Col2 GlobalTheory.Mem.Col2.TC GlobalTheory.Mem.Col2.AdT Matrix
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.Mem.Col2.QChi.NearWd
 
 theorem congE_of_cols {E : Type} [Field E] [NumberField E] [StarRing E] {n : ℕ} (P : HeightOneSpectrum (𝓞 E)) (c : ℕ)
@@ -109,5 +107,3 @@ theorem nearPair_val_unique : ∀ {B : Base} {X : PreX B.toPre} (I : TC B X), I.
     (NearWd.congE_of_cols P.1 _ g g' hgI (GlobalTheory.LevFrame.cols_of_congAt (sm I l Z) P.1 _ (g⁻¹ * g') (by rw [map_mul, map_inv]; exact hc)))
 
 end GlobalTheory.Mem.Col2.QChi
-
-end

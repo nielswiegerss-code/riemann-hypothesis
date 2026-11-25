@@ -6,8 +6,6 @@ public import Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.Tensor
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Mem.PlaceVal
 
 section General

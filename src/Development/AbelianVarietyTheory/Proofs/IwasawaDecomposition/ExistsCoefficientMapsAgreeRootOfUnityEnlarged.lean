@@ -54,8 +54,6 @@ open Formalism.L2.Theta Formalism.L2.DIV Formalism.L2.Indef Formalism.L2.Rows Fo
 open scoped TensorProduct InnerProductSpace
 open GlobalTheory.Mem GlobalTheory.Mem.Col2 GlobalTheory.Mem.Top GlobalTheory.Mem.Top.Bl GlobalTheory.Mem.R3 GlobalTheory.Mem.R3.Rw GlobalTheory.Mem.R3.Tr
 
-noncomputable section
-
 namespace GlobalTheory.Mem.R3.Rw.LiftUnit
 
 open Formalism.DivisionValues Formalism.L2.Col
@@ -314,5 +312,3 @@ theorem exists_agree_root : ∀ {B B' : Base} {f : Fr B.toPre} {f' : Fr B'.toPre
     (heq_of_eq hv2'.symm).trans (hjh.trans (heq_of_eq hv2))⟩
 
 end GlobalTheory.Mem.R3.Rw.LiftUnit
-
-end

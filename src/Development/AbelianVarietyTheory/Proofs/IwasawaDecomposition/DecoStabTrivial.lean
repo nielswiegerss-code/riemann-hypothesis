@@ -44,8 +44,6 @@ import Mathlib.Tactic.ReduceModChar
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.L2.Col Formalism.L2.DIV Formalism.L2.Ker Formalism.UG Formalism.L2.Forms GlobalTheory.Mem GlobalTheory.Mem.Chr GlobalTheory.Mem.Col2 GlobalTheory.Mem.Col2.TC Matrix
 
-noncomputable section
-
 namespace GlobalTheory.Mem.Col2.TwAtStd
 
 theorem ptY_mv_deco {X : Fields} {n : ℕ} {ST SG Q : Finset (HeightOneSpectrum (𝓞 X.E))} {y : Ys X n}
@@ -189,5 +187,3 @@ theorem twAtT_exists : ∀ {B : Base} {X : PreX B.toPre} (I : TC B X), I.Ok → 
   exact ⟨{ eVT := Equiv.refl _, eFv := fun _ => RingEquiv.refl _ }, rfl, fun _ _ => rfl⟩
 
 end GlobalTheory.Mem.Col2.TwAtStd
-
-end

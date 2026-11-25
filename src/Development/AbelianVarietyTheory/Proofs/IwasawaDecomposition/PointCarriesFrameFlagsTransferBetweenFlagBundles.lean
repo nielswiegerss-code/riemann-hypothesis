@@ -8,8 +8,6 @@ import Mathlib.Tactic.Linter.Style
 open AlgebraicGeometry CategoryTheory ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.ZH GlobalTheory.Cartier GlobalTheory.ProjVar GlobalTheory.FlagBundle
 open Classical
 
-noncomputable section
-
 namespace GlobalTheory.FlagBundle.Transfer
 
 variable {ι : Type} {m : ι → ℕ}

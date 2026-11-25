@@ -9,8 +9,6 @@ public import Mathlib.RingTheory.PicardGroup
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.BasicNotions Formalism.CyclotomicNorms Polynomial Module
 
 namespace GlobalTheory.WeilDeligne.LabDual

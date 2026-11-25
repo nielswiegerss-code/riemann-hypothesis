@@ -19,8 +19,6 @@ open Formalism.L2.Theta Formalism.L2.DIV Formalism.L2.Indef Formalism.L2.Rows Fo
 open scoped TensorProduct InnerProductSpace
 open GlobalTheory.Mem GlobalTheory.Mem.Col2 GlobalTheory.Mem.Top GlobalTheory.Mem.Top.Bl GlobalTheory.Mem.R3 GlobalTheory.Mem.R3.Rw GlobalTheory.Mem.R3.Tr
 
-noncomputable section
-
 namespace GlobalTheory.Mem.R3.Rw.OmExt.RootUpd
 
 open Formalism.DivisionValues
@@ -130,5 +128,3 @@ theorem coefFam_update_root : ∀ {D : D7} {G : Type} [Group G] [Fintype G] {Pl0
       exact ht.coefL j t
 
 end GlobalTheory.Mem.R3.Rw.OmExt
-
-end

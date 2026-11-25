@@ -42,8 +42,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.LocalNewformFunction
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum Matrix
 open GlobalTheory.DualPairCheck
 open scoped TensorProduct
@@ -77,5 +75,3 @@ theorem inv_conj (σ : A →+* A) (P Pi : Matrix (Fin n) (Fin n) A) (h : P * Pi 
 end Generic
 
 end GlobalTheory.OrientedAdjoint
-
-end

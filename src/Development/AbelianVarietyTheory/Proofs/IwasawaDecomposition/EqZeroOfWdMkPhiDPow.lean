@@ -5,8 +5,6 @@ public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ResEq
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Polynomial TensorProduct Module GlobalTheory.Pst
 
 namespace GlobalTheory.PstFaithful

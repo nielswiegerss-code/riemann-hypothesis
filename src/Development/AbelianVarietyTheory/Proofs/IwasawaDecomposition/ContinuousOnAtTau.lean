@@ -12,8 +12,6 @@ import Mathlib.Tactic.Linter.Style
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta GlobalTheory.Mem.Th MeasureTheory IsDedekindDomain NumberField Matrix
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.PointAtPlaceHom
 
 open GlobalTheory.PointAtPlace
@@ -144,5 +142,3 @@ theorem atTau_laws : ∀ (D : D7) (θ : InfF D), IsInfFam θ → ∀ (V : HSp D)
     continuousOn_atTau hθ V τ⟩
 
 end GlobalTheory.PointAtPlaceHom
-
-end

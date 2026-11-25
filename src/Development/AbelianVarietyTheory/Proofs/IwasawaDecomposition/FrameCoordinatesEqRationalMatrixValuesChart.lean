@@ -13,8 +13,6 @@ open AlgebraicGeometry CategoryTheory NumberField ReciprocityTheory.ChartRestric
 open Filter Topology
 open scoped Matrix
 
-noncomputable section
-
 namespace GlobalTheory.LieBase.ChartCoords
 
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {H : Host E} {Dw : Datum H}

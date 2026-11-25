@@ -9,8 +9,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta MeasureTheory IsDedekindDomain NumberField Matrix
 open scoped TensorProduct
 
@@ -72,5 +70,3 @@ theorem existsUnique_isStdChar :
   · exact ⟨ψ, hψ, fun ψ' h' => isStdChar_unique h' hψ⟩
 
 end GlobalTheory.StdAdelicChar
-
-end

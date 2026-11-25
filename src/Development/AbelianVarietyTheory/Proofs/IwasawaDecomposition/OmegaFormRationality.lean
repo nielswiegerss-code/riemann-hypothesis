@@ -26,8 +26,6 @@ open GlobalTheory.SW hiding Level
 open scoped TensorProduct ComplexConjugate
 open GlobalTheory.OneMapRef GlobalTheory.WeilParts
 
-noncomputable section
-
 namespace GlobalTheory.OneMapRef.IoCmp
 
 theorem pure_rename {ι ι' κ X : Type} {A : ι → (X → ℂ) → (X → ℂ)} {A' : ι' → (X → ℂ) → (X → ℂ)} {g : X → ℂ}
@@ -117,5 +115,3 @@ theorem pureTensorO_rename {D : D7} {ψ : AddChar (AF D.host.F) ℂ} {θ : InfFa
   simp only [aPlusAll, hZ, unitMap_submatrix]
 
 end GlobalTheory.OneMapRef.IoCmp
-
-end

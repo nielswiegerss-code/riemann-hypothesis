@@ -52,8 +52,6 @@ open UpperTheory.HF
 open Formalism.BasicNotions NumberField IsDedekindDomain GlobalTheory.Mem
 open Formalism.L2.Col
 
-noncomputable section
-
 namespace GlobalTheory.Mem.DatHecke
 
 open Formalism.L2.Host (HChar embPsi)
@@ -97,5 +95,3 @@ theorem g_mem_of_mem_vG (h : Pr.Ok) {i : Fin 2} {w : HeightOneSpectrum (𝓞 X.E
 end PrimesOk
 
 end GlobalTheory.Mem.DatHecke
-
-end

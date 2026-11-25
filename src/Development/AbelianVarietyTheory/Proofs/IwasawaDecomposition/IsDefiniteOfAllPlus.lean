@@ -55,8 +55,6 @@ import Mathlib.Tactic.ReduceModChar
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.L2.DIV Formalism.L2.Indef Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult
   Formalism.IndefR.Datum Formalism.IndefR.Lev Formalism.IndefR.Cx GlobalTheory.DefLift GlobalTheory.Chain
 
-noncomputable section
-
 namespace GlobalTheory.DefiniteMult
 
 section DefiniteBasics
@@ -357,5 +355,3 @@ theorem extV_injective (hH : R.models_HV) (i : Fin D.R.m) (t : T) : Function.Inj
 end Real
 
 end GlobalTheory.DefiniteMult
-
-end

@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HomExtNormal
 
 open NumberField ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.Toroidal GlobalTheory.LocM GlobalTheory.TorRef GlobalTheory.PolFan GlobalTheory.PolFan.CarDim
 
-noncomputable section
-
 namespace GlobalTheory.PolFan.CarDim
 
 theorem projective_quot_orad (E : Type) [Field E] [NumberField E] (X : Type) [AddCommGroup X] [Module (𝓞 E) X]

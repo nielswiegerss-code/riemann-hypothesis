@@ -13,8 +13,6 @@ import Mathlib.Tactic.Linter.Style
 open Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.MainNotions.S MeasureTheory IsDedekindDomain NumberField Matrix Formalism.L2.Theta Formalism.L2.DIV Formalism.L2.Indef Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum GlobalTheory.JointHarm
 open scoped TensorProduct InnerProductSpace Classical
 
-noncomputable section
-
 namespace GlobalTheory.CoefReal
 
 open GlobalTheory.CoefModel
@@ -120,5 +118,3 @@ theorem exists_poly_model : ∀ (D : D7) (V : HSp D) (θ : InfFam D) (c : CoefA 
       mul_inv_cancel_right]
 
 end GlobalTheory.CoefReal
-
-end

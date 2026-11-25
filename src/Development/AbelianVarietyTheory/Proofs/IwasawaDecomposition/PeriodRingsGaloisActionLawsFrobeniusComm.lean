@@ -11,7 +11,6 @@ public import Development.AbelianVarietyTheory.CrystallinePeriods.AdicMaps
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.MemLoc.ActLaws
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc GlobalTheory.MemLoc
 open scoped Formalism.Per

@@ -6,8 +6,6 @@ import Formalism.LocalToGlobal.Divisibility.ProjLemmas
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Mem.R3.LiftLatBC
 
 open Module NumberField Formalism.L2.DIV Formalism.DivisionValues GlobalTheory.Mem.R3.DefLatBC
@@ -76,5 +74,3 @@ theorem tl_bcF_of_blockBCAt : ∀ {K K' : Type} [Field K] [NumberField K] [StarR
     rw [hv]
 
 end GlobalTheory.Mem.R3.LiftLatBC
-
-end

@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MarkValEqZer
 
 open NumberField ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.Toroidal GlobalTheory.LocM GlobalTheory.TorRef GlobalTheory.PolFan GlobalTheory.PolFan.Mark
 
-noncomputable section
-
 namespace GlobalTheory.PolFan.Mark
 
 theorem exists_zsmul_mem_of_finrank_le_of_le {M : Type} [AddCommGroup M] {N L : Submodule ℤ M}

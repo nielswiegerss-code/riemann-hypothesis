@@ -61,8 +61,6 @@ import CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsMatc
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.Toroidal GlobalTheory.LocM GlobalTheory.TorRef GlobalTheory.PolFan GlobalTheory.PolFan.OrbMark
 
 namespace GlobalTheory.PolFan.OrbMark
@@ -97,4 +95,3 @@ theorem exists_pieces_match : ∀ (E : Type) [Field E] [NumberField E] [IsCMFiel
     GlobalTheory.CompanionTheory.Ar.Fan.MatchingPieces.exists_pieces_match (𝓞 E) H.bar H.w0 (cmOrd_host H)
 
 end GlobalTheory.PolFan.OrbMark
-end

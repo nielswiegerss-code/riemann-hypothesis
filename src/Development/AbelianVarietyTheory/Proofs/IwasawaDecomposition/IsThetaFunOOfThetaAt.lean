@@ -44,8 +44,6 @@ public import Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Comple
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix
 open scoped TensorProduct
 
@@ -109,5 +107,3 @@ theorem isThetaFunO_thPVec {Pg Q : Finset (Formalism.L2.DIV.Pl D.host.E)}
   exact isThetaFunO_of_thetaAt hψ h0.inf h h0.theta
 
 end GlobalTheory.VecTheta
-
-end

@@ -8,8 +8,6 @@ public import Mathlib.RingTheory.Localization.Finiteness
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Matrix Module
 open scoped BigOperators nonZeroDivisors
 

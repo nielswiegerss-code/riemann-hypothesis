@@ -50,8 +50,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.FlagEEqHyperbolic
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Matrix GlobalTheory.SgAlg GlobalTheory.SgGlob GlobalTheory.IntPair GlobalTheory.IntTerm Formalism.BasicNotions IsDedekindDomain
 open Formalism.MainNotions.S (FlagG XS ddS FrameOK)
 open Formalism.MainNotions.S.Lat (LFlag hS Tu gS XLam IsFixedConv FixedHyp)

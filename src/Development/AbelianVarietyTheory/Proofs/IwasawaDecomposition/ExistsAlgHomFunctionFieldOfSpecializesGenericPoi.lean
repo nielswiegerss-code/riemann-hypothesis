@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValRS
 open AlgebraicGeometry CategoryTheory ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.ZH GlobalTheory.Cartier GlobalTheory.ProjVar GlobalTheory.FlagBundle
 open Classical
 
-noncomputable section
-
 namespace GlobalTheory.FlagBundle
 
 theorem exists_algHom_of_specializes_genericPoint :

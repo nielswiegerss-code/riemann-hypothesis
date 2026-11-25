@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HomExtNormal
 
 open NumberField ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.Toroidal GlobalTheory.LocM GlobalTheory.TorRef GlobalTheory.PolFan
 
-noncomputable section
-
 namespace GlobalTheory.PolFan.OrbMark
 
 theorem exists_semilinear_pull_of_evalZ_eq_one : ∀ {O : Type} [CommRing O] (w0 : O) {X₀ : Type} [AddCommGroup X₀] [Module O X₀] (v : LinearMap.BilinForm ℤ X₀)

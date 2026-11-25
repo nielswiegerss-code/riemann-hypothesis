@@ -19,8 +19,6 @@ open AlgebraicGeometry CategoryTheory Limits NumberField MonObj
 open ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor Formalism.L2.Pj GlobalTheory.LocM GlobalTheory.ShFam.Pad
 open Formalism.MainNotions.DIV.Cons (intO SCF)
 
-noncomputable section
-
 namespace GlobalTheory.Principalise
 
 theorem memIdealOfLocally {W : Scheme.{0}} (I : W.IdealSheafData) (A : W.affineOpens) (b : Γ(W, A.1))

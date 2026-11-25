@@ -9,8 +9,6 @@ import ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.HCFFromRecipA
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.FrobeniusOrbits Neutral.B1 ReciprocityTheory.Neutral.Bridge.HCFR Formalism.L2.Host GlobalTheory.Mem GlobalTheory.Mem.Chr GlobalTheory.Mem.Col2
 open scoped TensorProduct
 
@@ -234,5 +232,3 @@ theorem isTwist_of_reads : ∀ (R : Ranks) (H : Formalism.BasicNotions.Host R) (
     exact hP (hd.unr P fun e => hv ((plc_under_eq_iff P hp).2 e))
 
 end GlobalTheory.Mem.ReadTwist
-
-end

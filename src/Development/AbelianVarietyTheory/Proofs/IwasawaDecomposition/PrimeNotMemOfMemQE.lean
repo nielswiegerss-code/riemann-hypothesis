@@ -4,8 +4,6 @@ public import Formalism.LocalToGlobal.Columns.RowForms
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Mem.Col2
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.L2.Col Formalism.L2.DIV

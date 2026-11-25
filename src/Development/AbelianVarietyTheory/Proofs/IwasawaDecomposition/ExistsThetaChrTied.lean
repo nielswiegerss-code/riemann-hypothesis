@@ -8,8 +8,6 @@ public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.Hecke
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta GlobalTheory.Mem.Th MeasureTheory IsDedekindDomain NumberField Matrix
 open Formalism.IndefR.Links (ChrEq)
 open Formalism.L2.Host (HChar)
@@ -54,5 +52,3 @@ theorem exists_thetaChrTied (D : D7) (C : Formalism.L2.Host.CharFrame D) (nch : 
     exact ⟨x, u1 _ _ _ (he x) hcχ⟩
 
 end GlobalTheory.TowerCharRead
-
-end

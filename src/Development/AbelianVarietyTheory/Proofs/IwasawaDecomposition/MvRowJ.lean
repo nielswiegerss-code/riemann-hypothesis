@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Mem.SRe
 
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.L2.Theta Formalism.IndefR.Mult Formalism.IndefR.Links Formalism.IndefR.Lev Formalism.IndefR.AutomorphicEvaluation Formalism.L2.DIV
@@ -19,5 +17,3 @@ theorem mvRowJ : MvRowJ := by
   exact (by with_unfolding_all exact (hj :))
 
 end GlobalTheory.Mem.SRe
-
-end

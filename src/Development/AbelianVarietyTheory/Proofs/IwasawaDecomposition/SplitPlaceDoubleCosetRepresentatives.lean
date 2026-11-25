@@ -8,8 +8,6 @@ public import Formalism.LocalToGlobal.Columns.MtHeckeSum
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.IndefR
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.Mem.R3.SplitDoubleCoset
 
 theorem isDC_map {G H : Type} [Group G] [Group H] (Φ : G ≃* H) (K : Subgroup G) (K' : Subgroup H)

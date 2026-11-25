@@ -11,8 +11,6 @@ open ReciprocityTheory.ChartRestriction.G.Geo.Tor Formalism.BasicNotions Formali
 open Formalism.DegreeFormula Formalism.MJ GlobalTheory.HodgeDomain GlobalTheory.TrueCx
 open ReciprocityTheory.ChartRestriction.G.FD ReciprocityTheory.ChartRestriction.G.AR.Inst ReciprocityTheory.ChartRestriction.G.AR.Up GlobalTheory.FramePairGram
 
-noncomputable section
-
 namespace GlobalTheory.FramePairGram
 
 theorem coef_eq_coW_change {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ} (X : Data E r) {j : ℕ}

@@ -9,8 +9,6 @@ public import Mathlib.Analysis.Normed.Algebra.MatrixExponential
 
 open Formalism.BasicNotions MeasureTheory Filter Topology Matrix
 
-noncomputable section
-
 namespace GlobalTheory.UpqExpChart
 
 section General

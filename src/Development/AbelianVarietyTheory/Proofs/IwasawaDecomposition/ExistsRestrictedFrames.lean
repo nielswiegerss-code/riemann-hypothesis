@@ -11,8 +11,6 @@ public import Formalism.LocalToGlobal.Divisibility.Frames
 open Formalism.BasicNotions NumberField IsDedekindDomain GlobalTheory.Mem
 open scoped Matrix ComplexOrder
 
-noncomputable section
-
 namespace GlobalTheory.Mem
 
 theorem cnorm_mulVec_eq_of_gram {ι κ μ : Type} [Fintype ι] [Fintype κ] [Fintype μ]
@@ -59,5 +57,3 @@ theorem exists_restricted_frames : ∀ (K : Type) [Field K] [NumberField K] [Sta
   exact cnorm_mulVec_eq_of_gram _ _ h2 _
 
 end GlobalTheory.Mem
-
-end

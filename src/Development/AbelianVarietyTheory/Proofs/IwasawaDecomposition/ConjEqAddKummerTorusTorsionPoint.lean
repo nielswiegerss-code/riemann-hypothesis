@@ -18,8 +18,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open scoped CategoryTheory.Obj
 open ReciprocityTheory.ChartRestriction.G.DVR
 
-noncomputable section
-
 namespace GlobalTheory.KummerConj
 
 open GlobalTheory.TorusExt GlobalTheory.UnramTorsion GlobalTheory.BXOf

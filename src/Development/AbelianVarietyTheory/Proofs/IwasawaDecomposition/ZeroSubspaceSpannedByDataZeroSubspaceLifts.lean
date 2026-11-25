@@ -49,8 +49,6 @@ open Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Form
 open scoped TensorProduct InnerProductSpace
 open Formalism.IndefR.RecTie Formalism.IndefR.Lev Formalism.L2.Rows GlobalTheory.Mem GlobalTheory.Mem.R3
 
-noncomputable section
-
 namespace GlobalTheory.Mem.R3.DivisionRationalLift
 
 section Core
@@ -186,5 +184,3 @@ theorem divisionRows_rationalLift : ∀ (D : D7) (G : Type) [Group G] [Fintype G
 end Main
 
 end GlobalTheory.Mem.R3.DivisionRationalLift
-
-end

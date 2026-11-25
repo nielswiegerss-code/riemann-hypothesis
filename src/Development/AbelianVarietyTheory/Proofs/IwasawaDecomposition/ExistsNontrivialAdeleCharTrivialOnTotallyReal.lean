@@ -7,8 +7,6 @@ import GroundTheory.GlobalFields.TateThesis.AdelicChar
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.GaugeEx
 open scoped TensorProduct NNReal ENNReal
 
@@ -31,5 +29,3 @@ theorem _root_.GlobalTheory.GaugeEx.CharZero.exists_isCharAF :
   exact ⟨ψ, hψ⟩
 
 end GlobalTheory.GaugeEx.CharZero
-
-end

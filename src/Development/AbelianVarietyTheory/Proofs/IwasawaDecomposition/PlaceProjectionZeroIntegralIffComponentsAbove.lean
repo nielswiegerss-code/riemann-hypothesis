@@ -9,8 +9,6 @@ open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions F
 open Formalism.UG.P
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.Mem.Col2.AdComp
 
 theorem eq_zero_of_valued_le {E : Type} [Field E] [NumberField E] (P : HeightOneSpectrum (𝓞 E))

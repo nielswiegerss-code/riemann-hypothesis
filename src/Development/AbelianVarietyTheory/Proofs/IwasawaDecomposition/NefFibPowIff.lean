@@ -6,8 +6,6 @@ import Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverIffIsPro
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory AlgebraicGeometry TopologicalSpace ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi
   ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory GlobalTheory.CechPic
 

@@ -13,8 +13,6 @@ import Formalism.SharpRestriction.GrowthBounds.IntegralWeylLatticeSpan.LatSOfLoc
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.LevelHecke
 
 open Formalism.BasicNotions Formalism.L2.Forms Formalism.UG Formalism.L2.GlobalTheoryTheory.LocalLatticeBases NumberField IsDedekindDomain Matrix
@@ -151,5 +149,3 @@ theorem loc_lk_eq_loc_cls : ∀ (D : D7) (u : D.what₂.Word) (A : AtTTied u) (i
   rwa [Nat.cast_smul_eq_nsmul]
 
 end GlobalTheory.LevelHecke
-
-end

@@ -14,8 +14,6 @@ import Mathlib.Topology.MetricSpace.Ultra.TotallySeparated
 open NumberField IsDedekindDomain MeasureTheory Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.GaugeEx
 open scoped TensorProduct NNReal ENNReal
 
-noncomputable section
-
 namespace GlobalTheory.GaugeEx.PureUniq
 
 theorem finiteOnCompacts_of_integrable {Z : Type} [TopologicalSpace Z] [T2Space Z]

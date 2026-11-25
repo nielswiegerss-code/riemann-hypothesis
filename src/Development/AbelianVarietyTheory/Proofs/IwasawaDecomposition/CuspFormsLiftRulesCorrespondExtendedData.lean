@@ -11,8 +11,6 @@ open scoped TensorProduct InnerProductSpace ComplexOrder
 open GlobalTheory.Mem GlobalTheory.Mem.Col2 GlobalTheory.Mem.Top GlobalTheory.Mem.Top.GroupRetwisting GlobalTheory.Mem.Top.Bl GlobalTheory.Mem.R3 GlobalTheory.Mem.R3.Rw GlobalTheory.Mem.R3.Tr
 open scoped Matrix
 
-noncomputable section
-
 namespace GlobalTheory.Mem.R3.CuspExt
 
 
@@ -72,5 +70,3 @@ theorem cusp_ext : StepW Pinned fun K B' f' T' w' => ∀ (B : Base) (f : Fr B.to
   exact ⟨hR, hm, hs⟩
 
 end GlobalTheory.Mem.R3.CuspExt
-
-end

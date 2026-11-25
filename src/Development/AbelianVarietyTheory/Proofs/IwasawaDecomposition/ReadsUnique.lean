@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValSu
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Mem.SRe.StdUnique
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.L2.Col Formalism.L2.DIV Formalism.L2.Ker Formalism.UG Formalism.L2.Forms GlobalTheory.Mem GlobalTheory.Mem.Chr
@@ -119,5 +117,3 @@ theorem sameStd : SameStd := by
     (y := (by with_unfolding_all exact ((col.C.forms u).to0.cls0.y :))) (eY := (by with_unfolding_all exact ((col.C.forms u).to0.val0.eY :))) ((by with_unfolding_all exact ((h u) :))) ((by with_unfolding_all exact (h1 :)))
 
 end GlobalTheory.Mem.SRe.StdUnique
-
-end

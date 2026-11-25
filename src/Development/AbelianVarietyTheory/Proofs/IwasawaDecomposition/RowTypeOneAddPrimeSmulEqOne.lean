@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsAdmissible
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.HermitianLatticesTheory Formalism.L2.Col Formalism.L2.DIV GlobalTheory.QNormal GlobalTheory.Mem.Col2.IdxEx
 
-noncomputable section
-
 namespace GlobalTheory.Mem.Col2.IdxEx.Cong
 
 open GlobalTheory.LastSteps
@@ -151,5 +149,3 @@ theorem lamRow_cong : ∀ {X : Fields} {Pr : Primes X} {R : Ranks} (Ch : Chars X
     exact lamQB_cong _ _ _ _ hy
 
 end GlobalTheory.Mem.Col2.IdxEx.Cong
-
-end

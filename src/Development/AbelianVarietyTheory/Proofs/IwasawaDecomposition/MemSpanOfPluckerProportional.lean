@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsFra
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.FlagEmb
 
 theorem adjugate_mul_eq_plk {K : Type} [Field K] {M k : ℕ} (D : Fin k → Fin (M + 1) → K) (r : Fin k → Fin (M + 1))

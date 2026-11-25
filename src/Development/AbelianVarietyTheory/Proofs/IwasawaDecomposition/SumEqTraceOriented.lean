@@ -41,8 +41,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.ScalarOnPartsFull
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.MainNotions.S MeasureTheory IsDedekindDomain NumberField Matrix Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Mult Formalism.IndefR.Datum
 open scoped TensorProduct
 
@@ -139,5 +137,3 @@ theorem bridgeSmall (D : D7) : BridgeSmall D := by
     exact act_coord (cA D) _ _ _ _ _ (gramInv_mul S) (mt_rel S g) (mt_mul_inv S g) x
 
 end GlobalTheory.OrientedSmall
-
-end

@@ -8,8 +8,6 @@ public import Mathlib.RingTheory.Norm.Transitivity
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain
 
 namespace GlobalTheory.NormCompat.NormCont

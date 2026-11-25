@@ -51,8 +51,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.MainNotions.S MeasureTheory IsDedekindDomain NumberField Matrix Formalism.L2.Theta Formalism.L2.DIV Formalism.L2.Indef Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum Formalism.IndefR.Cx
 open scoped TensorProduct InnerProductSpace
 
@@ -426,4 +424,3 @@ theorem spaces_hilbert : ∀ (D : D7) (G : Type) [Group G] [Fintype G] (Pl0 T : 
     fun i => ⟨holW R F tupT hm hTop hinj i, hermW R F tupT hm hTop hinj hI hB i, fun μ => hermA R F tupT hm hTop hinj μ i⟩⟩
 
 end GlobalTheory.HilbertLevels
-end

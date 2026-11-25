@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Comple
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Datum
 
 namespace GlobalTheory.FockTheta
@@ -23,5 +21,3 @@ theorem ptStable : ∀ D : D7, Formalism.IndefR.Fin.PtStable D := by
       (GlobalTheory.OrientedHeis.theta_smul _ (GlobalTheory.OrientedHeis.theta_dRho hθ hψ k.1 _ hg))), rfl⟩) f hf P).1
 
 end GlobalTheory.FockTheta
-
-end

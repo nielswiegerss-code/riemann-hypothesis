@@ -10,8 +10,6 @@ open MeasureTheory GlobalTheory.ChartGlue
 open ReciprocityTheory.L2DbarEstimates (V)
 open scoped ENNReal
 
-noncomputable section
-
 namespace GlobalTheory.ChartGlue
 
 theorem glueMeas_add_of_compat_on : ∀ {Y : Type} [TopologicalSpace Y] [MeasurableSpace Y] [BorelSpace Y]

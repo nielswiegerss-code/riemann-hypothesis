@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Definitions.HeightFunctions.FiniteDimens
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.L2.Host GlobalTheory.NT GlobalTheory.Mem GlobalTheory.Mem.Fld GlobalTheory.FieldSize
 open scoped IntermediateField
 
@@ -41,5 +39,3 @@ theorem mem_of_orderDvd : ∀ (E : Type) [Field E] [NumberField E] [_root_.Numbe
     rw [GlobalTheory.Mem.Chr.finPartI_fst]; rfl
 
 end GlobalTheory.Mem.ValFin
-
-end

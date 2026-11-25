@@ -54,8 +54,6 @@ import Mathlib.Topology.Sheaves.Init
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.HermitianLatticesTheory Formalism.L2.Col Formalism.L2.DIV GlobalTheory.CongLevel GlobalTheory.GO.ChRoot
 
-noncomputable section
-
 namespace GlobalTheory.Mem.LevFin
 
 section Loc

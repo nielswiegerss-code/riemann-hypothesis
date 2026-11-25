@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormD
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix Filter Formalism.REAL Formalism.MainNotions.S Formalism.L2.Theta GlobalTheory.SmoothGlob GlobalTheory.LowTypeDetermined GlobalTheory.TypeSum
 open scoped InnerProductSpace Topology
 
@@ -67,5 +65,3 @@ theorem avgBd_sobCont : ∀ (n : ℕ) (ε : Fin n → Bool) (H : Type) [NormedAd
   exact ge_of_tendsto ht (eventually_nhdsWithin_of_forall key)
 
 end GlobalTheory.TypeSum
-
-end

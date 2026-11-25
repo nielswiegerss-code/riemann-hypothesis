@@ -16,8 +16,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum MeasureTheory GlobalTheory.DefLift GlobalTheory.Chain
 open scoped ComplexOrder
 
-noncomputable section
-
 namespace GlobalTheory.DefLiftMult
 
 open Matrix
@@ -69,5 +67,3 @@ theorem mem_multT_of_equivariant : ∀ (D : D7) (θ : InfFam D) (V : HSp D) (S :
     exact GlobalTheory.DefiniteEnd.exists_sobCont M τ _ v x
 
 end GlobalTheory.DefLiftMult
-
-end

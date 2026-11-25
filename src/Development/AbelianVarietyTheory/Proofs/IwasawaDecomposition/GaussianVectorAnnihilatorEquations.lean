@@ -6,8 +6,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsNegBaseY
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH GlobalTheory.Mem.Osc GlobalTheory.OscGauss Matrix
 open scoped ComplexOrder
 
@@ -113,5 +111,3 @@ theorem gauss_annihilator (P Q : ℕ) (F : Fock (Ix P Q)) (A : Matrix (Fin P) (F
     rw [GlobalTheory.OscExpDeriv.coeff_deriv_expPS _ _ (coeff_zero_gaussPoly A x), pderiv_inr_gaussPoly]
 
 end GlobalTheory.OscGauss
-
-end

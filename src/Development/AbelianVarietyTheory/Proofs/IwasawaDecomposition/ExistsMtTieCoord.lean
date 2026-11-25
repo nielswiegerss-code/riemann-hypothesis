@@ -47,8 +47,6 @@ public import Formalism.LocalToGlobal.IndefiniteReal.LinksDefs
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH NumberField IsDedekindDomain Formalism.L2.Theta Formalism.L2.DIV Formalism.L2.Indef Formalism.IndefR Formalism.IndefR.Links Formalism.DivisionValues
 open scoped InnerProductSpace Matrix
 
@@ -79,5 +77,3 @@ variable {R : RealDat D A Ks} {F : Face D A}
 end Main
 
 end GlobalTheory.Mem.LiftForms
-
-end

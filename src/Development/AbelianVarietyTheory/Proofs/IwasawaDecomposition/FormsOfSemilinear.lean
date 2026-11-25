@@ -8,8 +8,6 @@ import Mathlib.Tactic.Linter.Style
 open Module NumberField Formalism.L2.DIV Formalism.DivisionValues
 open scoped Matrix
 
-noncomputable section
-
 namespace GlobalTheory.Mem.R3.DefLatBC
 
 section Csd

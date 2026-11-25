@@ -7,8 +7,6 @@ public import Formalism.LocalToGlobal.NormalizedHeckeFactors.CoeffZeroNeOfMonicI
 
 open CategoryTheory Polynomial
 
-noncomputable section
-
 namespace GlobalTheory.SerCmp.ListBlocks
 
 open Formalism.IrreducibleCountingLemmas.TYPES

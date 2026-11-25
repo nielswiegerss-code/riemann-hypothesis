@@ -5,8 +5,6 @@ public import Mathlib.LinearAlgebra.Eigenspace.Zero
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Polynomial TensorProduct Module
 
 namespace GlobalTheory.WeilDeligne.WD

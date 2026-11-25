@@ -13,8 +13,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open Matrix Finset
 
-noncomputable section
-
 namespace GlobalTheory.UnitaryHighestWeightUnique
 
 open PI.UpqRep GlobalTheory.UnitaryHighestWeight

@@ -15,8 +15,6 @@ import Development.AbelianVarietyTheory.Proofs.FoundationProofs.WeilRepresentati
 open NumberField Classical Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.TaylorLogMetric Formalism.MainNotions.StandardLatticesGL3 GlobalTheory.NormSum
 open scoped BigOperators
 
-noncomputable section
-
 namespace GlobalTheory.TrueTheta
 
 open GlobalTheory.NormSum.UnramHecke GlobalTheory.VacuumScalar

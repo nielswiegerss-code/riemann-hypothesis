@@ -13,8 +13,6 @@ public import Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.C
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.AdelicFrame
 
 section General

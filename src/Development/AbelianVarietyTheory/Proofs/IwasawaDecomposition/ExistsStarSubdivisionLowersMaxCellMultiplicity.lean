@@ -36,8 +36,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsSmoothAdmi
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.Toroidal GlobalTheory.LocM GlobalTheory.TorRef GlobalTheory.PolFan GlobalTheory.PolFan.StarLab GlobalTheory.CompanionTheory.Ar.Fan
 
 namespace GlobalTheory.CompanionTheory.Ar.Fan
@@ -451,4 +449,3 @@ theorem exists_round_lt_maxMult : ∀ (E : Type) [Field E] [NumberField E] [IsCM
       (_root_.GlobalTheory.PolFan.CellClass.multCellsAmong_of_isPolyFan E H q φ hP _)
 
 end GlobalTheory.PolFan
-end

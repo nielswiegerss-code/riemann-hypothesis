@@ -8,8 +8,6 @@ public import Development.AbelianVarietyTheory.Definitions.ThetaMetrics.HasSumLo
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Mem.Col2
 
 open NumberField Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.TaylorLogMetric Formalism.MainNotions.StandardLatticesGL3 Formalism.L2.Ker Complex Classical

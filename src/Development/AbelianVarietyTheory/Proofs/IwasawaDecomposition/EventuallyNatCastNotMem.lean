@@ -13,8 +13,6 @@ import ReciprocityTheory.GaloisValuations.GlobalA
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.HeightCounting
 
 open Formalism.BasicNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal Formalism.L2.Host GlobalTheory.CuspRep GlobalTheory.WeilDeligne NumberField IsDedekindDomain Polynomial
@@ -29,5 +27,3 @@ theorem eventually_natCast_notMem (E : Type) [Field E] [NumberField E] (l : ℕ)
   simpa [Ideal.dvd_span_singleton] using hw
 
 end GlobalTheory.HeightCounting
-
-end

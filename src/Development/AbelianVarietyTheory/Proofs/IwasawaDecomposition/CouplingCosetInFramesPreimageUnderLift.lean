@@ -10,8 +10,6 @@ import Mathlib.Tactic.Linter.Style
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.L2.Col Formalism.L2.DIV Formalism.L2.Ker Formalism.UG Formalism.L2.Forms GlobalTheory.Mem GlobalTheory.Mem.Chr GlobalTheory.Mem.Col2 GlobalTheory.Mem.Col2.TC GlobalTheory.Mem.Col2.AdT Matrix
 
-noncomputable section
-
 namespace GlobalTheory.Mem.Col2.AdT
 
 
@@ -140,5 +138,3 @@ theorem cosetIn_act_of_liftsInv : ∀ {B : Base} {X : PreX B.toPre} (I : TC B X)
     exact (hg _).1 this
 
 end GlobalTheory.Mem.Col2.AdT
-
-end

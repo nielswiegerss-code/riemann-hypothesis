@@ -15,8 +15,6 @@ open Formalism.IndefR.RecTie Formalism.IndefR.Lev Formalism.L2.Rows GlobalTheory
 
 
 
-noncomputable section
-
 open Formalism.L2.Col
 
 namespace GlobalTheory.Mem.LiftWt

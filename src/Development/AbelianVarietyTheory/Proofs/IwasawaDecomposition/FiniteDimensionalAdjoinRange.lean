@@ -10,7 +10,6 @@ import Development.AbelianVarietyTheory.Definitions.Foundations.RootOfUnityEight
 
 open Formalism.BasicNotions GlobalTheory.Mem GlobalTheory.MemN NumberField IsDedekindDomain Formalism.ConjugateSelfDual ReciprocityTheory.Gal Polynomial
 
-noncomputable section
 namespace GlobalTheory.PlaceBridge
 
 theorem val_int_lt_one_iff {Ω : Type} [Field Ω] (B : ValuationSubring Ω) {l : ℕ} (hl : l.Prime)

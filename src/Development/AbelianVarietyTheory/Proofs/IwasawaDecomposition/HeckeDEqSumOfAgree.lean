@@ -52,8 +52,6 @@ open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formal
 
 open scoped ValuativeRel
 
-noncomputable section
-
 namespace GlobalTheory.HeckeEigConj
 
 theorem proj_conjSplit {L : Type} [Field L] [NumberField L] [IsCMField L] (s : SplitPlace L) (z : AL L) :
@@ -127,5 +125,3 @@ theorem norms_eq {L : Type} [Field L] [NumberField L] [IsCMField L] (s : SplitPl
     rfl
 
 end GlobalTheory.HeckeEigConj
-
-end

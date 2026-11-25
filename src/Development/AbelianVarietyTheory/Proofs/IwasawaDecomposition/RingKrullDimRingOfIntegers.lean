@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RingKr
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory AlgebraicGeometry TopologicalSpace NumberField IsDedekindDomain ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory GlobalTheory.Cartier GlobalTheory.ProjVar GlobalTheory.TrueGeo Formalism.BasicNotions
 open GlobalTheory.CechPic GlobalTheory.ProjSpace GlobalTheory.CxPts
 

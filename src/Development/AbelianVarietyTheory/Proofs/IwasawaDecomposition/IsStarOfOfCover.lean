@@ -44,8 +44,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsIntLin
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.Toroidal GlobalTheory.LocM GlobalTheory.TorRef GlobalTheory.PolFan GlobalTheory.PolCell
 
 namespace GlobalTheory.PolFan.StarCells

@@ -43,8 +43,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions NumberField IsDedekindDomain GlobalTheory.Mem
 
 namespace GlobalTheory.Mem.BaseEx
@@ -98,5 +96,3 @@ theorem sum_emb_bijective : Function.Bijective
 end host
 
 end GlobalTheory.Mem.BaseEx
-
-end

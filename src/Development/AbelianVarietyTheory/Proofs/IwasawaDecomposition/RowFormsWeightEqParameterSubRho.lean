@@ -8,8 +8,6 @@ public import Formalism.LocalToGlobal.Columns.RecLevel
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.L2.Col Formalism.L2.DIV Formalism.L2.Ker Formalism.UG Formalism.L2.Forms GlobalTheory.Mem GlobalTheory.Mem.Chr GlobalTheory.Mem.Col2 GlobalTheory.Mem.Col2.TC Matrix
 
-noncomputable section
-
 namespace GlobalTheory.Mem.Col2.TC
 
 theorem tup_sgHC_eq {R : Ranks} (P : HCParam R) (i : Fin (R.N R.m - 1)) :
@@ -45,5 +43,3 @@ theorem fm_sg_eq : ∀ {B : Base} {X : PreX B.toPre} (I : TC B X), I.Ok → TC.P
   exact (RowPar.sg_eq (B.hc τ) i).trans (congrArg (· - _) h2.symm)
 
 end GlobalTheory.Mem.Col2.TC
-
-end

@@ -50,8 +50,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalRecipro
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.N Formalism.ConjugateSelfDual ReciprocityTheory.Gal ReciprocityTheory.Aut Formalism.AUTREP Formalism.L2 Formalism.L2.Host Formalism.L2.NT Formalism.IndefR.NX GlobalTheory.HeightCounting NumberField IsDedekindDomain Polynomial
 
-noncomputable section
-
 namespace GlobalTheory.IsoInteg
 
 open ValuativeRel Filter Topology
@@ -95,5 +93,3 @@ theorem valued_le_one_iff_of_continuous : ∀ (F E : Type) [Field F] [NumberFiel
   exact ⟨_root_.GlobalTheory.SphLoc.le_one_of_map i.toRingHom hi, map_le_one i.toRingHom hi⟩
 
 end GlobalTheory.IsoInteg
-
-end

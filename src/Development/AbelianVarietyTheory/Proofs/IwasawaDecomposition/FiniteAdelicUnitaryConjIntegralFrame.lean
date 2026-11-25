@@ -13,8 +13,6 @@ open scoped TensorProduct InnerProductSpace
 open Formalism.IndefR.RecTie Formalism.IndefR.Lev Formalism.L2.Rows GlobalTheory.Mem GlobalTheory.Mem.R3 GlobalTheory.Mem.Col2
 open GlobalTheory.Mem.R3.LiftBrg
 
-noncomputable section
-
 
 
 namespace GlobalTheory.Mem.R3.LiftBrg.FrameEquiv

@@ -21,8 +21,6 @@ open scoped TensorProduct
 
 
 
-noncomputable section
-
 namespace GlobalTheory.HeightCounting.FirstFacts
 
 theorem pair_of_over (D : D7) {Pq : HeightOneSpectrum (𝓞 (maximalRealSubfield D.host.E)) → PlE D.host}
@@ -66,5 +64,3 @@ theorem mem_range_of_mem_QE {X : Col.Fields} {sel : HeightOneSpectrum (𝓞 X.F)
   · exact absurd h (Finset.notMem_empty _)
 
 end GlobalTheory.HeightCounting.FirstFacts
-
-end

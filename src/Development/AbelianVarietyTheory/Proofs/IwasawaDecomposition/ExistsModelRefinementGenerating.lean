@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.JGenSpeciali
 
 @[expose] public section
 
-noncomputable section
-
 open AlgebraicGeometry CategoryTheory Limits NumberField IsDedekindDomain TopologicalSpace
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.TrueGeo GlobalTheory.Cartier GlobalTheory.ProjVar GlobalTheory.CechPic
 open ReciprocityTheory.ChartRestriction.G.Out (nonzeroLocus)

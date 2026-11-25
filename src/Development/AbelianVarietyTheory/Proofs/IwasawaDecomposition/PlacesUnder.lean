@@ -11,8 +11,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DatVtEq
 open Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice IsDedekindDomain NumberField Formalism.L2 Formalism.L2.Host Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Lev GlobalTheory.Mem GlobalTheory.Mem.R3 GlobalTheory.MtIn
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.MtIn.Under
 
 theorem not_both {E : Type} [Field E] [NumberField E] {P : HeightOneSpectrum (𝓞 E)} {p q : ℕ} (hp : p.Prime) (hq : q.Prime)
@@ -45,5 +43,3 @@ theorem places_under : ∀ (D : D7) (T : Type) (L : LevCh D T) (μ0 : T), L.Is �
     exact (hL.Q_ram t PP).2 (Or.inl hQ) hx
 
 end GlobalTheory.MtIn.Under
-
-end

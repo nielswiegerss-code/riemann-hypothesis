@@ -5,8 +5,6 @@ public import Mathlib.NumberTheory.LSeries.Nonvanishing
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.Mem.An.ZeroWindow
 
 open Complex DirichletCharacter

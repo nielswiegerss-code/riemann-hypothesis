@@ -13,8 +13,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 open scoped Topology
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum
@@ -128,5 +126,3 @@ theorem exists_sup_bound : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ) (S T : 
       (hC₁ _ (le_max_left _ _) l (by simpa using h1) h2) w
 
 end GlobalTheory.WeilSupBound
-
-end

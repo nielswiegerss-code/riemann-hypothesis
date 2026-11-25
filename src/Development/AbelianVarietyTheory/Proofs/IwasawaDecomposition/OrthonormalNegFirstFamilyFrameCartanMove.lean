@@ -23,8 +23,6 @@ open GlobalTheory.SW hiding Level
 open scoped TensorProduct ComplexConjugate
 open GlobalTheory.OneMapRef GlobalTheory.WeilParts
 
-noncomputable section
-
 namespace GlobalTheory.OneMapRef.Frames
 
 open GlobalTheory.Ker.ONBasis
@@ -163,5 +161,3 @@ theorem GlobalTheory.OneMapRef.oneg_frames : ∀ (D : D7) (S T : HSp D) (r g : �
     fun ρ => isCartanInv (negM_sq T _) (negM_herm T _) (hZ ρ),
     fun h => ⟨isONeg_mvZ hθ hZ h, cartZ_mvZ hθ hZ h, mvZ_mul θ Z h, mvZ_fin θ Z, fin_of_mvZ hθ hZ,
       fun _ hZ' => exists_move hθ hZ hZ'⟩⟩
-
-end
