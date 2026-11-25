@@ -7,8 +7,6 @@ import Formalism.HermitianCurvature.WeylElementCommutesLevelOne
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 open scoped ENNReal NNReal InnerProductSpace
 

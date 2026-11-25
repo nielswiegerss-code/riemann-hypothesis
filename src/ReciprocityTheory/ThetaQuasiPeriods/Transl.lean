@@ -4,8 +4,6 @@ public import ReciprocityTheory.ThetaQuasiPeriods.ThetaQuasiPeriodStatement
 
 @[expose] public section
 
-noncomputable section
-
 open Complex Matrix
 
 namespace ReciprocityTheory.PTheta

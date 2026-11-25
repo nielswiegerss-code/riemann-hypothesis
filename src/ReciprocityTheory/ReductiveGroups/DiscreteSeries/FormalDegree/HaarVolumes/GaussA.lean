@@ -13,8 +13,6 @@ public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
 
 @[expose] public section
 
-noncomputable section
-
 section
 open Finset MeasureTheory Set
 

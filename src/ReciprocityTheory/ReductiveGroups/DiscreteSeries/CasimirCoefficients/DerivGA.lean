@@ -14,8 +14,6 @@ public import Mathlib.Analysis.SpecialFunctions.Exponential
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.DS.S7
 
 variable {n : ℕ}

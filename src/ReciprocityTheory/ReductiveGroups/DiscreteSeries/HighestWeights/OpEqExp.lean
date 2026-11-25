@@ -7,8 +7,6 @@ public import Formalism.RealPlaceAnalysis.Complexify
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.HW

@@ -10,8 +10,6 @@ namespace ReciprocityTheory.AnForm.M
 
 open MeasureTheory FinHolAtlas Filter Topology
 
-noncomputable section
-
 theorem analyticSubset_chart_local {e : ℕ} {X : Type} [TopologicalSpace X] (A : FinHolAtlas e X)
     {S : Set X} (hS : A.IsAnalyticSubset S) (hint : interior S = ∅) (j : Fin A.n)
     {z : Fin e → ℂ} (hz : z ∈ (A.chart j) '' (S ∩ (A.chart j).source)) :
@@ -96,7 +94,5 @@ theorem mIntCongrNull : MIntCongrNullStatement := by
   split_ifs with h
   · exact integralWith_congr_null A h.some Φ hS hint hg
   · rfl
-
-end
 
 end ReciprocityTheory.AnForm.M

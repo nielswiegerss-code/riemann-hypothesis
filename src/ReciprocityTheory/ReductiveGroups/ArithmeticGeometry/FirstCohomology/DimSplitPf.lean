@@ -14,8 +14,6 @@ public import Mathlib.CategoryTheory.MorphismProperty.Descent
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.H1
 
 open CategoryTheory CategoryTheory.Limits AlgebraicGeometry MonoidalCategory CartesianMonoidalCategory MonObj IsLocalRing

@@ -10,8 +10,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValua
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.DVR
 
 open AlgebraicGeometry CategoryTheory Limits TopologicalSpace Opposite ReciprocityTheory.ChartRestriction.G.Geo.Tor ReciprocityTheory.ChartRestriction.G.Semi

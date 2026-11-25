@@ -11,7 +11,6 @@ public import Formalism.LocalToGlobal.TorsionIntegrality.WeierstrassTwoTorsion.S
 
 @[expose] public section
 
-noncomputable section
 open scoped Classical
 
 namespace ReciprocityTheory.ChartRestriction.L1

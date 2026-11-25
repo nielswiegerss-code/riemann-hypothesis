@@ -8,7 +8,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegra
 
 namespace ReciprocityTheory.ChartRestriction.G.I2
 open NumberField Complex
-noncomputable section
 variable {E : Type} [Field E] [NumberField E]
 
 namespace ChA
@@ -100,5 +99,4 @@ lemma Mc_mem [IsCMField E] {dim : (E →+* ℂ) → ℕ} (σ : E →+* ℂ) (S :
   exact Submodule.sum_mem _ fun i _ => Submodule.smul_mem _ _ (hS _ _ hv)
 
 end ChA
-end
 end ReciprocityTheory.ChartRestriction.G.I2

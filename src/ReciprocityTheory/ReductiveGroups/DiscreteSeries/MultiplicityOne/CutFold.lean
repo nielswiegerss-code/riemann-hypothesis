@@ -8,8 +8,6 @@ public import Mathlib.MeasureTheory.Integral.Prod
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 
 namespace ReciprocityTheory.ChartRestriction.DS.Mult1.Fold

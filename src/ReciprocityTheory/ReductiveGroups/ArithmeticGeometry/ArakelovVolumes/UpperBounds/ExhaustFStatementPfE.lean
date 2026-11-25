@@ -62,8 +62,6 @@ open NumberField Complex Matrix Topology Filter ReciprocityTheory.ChartRestricti
   ReciprocityTheory.ChartRestriction.G.AR.Up.ExhC ReciprocityTheory.ChartRestriction.G.AR.Up.ExhD ReciprocityTheory.ChartRestriction.G.AR.Up.ExhE
 open scoped ComplexConjugate ComplexOrder ContDiff
 
-noncomputable section
-
 theorem levi_logNormSq_zero {n : ℕ} (h : V n → ℂ) (hh : ContDiff ℂ ∞ h) (v0 : V n)
     (hne : h v0 ≠ 0) (ξ : Fin n → ℂ) :
     leviV n (fun y => ((Real.log (Complex.normSq (h y)) : ℝ) : ℂ)) v0 ξ = 0 := by
@@ -294,7 +292,5 @@ theorem isCompact_subF (x0 : Frame X.Ψ r) (ho : IsOrth X x0) (a : ℝ) : IsComp
       exact Real.exp_le_exp.2 (by linarith)
     rw [Metric.mem_closedBall, dist_zero_right]
     nlinarith [sq_nonneg (‖z‖ - 1), norm_nonneg z]
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.ExF

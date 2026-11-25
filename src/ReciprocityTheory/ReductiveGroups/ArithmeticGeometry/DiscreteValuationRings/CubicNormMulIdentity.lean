@@ -4,8 +4,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FirstCohomolo
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.DVR.UUA
 
 open ReciprocityTheory.ChartRestriction.G.Geo.Tor ReciprocityTheory.ChartRestriction.G.H1

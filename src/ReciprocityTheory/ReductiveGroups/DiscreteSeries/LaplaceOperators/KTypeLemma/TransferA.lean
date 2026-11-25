@@ -12,8 +12,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Mul
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.Lap.LemK

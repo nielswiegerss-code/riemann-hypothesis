@@ -18,8 +18,6 @@ namespace ReciprocityTheory.L2DbarEstimates.F
 open MeasureTheory Filter Topology Set Function
 open scoped ENNReal InnerProductSpace ComplexConjugate ContDiff
 
-noncomputable section
-
 section Tr
 
 variable {M : Type*} [TopologicalSpace M] [SecondCountableTopology M] [MeasurableSpace M]
@@ -159,7 +157,5 @@ theorem chT_wd (ρ : V n → ℝ) (φ : V n → ℂ) (O : Set (V n)) (hOo : IsOp
   exact ⟨rfl, rfl⟩
 
 end Main
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.F

@@ -16,8 +16,6 @@ namespace ReciprocityTheory.AnForm
 open Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 variable {ι κ : Type*} [Fintype ι] [Fintype κ]
 
 theorem levi_congr {φ ψ : (ι → ℂ) → ℝ} {z : ι → ℂ} (h : φ =ᶠ[𝓝 z] ψ) (w : ι → ℂ) :
@@ -146,7 +144,5 @@ theorem continuousOn_levi {φ : (ι → ℂ) → ℝ} {U : Set (ι → ℂ)} (hU
   unfold levi
   exact (((h3.clm_apply continuousOn_snd).clm_apply continuousOn_snd).add
     ((h3.clm_apply h4).clm_apply h4)).div_const 4
-
-end
 
 end ReciprocityTheory.AnForm

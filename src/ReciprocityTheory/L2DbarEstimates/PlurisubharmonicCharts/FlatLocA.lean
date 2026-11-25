@@ -16,8 +16,6 @@ open scoped ContDiff
 
 namespace ReciprocityTheory.L2DbarEstimates.Y
 
-noncomputable section
-
 variable {n : ℕ}
 
 theorem flA_expand (w : V n) : w = ∑ j, w j • bas n j := by
@@ -207,7 +205,5 @@ theorem flA_leviV_add {F G : V n → ℝ} {y : V n} (hF : ContDiffAt ℝ 2 F y)
   refine Finset.sum_congr rfl fun k _ => ?_
   rw [wd_congr (hev k), wd_add (differentiableAt_wdb hFc) (differentiableAt_wdb hGc)]
   ring
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.Y

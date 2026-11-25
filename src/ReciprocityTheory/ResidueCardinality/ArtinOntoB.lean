@@ -6,8 +6,6 @@ public import ReciprocityTheory.Automorphisms.InstMainA
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.Bridge.ResidueFieldCardinality
 
 open NumberField IsDedekindDomain IsDedekindDomain.HeightOneSpectrum

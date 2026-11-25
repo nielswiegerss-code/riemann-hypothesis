@@ -8,8 +8,6 @@ namespace ReciprocityTheory.AnForm.R
 
 open AlgebraicGeometry CategoryTheory
 
-noncomputable section
-
 theorem algebraMap_mem_nonZeroDivisors_of_isLocalization {R S : Type*} [CommRing R] [CommRing S]
     [Algebra R S] (M : Submonoid R) [IsLocalization M S] {a : R} (ha : a ∈ nonZeroDivisors R) :
     algebraMap R S a ∈ nonZeroDivisors S := by
@@ -53,7 +51,5 @@ theorem effCartier_comap_of_isOpenImmersion' {X Y : Scheme.{0}} (I : Y.IdealShea
     rw [show ((f.appIso (f ⁻¹ᵁ Y.basicOpen r)).inv.hom : _ →+* _) = (e.symm : _ →+* _) from rfl,
       Ideal.comap_coe, Ideal.comap_symm, Ideal.map_span, Set.image_singleton]
     rfl
-
-end
 
 end ReciprocityTheory.AnForm.R

@@ -7,8 +7,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeo
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.H1
 
 open AlgebraicGeometry CategoryTheory Limits TopologicalSpace Opposite

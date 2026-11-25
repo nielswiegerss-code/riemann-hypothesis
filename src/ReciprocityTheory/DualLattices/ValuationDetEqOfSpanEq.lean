@@ -6,8 +6,6 @@ public import Mathlib.RingTheory.Valuation.Integers
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 
 namespace ReciprocityTheory.PGsh.L2

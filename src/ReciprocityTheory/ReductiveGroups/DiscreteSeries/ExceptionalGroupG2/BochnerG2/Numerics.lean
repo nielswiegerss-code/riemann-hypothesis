@@ -11,8 +11,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace ReciprocityTheory.ChartRestriction.DS.G2

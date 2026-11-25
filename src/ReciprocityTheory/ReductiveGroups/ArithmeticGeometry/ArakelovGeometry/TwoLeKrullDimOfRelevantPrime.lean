@@ -7,8 +7,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.I
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.ArakelovGeometry
 
 open ReciprocityTheory.ChartRestriction.G.Geo MvPolynomial

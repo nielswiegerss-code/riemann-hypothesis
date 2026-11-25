@@ -6,8 +6,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Polynomial
 
 namespace ReciprocityTheory.ChartRestriction.DS.Lap.LemK

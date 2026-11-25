@@ -5,8 +5,6 @@ import Mathlib.AlgebraicGeometry.Modules.Sheaf
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory CategoryTheory.Limits AlgebraicGeometry TopologicalSpace Opposite
 
 namespace ReciprocityTheory.ChartRestriction.G.H1.LocalResidues

@@ -17,8 +17,6 @@ public import Mathlib.RingTheory.Jacobson.Ring
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.Geo
 
 theorem mvPolynomialInt_dimFormula {σ : Type*} [Finite σ] (P Q : Ideal (MvPolynomial σ ℤ))

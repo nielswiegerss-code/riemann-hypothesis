@@ -10,8 +10,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain UniqueFactorizationMonoid
 
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections

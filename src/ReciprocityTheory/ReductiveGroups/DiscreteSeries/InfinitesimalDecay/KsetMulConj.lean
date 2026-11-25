@@ -13,8 +13,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.AnalyticVectors.Unitary
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.DecInf

@@ -13,8 +13,6 @@ namespace ReciprocityTheory.L2DbarEstimates
 open MeasureTheory Filter Topology Set
 open scoped ContDiff ENNReal
 
-noncomputable section
-
 section VolAux
 
 variable {M : Type*} [TopologicalSpace M] [SecondCountableTopology M] [MeasurableSpace M]
@@ -242,7 +240,5 @@ theorem vol_isFiniteMeasureOnCompacts {M : Type*} [TopologicalSpace M] [SecondCo
             (hK.isClosed.measurableSet.inter (hTo i).measurableSet)
             (Set.inter_subset_right.trans hTe)]
           exact lt_of_le_of_lt (measure_mono (Set.image_mono Set.inter_subset_left)) hzK
-
-end
 
 end ReciprocityTheory.L2DbarEstimates

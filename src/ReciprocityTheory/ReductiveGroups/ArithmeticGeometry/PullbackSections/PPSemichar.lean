@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.AppellHumbertT
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections
 
 open AlgebraicGeometry CategoryTheory Limits NumberField ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor

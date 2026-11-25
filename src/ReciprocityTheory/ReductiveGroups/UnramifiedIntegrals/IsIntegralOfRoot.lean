@@ -15,7 +15,6 @@ public import ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.ModVanish
 
 @[expose] public section
 
-noncomputable section
 open scoped BigOperators Classical UpperHalfPlane MatrixGroups CongruenceSubgroup Manifold
 open ModularForm EisensteinSeries ModularFormClass UpperHalfPlane Formalism.L2.Th1.CM
 

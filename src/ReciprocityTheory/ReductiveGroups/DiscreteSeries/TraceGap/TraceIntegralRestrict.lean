@@ -12,8 +12,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.TraceGap.TraceEqT
 
 @[expose] public section
 
-noncomputable section
-
 open Finset MeasureTheory
 
 namespace ReciprocityTheory.ChartRestriction.DS.TRGap

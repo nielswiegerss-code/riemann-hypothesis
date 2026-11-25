@@ -9,8 +9,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.Non
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory CategoryTheory.Limits AlgebraicGeometry MonoidalCategory CartesianMonoidalCategory MonObj
 
 namespace ReciprocityTheory.ChartRestriction.G.DVR.ValuationAtUnit

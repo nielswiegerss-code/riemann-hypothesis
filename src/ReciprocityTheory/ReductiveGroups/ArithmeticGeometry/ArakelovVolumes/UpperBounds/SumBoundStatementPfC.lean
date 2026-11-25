@@ -13,8 +13,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up
 open Matrix Topology Filter
 open scoped Matrix ComplexOrder ENNReal
 
-noncomputable section
-
 variable {p q : ℕ}
 
 theorem sumBd_id (A0 B s : ℝ) (N j : ℕ) (hB : 0 ≤ B) :
@@ -210,7 +208,5 @@ theorem sumBd_sum {f : ℕ} {s c : ℝ} (hs : 2 * (f : ℝ) * ((p + q : ℕ) : �
         rw [← ENNReal.ofReal_mul (by positivity), sumBd_id K B s D m (by linarith),
           ENNReal.ofReal_mul (by positivity)]
     _ = ENNReal.ofReal (K ^ D * B ^ s) * ∑' j : ℕ, ENNReal.ofReal (ρ ^ j) := ENNReal.tsum_mul_left
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up

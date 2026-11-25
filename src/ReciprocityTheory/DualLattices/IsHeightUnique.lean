@@ -6,8 +6,6 @@ public import ReciprocityTheory.DualLattices.HeightFunctionalStatementOfPairingP
 
 @[expose] public section
 
-noncomputable section
-
 open TensorProduct
 
 namespace ReciprocityTheory.PGsh

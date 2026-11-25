@@ -6,8 +6,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open MvPowerSeries ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ Finsupp
 
 namespace ReciprocityTheory.ChartRestriction.G.TB.WickVanishing

@@ -13,8 +13,6 @@ namespace ReciprocityTheory.AnForm.P.RegularChartScaling
 open MeasureTheory Metric Filter Topology Set
 open ReciprocityTheory.AnForm.A
 
-noncomputable section
-
 variable {D : ℕ}
 
 lemma closedBall_sub_of {z : Fin D → ℂ} {r s R : ℝ} (hz : z ∈ ball (0 : Fin D → ℂ) r)
@@ -207,7 +205,5 @@ theorem oscGen {S : Finset (Fin D)} (m : Fin D → ℕ) {u : (Fin D → ℂ) →
       have n4 : 0 ≤ (2 * C₅ + 1) * Real.log ℓ := mul_nonneg (by linarith) (by linarith)
       linarith
     linarith
-
-end
 
 end ReciprocityTheory.AnForm.P.RegularChartScaling

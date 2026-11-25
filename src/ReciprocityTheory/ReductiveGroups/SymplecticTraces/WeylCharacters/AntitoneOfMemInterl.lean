@@ -6,8 +6,6 @@ public import Mathlib.LinearAlgebra.Matrix.Block
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace ReciprocityTheory.ChartRestriction.TR.Weyl

@@ -6,8 +6,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.LaplaceOperators.
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix Topology
 open scoped InnerProductSpace ENNReal NNReal
 

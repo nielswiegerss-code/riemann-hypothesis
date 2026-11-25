@@ -8,8 +8,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PlaceDivisors.Siegel
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory CategoryTheory.Limits MonoidalCategory CartesianMonoidalCategory MonObj
   AlgebraicGeometry
 open scoped CategoryTheory.Obj

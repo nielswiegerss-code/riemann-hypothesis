@@ -18,8 +18,6 @@ namespace ReciprocityTheory.L2DbarEstimates.Y
 open MeasureTheory Filter Topology Complex
 open scoped ContDiff ENNReal ComplexConjugate
 
-noncomputable section
-
 theorem leviV_log_normSq {n : ℕ} {G : V n → ℂ} {x : V n} (hG : ContDiffAt ℂ 2 G x)
     (h0 : G x ≠ 0) (ξ : Fin n → ℂ) :
     leviV n (fun v => ((Real.log (Complex.normSq (G v)) : ℝ) : ℂ)) x ξ = 0 := by
@@ -37,7 +35,5 @@ theorem leviV_log_normSq {n : ℕ} {G : V n → ℂ} {x : V n} (hG : ContDiffAt 
   push_cast
   field_simp
   ring
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.Y

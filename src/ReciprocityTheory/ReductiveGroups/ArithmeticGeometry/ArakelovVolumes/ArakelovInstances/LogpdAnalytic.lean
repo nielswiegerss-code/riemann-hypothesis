@@ -9,8 +9,6 @@ public import Mathlib.Analysis.Complex.CauchyIntegral
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.AR.Inst.CurvPf
 
 open Polynomial Matrix ReciprocityTheory.AnForm ReciprocityTheory.AnForm.P Filter Topology

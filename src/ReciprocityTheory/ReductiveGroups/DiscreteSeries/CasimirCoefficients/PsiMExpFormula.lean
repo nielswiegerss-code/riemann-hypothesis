@@ -8,8 +8,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirCoefficien
 
 @[expose] public section
 
-noncomputable section
-
 open Finset MeasureTheory Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.S7

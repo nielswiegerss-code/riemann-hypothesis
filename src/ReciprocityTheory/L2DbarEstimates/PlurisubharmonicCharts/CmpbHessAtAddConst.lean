@@ -15,8 +15,6 @@ open scoped ContDiff ENNReal ComplexOrder
 
 namespace ReciprocityTheory.L2DbarEstimates.Y
 
-noncomputable section
-
 universe u
 
 variable {n : ℕ}
@@ -167,7 +165,5 @@ namespace WeightedAtlas
 end WeightedAtlas
 
 end Atlas
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.Y

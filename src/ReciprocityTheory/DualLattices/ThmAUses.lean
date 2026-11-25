@@ -7,8 +7,6 @@ public import Mathlib.RingTheory.Valuation.Basic
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix TensorProduct
 
 namespace ReciprocityTheory.PGsh

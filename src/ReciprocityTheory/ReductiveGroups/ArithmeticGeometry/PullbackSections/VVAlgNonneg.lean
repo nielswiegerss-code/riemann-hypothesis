@@ -4,8 +4,6 @@ public import Formalism.LocalToGlobal.ProjectiveLattices.OneLtAbsNormReal
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections
 
 open Formalism.L2.Pj IsDedekindDomain

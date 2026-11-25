@@ -5,8 +5,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.AnalyticVectors.C
 
 @[expose] public section
 
-noncomputable section
-
 open scoped InnerProductSpace
 
 namespace ReciprocityTheory.ChartRestriction.DS.Lap.Base

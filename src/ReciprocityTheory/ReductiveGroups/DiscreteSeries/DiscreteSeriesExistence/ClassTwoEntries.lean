@@ -6,8 +6,6 @@ public import Formalism.RealPlaceAnalysis.RealPlaceTaylor.RightDerivativeZeroOut
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix MeasureTheory
 
 namespace ReciprocityTheory.ChartRestriction.DS

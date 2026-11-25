@@ -7,8 +7,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.CutFold
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 open scoped ENNReal InnerProductSpace
 

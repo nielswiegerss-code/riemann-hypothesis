@@ -6,8 +6,6 @@ public import Mathlib.Analysis.Matrix.Order
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.MultiplicativeHeights
 
 open Matrix NumberField

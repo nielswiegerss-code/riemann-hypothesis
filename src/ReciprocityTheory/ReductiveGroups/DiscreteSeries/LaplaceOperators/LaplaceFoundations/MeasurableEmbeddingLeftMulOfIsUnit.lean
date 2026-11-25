@@ -21,8 +21,6 @@ public import Mathlib.LinearAlgebra.Trace
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 open scoped InnerProductSpace
 

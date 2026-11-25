@@ -10,8 +10,6 @@ public import Mathlib.Analysis.InnerProductSpace.Orthogonal
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS

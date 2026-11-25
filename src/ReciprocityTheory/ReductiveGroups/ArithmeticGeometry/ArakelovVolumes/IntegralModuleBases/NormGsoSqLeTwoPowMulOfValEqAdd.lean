@@ -9,8 +9,6 @@ public import ReciprocityTheory.ReducedBases.TBInjective
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.AR.IntegralModuleBases
 
 open Finset InnerProductSpace ReciprocityTheory.ReducedBases.T2
@@ -156,5 +154,3 @@ theorem red_coeff_sq_le (b : Fin d → E) (hr : IsRed b) (m : ℝ) (hm0 : 0 < m)
     _ ≤ 9 ^ d * X / m := by gcongr
 
 end ReciprocityTheory.ChartRestriction.G.AR.IntegralModuleBases
-
-end

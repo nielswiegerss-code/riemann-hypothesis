@@ -5,8 +5,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.Pola
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix MeasureTheory
 open scoped InnerProductSpace
 

@@ -17,8 +17,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2
 
 open MeasureTheory Complex Metric
 
-noncomputable section
-
 variable {ι : Type} [Fintype ι]
 
 open Classical
@@ -303,7 +301,5 @@ theorem paTh_sec (Y : GT ι) {q : ℕ}
           q * Real.pi * Hf ((γ'' : EuclideanSpace ℂ ι) + γ) ((γ'' : EuclideanSpace ℂ ι) + γ) / 2)) *
         F (v - γ'') := by ring
     _ = _ := by rw [hfac]; ring
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2

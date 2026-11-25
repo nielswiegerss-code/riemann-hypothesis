@@ -8,8 +8,6 @@ public import ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshBasic
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.Geo
 
 open MeasureTheory Metric Filter Topology Real

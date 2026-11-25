@@ -20,8 +20,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR
 open Filter Topology Asymptotics ReciprocityTheory.L2DbarEstimates ReciprocityTheory.L2DbarEstimates.Y
 open scoped ContDiff
 
-noncomputable section
-
 theorem multilinear_diagonal_homogeneous {n a : ℕ} (D : ContinuousMultilinearMap ℂ (fun _ : Fin a => V n) ℂ) :
     ∃ b : (Fin n → ℕ) → ℂ, ∀ u : V n,
       D (fun _ => u) = ∑ α ∈ Finset.Nat.antidiagonalTuple n a, b α * ∏ k, u k ^ α k := by
@@ -146,7 +144,5 @@ theorem taylor_expansion_local_coordinates {n a : ℕ} (g : V n → ℂ) (ζ : V
   refine ((hb.comp_tendsto hζt).congr' (hleft.mono fun v hv => ?_) EventuallyEq.rfl).trans ?_
   · simp [hv]
   · exact hζO.norm_norm.pow (a + 1)
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR

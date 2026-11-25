@@ -14,8 +14,6 @@ namespace ReciprocityTheory.L2DbarEstimates
 open Filter Topology Set
 open scoped ContDiff
 
-noncomputable section
-
 theorem exists_chart {M : Type*} [TopologicalSpace M] (n : ℕ) (z : M → V n)
     (hz : IsLocalHomeomorph z) (x : M) :
     ∃ e : OpenPartialHomeomorph M (V n), IsChart n z e ∧ x ∈ e.source := by
@@ -204,7 +202,5 @@ theorem Ck.db {M : Type*} [TopologicalSpace M] (n : ℕ) (z : M → V n) (k : �
     (f : M → ℂ) (hf : Ck n z (k + 1) f) : Ck n z k (db n z j f) := by
   intro e he
   exact (contDiffOn_wd_wdb_of_contDiffOn_succ e.open_target k (hf e he) j).2.congr fun y hy => db_comp_symm n z e he j f y hy
-
-end
 
 end ReciprocityTheory.L2DbarEstimates

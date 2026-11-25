@@ -14,8 +14,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Inst
 
 open NumberField ReciprocityTheory.ChartRestriction.G.FD
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E]
 
 theorem normFactor_rightBorel_holds : NfacRmulStatement (E := E) := by
@@ -110,7 +108,5 @@ theorem normFactor_leftAction_holds : NfacLactStatement (E := E) := by
 
 theorem pointwiseNorm_invariance_holds : PnormInvStatement (E := E) := by
   apply GlobalTheory.NormFactor.pnormInv_holds <;> assumption
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Inst

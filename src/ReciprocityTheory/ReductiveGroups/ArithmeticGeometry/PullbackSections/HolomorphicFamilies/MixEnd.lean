@@ -12,8 +12,6 @@ import Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc
 @[expose] public section
 
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections.MixEnd
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.WeightAlgebra Formalism.L2.Pj

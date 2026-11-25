@@ -15,7 +15,6 @@ import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
 
 @[expose] public section
 
-noncomputable section
 open scoped Classical
 
 namespace ReciprocityTheory.ChartRestriction.PadicPolynomialApproximation

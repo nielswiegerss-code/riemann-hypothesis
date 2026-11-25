@@ -10,8 +10,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up.DivLA
 
 open ReciprocityTheory.L2DbarEstimates MeasureTheory Topology Filter Asymptotics
 
-noncomputable section
-
 theorem analyticAt_of_diffOn {n : ℕ} {f : V n → ℂ} {U : Set (V n)} (hU : IsOpen U)
     (hf : DifferentiableOn ℂ f U) {z : V n} (hz : z ∈ U) : AnalyticAt ℂ f z := by
   let e : V n ≃L[ℂ] (Fin n → ℂ) := EuclideanSpace.equiv (Fin n) ℂ
@@ -33,7 +31,5 @@ theorem isBigO_norm_pow_of_le {F : Type*} [NormedAddCommGroup F] {k d : ℕ} (h 
   rw [mem_ball_zero_iff] at hy
   simp only [norm_pow, norm_norm, one_mul]
   exact pow_le_pow_of_le_one (norm_nonneg _) hy.le h
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.DivLA

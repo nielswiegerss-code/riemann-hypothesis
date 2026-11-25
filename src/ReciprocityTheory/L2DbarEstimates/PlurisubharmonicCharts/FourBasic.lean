@@ -10,8 +10,6 @@ namespace ReciprocityTheory.L2DbarEstimates.Y
 open MeasureTheory Filter Topology WeightedAtlas
 open scoped ContDiff ENNReal Pointwise Matrix
 
-noncomputable section
-
 universe u
 
 theorem fourBasic_cube_vol (f : ℕ) :
@@ -120,7 +118,5 @@ theorem four_sign (f : ℕ) (hI : FOURIndepStatement f) (hB : FOURBoundStatement
     rwa [mul_zero] at h5
   have hfin := ge_of_tendsto hlim ((eventually_ge_atTop (0 : ℝ)).mono fun t ht => hle t ht)
   linarith
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.Y

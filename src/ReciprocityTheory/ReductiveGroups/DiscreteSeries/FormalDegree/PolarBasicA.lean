@@ -7,8 +7,6 @@ public import Mathlib.Topology.ContinuousMap.Weierstrass
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix Filter Topology
 
 namespace ReciprocityTheory.ChartRestriction.DS

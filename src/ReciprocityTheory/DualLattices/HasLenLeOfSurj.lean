@@ -6,8 +6,6 @@ public import ReciprocityTheory.DualLattices.IsLocalOfIntegers
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace ReciprocityTheory.PGsh.Up

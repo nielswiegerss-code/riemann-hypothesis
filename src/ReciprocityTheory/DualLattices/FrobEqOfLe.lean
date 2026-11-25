@@ -13,8 +13,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Filter Topology
 
 namespace ReciprocityTheory.PGsh.Up.Det2

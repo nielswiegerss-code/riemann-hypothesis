@@ -10,8 +10,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirCoefficien
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 open scoped ComplexOrder InnerProductSpace
 

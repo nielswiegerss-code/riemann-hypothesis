@@ -16,7 +16,6 @@ import Mathlib.Topology.Sheaves.Init
 
 namespace ReciprocityTheory.ChartRestriction.G.I2
 open NumberField Complex
-noncomputable section
 
 namespace ChA
 
@@ -77,5 +76,4 @@ lemma exists_closest {V : Type} [NormedAddCommGroup V] [NormedSpace ℝ V] [Fini
     linarith
 
 end ChA
-end
 end ReciprocityTheory.ChartRestriction.G.I2

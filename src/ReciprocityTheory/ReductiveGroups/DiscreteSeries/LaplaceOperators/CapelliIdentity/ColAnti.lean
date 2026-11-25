@@ -7,8 +7,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.LaplaceOperators.
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace ReciprocityTheory.ChartRestriction.DS.Lap.Capelli

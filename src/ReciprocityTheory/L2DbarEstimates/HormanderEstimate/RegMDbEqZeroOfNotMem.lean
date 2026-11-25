@@ -17,8 +17,6 @@ namespace ReciprocityTheory.L2DbarEstimates.F
 open MeasureTheory Filter Topology Set
 open scoped ENNReal InnerProductSpace ComplexConjugate ContDiff
 
-noncomputable section
-
 theorem regM_dbarDir_eq {n : ℕ} (g : V n → ℂ) (y v : V n) :
     C.dbarDir g y v = -2 * Complex.I * ∑ j, conj (v j) * wdb n j g y := by
   set L := fderiv ℝ g y with hL
@@ -246,7 +244,5 @@ theorem regM (n : ℕ) (M : Type*) [TopologicalSpace M] [T2Space M]
     exact integral_congr_ae (hFF'.mono fun x hx => by simp only [hx])
   obtain ⟨G, hG, hG'⟩ := regM_of_measurable hReg hExt z hz (hFae.mk F) hF'm hF'L hw'
   exact ⟨G, hG, hFF'.trans hG'⟩
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.F

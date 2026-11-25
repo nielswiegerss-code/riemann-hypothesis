@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix Filter Topology
 open scoped ContDiff
 

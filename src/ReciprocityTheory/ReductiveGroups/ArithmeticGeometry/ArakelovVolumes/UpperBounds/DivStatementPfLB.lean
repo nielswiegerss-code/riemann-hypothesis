@@ -9,8 +9,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up.DivLA
 
 open ReciprocityTheory.L2DbarEstimates MeasureTheory Topology Filter Asymptotics
 
-noncomputable section
-
 variable {n : ℕ}
 
 theorem mulO {f g : V n → ℂ} {a b c : ℕ} (hf : f =O[𝓝 0] fun z => ‖z‖ ^ a)
@@ -84,7 +82,5 @@ theorem taylor2 {g : V n → ℂ} (hg : AnalyticAt ℂ g 0) :
     rfl
   simp [FormalMultilinearSeries.partialSum, Finset.sum_range_succ, hp.coeff_zero, e1]
   try ring
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.DivLA

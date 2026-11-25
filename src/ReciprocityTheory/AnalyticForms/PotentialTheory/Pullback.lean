@@ -11,8 +11,6 @@ namespace ReciprocityTheory.AnForm.M
 
 open MeasureTheory FinHolAtlas Filter Topology
 
-noncomputable section
-
 theorem maDens_congr_eventuallyEq {D : ℕ} {φ ψ : Fin D → (Fin D → ℂ) → ℝ} {y : Fin D → ℂ}
     (h : ∀ i, φ i =ᶠ[𝓝 y] ψ i) : maDens φ y = maDens ψ y := by
   have hH : ∀ i, hessC (φ i) y = hessC (ψ i) y := by
@@ -90,7 +88,5 @@ theorem rankDrop : RankDropStatement := by
       exact maDens_comp_eq_zero_of_rank_lt _ _ y (hh.2 j k y ⟨hy, hk⟩) hφ (hrk j k y hy hk)
     rw [h0, mul_zero]
   · rfl
-
-end
 
 end ReciprocityTheory.AnForm.M

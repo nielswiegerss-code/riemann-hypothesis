@@ -12,8 +12,6 @@ namespace ReciprocityTheory.AnForm.M
 
 open FinHolAtlas Topology
 
-noncomputable section
-
 variable {e : ℕ} {X Y : Type} [TopologicalSpace X] [TopologicalSpace Y]
 
 theorem isClosed_of_isAnalyticSubset' (A : FinHolAtlas e X) {S : Set X}
@@ -94,7 +92,5 @@ theorem exists_localHomeomorph_of_isDegreeOff {A : FinHolAtlas e X} {B : FinHolA
     rw [OpenPartialHomeomorph.restrOpen_source, OpenPartialHomeomorph.trans_source,
       OpenPartialHomeomorph.trans_source] at hy'
     exact hy'.1.1.1
-
-end
 
 end ReciprocityTheory.AnForm.M

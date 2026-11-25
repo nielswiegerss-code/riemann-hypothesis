@@ -8,8 +8,6 @@ namespace ReciprocityTheory.AnForm.R
 
 open MvPolynomial AlgebraicGeometry CategoryTheory
 
-noncomputable section
-
 variable {K : Type} [Fintype K] [Nonempty K] {ι : K → Type} [∀ k, Fintype (ι k)]
 
 theorem evaluation_eq_zero_iff_mem_primeIdealOf {X : Scheme.{0}} {U : X.Opens} (hU : IsAffineOpen U)
@@ -21,7 +19,5 @@ theorem evaluation_eq_zero_iff_mem_primeIdealOf {X : Scheme.{0}} {U : X.Opens} (
     change x ∈ X.basicOpen s ↔ hU.fromSpec.base (hU.primeIdealOf ⟨x, hx⟩) ∈ X.basicOpen s
     rw [show hU.fromSpec.base (hU.primeIdealOf ⟨x, hx⟩) = x from hU.fromSpec_primeIdealOf ⟨x, hx⟩]
   rw [e, PrimeSpectrum.mem_basicOpen, not_not]
-
-end
 
 end ReciprocityTheory.AnForm.R

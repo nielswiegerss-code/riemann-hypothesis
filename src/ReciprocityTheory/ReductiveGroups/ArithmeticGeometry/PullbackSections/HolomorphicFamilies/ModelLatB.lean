@@ -6,8 +6,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.Hol
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections.PfModelLatB
 
 open NumberField Formalism.BasicNotions Formalism.L2.Pj ReciprocityTheory.ChartRestriction.G.FD ReciprocityTheory.ChartRestriction.G.PullbackSections.PfModelLatA FractionalIdeal

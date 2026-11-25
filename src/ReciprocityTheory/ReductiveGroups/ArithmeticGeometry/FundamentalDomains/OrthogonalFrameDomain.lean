@@ -15,8 +15,6 @@ namespace ReciprocityTheory.ChartRestriction.G.FD.OrthogonalFrameDomain
 open NumberField Complex Matrix ReciprocityTheory.ChartRestriction.G.FD
 open scoped ComplexConjugate
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ} (X : Data E r)
 
 lemma rmul_mem_dom {z b : Frame X.Ψ r} (hz : z ∈ X.dom) (hb : b ∈ Bor X.Ψ r) : rmul z b ∈ X.dom := by
@@ -97,7 +95,5 @@ lemma exp_small : Real.exp (1 / 25) < 3 / 2 := by
   have he := Real.exp_one_lt_d9
   norm_num at hpow
   linarith
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.FD.OrthogonalFrameDomain

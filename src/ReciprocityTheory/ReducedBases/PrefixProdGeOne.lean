@@ -5,8 +5,6 @@ import Mathlib.Tactic.Lemma
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ReducedBases.T2
 
 open Finset InnerProductSpace Matrix
@@ -120,5 +118,3 @@ lemma hlow_of (A B : Matrix (Fin d) (Fin d) ℝ) (hA : A.PosDef) (hAB : A = Bᴴ
         Finset.prod_le_prod₀ (fun j _ => by positivity) (fun j _ => hterm j)
 
 end ReciprocityTheory.ReducedBases.T2
-
-end

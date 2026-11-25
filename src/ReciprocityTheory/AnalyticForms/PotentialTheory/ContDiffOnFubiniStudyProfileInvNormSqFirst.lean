@@ -18,8 +18,6 @@ namespace ReciprocityTheory.AnForm.M
 
 open MeasureTheory OnePoint Filter Topology
 
-noncomputable section
-
 theorem projLine_continuous_of_smooth {e : ℕ} {X : Type*} [TopologicalSpace X]
     (A : FinHolAtlas e X) {f : X → ℝ} (hf : A.Smooth f) : Continuous f := by
   rw [continuous_iff_continuousAt]
@@ -36,7 +34,5 @@ theorem projLine_continuous_of_smooth {e : ℕ} {X : Type*} [TopologicalSpace X]
   refine h2.congr ?_
   filter_upwards [(A.chart j).open_source.mem_nhds hj] with y hy
   simp [(A.chart j).left_inv hy]
-
-end
 
 end ReciprocityTheory.AnForm.M

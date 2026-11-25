@@ -5,8 +5,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 open WittVector Ideal
 
 namespace ReciprocityTheory.PGsh.Be2

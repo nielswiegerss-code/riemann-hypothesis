@@ -23,8 +23,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up
 open NumberField ReciprocityTheory.ChartRestriction.G.FD ReciprocityTheory.ChartRestriction.G.AR.Inst ReciprocityTheory.L2DbarEstimates MeasureTheory Topology Metric
 open scoped ENNReal
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E]
 
 namespace DivUpPf
@@ -178,7 +176,5 @@ theorem divCore_up_of (hOW : OntoWeightStatement (E := E)) (hUD : UpDivStatement
     rw [(hmono α hα).2.2 γ.1 γ.2 x hx, norm_mul, norm_mul, norm_mul, norm_mul, norm_inv, norm_inv,
       PoinPf.norm_chi X _ γ.2, PoinPf.norm_chi X _ γ.2, PoinPf.norm_chi X _ γ.2]
     simp
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up

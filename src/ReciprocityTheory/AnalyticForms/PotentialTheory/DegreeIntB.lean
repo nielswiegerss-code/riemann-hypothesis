@@ -14,8 +14,6 @@ namespace ReciprocityTheory.AnForm.M
 
 open MeasureTheory FinHolAtlas Filter Topology
 
-noncomputable section
-
 variable {e : ℕ} {X Y : Type} [TopologicalSpace X] [TopologicalSpace Y]
 
 theorem dI_secondCountable (A : FinHolAtlas e X) : SecondCountableTopology X := by
@@ -204,7 +202,5 @@ theorem dI_sum_ind_le (E : ℕ → Set X) (hd : Pairwise (Function.onFun Disjoin
   · push Not at hx
     refine le_trans (le_of_eq (Finset.sum_eq_zero fun m hm => ?_)) (abs_nonneg _)
     simp [hx m hm]
-
-end
 
 end ReciprocityTheory.AnForm.M

@@ -12,8 +12,6 @@ namespace ChartWirtingerDerivatives
 open Filter Topology Set
 open scoped ContDiff
 
-noncomputable section
-
 theorem wd_mul' (n : ℕ) (j : Fin n) (g h : V n → ℂ) (y : V n) (hg : DifferentiableAt ℝ g y)
     (hh : DifferentiableAt ℝ h y) :
     wd n j (fun w => g w * h w) y = wd n j g y * h y + g y * wd n j h y := by
@@ -38,8 +36,6 @@ theorem wd_conj' (n : ℕ) (j : Fin n) (g : V n → ℂ) (y : V n) :
     wd n j (fun w => (starRingEnd ℂ) (g w)) y = (starRingEnd ℂ) (wdb n j g y) := by
   simp only [wdb, wd, fderiv_conj', map_div₀, map_add (f := _), map_mul, Complex.conj_I, map_ofNat]
   ring
-
-end
 
 end ChartWirtingerDerivatives
 

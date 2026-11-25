@@ -47,8 +47,6 @@ theorem polyDeriv_sum {σ W ι : Type*} [NormedAddCommGroup W] [NormedSpace ℂ 
   refine Finset.sum_congr rfl fun i _ => Finset.sum_congr rfl fun m _ => ?_
   ring
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E]
 
 namespace PT
@@ -208,7 +206,5 @@ theorem iOf (hJ : JStatement) (hN : NStatement) : IStatement := by
         mul_le_mul_of_nonneg_right h1 hLpos.le
     _ = ∑ b ∈ K, ‖polyDeriv (P1 bs) dir (X.U P.q b (s0 X π s)) 0‖ ^ 2 := by
         rw [mul_comm (∑ b ∈ K, ‖l b‖ ^ 2), mul_assoc, mul_comm (∑ b ∈ K, ‖l b‖ ^ 2), hS, mul_one]
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2

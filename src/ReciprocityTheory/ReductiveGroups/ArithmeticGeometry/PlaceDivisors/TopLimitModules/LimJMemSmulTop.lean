@@ -7,8 +7,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PlaceDivisors.StChar
 
 @[expose] public section
 
-noncomputable section
-
 open MvPowerSeries
 open ReciprocityTheory.ChartRestriction.G.Geo.Tor ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ ReciprocityTheory.ChartRestriction.G.Pdiv.ChartF
 

@@ -13,8 +13,6 @@ namespace ReciprocityTheory.L2DbarEstimates.Y
 open MeasureTheory Filter Topology WeightedAtlas Asymptotics Metric Set
 open scoped ContDiff ENNReal Pointwise Matrix
 
-noncomputable section
-
 universe u
 
 theorem isBigO_succ_of_fderiv_isBigO {n : ℕ} {F : Type*} [NormedAddCommGroup F] [NormedSpace ℂ F]
@@ -91,7 +89,5 @@ theorem isBigO_pow_of_iteratedFDeriv_zero {n : ℕ} (m : ℕ) : ∀ {F : Type u}
       rw [← norm_eq_zero, norm_iteratedFDeriv_fderiv, norm_eq_zero]
       exact h (k + 1) (by omega))
     exact isBigO_succ_of_fderiv_isBigO hU hx (hf.differentiableOn top_ne_zero_withTop) h0 hO
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.Y

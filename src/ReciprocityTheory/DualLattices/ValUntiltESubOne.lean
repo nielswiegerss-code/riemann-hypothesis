@@ -7,8 +7,6 @@ public import Mathlib.RingTheory.Polynomial.Cyclotomic.Eval
 
 @[expose] public section
 
-noncomputable section
-
 open WittVector Ideal Polynomial
 
 namespace ReciprocityTheory.PGsh

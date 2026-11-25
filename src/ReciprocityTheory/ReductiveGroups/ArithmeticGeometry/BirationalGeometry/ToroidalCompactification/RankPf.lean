@@ -8,8 +8,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.Cha
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory Limits AlgebraicGeometry MonoidalCategory CartesianMonoidalCategory MonObj NumberField
 open scoped CategoryTheory.Obj
 

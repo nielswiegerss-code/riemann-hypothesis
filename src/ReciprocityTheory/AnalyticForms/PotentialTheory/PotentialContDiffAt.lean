@@ -13,8 +13,6 @@ namespace ReciprocityTheory.AnForm.M
 open MeasureTheory FinHolAtlas Filter Topology
 open scoped ContDiff ComplexOrder
 
-noncomputable section
-
 section Chart
 
 variable {e : ℕ} {X : Type} [TopologicalSpace X]
@@ -158,7 +156,5 @@ theorem mIntNonneg : MIntNonnegStatement := by
   · exact Finset.sum_nonneg fun j _ => setIntegral_nonneg (A.chart j).open_target.measurableSet
       fun y hy => mul_nonneg (mul_nonneg (h.some.nonneg j _) (hg _)) (locDens_nonneg A Φ hΦ hψ j hy)
   · exact le_rfl
-
-end
 
 end ReciprocityTheory.AnForm.M

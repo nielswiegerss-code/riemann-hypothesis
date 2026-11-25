@@ -15,8 +15,6 @@ namespace ReciprocityTheory.L2DbarEstimates.E
 open MeasureTheory
 open scoped ComplexConjugate ContDiff
 
-noncomputable section
-
 theorem ck_expNeg {M : Type*} [TopologicalSpace M] (n : ℕ) (z : M → V n) (k : ℕ) (ph : M → ℝ) (hph : CkR n z k ph) :
     Ck n z k (fun x => (Real.exp (-ph x) : ℂ)) := by
   intro e he
@@ -187,7 +185,5 @@ theorem hasCompactSupport_db {M : Type*} [TopologicalSpace M] (n : ℕ) (z : M �
 theorem hasCompactSupport_dTw {M : Type*} [TopologicalSpace M] (n : ℕ) (z : M → V n) (ph : M → ℝ) (j : Fin n) (u : M → ℂ)
     (hu : HasCompactSupport u) : HasCompactSupport (dTw n z ph j u) := by
   exact hu.mono' ((subset_tsupport _).trans (tsupport_dTw_subset n z ph j u))
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.E

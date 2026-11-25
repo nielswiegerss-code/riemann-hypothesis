@@ -7,8 +7,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.Prod
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix MeasureTheory
 open scoped InnerProductSpace
 

@@ -12,8 +12,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up.OntoD
 
 open ReciprocityTheory.L2DbarEstimates MeasureTheory Topology Filter Set Metric
 
-noncomputable section
-
 variable {n : ℕ} {Ω : Set (V n)} {g : V n → ℂ}
 
 theorem not_loc_zero (hΩ : IsOpen Ω) (hc : IsPreconnected Ω) (hg : DifferentiableOn ℂ g Ω)
@@ -97,7 +95,5 @@ theorem ext_glue (hΩ : IsOpen Ω) (hc : IsPreconnected Ω) (hg : Differentiable
     (hUd z0 hz0).differentiableAt (isOpen_ball.mem_nhds (mem_ball_self (hρ z0 hz0)))
   refine (hd.congr_of_eventuallyEq ?_).differentiableWithinAt
   exact Filter.eventually_of_mem (ball_mem_nhds z0 (hρ z0 hz0)) fun w hw => key z0 hz0 w hw
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.OntoD

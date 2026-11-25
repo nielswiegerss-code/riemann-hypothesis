@@ -6,8 +6,6 @@ import Mathlib.Algebra.Order.BigOperators.GroupWithZero.Multiset
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.PadicPolynomialApproximation
 
 open Polynomial Finset

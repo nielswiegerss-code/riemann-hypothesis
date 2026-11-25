@@ -6,8 +6,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.DS.Lap.LemK
 
 open ReciprocityTheory.ChartRestriction.DS

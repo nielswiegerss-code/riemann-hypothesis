@@ -7,8 +7,6 @@ import Mathlib.Topology.Separation.CompletelyRegular
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.MultiplicativeHeights
 
 open MeasureTheory Metric

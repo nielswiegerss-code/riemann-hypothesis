@@ -6,8 +6,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegra
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections
 
 open AlgebraicGeometry CategoryTheory Limits NumberField ReciprocityTheory.ChartRestriction.G.FD Formalism.L2.Pj Complex

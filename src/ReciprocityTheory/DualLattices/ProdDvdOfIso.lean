@@ -10,8 +10,6 @@ public import Mathlib.RingTheory.LocalRing.ResidueField.Basic
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace ReciprocityTheory.PGsh.Up

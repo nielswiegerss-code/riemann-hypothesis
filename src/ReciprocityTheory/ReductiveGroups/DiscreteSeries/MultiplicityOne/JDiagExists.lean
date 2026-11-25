@@ -5,8 +5,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.U
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 open scoped ENNReal
 

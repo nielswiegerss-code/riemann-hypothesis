@@ -12,8 +12,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2
 
 open NumberField MeasureTheory Col
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E]
 
 namespace ZM
@@ -205,7 +203,5 @@ theorem zeroMode_add_lattice (hI : IsSplit P I) {s : (Fin 1 → Vsp X.dim) → �
   ring
 
 end ZM
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2

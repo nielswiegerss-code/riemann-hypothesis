@@ -17,8 +17,6 @@ public import Mathlib.Analysis.Complex.Norm
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Matrix Finset
 
 open scoped Classical

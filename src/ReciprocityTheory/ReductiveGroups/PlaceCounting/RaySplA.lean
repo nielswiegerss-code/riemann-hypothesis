@@ -10,8 +10,6 @@ import Mathlib.RingTheory.RegularLocalRing.Defs
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.N2
 
 open NumberField IsDedekindDomain

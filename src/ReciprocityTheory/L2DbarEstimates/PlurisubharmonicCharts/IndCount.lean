@@ -9,8 +9,6 @@ namespace ReciprocityTheory.L2DbarEstimates.Y
 open MeasureTheory Filter Topology WeightedAtlas
 open scoped ContDiff ENNReal Pointwise Matrix
 
-noncomputable section
-
 universe u
 
 open Finset
@@ -74,7 +72,5 @@ theorem ind_count : INDCountStatement := by
         rw [show j + 1 + (n + 1) = (j + 1 + n) + 1 by omega]
         exact Nat.choose_succ_succ' _ _
       omega
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.Y

@@ -36,8 +36,6 @@ public import Mathlib.Topology.Algebra.Module.FiniteDimension
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.Geo
 
 open Set Filter Topology Module

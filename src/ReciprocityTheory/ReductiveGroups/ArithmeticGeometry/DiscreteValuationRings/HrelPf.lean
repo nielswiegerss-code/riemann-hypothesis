@@ -7,8 +7,6 @@ import Mathlib.AlgebraicGeometry.Modules.Sheaf
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory CategoryTheory.Limits AlgebraicGeometry MonoidalCategory CartesianMonoidalCategory MonObj
 
 namespace ReciprocityTheory.ChartRestriction.G.DVR

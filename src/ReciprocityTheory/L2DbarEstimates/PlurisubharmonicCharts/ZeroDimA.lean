@@ -11,8 +11,6 @@ public import Mathlib.GroupTheory.Perm.Fin
 open Filter Topology Set
 open scoped ContDiff
 
-noncomputable section
-
 namespace ReciprocityTheory.L2DbarEstimates.Y
 
 variable {E F : Type*} [NormedAddCommGroup E] [NormedSpace ℂ E] [NormedAddCommGroup F]

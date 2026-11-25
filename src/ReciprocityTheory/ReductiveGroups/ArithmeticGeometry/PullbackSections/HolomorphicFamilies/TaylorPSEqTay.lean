@@ -4,8 +4,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscrim
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections
 
 open MvPowerSeries ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ

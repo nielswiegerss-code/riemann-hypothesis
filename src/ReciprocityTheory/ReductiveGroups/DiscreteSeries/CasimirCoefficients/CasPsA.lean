@@ -5,8 +5,6 @@ public import Mathlib.Data.Matrix.Basis
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.S7

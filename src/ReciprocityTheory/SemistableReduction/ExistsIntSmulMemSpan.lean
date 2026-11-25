@@ -6,8 +6,6 @@ public import Mathlib.GroupTheory.FiniteAbelian.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.MultiplicativeHeights
 
 namespace DegAdd

@@ -12,8 +12,6 @@ namespace ReciprocityTheory.L2DbarEstimates.Y
 open Filter Topology Set ReciprocityTheory.L2DbarEstimates.ChartWirtingerDerivatives
 open scoped ContDiff
 
-noncomputable section
-
 theorem fc_clm_decomp (n : ℕ) (D : V n →L[ℝ] ℂ) (u : V n) :
     D u = ∑ a, ((D (bas n a) - Complex.I * D (Complex.I • bas n a)) / 2 * u a +
       (D (bas n a) + Complex.I * D (Complex.I • bas n a)) / 2 * (starRingEnd ℂ) (u a)) := by
@@ -61,7 +59,5 @@ theorem fc_leviV_congr (n : ℕ) (g₁ g₂ : V n → ℂ) (v : V n) (h : g₁ =
   refine Finset.sum_congr rfl fun j _ => Finset.sum_congr rfl fun k _ => ?_
   unfold wd
   rw [(hk k).fderiv_eq (𝕜 := ℝ)]
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.Y

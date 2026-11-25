@@ -13,8 +13,6 @@ namespace ReciprocityTheory.AnForm.M
 open MeasureTheory FinHolAtlas Filter Topology Set
 open scoped ContDiff
 
-noncomputable section
-
 variable {e : ℕ} {X : Type} [TopologicalSpace X]
 
 theorem st_trans_smooth (A : FinHolAtlas e X) (j k : Fin A.n) :
@@ -79,7 +77,5 @@ theorem st_exists_good_partition [CompactSpace X] [T2Space X] (A : FinHolAtlas e
   filter_upwards [hW.mem_nhds ⟨hyk, hxs⟩] with z hz
   simp only [Function.comp_apply]
   rw [(A.chart (jx (pt n))).left_inv hz.2]
-
-end
 
 end ReciprocityTheory.AnForm.M

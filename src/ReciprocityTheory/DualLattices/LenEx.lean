@@ -9,8 +9,6 @@ public import ReciprocityTheory.DualLattices.UpSmith
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace ReciprocityTheory.PGsh.Up

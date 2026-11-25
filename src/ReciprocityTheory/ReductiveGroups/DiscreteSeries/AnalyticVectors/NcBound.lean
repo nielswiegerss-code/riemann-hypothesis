@@ -7,8 +7,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirAlgebra.MulMulSub
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace ReciprocityTheory.ChartRestriction.DS

@@ -19,8 +19,6 @@ namespace ReciprocityTheory.AnForm.P
 open Filter Topology MeasureTheory ReciprocityTheory.AnForm.M FinHolAtlas
 open scoped ContDiff
 
-noncomputable section
-
 namespace TailChernBound
 
 variable {e : ℕ} {X : Type} [TopologicalSpace X]
@@ -363,7 +361,5 @@ theorem exists_psh_chern_bound {e : ℕ} {X : Type} [TopologicalSpace X] [Compac
     exact hC (-1) (fun a => by rw [neg_one_mul, neg_le_neg_iff]; exact le_abs_self a) x j y hy w
 
 end TailBoundAlt
-
-end
 
 end ReciprocityTheory.AnForm.P

@@ -6,8 +6,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Filter Topology
 
 namespace ReciprocityTheory.ChartRestriction.DS

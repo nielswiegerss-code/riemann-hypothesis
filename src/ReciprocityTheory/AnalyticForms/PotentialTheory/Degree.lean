@@ -17,8 +17,6 @@ namespace ReciprocityTheory.AnForm.M
 
 open MeasureTheory FinHolAtlas Filter Topology
 
-noncomputable section
-
 variable {e : ℕ} {X Y : Type} [TopologicalSpace X] [TopologicalSpace Y]
 
 theorem isClosed_of_isAnalyticSubset (A : FinHolAtlas e X) {S : Set X}
@@ -149,7 +147,5 @@ theorem sheet_lintegral {A : FinHolAtlas e X} {B : FinHolAtlas e Y} {h : Y → X
   simp only [abs_mul, abs_pow, abs_norm]
   rw [ENNReal.ofReal_mul (abs_nonneg _)]
   ring
-
-end
 
 end ReciprocityTheory.AnForm.M

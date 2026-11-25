@@ -9,8 +9,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.LaplaceOperators.
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix MeasureTheory Filter
 
 namespace ReciprocityTheory.ChartRestriction.DS.Lap.EvaluationEquivalence

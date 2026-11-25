@@ -5,8 +5,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscrim
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections
 
 open NumberField Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.WeightAlgebra ReciprocityTheory.ChartRestriction.G.TB

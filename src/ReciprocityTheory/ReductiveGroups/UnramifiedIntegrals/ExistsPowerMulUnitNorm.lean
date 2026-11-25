@@ -8,8 +8,6 @@ public import ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.NormNatCastC
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.L1
 
 open Formalism.L2.Th1.CM

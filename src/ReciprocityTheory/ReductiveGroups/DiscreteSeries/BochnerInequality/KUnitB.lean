@@ -11,8 +11,6 @@ public import Mathlib.Analysis.InnerProductSpace.PiL2
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace ReciprocityTheory.ChartRestriction.DS

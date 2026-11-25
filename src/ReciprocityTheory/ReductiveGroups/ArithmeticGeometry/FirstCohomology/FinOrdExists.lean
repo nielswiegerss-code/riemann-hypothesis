@@ -8,8 +8,6 @@ import Mathlib.RingTheory.RegularLocalRing.Defs
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory AlgebraicGeometry IsLocalRing
 
 namespace ReciprocityTheory.ChartRestriction.G.H1

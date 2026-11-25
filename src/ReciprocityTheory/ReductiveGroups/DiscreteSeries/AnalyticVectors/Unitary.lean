@@ -8,8 +8,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.AnalyticVectors.C
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS

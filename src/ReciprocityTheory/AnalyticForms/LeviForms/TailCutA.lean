@@ -10,8 +10,6 @@ namespace ReciprocityTheory.AnForm.P.LeviFormBoundaryTopology
 open MeasureTheory ReciprocityTheory.AnForm.M FinHolAtlas Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 theorem continuousAt_of_chart {e : ℕ} {X : Type} [TopologicalSpace X] {E : Type*}
     [TopologicalSpace E] (A : FinHolAtlas e X) (f : X → E) (y : X) (j : Fin A.n)
     (hy : y ∈ (A.chart j).source) (hf : ContinuousAt (f ∘ (A.chart j).symm) (A.chart j y)) :
@@ -120,7 +118,5 @@ theorem levi_sub_const {D : ℕ} (f : (Fin D → ℂ) → ℝ) (a : ℝ) (z w : 
     levi (fun y => f y - a) z w = levi f z w := by
   unfold levi
   rw [show fderiv ℝ (fun y => f y - a) = fderiv ℝ f from funext fun _ => fderiv_sub_const a]
-
-end
 
 end ReciprocityTheory.AnForm.P.LeviFormBoundaryTopology

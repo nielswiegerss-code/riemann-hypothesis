@@ -8,8 +8,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory CategoryTheory.Limits AlgebraicGeometry MonoidalCategory
   CartesianMonoidalCategory MonObj
 

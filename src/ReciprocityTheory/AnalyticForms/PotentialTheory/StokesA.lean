@@ -15,8 +15,6 @@ namespace ReciprocityTheory.AnForm.M
 open MeasureTheory FinHolAtlas Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 variable {e : ℕ} {X : Type} [TopologicalSpace X]
 
 theorem st_smooth_continuous (A : FinHolAtlas e X) {f : X → ℝ} (hf : A.Smooth f) :
@@ -146,7 +144,5 @@ theorem st_mInt_cons_finset_sum [CompactSpace X] [T2Space X] (A : FinHolAtlas (e
     rw [hcongr, mIntAdd A _ _ Φ (isPotential_ofFun A _ (hf a)) (isPotential_ofFun A _ hS) hΦ g
       (mIntegrableCont A _ (st_isPotential_cons A (hf a) hΦ) g hg)
       (mIntegrableCont A _ (st_isPotential_cons A hS hΦ) g hg), ih, Finset.sum_insert ha]
-
-end
 
 end ReciprocityTheory.AnForm.M

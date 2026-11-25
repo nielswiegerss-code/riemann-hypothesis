@@ -9,8 +9,6 @@ public import ReciprocityTheory.AnalyticForms.RegularLocalRings.ExistsAtlas
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.Geo
 
 open MvPolynomial ReciprocityTheory.AnForm.M

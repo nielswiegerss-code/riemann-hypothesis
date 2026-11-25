@@ -6,8 +6,6 @@ public import Mathlib.Topology.Algebra.Constructions.DomMulAct
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix MeasureTheory
 
 namespace ReciprocityTheory.ChartRestriction.DS

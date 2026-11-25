@@ -8,8 +8,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.J
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix MeasureTheory
 open scoped ENNReal ComplexConjugate InnerProductSpace
 

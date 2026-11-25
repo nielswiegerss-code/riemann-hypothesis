@@ -16,8 +16,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.Geo.Tor
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory

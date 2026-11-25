@@ -4,8 +4,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.DiscreteSeriesExi
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.DS.DecInf
 
 variable {n : ℕ}

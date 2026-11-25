@@ -7,8 +7,6 @@ public import ReciprocityTheory.DualLattices.FischerSmulRight
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Matrix Finset
 
 open scoped Classical

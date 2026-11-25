@@ -7,8 +7,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections.PfTorusFrame
 
 open NumberField MeasureTheory ReciprocityTheory.ChartRestriction.G.I2 ReciprocityTheory.ChartRestriction.G.Geo.Tor

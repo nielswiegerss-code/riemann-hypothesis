@@ -8,8 +8,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 
 namespace ReciprocityTheory.ChartRestriction.DS

@@ -5,8 +5,6 @@ public import Mathlib.Analysis.Matrix.PosDef
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.MultiplicativeHeights
 
 open Matrix Module

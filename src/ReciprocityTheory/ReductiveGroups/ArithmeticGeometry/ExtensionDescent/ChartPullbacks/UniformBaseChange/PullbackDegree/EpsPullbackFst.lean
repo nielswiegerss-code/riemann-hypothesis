@@ -6,8 +6,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.C
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory CategoryTheory.Limits MonoidalCategory CartesianMonoidalCategory MonObj
   AlgebraicGeometry
 open scoped CategoryTheory.Obj

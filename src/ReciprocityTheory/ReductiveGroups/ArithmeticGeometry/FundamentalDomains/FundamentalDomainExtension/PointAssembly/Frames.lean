@@ -12,8 +12,6 @@ namespace PIW.FdPA
 open ReciprocityTheory.ChartRestriction.G.FD NumberField Complex Metric
 open scoped ComplexConjugate
 
-noncomputable section
-
 theorem mem_dom_iff {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ} (X : Data E r)
     (x : Frame X.Ψ r) : x ∈ X.dom ↔ ∀ τ : X.Ψ, (mat x τ).det ≠ 0 ∧
       ∀ i : Fin (r + 1), 0 < psgn X.p0 i * (dmin X.Gm x τ i).re := Iff.rfl
@@ -190,7 +188,5 @@ theorem borel_flag_translate {E : Type} [Field E] [NumberField E] [IsCMField E] 
       exact Submodule.zero_mem _
   refine (Submodule.eq_of_le_of_finrank_eq hle ?_).symm
   rw [finrank_span_eq_card (hli _ hdet), finrank_span_eq_card (hli _ hdx)]
-
-end
 
 end PIW.FdPA

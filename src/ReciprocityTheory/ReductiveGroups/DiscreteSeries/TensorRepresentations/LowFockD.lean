@@ -8,8 +8,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.HighestWeights.Pi
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace ReciprocityTheory.ChartRestriction.DS

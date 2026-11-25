@@ -13,8 +13,6 @@ public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
 
 @[expose] public section
 
-noncomputable section
-
 open Finset MeasureTheory Matrix
 open scoped InnerProductSpace
 

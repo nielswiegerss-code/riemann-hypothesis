@@ -7,8 +7,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.HighestWeights.We
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.HW

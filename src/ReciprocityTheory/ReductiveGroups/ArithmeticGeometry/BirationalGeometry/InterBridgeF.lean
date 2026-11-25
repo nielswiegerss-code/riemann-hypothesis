@@ -15,8 +15,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.I
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.Geo
 
 open MvPolynomial MeasureTheory ReciprocityTheory.AnForm.M Topology Filter

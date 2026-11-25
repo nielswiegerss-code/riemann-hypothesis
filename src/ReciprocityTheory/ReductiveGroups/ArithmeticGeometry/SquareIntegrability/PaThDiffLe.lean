@@ -14,8 +14,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2
 
 open MeasureTheory Complex
 
-noncomputable section
-
 section Asm
 
 variable {ι : Type} [Fintype ι]
@@ -258,7 +256,5 @@ theorem propA (hP : Ext.PackingCount) (hA : Ext.GaussianTailBound) : PropAStatem
   calc Y.l2 q β ≤ 2 * ∫ v, ‖paPF p v‖ ^ 2 * paW q v := hl2
     _ ≤ 6 * ∫ v, ‖paPF p v‖ ^ 2 * paW q v := by linarith
     _ = _ := rfl
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2

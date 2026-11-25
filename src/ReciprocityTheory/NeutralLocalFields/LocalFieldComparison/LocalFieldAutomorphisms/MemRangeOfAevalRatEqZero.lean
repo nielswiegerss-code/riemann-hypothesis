@@ -14,8 +14,6 @@ import ReciprocityTheory.GaloisValuations.GlobalA
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.Neutral.Cmp
 
 open Formalism.ConjugateSelfDual ReciprocityTheory.Gal NumberField IsDedekindDomain

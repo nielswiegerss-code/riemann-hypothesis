@@ -13,8 +13,6 @@ public import Mathlib.Analysis.SpecialFunctions.Exponential
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS

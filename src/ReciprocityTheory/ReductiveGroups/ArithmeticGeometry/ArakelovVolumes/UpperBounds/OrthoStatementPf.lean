@@ -9,8 +9,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up
 
 open NumberField Matrix ReciprocityTheory.ChartRestriction.G.FD ReciprocityTheory.ChartRestriction.G.AR.Inst
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E]
 
 theorem ortho_holds : OrthoStatement (E := E) := by
@@ -39,7 +37,5 @@ theorem ortho_holds : OrthoStatement (E := E) := by
       ReciprocityTheory.ChartRestriction.G.FD.mat (ReciprocityTheory.ChartRestriction.G.FD.FrameDegreeData.bOf X x) τ *
       (ReciprocityTheory.ChartRestriction.G.FD.mat (ReciprocityTheory.ChartRestriction.G.FD.FrameDegreeData.bOf X x) τ)⁻¹
     rw [Matrix.mul_assoc, Matrix.mul_nonsing_inv _ hdet, Matrix.mul_one]
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up

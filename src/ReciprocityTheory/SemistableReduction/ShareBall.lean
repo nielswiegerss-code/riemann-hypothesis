@@ -8,8 +8,6 @@ public import ReciprocityTheory.SemistableReduction.ShareBallB
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.MultiplicativeHeights
 
 open Matrix NumberField

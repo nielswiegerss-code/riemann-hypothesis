@@ -12,8 +12,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up.HE
 open ReciprocityTheory.L2DbarEstimates MeasureTheory Topology Metric
 open scoped ENNReal
 
-noncomputable section
-
 variable {n : ℕ} {U : Set (V n)}
 
 theorem ext_glue (hU : IsOpen U) (g G : V n → ℂ) (hg : DifferentiableOn ℂ g U)
@@ -62,7 +60,5 @@ theorem ext_glue (hU : IsOpen U) (g G : V n → ℂ) (hg : DifferentiableOn ℂ 
     show (if h : y ∈ U then F y h y else 0) = G y
     rw [dite_eq_left hy.1]
     exact hFeq y hy.1 ⟨mem_ball_self (hρ y hy.1), hy.2⟩
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.HE

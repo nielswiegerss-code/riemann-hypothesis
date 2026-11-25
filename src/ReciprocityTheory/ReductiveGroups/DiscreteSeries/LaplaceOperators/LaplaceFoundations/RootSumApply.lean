@@ -5,8 +5,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.HighestWeights.Weight
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 open scoped InnerProductSpace
 

@@ -10,7 +10,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegra
 
 namespace ReciprocityTheory.ChartRestriction.G.I2
 open NumberField Complex
-noncomputable section
 variable {E : Type} [Field E] [NumberField E]
 
 namespace ChA
@@ -154,5 +153,4 @@ lemma rank_bound {dim : (E →+* ℂ) → ℕ} (L I : Submodule ℤ (Vsp dim))
   simpa [Fintype.card_prod, Fintype.card_fin] using this
 
 end ChA
-end
 end ReciprocityTheory.ChartRestriction.G.I2

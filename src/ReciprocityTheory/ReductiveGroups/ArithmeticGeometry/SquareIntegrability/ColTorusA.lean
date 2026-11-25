@@ -136,8 +136,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2
 
 open Complex
 
-noncomputable section
-
 section
 
 variable {W : Type*} [NormedAddCommGroup W] [NormedSpace ℂ W]
@@ -255,7 +253,5 @@ theorem ct_jet_one_iter {ι : Type} [Fintype ι] (β : EuclideanSpace ℂ ι →
     refine Module.Basis.ext_multilinear (fun _ => (EuclideanSpace.basisFun ι ℂ).toBasis) ?_
     intro v
     simpa using hz v
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2

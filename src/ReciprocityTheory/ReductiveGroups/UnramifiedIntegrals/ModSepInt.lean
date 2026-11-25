@@ -23,7 +23,6 @@ import ReciprocityTheory.NeutralLocalFields.HilbertClassField
 
 @[expose] public section
 
-noncomputable section
 open scoped BigOperators Classical UpperHalfPlane
 open NumberField IsDedekindDomain Formalism.L2.Th1.CM Neutral.HilbertClassField
 

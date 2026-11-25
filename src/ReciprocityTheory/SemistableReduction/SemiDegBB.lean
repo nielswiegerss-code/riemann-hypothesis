@@ -10,8 +10,6 @@ public import Mathlib.RingTheory.Norm.Transitivity
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.MultiplicativeHeights
 
 open Matrix NumberField

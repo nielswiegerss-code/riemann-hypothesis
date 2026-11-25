@@ -7,8 +7,6 @@ public import ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.LocalFie
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.Neutral.Cmp
 
 open Formalism.ConjugateSelfDual ReciprocityTheory.Gal NumberField IsDedekindDomain

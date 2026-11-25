@@ -6,8 +6,6 @@ import Formalism.LocalToGlobal.ProjectiveLattices.AlgebraMapCAt
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections.UH
 
 open NumberField ReciprocityTheory.ChartRestriction.G.FD Formalism.L2.Pj Complex ReciprocityTheory.ChartRestriction.G.Geo.Tor

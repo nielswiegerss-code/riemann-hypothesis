@@ -7,8 +7,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.DiscreteSeriesExi
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 open scoped ContDiff
 

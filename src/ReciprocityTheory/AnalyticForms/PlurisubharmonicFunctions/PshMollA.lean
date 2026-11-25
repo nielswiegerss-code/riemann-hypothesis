@@ -16,8 +16,6 @@ namespace ReciprocityTheory.AnForm.A
 open MeasureTheory Metric Filter Topology Set
 open scoped ContDiff Convolution
 
-noncomputable section
-
 variable {D : ℕ}
 
 lemma finrank_fin_complex : Module.finrank ℝ (Fin D → ℂ) = 2 * D := by
@@ -212,7 +210,5 @@ lemma mollificationSecondOrder_holds : MollificationSecondOrder := by
     exact (conv_lip ρ hε hL1 z).trans (hle L1 (le_trans (le_max_right _ _) (le_max_left _ _)))
   · rw [hmol.fderiv.fderiv_eq, hφψ.fderiv.fderiv_eq, hD1 ε hε, hD2 ε hε]
     exact (conv_lip ρ hε hL2 z).trans (hle L2 (le_max_right _ _))
-
-end
 
 end ReciprocityTheory.AnForm.A

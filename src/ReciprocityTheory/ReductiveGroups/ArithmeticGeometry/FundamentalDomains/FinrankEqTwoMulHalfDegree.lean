@@ -12,8 +12,6 @@ namespace ReciprocityTheory.ChartRestriction.G.FD
 open NumberField Complex
 open scoped ComplexConjugate
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E]
 
 theorem finrank_eq_two_mul_half_degree : (Module.finrank ℚ E : ℝ) = 2 * (fdeg E : ℝ) := by
@@ -70,7 +68,5 @@ theorem orthogonal_component_ne_zero (z : Frame X.Ψ r) {ξ x : Fin r → E} (h�
   field_simp
 
 end Data
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.FD

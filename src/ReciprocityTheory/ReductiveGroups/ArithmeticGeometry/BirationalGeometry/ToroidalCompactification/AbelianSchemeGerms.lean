@@ -6,8 +6,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDesc
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory CategoryTheory.Limits AlgebraicGeometry MonoidalCategory CartesianMonoidalCategory MonObj
 
 attribute [local instance] Over.cartesianMonoidalCategory

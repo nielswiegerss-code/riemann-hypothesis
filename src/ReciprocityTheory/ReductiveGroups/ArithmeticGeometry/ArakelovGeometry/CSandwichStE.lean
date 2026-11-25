@@ -10,8 +10,6 @@ public import Mathlib.Algebra.Order.Chebyshev
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.ArakelovGeometry
 
 open ReciprocityTheory.ChartRestriction.G.Geo ReciprocityTheory.GeometryOfNumbersTheory MvPolynomial MeasureTheory Module Filter Asymptotics

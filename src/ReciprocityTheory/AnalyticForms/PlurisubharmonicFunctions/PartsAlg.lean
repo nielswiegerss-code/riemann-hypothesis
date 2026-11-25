@@ -16,8 +16,6 @@ namespace ReciprocityTheory.AnForm.A
 open Matrix Filter Topology
 open scoped ComplexOrder
 
-noncomputable section
-
 section Helpers
 
 variable {D : ℕ}
@@ -291,7 +289,5 @@ theorem gradDensLeibniz_thm : GradDensLeibnizStatement := by
     ring
 
 end Statements
-
-end
 
 end ReciprocityTheory.AnForm.A

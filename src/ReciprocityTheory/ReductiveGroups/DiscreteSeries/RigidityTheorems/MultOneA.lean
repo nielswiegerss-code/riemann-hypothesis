@@ -9,8 +9,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Slope
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS

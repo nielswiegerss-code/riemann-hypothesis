@@ -13,8 +13,6 @@ public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
 
 @[expose] public section
 
-noncomputable section
-
 open Finset MeasureTheory Matrix Topology Metric
 open scoped ENNReal NNReal
 

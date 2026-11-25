@@ -31,8 +31,6 @@ namespace ReciprocityTheory.AnForm.A
 open MeasureTheory Metric Filter Topology
 open scoped ContDiff Interval
 
-noncomputable section
-
 section RegMaxDeriv
 variable {ι : Type*} [Fintype ι] [Nonempty ι]
 
@@ -336,7 +334,5 @@ theorem regMaxLevi_thm : RegMaxLeviStatement := by
       (fun k => by rw [Pi.single_apply]; split_ifs <;> norm_num)
     nlinarith
   linarith
-
-end
 
 end ReciprocityTheory.AnForm.A

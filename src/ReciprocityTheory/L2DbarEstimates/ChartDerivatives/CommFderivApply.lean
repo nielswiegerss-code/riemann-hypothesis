@@ -16,8 +16,6 @@ namespace ReciprocityTheory.L2DbarEstimates
 open MeasureTheory Filter Topology Set
 open scoped ContDiff ENNReal
 
-noncomputable section
-
 theorem comm_fderiv_apply {n : ℕ} (g : V n → ℂ) (y : V n) (hg : ContDiffAt ℝ 2 g y) (u : V n) :
     HasFDerivAt (fun y' => fderiv ℝ g y' u)
       ((ContinuousLinearMap.apply ℝ ℂ u).comp (fderiv ℝ (fderiv ℝ g) y)) y := by
@@ -171,7 +169,5 @@ theorem levi_const_mul {M : Type*} [TopologicalSpace M] (n : ℕ) (z : M → V n
   simp only [Levi, h2, Finset.mul_sum]
   refine Finset.sum_congr rfl (fun j _ => Finset.sum_congr rfl (fun k _ => ?_))
   ring
-
-end
 
 end ReciprocityTheory.L2DbarEstimates

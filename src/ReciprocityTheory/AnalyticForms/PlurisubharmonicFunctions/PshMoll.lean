@@ -16,8 +16,6 @@ namespace ReciprocityTheory.AnForm.A
 
 open MeasureTheory Metric Filter Topology Set
 
-noncomputable section
-
 variable {D : ℕ}
 
 section PolyMax
@@ -337,7 +335,5 @@ theorem mollify_thm : MollifyStatement := by
     exact ((mollify_main ρ hU hφ hε).2.2.2 z (hsh ε hε hεR)).1
   · filter_upwards [self_mem_nhdsWithin, nhdsWithin_le_nhds (Iio_mem_nhds hR0)] with ε hε hεR
     exact ((mollify_main ρ hU hφ hε).2.2.2 z (hsh ε hε hεR)).2
-
-end
 
 end ReciprocityTheory.AnForm.A

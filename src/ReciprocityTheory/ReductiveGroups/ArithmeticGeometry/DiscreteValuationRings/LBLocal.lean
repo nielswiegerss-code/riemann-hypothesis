@@ -6,8 +6,6 @@ import Mathlib.Tactic.Lemma
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory AlgebraicGeometry TopologicalSpace
 
 namespace ReciprocityTheory.ChartRestriction.G.DVR

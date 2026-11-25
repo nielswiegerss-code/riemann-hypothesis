@@ -8,8 +8,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SymplecticGen
 
 @[expose] public section
 
-noncomputable section
-
 open Complex Matrix ReciprocityTheory.PTheta
 
 namespace ReciprocityTheory.ChartRestriction.G.Key.Chi

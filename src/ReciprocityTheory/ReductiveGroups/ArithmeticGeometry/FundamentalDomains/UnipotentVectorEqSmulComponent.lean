@@ -15,8 +15,6 @@ namespace ReciprocityTheory.ChartRestriction.G.FD
 open NumberField Complex
 open scoped ComplexConjugate
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E]
 
 namespace Data
@@ -142,7 +140,5 @@ theorem isotropic_pair_in_lattice {r : ℕ} (X : DataX E r) {ξ x : Fin r → E}
   · fin_cases i
     · exact hiso.1
     · exact X.NC_sub x hxL
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.FD

@@ -14,8 +14,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up.OntoG
 open MeasureTheory
 open scoped ENNReal ComplexConjugate
 
-noncomputable section
-
 theorem amgm {k x y : ℝ} (hk : 0 < k) : x * y ≤ (x ^ 2 / k + k * y ^ 2) / 2 := by
   have h : 0 ≤ (x - k * y) ^ 2 / k := by positivity
   have e : (x - k * y) ^ 2 / k = x ^ 2 / k - 2 * (x * y) + k * y ^ 2 := by
@@ -111,7 +109,5 @@ theorem I_zero {α : Type*} [MeasurableSpace α] {μ : Measure α} {k : α → �
     nlinarith [mul_nonneg (sub_nonneg.2 hq1.le) hn]
   rw [hint1] at hz
   exact ((ENNReal.toReal_eq_zero_iff _).1 hz).resolve_right hI.ne
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.OntoG

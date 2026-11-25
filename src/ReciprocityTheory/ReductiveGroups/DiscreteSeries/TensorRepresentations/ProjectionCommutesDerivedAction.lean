@@ -10,8 +10,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.RigidityTheorems.IsInLie
 
 @[expose] public section
 
-noncomputable section
-
 open Finset MeasureTheory
 open scoped Matrix
 

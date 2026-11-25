@@ -6,8 +6,6 @@ import Mathlib.Tactic.Lemma
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Topology
 
 namespace ReciprocityTheory.ChartRestriction.DS.HW

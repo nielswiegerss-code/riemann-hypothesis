@@ -10,8 +10,6 @@ namespace ReciprocityTheory.ChartRestriction.G.FD.FrameDegreeData
 open NumberField Complex Matrix
 open scoped ComplexConjugate
 
-noncomputable section
-
 section Mat
 
 variable {n : ℕ}
@@ -74,7 +72,5 @@ lemma gram_mul (τ : E →+* ℂ) (G : Matrix (Fin r) (Fin r) E) (M N : Matrix (
     gram τ G (M * N) = Nᵀ * gram τ G M * N.map (starRingEnd ℂ) := by
   rw [gram_eq, gram_eq, Matrix.transpose_mul, Matrix.map_mul]
   simp only [Matrix.mul_assoc]
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.FD.FrameDegreeData

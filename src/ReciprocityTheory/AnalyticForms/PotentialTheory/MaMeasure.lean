@@ -11,8 +11,6 @@ namespace ReciprocityTheory.AnForm.M
 open MeasureTheory FinHolAtlas
 open scoped ContDiff
 
-noncomputable section
-
 theorem maMeasure_thm : MaMeasureStatement := by
   intro e X _ _ _ _ _ A Φ hΦ hPsh
   have hne : Nonempty (ChartPartition A) := existsPartition A
@@ -27,7 +25,5 @@ theorem maMeasure_thm : MaMeasureStatement := by
 theorem maMeasureMono : MaMeasureMonoStatement := by
   intro e X _ _ _ A Φ Θ hΦ hΦp hΘ hΘp
   exact maMeasure_mono_of_psh A Φ Θ hΦ hΦp hΘ hΘp
-
-end
 
 end ReciprocityTheory.AnForm.M

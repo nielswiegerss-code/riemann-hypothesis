@@ -6,8 +6,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.DiscreteSeriesExistence.
 
 @[expose] public section
 
-noncomputable section
-
 open scoped InnerProductSpace
 
 namespace ReciprocityTheory.ChartRestriction.DS.Lap.Base

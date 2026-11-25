@@ -13,8 +13,6 @@ public import Mathlib.RingTheory.Flat.Basic
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.TRGap

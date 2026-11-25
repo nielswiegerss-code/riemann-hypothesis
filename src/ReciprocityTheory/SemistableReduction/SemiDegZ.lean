@@ -7,8 +7,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.MultiplicativeHeights.SemiPt
 
 open Matrix NumberField ComplexConjugate

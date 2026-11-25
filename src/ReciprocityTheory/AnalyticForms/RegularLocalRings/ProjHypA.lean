@@ -14,8 +14,6 @@ namespace ReciprocityTheory.AnForm.R
 
 open MvPolynomial AlgebraicGeometry CategoryTheory
 
-noncomputable section
-
 variable {K : Type} [Fintype K] [Nonempty K] {ι : K → Type} [∀ k, Fintype (ι k)]
 
 theorem iSup_chartOpen_eq_top {P : Ideal (MvPolynomial (Σ k, ι k) ℂ)} (hP : IsMultiHomogIdeal P) :
@@ -65,7 +63,5 @@ theorem evaluation_awayToSection_eq_zero_iff {A : Type} [CommRing A] [Algebra �
   have H : Submonoid.powers f ≤ x'.asHomogeneousIdeal.toIdeal.primeCompl :=
     Submonoid.powers_le.mpr (by exact hx)
   exact (not_congr (isUnit_mapId_mk_iff 𝒜 f x' H z)).trans not_not
-
-end
 
 end ReciprocityTheory.AnForm.R

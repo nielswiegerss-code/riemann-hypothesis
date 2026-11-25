@@ -9,8 +9,6 @@ namespace ReciprocityTheory.AnForm.R
 
 open MvPolynomial OnePoint Filter Topology
 
-noncomputable section
-
 theorem ptIdeal_eq_span {n : ℕ} (p : Fin n → ℂ) :
     ptIdeal p = Ideal.span (Set.range fun i => X i - C (p i)) := by
   apply le_antisymm
@@ -21,7 +19,5 @@ theorem ptIdeal_eq_span {n : ℕ} (p : Fin n → ℂ) :
     rintro _ ⟨i, rfl⟩
     show eval p (X i - C (p i)) = 0
     simp
-
-end
 
 end ReciprocityTheory.AnForm.R

@@ -15,8 +15,6 @@ namespace ReciprocityTheory.L2DbarEstimates.F
 open MeasureTheory Filter Topology Set
 open scoped ENNReal InnerProductSpace ComplexConjugate ContDiff
 
-noncomputable section
-
 theorem smoothReal_continuous {M : Type*} [TopologicalSpace M] (n : ℕ) (z : M → V n)
     (hz : IsLocalHomeomorph z) (f : M → ℝ) (hf : SmoothR n z f) : Continuous f := by
   have hc : Continuous (fun x => (f x : ℂ)) := by
@@ -134,7 +132,5 @@ theorem choice (n : ℕ) (M : Type*) [TopologicalSpace M] [T2Space M]
     linarith
   · refine ⟨hv.aestronglyMeasurable, ?_⟩
     exact hR1χ χ hχ0 (fun t ht => (hχR t ht).1.trans' (le_max_left _ _))
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.F

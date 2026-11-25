@@ -7,8 +7,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.DiscreteSeriesExistence.
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS

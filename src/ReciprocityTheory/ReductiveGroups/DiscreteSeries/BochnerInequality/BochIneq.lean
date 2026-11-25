@@ -10,8 +10,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.BochnerInequality.KhwWei
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace ReciprocityTheory.ChartRestriction.DS

@@ -7,8 +7,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections
 
 open Polynomial NumberField IntermediateField Module

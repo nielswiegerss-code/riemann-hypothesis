@@ -6,8 +6,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.GeometryOfNumbersTheory
 
 open NumberField Module MeasureTheory

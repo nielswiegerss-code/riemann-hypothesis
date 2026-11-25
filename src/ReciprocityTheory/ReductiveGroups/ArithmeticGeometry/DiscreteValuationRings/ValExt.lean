@@ -9,8 +9,6 @@ public import Mathlib.RingTheory.Valuation.LocalSubring
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.DVR
 
 variable {V : Type} [CommRing V] [IsDomain V] [IsDiscreteValuationRing V]

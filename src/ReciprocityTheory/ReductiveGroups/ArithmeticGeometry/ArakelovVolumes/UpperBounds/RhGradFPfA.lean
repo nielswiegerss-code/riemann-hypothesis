@@ -18,8 +18,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up.RGF
 open Filter Topology Set ReciprocityTheory.L2DbarEstimates ReciprocityTheory.L2DbarEstimates.ChartWirtingerDerivatives ReciprocityTheory.L2DbarEstimates.Y
 open scoped ContDiff
 
-noncomputable section
-
 theorem gc_wdb_comp (n d : ℕ) (g : V d → ℂ) (F : V n → V d) (J : V n →L[ℂ] V d) (v : V n)
     (hg : DifferentiableAt ℝ g (F v)) (hF : HasFDerivAt F J v) (j : Fin n) :
     wdb n j (g ∘ F) v = ∑ a, wdb d a g (F v) * (starRingEnd ℂ) (J (bas n j) a) := by
@@ -137,7 +135,5 @@ theorem gc_leviV_comp (n d : ℕ) (g : V d → ℂ) (F : V n → V d) (U : Set (
   refine Finset.sum_congr rfl fun b _ => Finset.sum_congr rfl fun a _ => ?_
   rw [Finset.sum_comm]
   exact Finset.sum_congr rfl fun j _ => Finset.sum_congr rfl fun k _ => by ring
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.RGF

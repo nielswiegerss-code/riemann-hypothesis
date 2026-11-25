@@ -6,8 +6,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.AI.I1
 
 open MvPolynomial ReciprocityTheory.ChartRestriction.G.Geo

@@ -10,8 +10,6 @@ namespace ReciprocityTheory.ChartRestriction.G.FD.FlagSpanBounds
 
 open NumberField Complex Matrix ReciprocityTheory.ChartRestriction.G.FD
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ}
 
 lemma span_le_of_upper (p : ℕ) (hp : p ≤ r) (M N : Matrix (Fin r) (Fin r) ℂ) (hN : N.BlockTriangular id) :
@@ -62,7 +60,5 @@ lemma maj_nonneg {x : Frame X.Ψ r} (hx : x ∈ X.dom) (τ : X.Ψ) (v : Fin r �
   · subst hv
     simp [Data.maj, Data.posPart, hermC]
   · exact (X.maj_pos hx τ hv).le
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.FD.FlagSpanBounds

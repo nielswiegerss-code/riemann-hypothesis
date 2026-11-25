@@ -9,8 +9,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.LaplaceOperators.KTypeLe
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 open scoped InnerProductSpace
 

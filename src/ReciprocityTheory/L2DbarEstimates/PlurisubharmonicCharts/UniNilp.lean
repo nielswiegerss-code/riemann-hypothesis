@@ -23,8 +23,6 @@ namespace ReciprocityTheory.L2DbarEstimates.Y
 open MeasureTheory Filter Topology WeightedAtlas
 open scoped ContDiff ENNReal Pointwise Matrix
 
-noncomputable section
-
 universe u
 
 section Newton
@@ -88,7 +86,5 @@ theorem isNilpotent_of_trace_pow {K : Type*} [Field K] [CharZero K] (r : ℕ)
     (N : Matrix (Fin r) (Fin r) K) (h : ∀ k, 1 ≤ k → k ≤ r → (N ^ k).trace = 0) :
     IsNilpotent N :=
   isNilpotent_of_trace_pow_succ N fun k => _root_.UpperTheory.Reformulated.B.Qh19.trace_pow_eq_zero_of_le_dim r N h (k + 1) (by omega)
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.Y

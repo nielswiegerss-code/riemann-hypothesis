@@ -8,8 +8,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up.DivLA
 
 open ReciprocityTheory.L2DbarEstimates MeasureTheory Topology Filter Asymptotics
 
-noncomputable section
-
 variable {n : ℕ}
 
 theorem comp_O (L : V n ≃L[ℂ] V n) (k : Fin n) :
@@ -30,7 +28,5 @@ theorem sub_val_O {g : V n → ℂ} (hg : AnalyticAt ℂ g 0) :
   simp only [neg_sub] at h2
   simp only [pow_one]
   exact h2.trans (isBigO_norm_right.mpr (isBigO_refl _ _))
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.DivLA

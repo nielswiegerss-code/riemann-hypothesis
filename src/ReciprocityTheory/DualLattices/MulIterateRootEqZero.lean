@@ -4,8 +4,6 @@ public import ReciprocityTheory.DualLattices.CyclicRecursionStatement
 
 @[expose] public section
 
-noncomputable section
-
 open WittVector Ideal TensorProduct
 
 namespace ReciprocityTheory.PGsh

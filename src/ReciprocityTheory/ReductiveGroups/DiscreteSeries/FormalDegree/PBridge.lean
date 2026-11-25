@@ -6,8 +6,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.TraceMulSel
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix MeasureTheory
 open scoped InnerProductSpace
 

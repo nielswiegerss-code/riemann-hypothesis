@@ -18,8 +18,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up.HE
 open ReciprocityTheory.L2DbarEstimates MeasureTheory Topology Metric Filter Complex
 open scoped ContDiff ComplexConjugate
 
-noncomputable section
-
 variable {n : ℕ} {U : Set (V n)}
 
 theorem wdb_contDiffOn (hU : IsOpen U) {g : V n → ℂ} (hg : ContDiffOn ℝ ∞ g U) (k : Fin n) :
@@ -230,7 +228,5 @@ theorem coord_ne_of_det {f : V n → V n} (hn : 1 ≤ n) (hdet : (fderiv ℂ f 0
   show LinearMap.det ((0 : V n →L[ℂ] V n) : V n →ₗ[ℂ] V n) = 0
   rw [ContinuousLinearMap.coe_zero, LinearMap.det_zero, hfr]
   exact zero_pow (by omega)
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.HE

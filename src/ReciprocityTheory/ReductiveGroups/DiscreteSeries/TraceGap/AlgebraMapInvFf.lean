@@ -9,8 +9,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.TraceGap.AdPhysDi
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.TRGap

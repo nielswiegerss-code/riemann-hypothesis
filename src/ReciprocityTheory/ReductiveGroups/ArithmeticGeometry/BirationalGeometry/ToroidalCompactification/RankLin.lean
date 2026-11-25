@@ -25,8 +25,6 @@ public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.Chart
 
 open Module

@@ -13,8 +13,6 @@ open NumberField Complex MeasureTheory ReciprocityTheory.ChartRestriction.G.FD
 open ReciprocityTheory.ChartRestriction.G.FD.EmbeddingHermitianPairs ReciprocityTheory.ChartRestriction.G.FD.AdmissibleHermitianColumns ReciprocityTheory.ChartRestriction.G.FD.TransvectionPeriodicity
 open scoped ComplexConjugate
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ} (X : Data E r)
 
 lemma pnorm_eq (la : Wt X.Ψ r) (P : Frame X.Ψ r → ℂ) (x : Frame X.Ψ r) :
@@ -342,7 +340,5 @@ theorem siegelSpaceAlgebra_of (h3d : ModerateCoefficientPositivity (E := E)) (h3
     refine hP.2 ξ hξ ν' ?_ x hx
     calc ∑ τ, ν' τ ≤ ∑ τ, ν τ := Finset.sum_le_sum fun τ _ => by linarith [h1 τ]
       _ ≤ c := hν
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.FD.BoundedSectionAlgebra

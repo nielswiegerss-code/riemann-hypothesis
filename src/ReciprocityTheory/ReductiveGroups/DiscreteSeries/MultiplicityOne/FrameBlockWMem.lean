@@ -11,8 +11,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.J
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix
 open scoped InnerProductSpace ENNReal NNReal
 

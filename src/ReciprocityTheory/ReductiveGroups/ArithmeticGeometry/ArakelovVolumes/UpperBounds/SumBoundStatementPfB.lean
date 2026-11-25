@@ -11,8 +11,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up
 open Matrix Topology Filter
 open scoped Matrix ComplexOrder ENNReal
 
-noncomputable section
-
 variable {p q : ℕ}
 
 theorem sumBdJf_eq_diag : Jf p q = diagonal (Sum.elim (fun _ => (1 : ℂ)) (fun _ => -1)) := by
@@ -174,7 +172,5 @@ theorem sumBd_count {f : ℕ} {ι : Type*} (x : ι → Fin f → Matrix (Fin p �
           Finset.Icc (-⌈R / η⌉) ⌈R / η⌉ : Finset _) : Set _).encard :=
         Set.encard_le_encard (by rintro _ ⟨a, ha, rfl⟩; exact hmaps a ha)
     _ = _ := Set.encard_coe_eq_coe_finsetCard _
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up

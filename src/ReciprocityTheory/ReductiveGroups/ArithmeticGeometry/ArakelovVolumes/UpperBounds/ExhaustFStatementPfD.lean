@@ -20,8 +20,6 @@ open NumberField Complex Matrix Topology Filter ReciprocityTheory.ChartRestricti
   ReciprocityTheory.ChartRestriction.G.AR.Up.ExhC ReciprocityTheory.ChartRestriction.G.AR.Up.ExhD ReciprocityTheory.ChartRestriction.G.AR.Up.ExhE
 open scoped ComplexConjugate ComplexOrder ContDiff
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ} (X : Data E r)
 
 theorem cd_nM (τ : X.Ψ) (a b : Fin r) : ContDiff ℂ ∞ fun z : V (nd X) => nM X z τ a b := by
@@ -97,7 +95,5 @@ theorem eF_contDiffAt (x0 : Frame X.Ψ r) (ho : IsOrth X x0) {z : V (nd X)} (hz 
 
 theorem isOpen_OmF (x0 : Frame X.Ψ r) : IsOpen (OmF X x0) := by
   apply ReciprocityTheory.ChartRestriction.G.AR.Up.OntoB.isOpen_OmF <;> assumption
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.ExF

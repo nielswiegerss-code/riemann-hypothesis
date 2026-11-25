@@ -12,8 +12,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentat
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace ReciprocityTheory.ChartRestriction.DS

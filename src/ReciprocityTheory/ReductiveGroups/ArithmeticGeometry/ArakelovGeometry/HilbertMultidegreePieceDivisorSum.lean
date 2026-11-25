@@ -10,8 +10,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.Sup
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.ArakelovGeometry
 
 open ReciprocityTheory.ChartRestriction.G.Geo MvPolynomial

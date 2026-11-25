@@ -7,8 +7,6 @@ public import Mathlib.LinearAlgebra.Matrix.ToLinearEquiv
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Finset
 
 namespace ReciprocityTheory.PGsh.L2

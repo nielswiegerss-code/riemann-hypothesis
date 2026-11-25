@@ -15,8 +15,6 @@ open NumberField ReciprocityTheory.ChartRestriction.G.FD ReciprocityTheory.Chart
   Metric
 open scoped ContDiff ENNReal Matrix
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ} (X : Data E r)
 
 theorem muF_lintegral (x0 : Frame X.Ψ r) (g : V (nd X) → ℝ≥0∞) :
@@ -157,7 +155,5 @@ theorem value_base (hV : VanishAtSStatement (E := E)) (x0 : Frame X.Ψ r) (ho : 
     nlinarith [mul_le_mul_of_nonneg_left hpe (mul_nonneg hA hN)]
   have key := hV r X x0 hn ho hx0 (fun x => P x - 1) Fl.w0 Fl.s ε hε hu hsd hwd hw hs0 hdet hint
   simpa [sub_eq_zero] using key
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.IW

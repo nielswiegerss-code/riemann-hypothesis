@@ -17,8 +17,6 @@ namespace ReciprocityTheory.L2DbarEstimates.Y
 open MeasureTheory Filter Topology Complex
 open scoped ContDiff ENNReal
 
-noncomputable section
-
 theorem leviV_const_mul {n : ℕ} {f : V n → ℝ} {x : V n} (hf : ContDiffAt ℝ 2 f x) (c d : ℝ)
     (ξ : Fin n → ℂ) :
     leviV n (fun y => ((c * f y + d : ℝ) : ℂ)) x ξ = c * leviV n (fun y => ((f y : ℝ) : ℂ)) x ξ := by
@@ -40,7 +38,5 @@ variable {n : ℕ} {Y : Type*} [TopologicalSpace Y] [T2Space Y] [SecondCountable
   (A : WeightedAtlas n Y ι La)
 
 end WeightedAtlas
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.Y

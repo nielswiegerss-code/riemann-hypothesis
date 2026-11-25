@@ -14,8 +14,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up
 open NumberField ReciprocityTheory.ChartRestriction.G.FD ReciprocityTheory.ChartRestriction.G.AR.Inst ReciprocityTheory.L2DbarEstimates MeasureTheory Topology
 open scoped ContDiff ENNReal Matrix ComplexOrder
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E]
 
 namespace IC
@@ -185,7 +183,5 @@ theorem interpC_of (hP : PoinStatement (E := E)) (hK : KronHolPsiStatement (E :=
       exact hadd _ (hsmul _ _ (hGs a)) _ ih
   refine ⟨∑ j, v j • G j, hmem _, fun j => ?_⟩
   simp [Finset.sum_apply, hGv]
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up

@@ -16,8 +16,6 @@ open NumberField ReciprocityTheory.ChartRestriction.G.FD ReciprocityTheory.Chart
   Asymptotics ReciprocityTheory.ChartRestriction.G.AR.Up
 open scoped ContDiff ENNReal Matrix
 
-noncomputable section
-
 theorem coordL {n : ℕ} (W : V n → ℂ) (S : Fin n → V n → ℂ) (hW : AnalyticAt ℂ W 0) (hW0 : W 0 ≠ 0)
     (hS : ∀ k, AnalyticAt ℂ (S k) 0) (hS0 : ∀ k, S k 0 = 0)
     (hdet : (fderiv ℂ (fun z : V n => (WithLp.toLp 2 fun k => S k z / W z : V n)) 0).det ≠ 0) :
@@ -50,7 +48,5 @@ theorem coordL {n : ℕ} (W : V n → ℂ) (S : Fin n → V n → ℂ) (hW : Ana
     exact h2
 
 variable {E : Type} [Field E] [NumberField E] [IsCMField E]
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.DivLC

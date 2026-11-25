@@ -5,8 +5,6 @@ import Mathlib.AlgebraicGeometry.Modules.Sheaf
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.Geo.Tor
 
 open AlgebraicGeometry CategoryTheory Limits

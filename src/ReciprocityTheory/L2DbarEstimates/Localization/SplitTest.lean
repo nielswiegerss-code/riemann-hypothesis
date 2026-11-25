@@ -17,8 +17,6 @@ namespace ReciprocityTheory.L2DbarEstimates.F
 open MeasureTheory Filter Topology Set
 open scoped ENNReal InnerProductSpace ComplexConjugate ContDiff
 
-noncomputable section
-
 section SplitHelpers
 
 variable {M : Type*} [TopologicalSpace M] [T2Space M] [SecondCountableTopology M]
@@ -292,7 +290,5 @@ theorem splitTest (n : ℕ) (M : Type*) [TopologicalSpace M] [T2Space M]
       unfold ipV
       exact (splitT_inner ph₂ hc2 v hv' F₁).symm
     rw [e1, e2, hdec, inner_add_right, Submodule.inner_right_of_mem_orthogonal hVK hGperp, add_zero]
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.F

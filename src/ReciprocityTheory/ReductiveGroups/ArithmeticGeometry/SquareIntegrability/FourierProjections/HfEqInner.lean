@@ -11,8 +11,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2.FPw
 
 open MeasureTheory Complex
 
-noncomputable section
-
 variable {ι : Type} [Fintype ι]
 
 open Classical
@@ -109,7 +107,5 @@ theorem paTail (hP : Ext.PackingCount) (hA : Ext.GaussianTailBound) (Y : GT ι) 
   refine ⟨(summable_subtype_iff_indicator).1 hsum, ?_⟩
   rw [← tsum_subtype]
   exact hle
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2.FPw

@@ -10,8 +10,6 @@ public import Mathlib.NumberTheory.LegendreSymbol.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.L1
 
 open Formalism.L2.Th1.CM

@@ -10,8 +10,6 @@ namespace ReciprocityTheory.DiscreteGroups.LocalClassField.Euler
 
 open _root_.Neutral.B1 Function
 
-noncomputable section
-
 section aux
 
 variable (p : ℕ) [Fact p.Prime] (K : IntermediateField ℚ_[p] (PadicAlgCl p))
@@ -40,7 +38,5 @@ end aux
 attribute [local instance] zpAlgOK
 
 variable (p : ℕ) [Fact p.Prime] {K L : IntermediateField ℚ_[p] (PadicAlgCl p)}
-
-end
 
 end ReciprocityTheory.DiscreteGroups.LocalClassField.Euler

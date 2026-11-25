@@ -9,8 +9,6 @@ public import Mathlib.Analysis.Complex.Liouville
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections
 
 section Liouville

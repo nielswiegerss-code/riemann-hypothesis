@@ -9,8 +9,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Mul
 
 @[expose] public section
 
-noncomputable section
-
 open Finset MeasureTheory Matrix
 open scoped ComplexOrder ContDiff ENNReal
 

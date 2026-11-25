@@ -6,8 +6,6 @@ public import Mathlib.RingTheory.Flat.Tensor
 
 @[expose] public section
 
-noncomputable section
-
 open WittVector Ideal TensorProduct
 
 namespace ReciprocityTheory.PGsh

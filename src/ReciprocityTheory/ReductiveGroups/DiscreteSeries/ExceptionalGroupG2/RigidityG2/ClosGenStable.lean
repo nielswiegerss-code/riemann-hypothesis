@@ -10,8 +10,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.RigidityTheorems.
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.G2

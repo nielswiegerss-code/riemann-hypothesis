@@ -9,8 +9,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.AnalyticVectors.P
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace ReciprocityTheory.ChartRestriction.DS

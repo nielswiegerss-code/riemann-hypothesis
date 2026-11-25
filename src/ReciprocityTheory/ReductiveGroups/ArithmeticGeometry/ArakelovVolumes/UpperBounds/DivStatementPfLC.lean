@@ -13,8 +13,6 @@ open NumberField ReciprocityTheory.ChartRestriction.G.FD ReciprocityTheory.Chart
   Asymptotics ReciprocityTheory.ChartRestriction.G.AR.Up
 open scoped ContDiff ENNReal Matrix
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ} (X : Data E r)
 
 theorem nmat_zero' (τ : X.Ψ) : mat (nmat X (0 : V (nd X))) τ = 1 := by
@@ -61,7 +59,5 @@ theorem anal_loc {P : Frame X.Ψ r → ℂ} (hP : DifferentiableOn ℂ P X.dom) 
     (FourierCoefficientDomain.isOpen_dom X).preimage hc.continuous
   refine DivLA.analyticAt_of_diffOn hU ?_ (by simpa [cpt_zero'] using hx)
   exact hP.comp (hc.differentiable (by simp)).differentiableOn (fun z hz => hz)
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up.DivLC

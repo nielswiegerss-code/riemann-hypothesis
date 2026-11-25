@@ -10,8 +10,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2.TorusAtPf
 
 open NumberField
 
-noncomputable section
-
 theorem torusAtLa1_holds : TorusAtLa1Statement := by
   intro E _ _ _ r X x hx T hT
   obtain ⟨φ, s, -, hL, -, hnorm, -⟩ := hT
@@ -61,7 +59,5 @@ theorem torusAtLa1_holds : TorusAtLa1Statement := by
       exact Finset.sum_nonneg fun τ _ => mul_nonneg (hc τ).le (hmaj τ _)
   refine ⟨hla, fun th => ?_⟩
   simp only [PT.ph, phiFD, hla]
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2.TorusAtPf

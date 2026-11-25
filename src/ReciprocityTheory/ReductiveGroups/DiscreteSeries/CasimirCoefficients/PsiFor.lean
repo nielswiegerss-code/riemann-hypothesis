@@ -8,8 +8,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirCoefficients.ToMK
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 
 namespace ReciprocityTheory.ChartRestriction.DS.S7

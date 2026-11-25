@@ -19,8 +19,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Inst
 
 open NumberField ReciprocityTheory.ChartRestriction.G.FD Matrix
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ}
 
 theorem firstMinimumSq_rightBorel (X : Data E r) {x b : Frame X.Ψ r} (hx : x ∈ X.dom) (hb : b ∈ Bor X.Ψ r) :
@@ -192,7 +190,5 @@ theorem firstMinimum_continuousOn (X : Data E r) : ContinuousOn X.la1 X.dom := b
 
 theorem la1GGStatement_firstMinimum : LineBundleFirstBoundGlobalGeneration (E := E) := fun _ X hr =>
   ⟨fun _ hγ _ hx _ hb => firstMinimum_biinvariant X hγ hx hb, firstMinimum_continuousOn X, fun _ hx => la1_pos_of_mem_dom X hr hx⟩
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Inst

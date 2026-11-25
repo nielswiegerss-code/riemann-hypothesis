@@ -6,8 +6,6 @@ import Mathlib.RingTheory.MvPolynomial.IrreducibleQuadratic
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.TB
 
 theorem harmSecond_holds : HarmSecondSt := by

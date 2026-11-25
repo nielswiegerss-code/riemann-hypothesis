@@ -8,8 +8,6 @@ namespace ReciprocityTheory.AnForm.R
 
 open AlgebraicGeometry CategoryTheory
 
-noncomputable section
-
 theorem sncAt_of_not_mem {Y : Scheme.{0}} (B : TopologicalSpace.Closeds Y) (y : Y)
     (hy : y ∉ (B : Set Y)) (hreg : IsRegularLocalRing (Y.presheaf.stalk y)) :
     FinalTheorems.SncAt (Scheme.IdealSheafData.vanishingIdeal B) y := by
@@ -54,7 +52,5 @@ theorem isIso_morphismRestrict_of_le {X Y : Scheme.{0}} (f : X ⟶ Y) {U V : Y.O
   have h1 : IsIso (f ∣_ U ∣_ (U.ι ⁻¹ᵁ V)) := inferInstance
   exact ((MorphismProperty.isomorphisms Scheme).arrow_mk_iso_iff
     (morphismRestrictRestrict f U _ ≪≫ morphismRestrictEq f e)).1 h1
-
-end
 
 end ReciprocityTheory.AnForm.R

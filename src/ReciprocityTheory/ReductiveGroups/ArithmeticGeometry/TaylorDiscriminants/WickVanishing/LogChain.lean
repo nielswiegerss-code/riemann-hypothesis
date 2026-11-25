@@ -5,8 +5,6 @@ public import Mathlib.RingTheory.MvPowerSeries.Derivative
 
 @[expose] public section
 
-noncomputable section
-
 open MvPowerSeries Formalism.FG.SolveVAux
 
 namespace ReciprocityTheory.ChartRestriction.G.TB.LogPf

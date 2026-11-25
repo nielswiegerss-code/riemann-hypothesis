@@ -4,8 +4,6 @@ public import ReciprocityTheory.DualLattices.TensorSpan
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.PGsh.L2.SecondCohomologyLattice
 
 variable {C : Type} [Field C] {R : Type} [CommRing R] [Algebra R C]

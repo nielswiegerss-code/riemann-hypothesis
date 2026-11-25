@@ -13,8 +13,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.HighestWeights.Weight
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix MeasureTheory
 open scoped InnerProductSpace
 

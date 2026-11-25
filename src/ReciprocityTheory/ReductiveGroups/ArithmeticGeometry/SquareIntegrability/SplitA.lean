@@ -12,8 +12,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2
 open NumberField Complex
 open scoped InnerProductSpace
 
-noncomputable section
-
 section basic
 
 variable {ι : Type} [Fintype ι]
@@ -133,7 +131,5 @@ theorem IsU.eq_zero_iff {I : Submodule ℤ (Vsp dim)} {x u : Vsp dim} (h : IsU I
 theorem mem_IR {I : Submodule ℤ (Vsp dim)} {x : Vsp dim} (h : x ∈ I) : x ∈ IR I := Submodule.subset_span h
 
 end vecU
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2

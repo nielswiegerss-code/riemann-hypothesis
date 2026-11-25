@@ -17,8 +17,6 @@ public import Formalism.SharpRestriction.CuspSpanNormBounds.RelevantZeroGramTerm
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory MvPolynomial
 
 namespace ReciprocityTheory.ChartRestriction.DS.TRGap

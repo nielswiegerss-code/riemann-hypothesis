@@ -7,8 +7,6 @@ import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix MeasureTheory
 open scoped InnerProductSpace
 

@@ -14,8 +14,6 @@ namespace ReciprocityTheory.L2DbarEstimates.E
 open MeasureTheory
 open scoped ComplexConjugate
 
-noncomputable section
-
 theorem tStarIbp (n : ℕ) (M : Type*) [TopologicalSpace M] [T2Space M]
     [SecondCountableTopology M] [MeasurableSpace M] [BorelSpace M] : TStarIbpStatement n M := by
   intro z hz ph₁ ph₂ g f _hph₁ hph₂ hg hf
@@ -149,7 +147,5 @@ theorem tstar_norm_sq (n : ℕ) {M : Type*} [TopologicalSpace M] (z : M → V n)
     congr 1
     ring
   rw [hT', mul_pow, mul_assoc, hx]
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.E

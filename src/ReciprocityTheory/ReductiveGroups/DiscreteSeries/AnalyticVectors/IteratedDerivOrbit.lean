@@ -10,8 +10,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Shift
 
 @[expose] public section
 
-noncomputable section
-
 open Finset
 
 namespace ReciprocityTheory.ChartRestriction.DS

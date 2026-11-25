@@ -14,8 +14,6 @@ namespace ReciprocityTheory.AnForm.M
 open Filter Topology FinHolAtlas
 open scoped ContDiff
 
-noncomputable section
-
 variable {e : ℕ} {X : Type} [TopologicalSpace X]
 
 theorem two_le_infty : (2 : WithTop ℕ∞) ≤ ∞ := by
@@ -185,7 +183,5 @@ theorem plurisubharmonicShift_proof : PshShiftStatement := by
     · exact (hpos q jj _ hτS v hv0).le
   rw [hL, hLx]
   nlinarith [mul_nonneg (by linarith : (0 : ℝ) ≤ m q + C) hnn]
-
-end
 
 end ReciprocityTheory.AnForm.M

@@ -12,8 +12,6 @@ namespace ReciprocityTheory.AnForm.M
 open Filter Topology
 open scoped ContDiff ComplexOrder
 
-noncomputable section
-
 section SlopeTestRemainingChoices
 
 variable {D : ℕ}
@@ -123,7 +121,5 @@ theorem hessC_posSemidef (φ : (Fin D → ℂ) → ℝ) (z : Fin D → ℂ) (hφ
   · simp [leviC, hs (star x) (Complex.I • star x)]
 
 end SlopeTestRemainingChoices
-
-end
 
 end ReciprocityTheory.AnForm.M

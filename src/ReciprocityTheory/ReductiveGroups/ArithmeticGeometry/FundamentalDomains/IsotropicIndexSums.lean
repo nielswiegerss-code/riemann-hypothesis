@@ -15,8 +15,6 @@ namespace ReciprocityTheory.ChartRestriction.G.FD.IsotropicIndexSums
 open NumberField Complex Matrix ReciprocityTheory.ChartRestriction.G.FD
 open scoped ComplexConjugate
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ}
 
 section Sesq
@@ -184,7 +182,5 @@ lemma ucomp_drop {x : Frame X.Ψ r} (hx : x ∈ X.dom) {ξ : Fin r → E} (hne :
   abel
 
 end Ucomp
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.FD.IsotropicIndexSums

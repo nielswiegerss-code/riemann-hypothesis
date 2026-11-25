@@ -7,8 +7,6 @@ import Mathlib.RingTheory.PiTensorProduct
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField
 
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections.Pf.EigA

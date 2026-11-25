@@ -13,8 +13,6 @@ public import ReciprocityTheory.ResidueCardinality.ArtinOntoB
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.DiscreteGroups.GlobalClassField
 
 open NumberField IsDedekindDomain

@@ -4,8 +4,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirCoefficien
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Finset
 
 namespace ReciprocityTheory.ChartRestriction.DS.HW

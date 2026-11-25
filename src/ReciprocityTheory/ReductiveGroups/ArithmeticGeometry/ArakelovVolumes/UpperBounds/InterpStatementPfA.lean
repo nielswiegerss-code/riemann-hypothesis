@@ -11,8 +11,6 @@ namespace ReciprocityTheory.ChartRestriction.G.AR.Up
 
 open NumberField ReciprocityTheory.ChartRestriction.G.FD
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E]
 
 theorem ss_sub_ssgt0 {r : ℕ} (X : Data E r) (la : Wt X.Ψ r) {P : Frame X.Ψ r → ℂ}
@@ -39,7 +37,5 @@ theorem interp_of_kron {r : ℕ} (X : Data E r) (la : Wt X.Ψ r) {δ : ℕ} (xs 
       (fun a b ha hb => hadd a ha b hb) h0 (fun j _ => hsmul (v j) (F j) (hF j))
   · intro j
     simp [Finset.sum_apply, hval]
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.AR.Up

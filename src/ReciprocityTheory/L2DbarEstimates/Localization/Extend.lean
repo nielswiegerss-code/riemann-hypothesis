@@ -11,8 +11,6 @@ namespace ReciprocityTheory.L2DbarEstimates.F
 open MeasureTheory Filter Topology Set
 open scoped ENNReal InnerProductSpace ComplexConjugate ContDiff
 
-noncomputable section
-
 theorem extend_support_subset {n : ℕ} {M : Type*} [TopologicalSpace M]
     (e : OpenPartialHomeomorph M (V n)) (G : V n → ℂ) (q : M)
     (hq : e.source.indicator (G ∘ e) q ≠ 0) : q ∈ e.symm '' tsupport G := by
@@ -74,7 +72,5 @@ theorem extend (n : ℕ) (M : Type*) [TopologicalSpace M] [T2Space M]
       exact (key _ (Classical.choose_spec hex).1 (Classical.choose_spec hex).2).1
     · simp only [db, dite_eq_left hex]
       exact (key _ (Classical.choose_spec hex).1 (Classical.choose_spec hex).2).2
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.F

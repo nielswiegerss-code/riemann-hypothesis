@@ -13,8 +13,6 @@ public import Mathlib.LinearAlgebra.Dimension.Finite
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.HW

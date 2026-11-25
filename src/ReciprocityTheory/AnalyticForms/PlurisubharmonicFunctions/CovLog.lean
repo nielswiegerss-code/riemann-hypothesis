@@ -16,8 +16,6 @@ namespace ReciprocityTheory.AnForm.A
 
 open Complex Filter Topology
 
-noncomputable section
-
 variable {D : ℕ}
 
 theorem hessC_congr' {φ ψ : (Fin D → ℂ) → ℝ} {z : Fin D → ℂ} (h : φ =ᶠ[𝓝 z] ψ) :
@@ -129,7 +127,5 @@ theorem hessC_add_log_norm' (φ : (Fin D → ℂ) → ℝ) (g : (Fin D → ℂ) 
     hEq.mono fun w hw => by simp only [hw]
   rw [hessC_congr' h2]
   exact hessC_add_re_analytic' φ G z hφ hG
-
-end
 
 end ReciprocityTheory.AnForm.A

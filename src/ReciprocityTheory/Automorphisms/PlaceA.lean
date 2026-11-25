@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.Aut
 
 open NumberField IsDedekindDomain IsDedekindDomain.HeightOneSpectrum

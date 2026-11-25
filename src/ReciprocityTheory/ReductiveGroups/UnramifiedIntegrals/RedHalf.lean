@@ -7,7 +7,6 @@ public import Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationPr
 
 @[expose] public section
 
-noncomputable section
 open scoped BigOperators Classical
 open Formalism.L2.Th1.CM Formalism.L2.Th1.F
 

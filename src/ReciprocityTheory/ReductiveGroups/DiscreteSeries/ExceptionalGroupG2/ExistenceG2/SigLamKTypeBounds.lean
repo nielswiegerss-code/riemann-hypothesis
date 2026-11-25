@@ -12,8 +12,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.ExceptionalGroupG2.Rigid
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 
 namespace ReciprocityTheory.ChartRestriction.DS.G2

@@ -5,8 +5,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.TailIntegrals.Goo
 
 @[expose] public section
 
-noncomputable section
-
 set_option linter.unusedSimpArgs false
 
 open Matrix MeasureTheory

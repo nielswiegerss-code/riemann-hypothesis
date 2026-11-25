@@ -11,8 +11,6 @@ namespace ReciprocityTheory.ChartRestriction.G.FD.ExponentialGrowthExclusion
 
 open NumberField Complex MeasureTheory Filter Topology ReciprocityTheory.ChartRestriction.G.FD
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {r : ℕ}
 
 lemma exists_fd (X : Data E r) (la : Wt X.Ψ r) :
@@ -29,7 +27,5 @@ lemma integral_swap_of_bdd {m n : Type} [Fintype m] [Fintype n] {D : Set (m → 
   apply MeasureTheory.integral_integral_swap
   exact Integrable.mono' (integrable_const M) hf.aestronglyMeasurable
     (Filter.Eventually.of_forall fun p => hM p.1 p.2)
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.FD.ExponentialGrowthExclusion

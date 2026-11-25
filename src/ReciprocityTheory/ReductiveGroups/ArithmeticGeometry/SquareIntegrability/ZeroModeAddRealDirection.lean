@@ -13,8 +13,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2
 
 open NumberField MeasureTheory Col Topology
 
-noncomputable section
-
 theorem tof_box_int_differentiable {V : Type} [NormedAddCommGroup V] [NormedSpace ℂ V]
     [FiniteDimensional ℂ V] {d : ℕ} {G : V → ℂ} (hG : Differentiable ℂ G)
     {φ : (Fin d → ℝ) → V} (hφ : Continuous φ) :
@@ -156,7 +154,5 @@ theorem zeroMode_mem_sections [IsCMField E] {X : PT E} {DF : ℕ} {P : Par X DF}
   have h2 : Hf (wmap (IR I) x) (wmap (IR I) x) = Hf (p2 (IR I) x) (p2 (IR I) x) := Hf_wmap hK x x
   simp only [Nat.cast_one, one_mul]
   rw [h1, h2]
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2

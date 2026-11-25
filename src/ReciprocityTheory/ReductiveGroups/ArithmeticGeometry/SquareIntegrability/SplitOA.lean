@@ -14,8 +14,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2
 
 open NumberField
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E]
 
 theorem so_prod_norm (x : E) : ∏ σ : E →+* ℂ, ‖σ x‖ = |(Algebra.norm ℚ x : ℝ)| := by
@@ -116,7 +114,5 @@ theorem so_emb_inj (v : (E →+* ℂ) → ℂ)
   have h2 := congrArg (fun u => (⅟(NumberField.basisMatrix E)).mulVec u) hM
   simp only [Matrix.mulVec_mulVec, invOf_mul_self, Matrix.one_mulVec, Matrix.mulVec_zero] at h2
   exact h2
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2

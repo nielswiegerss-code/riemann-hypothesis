@@ -6,8 +6,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.MultiplicityOne.J
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory ComplexConjugate
 open scoped InnerProductSpace
 

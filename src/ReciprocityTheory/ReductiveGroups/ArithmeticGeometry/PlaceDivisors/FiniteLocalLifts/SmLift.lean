@@ -5,8 +5,6 @@ public import Mathlib.RingTheory.Noetherian.Nilpotent
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.Pdiv.FiniteLocalHoms
 
 variable {R : Type} [CommRing R] {A W K : Type} [CommRing A] [CommRing W] [CommRing K]

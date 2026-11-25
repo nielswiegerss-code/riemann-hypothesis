@@ -7,8 +7,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.
 
 @[expose] public section
 
-noncomputable section
-
 open ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ ReciprocityTheory.ChartRestriction.G.TB ReciprocityTheory.ChartRestriction.G.TB.WickVanishing
 
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections.Pf.ERam

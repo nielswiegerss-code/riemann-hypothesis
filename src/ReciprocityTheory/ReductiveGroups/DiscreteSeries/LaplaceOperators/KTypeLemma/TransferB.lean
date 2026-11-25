@@ -15,8 +15,6 @@ public import Mathlib.Analysis.Calculus.FDeriv.Mul
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Matrix
 open scoped ContDiff
 

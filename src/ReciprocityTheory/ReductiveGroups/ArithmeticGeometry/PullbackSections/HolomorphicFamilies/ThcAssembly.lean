@@ -8,8 +8,6 @@ import Formalism.LocalToGlobal.ProjectiveLattices.ErealAddIInf
 
 
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections.Pf
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.WeightAlgebra Formalism.L2.Pj

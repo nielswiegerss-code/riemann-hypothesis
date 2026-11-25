@@ -7,8 +7,6 @@ public import Mathlib.Analysis.Calculus.FDeriv.Mul
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.MultiplicativeHeights
 
 open Matrix Filter Topology Set

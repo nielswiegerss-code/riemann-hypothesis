@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.Divisibility.GeneratorPowers.CIndBC
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections
 
 open MvPolynomial Formalism.L2.Pj Formalism.MainNotions.ModuliIntegralCharts.H1

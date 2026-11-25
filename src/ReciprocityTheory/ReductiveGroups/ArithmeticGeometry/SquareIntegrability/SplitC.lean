@@ -9,8 +9,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2
 open NumberField Complex
 open scoped InnerProductSpace
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E]
 
 theorem sq_le_Qy_of_le_firstMinimum (X : PT E) {x : Vsp X.dim} (hx : x ∈ X.L) (hne : x ≠ 0) : X.la1 ≤ ‖x‖ := by
@@ -65,7 +63,5 @@ theorem sat_of_IR {X : PT E} {I : Submodule ℤ (Vsp X.dim)} (hs : ∀ x ∈ X.L
     rw [← Int.cast_smul_eq_zsmul ℝ, inv_smul_smul₀ hk']
   rw [h2]
   exact Submodule.smul_mem _ _ h1
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2

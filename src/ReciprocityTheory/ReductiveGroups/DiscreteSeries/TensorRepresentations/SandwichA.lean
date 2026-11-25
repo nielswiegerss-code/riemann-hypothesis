@@ -25,8 +25,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.Co
 
 @[expose] public section
 
-noncomputable section
-
 open Finset MeasureTheory
 open scoped InnerProductSpace
 

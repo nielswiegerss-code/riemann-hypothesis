@@ -15,8 +15,6 @@ namespace ReciprocityTheory.ChartRestriction.G.I2
 
 open NumberField MeasureTheory Col
 
-noncomputable section
-
 variable {E : Type} [Field E] [NumberField E]
 
 namespace ZM
@@ -163,7 +161,5 @@ theorem dual_lift (hI : IsSplit P I) (m : Fin (Module.finrank ℝ (IR I)) → �
   simp [h2]
 
 end ZM
-
-end
 
 end ReciprocityTheory.ChartRestriction.G.I2

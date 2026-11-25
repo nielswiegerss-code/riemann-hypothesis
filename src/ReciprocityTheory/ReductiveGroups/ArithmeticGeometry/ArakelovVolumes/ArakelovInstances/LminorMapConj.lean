@@ -4,8 +4,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDo
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.AR.Inst.CurvPf
 
 open Matrix ReciprocityTheory.ChartRestriction.G.FD

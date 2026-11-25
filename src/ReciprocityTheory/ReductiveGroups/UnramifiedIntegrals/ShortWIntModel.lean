@@ -11,8 +11,6 @@ public import ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.CoeffOneSubs
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.L1
 
 open PowerSeries Formalism.G Formalism.LT Formalism.L2.Th1.CM

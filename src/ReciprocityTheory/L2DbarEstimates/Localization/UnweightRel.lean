@@ -21,8 +21,6 @@ namespace ReciprocityTheory.L2DbarEstimates.F
 open MeasureTheory Filter Topology Set
 open scoped ENNReal InnerProductSpace ComplexConjugate ContDiff
 
-noncomputable section
-
 section UnweightRelAux
 
 variable {M : Type*} [TopologicalSpace M] [T2Space M] [SecondCountableTopology M]
@@ -358,7 +356,5 @@ theorem unweightRel (n : ℕ) (M : Type*) [TopologicalSpace M] [T2Space M]
     have h2 : σ x = 0 := image_eq_zero_of_notMem_tsupport hno.2
     funext j k
     simp [unwS, wedge, h1, h2]
-
-end
 
 end ReciprocityTheory.L2DbarEstimates.F

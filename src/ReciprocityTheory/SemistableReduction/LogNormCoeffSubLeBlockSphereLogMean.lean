@@ -11,8 +11,6 @@ public import Mathlib.NumberTheory.NumberField.ProductFormula
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.MultiplicativeHeights
 
 open MeasureTheory MvPolynomial NumberField

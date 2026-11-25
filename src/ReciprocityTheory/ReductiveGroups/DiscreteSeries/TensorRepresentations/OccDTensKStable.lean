@@ -12,8 +12,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.BochnerInequality
 
 @[expose] public section
 
-noncomputable section
-
 open Finset MeasureTheory
 
 namespace ReciprocityTheory.ChartRestriction.DS

@@ -9,8 +9,6 @@ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.PullbackSections
 
 open AlgebraicGeometry CategoryTheory Opposite ReciprocityTheory.ChartRestriction.G.TB.ValAt ReciprocityTheory.ChartRestriction.G.Geo.Tor

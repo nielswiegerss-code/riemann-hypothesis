@@ -6,8 +6,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeo
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.Geo
 
 theorem ptsIntegral_eq_mInt' (hE : ResExistsStatement) (hB : ResBridgeStatement) {K : Type}

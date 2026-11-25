@@ -8,8 +8,6 @@ import Mathlib.AlgebraicGeometry.Sites.Fpqc
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory CategoryTheory.Limits AlgebraicGeometry
 
 namespace ReciprocityTheory.ChartRestriction.G.Out.TLinPf

@@ -5,8 +5,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscrim
 
 @[expose] public section
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.G.TB.G2
 
 variable {k : Type} [CommRing k] {ι : Type} [DecidableEq ι]

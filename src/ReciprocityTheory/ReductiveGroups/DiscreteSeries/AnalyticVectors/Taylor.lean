@@ -10,8 +10,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Comp
 
 @[expose] public section
 
-noncomputable section
-
 open Finset Filter Topology
 
 namespace ReciprocityTheory.ChartRestriction.DS

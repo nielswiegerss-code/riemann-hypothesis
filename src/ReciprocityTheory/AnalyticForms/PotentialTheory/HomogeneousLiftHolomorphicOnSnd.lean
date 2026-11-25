@@ -10,8 +10,6 @@ namespace ReciprocityTheory.AnForm.M
 
 open OnePoint
 
-noncomputable section
-
 section Alg
 
 variable {e : ℕ} {X : Type*} [TopologicalSpace X]
@@ -31,7 +29,5 @@ namespace CompatibleChartOperations
 
 
 end CompatibleChartOperations
-
-end
 
 end ReciprocityTheory.AnForm.M
