@@ -57,8 +57,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.IteratedLiftChains GlobalTheory.PRe
 open Formalism.UG (IsCommensurated Hecke)
 open Formalism.MainNotions.SchurIrreducible (IsSplit)
 
-noncomputable section
-
 namespace GlobalTheory.NoExcl
 
 open Formalism.MainNotions.StandardLattice Formalism.IndefR.Datum Formalism.IndefR.Mult Formalism.IndefR.Lift GlobalTheory.AutomorphicL2Unitary GlobalTheory.AdelicU
@@ -111,5 +109,3 @@ theorem chart (V : HSp D) {v : HeightOneSpectrum (𝓞 D.host.F)} {w : HeightOne
   exact ⟨⟨e, he⟩, h1⟩
 
 end GlobalTheory.NoExcl
-
-end

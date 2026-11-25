@@ -50,8 +50,6 @@ import Mathlib.Topology.Sheaves.Init
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum Matrix GlobalTheory.Chain GlobalTheory.Chain.RealIt
 open scoped TensorProduct InnerProductSpace
 
-noncomputable section
-
 namespace GlobalTheory.Chain.CoverContr
 
 theorem inner_map_of_norm {H : Type} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (A : H →L[ℂ] H)
@@ -203,5 +201,3 @@ theorem exists_isCoverIt : ∀ (p q r s : ℕ) (T₀ : GrpData (p * r + q * s) (
     exact hc
 
 end GlobalTheory.Chain.CoverContr
-
-end

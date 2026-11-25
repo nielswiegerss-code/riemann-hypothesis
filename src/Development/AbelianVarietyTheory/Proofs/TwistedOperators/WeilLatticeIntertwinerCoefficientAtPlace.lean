@@ -59,8 +59,6 @@ import Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.RealLow
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice MeasureTheory IsDedekindDomain NumberField Matrix
 open Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum GlobalTheory.LFun GlobalTheory.AdelicU GlobalTheory.PRep GlobalTheory.FinZeta GlobalTheory.AdelicScalar GlobalTheory.IndefiniteRowSideFullHecke.TwistedLevelValues GlobalTheory.LiftRows
 open Formalism.IndefR.Lev (levG levChi IsBaseFrame)
@@ -316,5 +314,3 @@ theorem GlobalTheory.LatCoef.latCoef : ∀ (D : D7) (ψ : AddChar (AF D.host.F) 
         rw [sub_smul, one_smul]; rfl
       rw [coe_rhoF, e1, actO_smul, hoff]))
     (fun x => XF.ext (actO_smul _ _ _ _)) ℓ hℓ f₁ hm
-
-end

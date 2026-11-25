@@ -6,8 +6,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.LinksDefs
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum MeasureTheory NumberField Matrix
 open GlobalTheory.IndefiniteRowSideFullHecke.AdjointIsotropicDecomposition
 
@@ -62,5 +60,3 @@ theorem orthogonal : ∀ (D : D7) (V V' W : HSp D) (r : ℕ) (C : Matrix (Fin V.
   · exact symplO_mul_rat_eq_zero V W a b (adj D C' * V.gram) (adj D C' * V.gram) ((frame_pair V C' C').trans hC')
 
 end GlobalTheory.TwistFormsOrth
-
-end

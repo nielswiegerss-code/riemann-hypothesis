@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.Total
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial
 
 namespace GlobalTheory.CompactHowe
@@ -27,5 +25,3 @@ theorem substF_mul {ι : Type} {N n : ℕ} (h h' : ι → Matrix (Fin N) (Fin N)
   exact congrArg (fun f => f P) key
 
 end GlobalTheory.CompactHowe
-
-end

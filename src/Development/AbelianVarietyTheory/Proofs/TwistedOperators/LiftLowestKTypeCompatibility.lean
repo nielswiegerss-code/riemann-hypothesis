@@ -12,8 +12,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.ExistsChosenExtremalVector
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.MainNotions.S Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Lev Formalism.IndefR.Datum Formalism.L2.Pj Formalism.IndefR.FWT Formalism.IndefR
 
 namespace GlobalTheory.ThetaProjEquiv
@@ -160,5 +158,3 @@ theorem finiteGroup_acts_by_lift_translation_principalType (R : RealDat D A Ks) 
   exact hx
 
 end GlobalTheory.ThetaProjEquiv
-
-end

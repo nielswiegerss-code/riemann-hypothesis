@@ -4,7 +4,6 @@ public import Formalism.SharpRestriction.Divisibility.SchurIrreducible
 
 @[expose] public section
 
-noncomputable section
 namespace GlobalTheory.PolarU.Conj
 open Formalism.BasicNotions.TH Formalism.MainNotions.SchurIrreducible GlobalTheory.PolarU Matrix MeasureTheory
 open scoped Kronecker

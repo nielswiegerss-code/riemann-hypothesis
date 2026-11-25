@@ -41,8 +41,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum MeasureTheory NumberField
 
 namespace GlobalTheory.Chain.VacVec
@@ -80,5 +78,3 @@ theorem cart_isCartanInv {V : HSp D} {S : D.what₂.Tau → SPar} (M : DSModel V
   simpa only [Matrix.mul_one] using Matrix.PosDef.one.conjTranspose_mul_mul_same hinj
 
 end GlobalTheory.Chain.VacVec
-
-end

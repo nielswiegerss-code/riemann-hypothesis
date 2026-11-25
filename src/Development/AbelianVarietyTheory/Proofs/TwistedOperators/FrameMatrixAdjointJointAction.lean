@@ -60,7 +60,6 @@ open Formalism.MainNotions.SchurIrreducible (IsSplit)
 open GlobalTheory.LGrp (IsUnitarisable IsIrrSmooth bcParam)
 open scoped TensorProduct
 
-noncomputable section
 namespace GlobalTheory.AdjAct
 
 variable {D : D7}

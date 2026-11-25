@@ -49,8 +49,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.PRep GlobalTheory.SplitWeil GlobalTheory.SmGL GlobalTheory.InertSupp ValuativeRel Matrix MeasureTheory
 open GlobalTheory.IwahoriInj (Deep)
 

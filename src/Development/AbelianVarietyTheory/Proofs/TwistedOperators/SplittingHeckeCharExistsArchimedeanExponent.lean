@@ -9,8 +9,6 @@ public import Development.AbelianVarietyTheory.Proofs.HeightProofs.IsFundamental
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR.Datum
 open scoped TensorProduct
 
@@ -104,5 +102,3 @@ theorem exists_hasInfExp : ∀ (D : D7) (θ : InfFam D) (χ : (AE D)ˣ →* Circ
   rwa [MonoidHom.comp_apply, ex, hz] at this
 
 end GlobalTheory.SplitCharExp
-
-end

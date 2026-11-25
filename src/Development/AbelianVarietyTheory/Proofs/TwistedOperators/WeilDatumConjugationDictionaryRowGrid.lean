@@ -16,8 +16,6 @@ open GlobalTheory.FinPl (Lat idAt idOff intAt grpAt grpOff MxAt latV latA InK Mo
 open scoped nonZeroDivisors ContDiff
 open GlobalTheory.AscFin
 
-noncomputable section
-
 namespace GlobalTheory.ConjDict
 
 open GlobalTheory.IndefiniteRowSideFullHecke.ConjugateAdjointDagger GlobalTheory.ConjWeil
@@ -132,5 +130,3 @@ theorem conj_dict : GlobalTheory.SepRows.DepFixed → All fun {D} _ {L} _ {G} W 
   rw [e, star_star]
 
 end GlobalTheory.ConjDict
-
-end

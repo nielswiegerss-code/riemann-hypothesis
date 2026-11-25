@@ -5,8 +5,6 @@ public import Formalism.LocalToGlobal.Columns.CoefficientsModP.FkMapInitMinor
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.L2.DIV MvPolynomial
 
 namespace GlobalTheory.RowRat
@@ -91,5 +89,3 @@ theorem coeff_map_mem {ι : Type} [Fintype ι] {n n' : ℕ} {σ : ι → Formali
   exact Subfield.mul_mem _ (RingHom.mem_fieldRange.2 (repr_mem_of_coeff σ κ v hv b)) (RingHom.mem_fieldRange.2 (hf a b))
 
 end GlobalTheory.RowRat
-
-end

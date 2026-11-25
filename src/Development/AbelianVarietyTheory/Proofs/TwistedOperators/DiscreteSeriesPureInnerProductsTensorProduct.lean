@@ -48,8 +48,6 @@ import Mathlib.Topology.Sheaves.Init
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum Matrix GlobalTheory.Chain GlobalTheory.Chain.RealIt
 open scoped TensorProduct InnerProductSpace
 
-noncomputable section
-
 namespace GlobalTheory.Chain.RealIt
 
 variable {D : D7} {V : HSp D} {S : D.what₂.Tau → SPar}
@@ -198,5 +196,3 @@ theorem tensorLaw : ∀ (D : D7) (V : HSp D) (S : D.what₂.Tau → SPar) (M : D
     · simp [Function.update_of_ne h]
 
 end GlobalTheory.Chain.RealIt
-
-end

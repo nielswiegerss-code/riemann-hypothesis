@@ -11,7 +11,6 @@ open scoped InnerProductSpace
 open GlobalTheory.SepReal
 open scoped ContDiff
 
-noncomputable section
 namespace GlobalTheory.SepReal.ProjSm
 
 variable {m : ℕ}

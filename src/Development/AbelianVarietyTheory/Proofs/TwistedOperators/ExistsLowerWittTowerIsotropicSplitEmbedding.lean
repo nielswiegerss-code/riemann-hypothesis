@@ -45,8 +45,6 @@ public import Development.AbelianVarietyTheory.Proofs.HeightProofs.MemberDatumOf
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum MeasureTheory NumberField Matrix
 open GlobalTheory.IndefiniteRowSideFullHecke.AdjointIsotropicDecomposition
 
@@ -104,5 +102,3 @@ theorem exists_isoSplit : ∀ (D : D7) (V : HSp D) (S : D.what₂.Tau → SPar) 
     exact ⟨s.1, s.2, e1, e2, hs'⟩
 
 end GlobalTheory.TowerSplit
-
-end

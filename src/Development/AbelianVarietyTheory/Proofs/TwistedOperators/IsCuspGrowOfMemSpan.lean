@@ -41,8 +41,6 @@ import Mathlib.Tactic.NormNum.RealSqrt
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum
 open Matrix MeasureTheory GlobalTheory.Chain GlobalTheory.Chain.RealIt
 open scoped TensorProduct InnerProductSpace Classical
@@ -98,5 +96,3 @@ theorem isCuspGrow_of_mem_span : ∀ (D : D7) (θ : InfFam D) (V : HSp D),
   | smul c x _ hx => exact isCuspGrow_smul c hx
 
 end GlobalTheory.Chain.CuspGrowSpace
-
-end

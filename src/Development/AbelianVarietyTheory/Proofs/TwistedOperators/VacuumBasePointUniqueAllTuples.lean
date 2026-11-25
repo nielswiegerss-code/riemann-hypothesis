@@ -45,8 +45,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open IsDedekindDomain NumberField MeasureTheory Matrix GlobalTheory.ChiGrid GlobalTheory.FunObj GlobalTheory.RowTest GlobalTheory.StdFrames GlobalTheory.RowClaim
 open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow GlobalTheory.RowUnf GlobalTheory.RowChain GlobalTheory.SeeSaw GlobalTheory.RowVal GlobalTheory.RowReal
 
-noncomputable section
-
 namespace GlobalTheory.RowBaseUniq
 open GlobalTheory.RootEx GlobalTheory.RowRep
 
@@ -187,5 +185,3 @@ theorem isBase_unique : Big fun ch => ∀ t t' b b', IsBase t ch.S.B b → IsBas
   ⟨0, fun _ _ _ => ⟨0, fun _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ch _ _ _ _ _ _ h h' => isBase_eq ch.S.B h h'⟩⟩
 
 end GlobalTheory.RowBaseUniq
-
-end

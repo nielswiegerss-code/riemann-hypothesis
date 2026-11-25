@@ -55,8 +55,6 @@ public import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsB
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum Formalism.IndefR.Links
 open IsDedekindDomain NumberField MeasureTheory Matrix
 open scoped TensorProduct
@@ -192,5 +190,3 @@ theorem kerBig_eq : ∀ {D : D7} {T : Type} {L : LevCh D T} {sc : Consts} {G : G
   ring
 
 end GlobalTheory.SquareDict.ExactBig
-
-end

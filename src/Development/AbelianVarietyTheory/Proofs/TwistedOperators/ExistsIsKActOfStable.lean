@@ -41,8 +41,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum
 open Matrix MeasureTheory GlobalTheory.Chain GlobalTheory.Chain.RealIt
 open GlobalTheory.IndefiniteRowSideFullHecke.KTypeExtension (kFin KVec KMap maxCpt rep_mem_kFin)
@@ -85,5 +83,3 @@ theorem kFin_smooth_isKAct : ∀ (D : D7) (V : HSp D) (S : D.what₂.Tau → SPa
   exact (hk _).2 ⟨_, (hM.der Z hZ v y hv.symm).symm⟩
 
 end GlobalTheory.Chain.IoLift
-
-end

@@ -23,8 +23,6 @@ open scoped TensorProduct
 open GlobalTheory.FunObj GlobalTheory.ChiGrid GlobalTheory.SplitFlip GlobalTheory.SplitWeil GlobalTheory.StdFrames Formalism.L2.DIV
 open GlobalTheory.RouteSeesaw GlobalTheory.ChainFr
 
-noncomputable section
-
 namespace GlobalTheory.SquareAlg
 
 open GlobalTheory.MixModel GlobalTheory.FockAdjoint
@@ -317,5 +315,3 @@ theorem datumA_mem_algF : ∀ {D : D7} {T : Type} {L : LevCh D T} {sc : Consts} 
   exact key
 
 end GlobalTheory.SquareAlg
-
-end

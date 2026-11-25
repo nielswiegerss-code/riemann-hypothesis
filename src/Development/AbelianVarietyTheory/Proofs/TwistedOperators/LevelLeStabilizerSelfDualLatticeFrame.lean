@@ -16,8 +16,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.TwistedLevelValues GlobalTheory.Ade
 
 
 
-noncomputable section
-
 namespace GlobalTheory.LevelInLatStab
 
 theorem mulVec_mem_of_integral {A B : Type} [CommRing A] [CommRing B] {n : ℕ} (e : A ≃+* B) (S : Subring B)

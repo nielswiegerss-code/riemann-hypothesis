@@ -10,8 +10,6 @@ public import Formalism.LocalToGlobal.Divisibility.ProjLemmas
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.MainNotions.S MeasureTheory IsDedekindDomain NumberField Matrix
 open Formalism.L2.Theta Formalism.L2.DIV Formalism.L2.Indef Formalism.DivisionValues
 open Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult
@@ -253,5 +251,3 @@ theorem aForm : ∀ {D : D7} {G : Type} [Group G] [Fintype G] {Pl0 T : Type} {A 
     (hz.2 x (hle hx))
 
 end GlobalTheory.LiftScalarL
-
-end

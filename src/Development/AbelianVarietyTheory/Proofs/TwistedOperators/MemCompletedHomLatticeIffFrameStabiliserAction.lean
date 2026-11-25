@@ -53,8 +53,6 @@ open scoped TensorProduct
 
 
 
-noncomputable section
-
 namespace GlobalTheory.LatStab
 
 variable {D : D7}
@@ -148,5 +146,3 @@ theorem mem_latO_iff_actO_mem : ∀ (D : D7) (S T : HSp D) (ΛS : Submodule (�
   rwa [h2] at h1
 
 end GlobalTheory.LatStab
-
-end

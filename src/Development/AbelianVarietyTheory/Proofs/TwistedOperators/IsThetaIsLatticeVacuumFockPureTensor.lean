@@ -54,8 +54,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.LevelPlusSubgroup (coefPlus Cols Si
 open GlobalTheory.SepRows GlobalTheory.CoreOnto
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.FockLatVac
 
 theorem infPart_latO_any {D : D7} {S T : HSp D} {LS : Set (Fin S.rank → D.host.E)} {LT : Set (Fin T.rank → D.host.E)}
@@ -73,5 +71,3 @@ theorem theta_isLatVac_pureTensorO : ∀ {D : D7} (ψ : AddChar (AF D.host.F) �
       (infPart_latO_any hu) (hvac.2 e he u hu hh) φ
 
 end GlobalTheory.FockLatVac
-
-end

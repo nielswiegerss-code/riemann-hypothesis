@@ -52,8 +52,6 @@ open Formalism.MainNotions.TaylorLogMetric Formalism.MainNotions.StandardLattice
 open scoped TensorProduct
 open GlobalTheory.MovedDict Formalism.L2.Ker GlobalTheory.SignedHC
 
-noncomputable section
-
 namespace GlobalTheory.MovedDict
 
 open scoped Matrix
@@ -106,5 +104,3 @@ theorem isSelfDualC_inV : ∀ {D : D7} (S : HSp D) (fr : GL (Fin S.rank) D.host.
       exact ⟨b, hb⟩
 
 end GlobalTheory.MovedDict
-
-end

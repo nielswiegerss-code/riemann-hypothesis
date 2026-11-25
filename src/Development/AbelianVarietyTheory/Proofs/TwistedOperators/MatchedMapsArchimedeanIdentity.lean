@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFockMap
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.KStableLie
 
 open scoped TensorProduct Matrix
@@ -35,5 +33,3 @@ theorem mem_of_isExp {V : Type} [AddCommGroup V] [Module ℂ V] {L U : Module.En
 
 
 end GlobalTheory.KStableLie
-
-end

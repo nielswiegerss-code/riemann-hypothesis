@@ -44,8 +44,6 @@ public import Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain
 open Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Lev Formalism.L2.Pj
   Formalism.IndefR.FWT

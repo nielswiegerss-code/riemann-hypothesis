@@ -50,8 +50,6 @@ import Development.AbelianVarietyTheory.Statements.HeckeThetaIntegrals.FormulaAt
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Datum Formalism.IndefR.Links Formalism.L2.DIV
 open IsDedekindDomain NumberField MeasureTheory GlobalTheory.ChiGrid GlobalTheory.FunObj GlobalTheory.RowTest GlobalTheory.StdFrames GlobalTheory.RowClaim GlobalTheory.FlipRun
 
-noncomputable section
-
 namespace GlobalTheory.FlipTop
 
 open GlobalTheory.FunObj.Comparison₂
@@ -171,5 +169,3 @@ theorem isSBHalf_topFn : ∀ {D : D7} {T : Type} {L : LevCh D T} {sc : Consts} (
     rwa [smul_smul, mul_comm (b * Ideal.absNorm 𝔪) a, ← hK] at this
 
 end GlobalTheory.FlipTop
-
-end

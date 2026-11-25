@@ -48,8 +48,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open scoped InnerProductSpace TensorProduct
 
 namespace GlobalTheory.Contr
@@ -166,5 +164,3 @@ theorem contrTensor : ContrTensor := by
 theorem contraction : Contraction := ⟨contrHilbert, contrTensor⟩
 
 end GlobalTheory.Contr
-
-end

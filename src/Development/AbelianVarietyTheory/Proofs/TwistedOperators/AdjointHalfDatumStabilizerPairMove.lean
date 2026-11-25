@@ -45,8 +45,6 @@ import Formalism.LocalToGlobal.ProjectiveLattices.ErealAddIInf
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.MainNotions.S Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Lev Formalism.IndefR.Datum Formalism.L2.Pj Formalism.IndefR.FWT Formalism.IndefR GlobalTheory.VecInv
 open scoped TensorProduct
 
@@ -370,5 +368,3 @@ theorem adjDatum_actO : ∀ (D : D7) (S T : HSp D) (βS : GL (Fin S.rank) (Lev.E
   · rw [ite_eq_right hx, ite_eq_right (fun h' => hx (hiff.mp h')), mul_zero]
 
 end GlobalTheory.AdjDatumMove
-
-end

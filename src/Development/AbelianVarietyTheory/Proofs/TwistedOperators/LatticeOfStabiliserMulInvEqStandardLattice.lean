@@ -19,7 +19,6 @@ open scoped TensorProduct
 open GlobalTheory.MovedDict Formalism.L2.Ker GlobalTheory.SignedHC
 
 
-noncomputable section
 namespace GlobalTheory.LatStdStab
 open Matrix
 

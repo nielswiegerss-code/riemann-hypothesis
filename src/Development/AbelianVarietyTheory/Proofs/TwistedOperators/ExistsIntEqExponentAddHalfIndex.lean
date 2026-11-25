@@ -61,7 +61,6 @@ open Formalism.L2.Host (HChar)
 open GlobalTheory.IndefiniteRowSideFullHecke.UnitCharTriangle (Tri)
 open GlobalTheory.RowEx MeasureTheory
 
-noncomputable section
 open scoped TensorProduct
 
 namespace GlobalTheory.SplitParity

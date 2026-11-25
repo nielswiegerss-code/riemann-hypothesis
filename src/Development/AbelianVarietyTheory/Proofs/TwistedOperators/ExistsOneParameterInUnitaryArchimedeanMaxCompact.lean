@@ -44,8 +44,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct Matrix
 open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.BasicNotions.TH GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 
@@ -83,5 +81,3 @@ theorem exists_line_in_kInf : ∀ (F E : Type) [Field F] [NumberField F] [Field 
   exact commute_of_gen (A w) A' hAA _ _ (Y w) (hKC w) t.toAdd (hAθ w) (hgen t.toAdd w)
 
 end GlobalTheory.CompactLine
-
-end

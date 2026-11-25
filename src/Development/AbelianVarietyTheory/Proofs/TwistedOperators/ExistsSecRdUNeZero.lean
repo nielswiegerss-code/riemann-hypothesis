@@ -62,8 +62,6 @@ import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPinnedOfIsUnf
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.DictLevel
 
 section NonZero

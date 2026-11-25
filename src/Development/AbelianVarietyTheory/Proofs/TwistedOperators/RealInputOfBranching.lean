@@ -10,8 +10,6 @@ open MeasureTheory Matrix Finset Formalism.MainNotions.S Formalism.REAL Formalis
 open scoped InnerProductSpace
 open GlobalTheory.SepReal
 
-noncomputable section
-
 namespace GlobalTheory.SepReal.RealAsm
 
 variable {m : ℕ} {H : Type} [NormedAddCommGroup H] [InnerProductSpace ℂ H]
@@ -69,5 +67,3 @@ theorem gap_mono {k : ℕ} {ε : Fin k → Bool} {lam : Fin k → ℝ} {a b : �
     GapAtLeast ε lam a := fun x y hxy => hab.trans (h x y hxy)
 
 end GlobalTheory.SepReal.RealAsm
-
-end

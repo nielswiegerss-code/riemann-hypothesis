@@ -10,7 +10,6 @@ public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.MeasurePr
 open MeasureTheory ValuativeRel Matrix GlobalTheory.SplitWeil GlobalTheory.SplitFlip GlobalTheory.ColFourier
 open scoped Topology
 
-noncomputable section
 namespace GlobalTheory.ColFourier
 
 variable {k : Type} [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]

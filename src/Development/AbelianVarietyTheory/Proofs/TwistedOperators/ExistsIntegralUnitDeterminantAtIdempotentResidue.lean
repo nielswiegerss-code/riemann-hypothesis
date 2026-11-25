@@ -45,8 +45,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.IsUnitaryOnTheta
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Formalism.BasicNotions Formalism.MainNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.L2.DIV Formalism.IndefR.Links Formalism.IndefR.Lev Formalism.IndefR.Datum Formalism.IndefR GlobalTheory.WeilParts
 open scoped TensorProduct
 
@@ -102,5 +100,3 @@ theorem exists_detAt_int : ∀ (D : D7) (V : HSp D) (β : GL (Fin V.rank) (Lev.E
     toEAf_detAt_mem hg e he, fun PP hP => res_detAt hg e he PP hP⟩
 
 end GlobalTheory.StabDet
-
-end

@@ -57,8 +57,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.UnitCharTriangle (Tri)
 open GlobalTheory.RowEx
 open MeasureTheory GlobalTheory.SplitFlip GlobalTheory.SplitWeil GlobalTheory.StdFrames
 
-noncomputable section
-
 namespace GlobalTheory.SmallKerInv
 
 open GlobalTheory.FinPl

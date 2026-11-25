@@ -45,8 +45,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.ExistsChosenExtremalVector
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain
 
 namespace GlobalTheory.HeckeClassSums

@@ -62,8 +62,6 @@ open scoped TensorProduct ComplexConjugate
 open GlobalTheory.SquareComm
 open scoped GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 
-noncomputable section
-
 namespace GlobalTheory.TripleDarboux
 
 open GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels (Base Spc Model SplitsFully Chars HasExp)
@@ -122,5 +120,3 @@ theorem exists_good_place (D : D7) (S : Finset (HeightOneSpectrum (𝓞 D.host.F
     exact GlobalTheory.GoodPlace.ncard_primesOver_eq_two (GlobalTheory.AdelicU.isCMExt_host D).2.2.1 hp h v hv
 
 end GlobalTheory.TripleDarboux
-
-end

@@ -54,8 +54,6 @@ open scoped TensorProduct GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorMode
 
 open GlobalTheory.SquareComm GlobalTheory.SquareAgree
 
-noncomputable section
-
 namespace GlobalTheory.LineAtPlace
 
 variable {D : D7}
@@ -213,5 +211,3 @@ theorem GlobalTheory.LineAtPlace.exists_oneP : ∀ (D : D7) (θ : InfFam D) (X :
     by_cases k : i = j
     · subst k; simp
     · simp [Matrix.one_apply_ne k, Matrix.one_apply_ne (e.injective.ne k)]
-
-end

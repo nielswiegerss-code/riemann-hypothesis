@@ -51,7 +51,6 @@ import Mathlib.Tactic.NormNum.RealSqrt
 @[expose] public section
 
 open NumberField AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor ReciprocityTheory.ChartRestriction.G.FD Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.L2.Theta Formalism.L2.Pj ReciprocityTheory.ChartRestriction.G.PullbackSections
-noncomputable section
 
 namespace GlobalTheory.ThetaWitness
 

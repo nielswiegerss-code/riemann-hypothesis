@@ -52,8 +52,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory GlobalTheory.PRep GlobalTheory.SplitWeil GlobalTheory.SmGL GlobalTheory.SmGL.Exponents GlobalTheory.JHMult ValuativeRel
 
 namespace GlobalTheory.SmGL.Exponents.Additive

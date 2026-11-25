@@ -49,8 +49,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.LocalNewformFunction
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory NumberField Matrix
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.ScalarAnnih
 
 open IsDedekindDomain GlobalTheory.Idele
@@ -94,5 +92,3 @@ theorem exists_compact_of_annih : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ),
     exists_compact_annihilator_finiteAdeles_traceChar D.host.F ψ hψ.1.1 (GlobalTheory.StdRat.stdChar_fin_rat D ψ hψ) O hO
 
 end GlobalTheory.ScalarAnnih
-
-end

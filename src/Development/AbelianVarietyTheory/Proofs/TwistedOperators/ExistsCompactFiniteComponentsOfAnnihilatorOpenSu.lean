@@ -50,7 +50,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open scoped TensorProduct
 
 open GlobalTheory.MixModel GlobalTheory.Unf
-noncomputable section
 
 namespace GlobalTheory.AnnihMat
 

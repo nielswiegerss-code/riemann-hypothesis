@@ -7,7 +7,6 @@ public import Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries
 open MeasureTheory ValuativeRel Matrix IsLocalRing
 open scoped Pointwise ENNReal
 
-noncomputable section
 namespace GlobalTheory.LevelUnfold
 open GlobalTheory.SplitWeil GlobalTheory.RootEx GlobalTheory.LatPair GlobalTheory.IndefiniteRowSideFullHecke.FlagVolumeFiltration
 

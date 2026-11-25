@@ -6,7 +6,6 @@ public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.OneLeHtE
 
 open NumberField
 
-noncomputable section
 namespace GlobalTheory.RatCount
 open GlobalTheory.AdelicU Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes IsDedekindDomain Formalism.UG
 open scoped TensorProduct NNReal

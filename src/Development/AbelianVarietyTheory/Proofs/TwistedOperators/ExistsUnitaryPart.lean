@@ -54,8 +54,6 @@ import Formalism.LocalToGlobal.IndefiniteReal.SelfDualFullLattice
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice IsDedekindDomain NumberField Matrix
 open Formalism.L2.Theta Formalism.IndefR.Lev Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.L2.DIV GlobalTheory.IndefiniteRowSideFullHecke.IsometryCarriesCharacter
 open scoped TensorProduct
@@ -550,5 +548,3 @@ theorem isLocLatIsom_map {V V' : HSp D} {Λ : Submodule (𝓞 D.host.E) (Fin V.r
   exact loc_gen D.sp.cm.sig v Λ Λ' V.gram V'.gram j hb hi hl
 
 end GlobalTheory.FinAdIdent
-
-end

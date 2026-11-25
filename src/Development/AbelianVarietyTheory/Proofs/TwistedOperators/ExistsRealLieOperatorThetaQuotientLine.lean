@@ -59,8 +59,6 @@ open scoped TensorProduct ComplexConjugate
 open GlobalTheory.SquareComm
 open scoped GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 
-noncomputable section
-
 namespace GlobalTheory.RealLieOp
 
 open GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.WeilM GlobalTheory.RealLift

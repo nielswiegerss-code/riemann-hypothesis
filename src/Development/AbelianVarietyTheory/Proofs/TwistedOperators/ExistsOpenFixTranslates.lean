@@ -66,8 +66,6 @@ open GlobalTheory.Tow
 
 open scoped Topology
 
-noncomputable section
-
 namespace GlobalTheory.VacTranslate
 
 variable {D : D7}

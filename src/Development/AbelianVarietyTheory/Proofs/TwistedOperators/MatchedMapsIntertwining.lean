@@ -13,8 +13,6 @@ open NumberField IsDedekindDomain
 open scoped TensorProduct
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.WeilM GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 
-noncomputable section
-
 namespace GlobalTheory.HoweGlobal
 
 theorem decomp {M₀ : Type} [AddCommGroup M₀] [Module ℂ M₀] {ι : Type} [Fintype ι] {M : ι → Type}
@@ -41,5 +39,3 @@ theorem decomp {M₀ : Type} [AddCommGroup M₀] [Module ℂ M₀] {ι : Type} [
     simp
 
 end GlobalTheory.HoweGlobal
-
-end

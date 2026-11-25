@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchurAdmissibleA
 
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.ExtTensorIrr
 
 open GlobalTheory.PRep GlobalTheory.SmGL GlobalTheory.SplitWeil

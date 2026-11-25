@@ -40,8 +40,6 @@ import Mathlib.Tactic.NormNum.RealSqrt
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Datum Formalism.IndefR.Links Formalism.L2.DIV
 open IsDedekindDomain NumberField MeasureTheory GlobalTheory.ChiGrid GlobalTheory.FunObj GlobalTheory.RowTest GlobalTheory.StdFrames GlobalTheory.RowClaim
 
@@ -76,5 +74,3 @@ theorem isMeasDef_of_isTermVol {L : LevCh D T} {sc : Consts} {G : GridData L sc}
     exact e
 
 end GlobalTheory.RowClaim.TermVolDef
-
-end

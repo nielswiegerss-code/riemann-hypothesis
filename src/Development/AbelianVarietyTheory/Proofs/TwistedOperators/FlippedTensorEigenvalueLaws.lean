@@ -52,8 +52,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open IsDedekindDomain NumberField MeasureTheory Matrix ValuativeRel GlobalTheory.ChiGrid GlobalTheory.FunObj GlobalTheory.SplitFlip GlobalTheory.SplitWeil GlobalTheory.StepData
 open GlobalTheory.RowTest GlobalTheory.StdFrames GlobalTheory.RowClaim
 
-noncomputable section
-
 namespace GlobalTheory.FirstRowEndLaw
 
 section Local

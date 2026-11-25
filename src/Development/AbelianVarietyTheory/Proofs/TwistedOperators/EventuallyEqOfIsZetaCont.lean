@@ -45,8 +45,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.LiftPole
 
 open scoped Topology
@@ -291,5 +289,3 @@ theorem simplePole_of_hecke (hH : GlobalTheory.Published.HeckeLPartialContinuati
       ring
 
 end GlobalTheory.LiftPole
-
-end

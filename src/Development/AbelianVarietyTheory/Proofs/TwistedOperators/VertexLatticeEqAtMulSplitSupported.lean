@@ -57,8 +57,6 @@ open scoped TensorProduct
 open GlobalTheory.MovedDict Formalism.L2.Ker GlobalTheory.SignedHC
 
 
-noncomputable section
-
 namespace GlobalTheory.MovedSplitEq
 open Matrix
 
@@ -310,5 +308,3 @@ theorem eqAt_latAt_mul : ∀ {D : D7} {T : Type} {L : LevCh D T} {sc : GlobalThe
   exact ⟨p ^ c, Nat.Coprime.pow_left _ hcop, hc⟩
 
 end GlobalTheory.MovedSplitEq
-
-end

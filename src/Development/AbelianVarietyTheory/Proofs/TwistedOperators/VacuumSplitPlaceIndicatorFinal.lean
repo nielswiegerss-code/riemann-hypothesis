@@ -54,8 +54,6 @@ import Mathlib.Topology.Sheaves.Init
 open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 open scoped TensorProduct Matrix GlobalTheory.VacAny
 
-noncomputable section
-
 namespace GlobalTheory.DblVacLineTransp
 
 variable {F E : Type} [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E]
@@ -228,5 +226,3 @@ theorem dbl_line_co {σ : E →ₐ[F] E} {n d : ℕ} {X : Spc F E n} {Y : Spc F 
   exact ⟨c', by rw [hT, hc', GlobalTheory.VacTransport.tens_smul, ← hΦt]⟩
 
 end GlobalTheory.DblVacLineTransp
-
-end

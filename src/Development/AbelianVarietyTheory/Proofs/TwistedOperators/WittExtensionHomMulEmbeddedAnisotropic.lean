@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ComplexEmbedd
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR.Datum MeasureTheory IsDedekindDomain NumberField Matrix GlobalTheory.MixModel GlobalTheory.MixPer
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.JacHom
 
 variable {D : D7}
@@ -215,5 +213,3 @@ theorem jacS_hom : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ) (S S₀ T : HSp
   rw [cenS_mul d hx hB hC, hcB, cenS_nC, hpC, symplOH_zero_right, zero_add, add_zero]
 
 end GlobalTheory.JacHom
-
-end

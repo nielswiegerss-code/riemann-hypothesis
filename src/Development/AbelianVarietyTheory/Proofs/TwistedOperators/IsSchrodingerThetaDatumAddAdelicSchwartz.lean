@@ -47,7 +47,6 @@ open GlobalTheory.Grid GlobalTheory.Doubling GlobalTheory.ChainFr GlobalTheory.I
 open scoped TensorProduct GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 
 open GlobalTheory.SquareComm GlobalTheory.SquareAgree
-noncomputable section
 
 namespace GlobalTheory.SquareAgree
 

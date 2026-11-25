@@ -12,8 +12,6 @@ open Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Lev Formalism.Inde
 open scoped TensorProduct InnerProductSpace
 open GlobalTheory.LiftRows
 
-noncomputable section
-
 namespace GlobalTheory.PosAtBase
 
 variable {D : D7} {G : Type} [Group G] [Fintype G] {Pl0 I0 T : Type} {A3 : FamIn3 D.what₂.LL G Pl0 I0 (List ℕ) T D.R.m}

@@ -41,8 +41,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum
 open Matrix MeasureTheory GlobalTheory.Chain GlobalTheory.Chain.RealIt
 open GlobalTheory.IndefiniteRowSideFullHecke.KTypeExtension (kFin KVec KMap maxCpt rep_mem_kFin)
@@ -120,5 +118,3 @@ theorem locKer_of_coverKer (D : D7) (V W : HSp D) (S S' : D.what₂.Tau → SPar
   simpa [e₂, hg] using h
 
 end GlobalTheory.Chain.IoLift.KerTransfer
-
-end

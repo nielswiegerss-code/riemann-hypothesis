@@ -49,8 +49,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow GlobalTheory.Un
 open scoped TensorProduct
 open GlobalTheory.Asc GlobalTheory.Unf.FB GlobalTheory.Unf.FB.ThLaws
 
-noncomputable section
-
 namespace GlobalTheory.Unf.FB.ThLawsL
 
 variable {D : D7}
@@ -123,5 +121,3 @@ theorem th_laws : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ), IsStdChar D ψ 
     ring
 
 end GlobalTheory.Unf.FB.ThLawsL
-
-end

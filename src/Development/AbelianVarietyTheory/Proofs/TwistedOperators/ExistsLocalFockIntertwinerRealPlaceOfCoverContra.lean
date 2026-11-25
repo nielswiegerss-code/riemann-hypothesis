@@ -49,8 +49,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum Matrix GlobalTheory.Chain GlobalTheory.Chain.RealIt
 open GlobalTheory.IndefiniteRowSideFullHecke.BarMatrix
 open scoped TensorProduct InnerProductSpace
@@ -189,5 +187,3 @@ theorem exists_locIt (D : D7) (V W : HSp D) (S S' : D.what₂.Tau → SPar) (M :
       abel
 
 end GlobalTheory.Chain.RealIt.LocalFromCover
-
-end

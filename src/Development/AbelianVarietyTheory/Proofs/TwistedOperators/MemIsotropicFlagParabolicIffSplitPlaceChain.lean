@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitIncl
 open Formalism.BasicNotions Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes IsDedekindDomain NumberField GlobalTheory.AdelicU GlobalTheory.Cusp
 open scoped Matrix TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.SplitFlag
 
 open GlobalTheory.IndefiniteRowSideFullHecke.AdelicUnitaryGroups (perp extSub coordR act parab)

@@ -73,8 +73,6 @@ import Mathlib.Tactic.ReduceModChar
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Links Formalism.IndefR.Mult Formalism.IndefR.Datum
 open MeasureTheory Matrix GlobalTheory.Chain GlobalTheory.ChainFr GlobalTheory.Grid GlobalTheory.Chain.RealIt GlobalTheory.Chain.IoLift
 open scoped TensorProduct InnerProductSpace Classical
@@ -292,5 +290,3 @@ theorem pairLifts (D : D7) (X : ProvA) (hI : Inputs D X) (hC : CuspAll D X) : Pa
   rfl
 
 end GlobalTheory.PairLift.RuleLift
-
-end

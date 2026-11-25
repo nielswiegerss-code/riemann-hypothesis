@@ -59,7 +59,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 open Filter Topology
 open GlobalTheory.AdelicU
 
-noncomputable section
 open scoped Classical
 namespace GlobalTheory.ThetaLineDer
 

@@ -52,8 +52,6 @@ import Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasBoundedSumsOn
 
 open MeasureTheory ValuativeRel Matrix GlobalTheory.PRep GlobalTheory.SplitWeil GlobalTheory.SmGL GlobalTheory.Doubling GlobalTheory.GLDoubling GlobalTheory.IndefiniteRowSideFullHecke.VolumeFlatSection GlobalTheory.ZonalCellDecomposition GlobalTheory.SatakeBound
 
-noncomputable section
-
 namespace GlobalTheory.ParahoricConjBlocks
 
 variable {k : Type} [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]

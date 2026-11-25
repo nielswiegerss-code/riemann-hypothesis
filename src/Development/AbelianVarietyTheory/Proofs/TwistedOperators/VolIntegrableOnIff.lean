@@ -6,8 +6,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AdelicUnitar
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.MainNotions.StandardLattice Formalism.L2.Theta Formalism.IndefR Formalism.IndefR.Datum Formalism.IndefR.Links
 open IsDedekindDomain NumberField MeasureTheory GlobalTheory.ChiGrid GlobalTheory.FunObj
 
@@ -42,5 +40,3 @@ theorem vol_integrableOn_iff {D : D7} {T : Type} {L : LevCh D T} {sc : Consts} {
   exact h1.2.integrableOn_iff h2.2 fun γ g => hf γ γ.2 g
 
 end GlobalTheory.VolIdent
-
-end

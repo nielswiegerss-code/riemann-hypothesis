@@ -9,8 +9,6 @@ public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPairin
 open GlobalTheory.ArchUniq GlobalTheory.RealWeil MeasureTheory
 open scoped SchwartzMap RealInnerProductSpace
 
-noncomputable section
-
 namespace GlobalTheory.ArchUniq.SchrTransport
 
 variable {V : Type} [NormedAddCommGroup V] [NormedSpace ℝ V]

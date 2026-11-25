@@ -16,7 +16,6 @@ open GlobalTheory.MixModel GlobalTheory.MixPer GlobalTheory.Grow GlobalTheory.Un
 open scoped TensorProduct
 open GlobalTheory.Asc
 
-noncomputable section
 namespace GlobalTheory.JacMean
 
 variable {D : D7}

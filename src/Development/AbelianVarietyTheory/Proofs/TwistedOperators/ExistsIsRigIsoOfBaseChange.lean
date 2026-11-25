@@ -53,8 +53,6 @@ open GlobalTheory.ThetaTrace GlobalTheory.HeckeFrCompare GlobalTheory.PlaceInt
 open scoped CategoryTheory.Obj
 open GlobalTheory.HkIntegral
 
-noncomputable section
-
 namespace GlobalTheory.RigIsoDescent
 
 section General

@@ -18,7 +18,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.PlusPolynomialRoots GlobalTheory.Tr
 open GlobalTheory.IndefiniteRowSideFullHecke.AdelicUnitaryGroups (mapH diagH)
 open scoped TensorProduct ComplexConjugate Matrix
 
-noncomputable section
 namespace GlobalTheory.TrPhiOK
 
 variable {F E : Type} [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E] {σ : E →ₐ[F] E} {r n : ℕ}

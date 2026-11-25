@@ -54,8 +54,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open GlobalTheory.IndefiniteRowSideFullHecke.AdjointIsotropicDecomposition
 open scoped ContDiff
 
-noncomputable section
-
 namespace GlobalTheory.TowerResNonzero
 
 variable {D : D7}
@@ -192,5 +190,3 @@ theorem exists_res_ne_zero : ∀ (D : D7) (V V' W : HSp D) (r : ℕ) (C : Matrix
   exact h0 this
 
 end GlobalTheory.TowerResNonzero
-
-end

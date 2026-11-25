@@ -54,8 +54,6 @@ open Formalism.BasicNotions Formalism.BasicNotions.TH Formalism.MainNotions.Glob
 open IsDedekindDomain NumberField Matrix GlobalTheory.ChiGrid GlobalTheory.FunObj
 open scoped ComplexOrder
 
-noncomputable section
-
 namespace GlobalTheory.RealFockPos
 
 variable {D : D7}
@@ -128,5 +126,3 @@ theorem om_pureTensorO_pos : ∀ (D : D7) (ψ : AddChar (AF D.host.F) ℂ) (θ :
   exact scalar_identity _ _ g0 h0 (e₁ τ) (e₂ τ) S.rank T.rank
 
 end GlobalTheory.RealFockPos
-
-end
