@@ -10,8 +10,6 @@ public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Filter Topology
 
 namespace PI.UnitaryGroupMassFormula.HwConjInf

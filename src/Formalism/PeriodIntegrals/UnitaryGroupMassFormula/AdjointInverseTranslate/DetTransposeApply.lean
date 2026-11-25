@@ -13,8 +13,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.LUFactorOrbitBounds
 
 open Matrix Finset
 
-noncomputable section
-
 namespace AAInvW
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.C3

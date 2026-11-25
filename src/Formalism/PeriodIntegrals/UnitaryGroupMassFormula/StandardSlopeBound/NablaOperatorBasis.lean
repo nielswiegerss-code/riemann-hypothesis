@@ -6,8 +6,6 @@ import Mathlib.Algebra.AffineMonoid.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.SlopeSteps
 
 open MvPolynomial Formalism.GradedWeylDivisibility

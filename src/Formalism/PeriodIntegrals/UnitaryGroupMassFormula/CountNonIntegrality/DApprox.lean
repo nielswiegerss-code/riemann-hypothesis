@@ -9,8 +9,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LocalDualGenerator.IsCl
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.CntNotIntW
 
 open NumberField IsDedekindDomain Formalism.MainNotions.S

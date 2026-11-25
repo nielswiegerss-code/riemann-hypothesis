@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteAdelicComp
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.FinKW
 
 open NumberField IsDedekindDomain

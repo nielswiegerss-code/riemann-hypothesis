@@ -8,8 +8,6 @@ public import Formalism.LocalToGlobal.GlobalTheory.EqGlobOfHat
 
 @[expose] public section
 
-noncomputable section
-
 namespace CrossDiaZero
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.product_first_zeroth_parts Formalism.L2.Forms Formalism.L2.GlobalTheoryTheory Formalism.L2.GlobalTheoryTheory.LocalLatticeBases Formalism.L2.GlobalTheoryTheory.LocalLatticeBases.S0 Formalism.UG
@@ -88,5 +86,3 @@ theorem pr_tr (T : Forms0 D u) (v : (D.mem u).A.vT) (c c' : (D.mem u).C.cls 0)
   simpa [Matrix.mulVec_sub] using h1
 
 end CrossDiaZero
-
-end

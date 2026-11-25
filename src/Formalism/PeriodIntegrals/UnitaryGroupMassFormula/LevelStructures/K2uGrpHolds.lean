@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LevelStructures.
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataLevelSSteps
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub Formalism.L2.SG.Measures Formalism.L2.SG.TypedSets MeasureTheory NumberField

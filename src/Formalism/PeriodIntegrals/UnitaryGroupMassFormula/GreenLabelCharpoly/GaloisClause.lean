@@ -7,8 +7,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GreenLabelCharpo
 
 open Polynomial CategoryTheory Formalism.IrreducibleCountingLemmas.TYPES
 
-noncomputable section
-
 namespace PI.GreenLabelMapW
 
 variable {K : Type} [Field K] [Fintype K] [DecidableEq K]

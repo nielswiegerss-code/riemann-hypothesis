@@ -10,8 +10,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 open Matrix NumberField IsDedekindDomain
 open scoped TensorProduct
 
-noncomputable section
-
 namespace PI.SelfDualLoc.W
 
 open PI.SelfDualLoc

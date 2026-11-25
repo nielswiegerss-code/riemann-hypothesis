@@ -8,8 +8,6 @@ public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain IsDedekindDomain.HeightOneSpectrum WithZero
 
 namespace PI.FinOrdValD.WA

@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicClassFinit
 
 @[expose] public section
 
-noncomputable section
-
 namespace PIW.AdelClassFin
 
 open Formalism.UG

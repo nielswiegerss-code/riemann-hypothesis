@@ -5,8 +5,6 @@ import Mathlib.RingTheory.Valuation.Integral
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataIdxSteps
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub Formalism.L2.SG.TypedSets NumberField IsDedekindDomain Formalism.BasicNotions

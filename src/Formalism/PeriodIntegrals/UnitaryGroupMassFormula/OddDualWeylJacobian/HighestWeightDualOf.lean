@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 
 open MvPolynomial Matrix
 
-noncomputable section
-
 namespace PI.OddDualWeyl.LowA
 
 variable {R : Type*} [CommRing R]

@@ -5,8 +5,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 open scoped ENNReal NNReal Pointwise
 

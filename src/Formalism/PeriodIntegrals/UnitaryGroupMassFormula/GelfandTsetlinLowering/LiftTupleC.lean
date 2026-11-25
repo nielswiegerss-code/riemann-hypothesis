@@ -6,8 +6,6 @@ import Formalism.LocalRingCardinality.Params
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.WGL.LTC
 
 open Formalism.BasicNotions Formalism.GradedWeylDivisibility MvPolynomial PI.WGL.LTA PI.WGL.LTM

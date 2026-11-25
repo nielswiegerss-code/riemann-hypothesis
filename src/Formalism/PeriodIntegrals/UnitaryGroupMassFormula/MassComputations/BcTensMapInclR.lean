@@ -8,8 +8,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.IdxCount
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory NumberField IsDedekindDomain Set
 open Formalism.BasicNotions Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub Formalism.L2.SG.Measures
 open scoped TensorProduct ENNReal Pointwise Matrix

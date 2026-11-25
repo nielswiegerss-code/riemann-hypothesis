@@ -5,8 +5,6 @@ public import Formalism.PeriodIntegrals.AdBridgeSteps
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.FinKW
 
 open NumberField IsDedekindDomain Matrix

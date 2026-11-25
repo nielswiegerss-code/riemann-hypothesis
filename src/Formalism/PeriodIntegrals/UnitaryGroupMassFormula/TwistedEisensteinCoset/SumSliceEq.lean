@@ -9,8 +9,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open NumberField IsDedekindDomain Module
 
-noncomputable section
-
 namespace PI.TwistedEisensteinNonvanishing.W
 
 open Loc LocE Function

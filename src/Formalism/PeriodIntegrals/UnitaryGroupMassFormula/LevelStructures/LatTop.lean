@@ -9,8 +9,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LocalUnitaryOrbits.IsCo
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataLevelSSteps.LatTop
 
 open scoped TensorProduct

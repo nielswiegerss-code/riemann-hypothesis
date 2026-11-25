@@ -8,8 +8,6 @@ public import Formalism.LocalToGlobal.GlobalTheory.EqGlobOfHat
 
 @[expose] public section
 
-noncomputable section
-
 namespace CrossDiaZero
 
 open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.product_first_zeroth_parts Formalism.L2.Forms Formalism.L2.GlobalTheoryTheory Formalism.L2.GlobalTheoryTheory.LocalLatticeBases Formalism.L2.GlobalTheoryTheory.LocalLatticeBases.S0 Formalism.UG
@@ -141,5 +139,3 @@ theorem dnk_char (T : Forms0 D u) (v : (D.mem u).A.vT) (c c1 : (D.mem u).C.cls 0
     exact (memP _ _).mpr ⟨t * s, hPc ht (Ideal.mem_primeCompl_iff.mpr hs),
       (memM _ _ _).mpr ⟨x, hxk1, by rw [hxe, mul_smul]⟩⟩
 end CrossDiaZero
-
-end

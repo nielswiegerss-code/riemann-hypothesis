@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.BridgeCSB
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Filter Topology Matrix
 open scoped ENNReal
 

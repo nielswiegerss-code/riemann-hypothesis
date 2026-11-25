@@ -8,8 +8,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.FractionFieldToGenericStalk
 
 @[expose] public section
 
-noncomputable section
-
 open IsDedekindDomain NumberField ValuativeRel
 
 namespace PI.StrongApproxE

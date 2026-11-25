@@ -56,8 +56,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerVolume.LocDen
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabSW
 open PI.VolStabS (ffGram ffH)
 open PI.VolStabS.FiniteFieldSplitting (swapR V1 U1 ffH_fst ffH_snd)

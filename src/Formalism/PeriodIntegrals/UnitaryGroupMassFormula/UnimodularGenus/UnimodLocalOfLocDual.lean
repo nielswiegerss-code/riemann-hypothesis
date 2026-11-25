@@ -9,8 +9,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open NumberField
 
-noncomputable section
-
 namespace PI.UG.W
 
 theorem stdLat_isOrtho (E : Type) [Field E] [NumberField E] [StarRing E] (n : ℕ) :

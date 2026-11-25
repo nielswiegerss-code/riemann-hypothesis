@@ -7,8 +7,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupCommon.Coeff
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace PI.PhNormUnits.UnitaryGroupMassFormula

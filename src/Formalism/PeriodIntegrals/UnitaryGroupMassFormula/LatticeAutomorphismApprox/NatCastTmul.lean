@@ -8,8 +8,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeAutomorph
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.ScXuExists
 
 open NumberField IsDedekindDomain IsDedekindDomain.HeightOneSpectrum Matrix

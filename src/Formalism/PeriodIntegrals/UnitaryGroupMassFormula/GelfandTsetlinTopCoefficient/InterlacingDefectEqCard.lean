@@ -6,8 +6,6 @@ import Formalism.LocalRingCardinality.Params
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.GTNum
 
 open Formalism.BasicNotions PI Finset

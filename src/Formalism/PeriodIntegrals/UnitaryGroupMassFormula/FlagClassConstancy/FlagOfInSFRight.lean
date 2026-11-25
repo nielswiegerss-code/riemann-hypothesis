@@ -8,8 +8,6 @@ import Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLattic
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Classical
 
 namespace PI.InSClassConstW

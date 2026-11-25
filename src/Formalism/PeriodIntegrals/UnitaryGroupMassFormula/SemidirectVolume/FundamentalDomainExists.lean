@@ -4,8 +4,6 @@ public import Mathlib.MeasureTheory.Group.FundamentalDomain
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolSemiDirect.W
 
 open MeasureTheory

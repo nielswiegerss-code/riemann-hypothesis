@@ -16,8 +16,6 @@ public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.WGL.XiU
 
 open Matrix

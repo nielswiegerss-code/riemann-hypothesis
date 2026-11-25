@@ -10,8 +10,6 @@ import Mathlib.Tactic.TypeStar
 
 open Matrix
 
-noncomputable section
-
 namespace PIQnLT
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q

@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.CntNotIntW
 
 open scoped TensorProduct

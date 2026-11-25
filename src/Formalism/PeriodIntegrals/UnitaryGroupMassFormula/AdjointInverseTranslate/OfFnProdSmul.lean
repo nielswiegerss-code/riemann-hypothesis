@@ -9,8 +9,6 @@ import ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirCoefficients.TopC
 
 open Matrix Finset
 
-noncomputable section
-
 namespace AAInvW
 
 open Formalism.REAL

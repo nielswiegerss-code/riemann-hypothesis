@@ -6,8 +6,6 @@ import Mathlib.RingTheory.PiTensorProduct
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Formalism.MainNotions.S Formalism.L2.SG.HidaSetting
 open scoped TensorProduct
 open Matrix

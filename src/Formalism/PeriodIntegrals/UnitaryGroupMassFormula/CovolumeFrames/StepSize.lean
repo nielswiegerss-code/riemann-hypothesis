@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CovolumeFrames.S
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataVolumesW
 
 open Formalism.BasicNotions Formalism.L2.SG.HidaSetting Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes

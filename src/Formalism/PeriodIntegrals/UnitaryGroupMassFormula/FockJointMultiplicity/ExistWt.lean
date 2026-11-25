@@ -7,8 +7,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockJointMultipl
 
 open MvPolynomial FockH1Action PI.FJM
 
-noncomputable section
-
 namespace PI.FJMX
 
 theorem tele (g : ℕ → ℕ) (hg : ∀ t, g (t + 1) ≤ g t) (i₀ : ℕ) (n : ℕ) :

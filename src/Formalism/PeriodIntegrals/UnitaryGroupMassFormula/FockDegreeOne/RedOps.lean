@@ -10,8 +10,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockRaisingLowering.Rai
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix FockH1Action MvPolynomial FockRaiseLowInner
 
 namespace PI.FockOneDegW.RedOps

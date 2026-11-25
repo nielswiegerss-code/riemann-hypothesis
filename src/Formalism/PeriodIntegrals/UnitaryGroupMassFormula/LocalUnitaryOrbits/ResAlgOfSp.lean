@@ -9,8 +9,6 @@ import Mathlib.RingTheory.PiTensorProduct
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.OmLocU.Red
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub Formalism.L2.SG.LocVol NumberField IsDedekindDomain Formalism.UG

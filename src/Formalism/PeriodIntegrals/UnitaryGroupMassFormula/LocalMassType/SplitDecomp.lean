@@ -5,8 +5,6 @@ import Development.AbelianVarietyTheory.Proofs.UnitaryExistence.RationalPointsAd
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.LocMassTypW
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub Formalism.L2.SG.LocVol NumberField IsDedekindDomain Matrix

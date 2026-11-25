@@ -10,8 +10,6 @@ namespace PI.ArtSch.Glue
 
 open scoped NNReal
 
-noncomputable section
-
 variable {l : ℕ} [hl : Fact l.Prime]
 
 theorem coeff_add_pow (x : OCb l) (n : ℕ) : ∀ k : ℕ,
@@ -118,7 +116,5 @@ theorem tiltGlue : TiltGlue := by
       linear_combination hmap]
   field_simp
   ring
-
-end
 
 end PI.ArtSch.Glue

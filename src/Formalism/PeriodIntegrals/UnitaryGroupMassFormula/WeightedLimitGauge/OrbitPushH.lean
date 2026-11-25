@@ -9,8 +9,6 @@ public import Mathlib.MeasureTheory.Measure.Haar.Unique
 
 set_option linter.unusedVariables false
 
-noncomputable section
-
 open MeasureTheory Filter Topology Matrix
 open scoped ENNReal
 

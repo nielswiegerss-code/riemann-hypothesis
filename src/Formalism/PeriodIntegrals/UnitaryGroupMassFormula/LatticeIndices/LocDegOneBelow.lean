@@ -9,8 +9,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ValuationLocalVolumes.V
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataIdxRes
 
 open NumberField IsDedekindDomain Ideal

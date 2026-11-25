@@ -7,8 +7,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerOrbitV
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.OmFibreUniq.W.SdAbs
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes MeasureTheory Topology Filter NumberField IsDedekindDomain

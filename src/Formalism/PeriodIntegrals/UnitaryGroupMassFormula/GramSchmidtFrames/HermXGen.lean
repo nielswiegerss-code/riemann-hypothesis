@@ -9,8 +9,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DensityLemma.PFdGramCut
 open MeasureTheory Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.C6
 open Matrix
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.GsFr
 open PI.UnitaryGroupMassFormula.DLm.Gram
 

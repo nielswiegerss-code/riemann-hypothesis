@@ -7,8 +7,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PoleLengthBound.
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.MainNotions Formalism.MainNotions.WeightAlgebra Formalism.BasicNotions NumberField IsDedekindDomain Module Formalism.MainNotions.Gaps.EtaleWeightGaps Finset.HasAntidiagonal
 
 namespace PI.PoleLengthCount

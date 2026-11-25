@@ -5,8 +5,6 @@ import Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.TermDef
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Classical
 
 namespace PI.NRCW

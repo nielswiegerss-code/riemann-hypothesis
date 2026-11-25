@@ -17,8 +17,6 @@ import Mathlib.Topology.MetricSpace.Ultra.TotallySeparated
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.OmFibreUniq.W.SdInst
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes MeasureTheory NumberField IsDedekindDomain

@@ -12,8 +12,6 @@ import Formalism.LocalRingCardinality.Params
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.WMI
 
 open PI.UpqRep Formalism.BasicNotions Formalism.GradedWeylDivisibility MvPolynomial Matrix

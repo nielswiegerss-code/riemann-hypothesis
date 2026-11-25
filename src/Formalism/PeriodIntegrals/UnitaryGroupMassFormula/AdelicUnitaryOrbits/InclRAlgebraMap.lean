@@ -5,8 +5,6 @@ import Mathlib.Tactic.Lemma
 
 @[expose] public section
 
-noncomputable section
-
 namespace PIW.AdelicOrbitU
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Matrix

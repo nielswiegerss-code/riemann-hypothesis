@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.ScRefExists
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Formalism.MainNotions.S
 open scoped TensorProduct
 
@@ -115,5 +113,3 @@ theorem hG_int {x y : Fin I.n → I.E} (hx : x ∈ I.L) (hy : y ∈ I.L) :
 theorem smul_mem_Lf {c : (I.E ⊗[I.F] Af I.F)} (hc : c ∈ IntAf I.F I.E) {x : VA I} (hx : x ∈ I.Lf) : c • x ∈ I.Lf := Submodule.smul_mem _ (⟨c, hc⟩ : IntAf I.F I.E) hx
 
 end PI.ScRefExists.GlueA
-
-end

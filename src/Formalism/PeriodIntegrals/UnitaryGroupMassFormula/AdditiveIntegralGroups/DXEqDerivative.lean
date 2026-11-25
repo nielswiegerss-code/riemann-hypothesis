@@ -7,8 +7,6 @@ public import Mathlib.RingTheory.PowerSeries.Inverse
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace PI.AddIntG.Wk

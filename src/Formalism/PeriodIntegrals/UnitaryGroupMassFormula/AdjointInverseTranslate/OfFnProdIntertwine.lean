@@ -11,8 +11,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdjointInverseTr
 
 open Matrix Finset
 
-noncomputable section
-
 namespace AAInvW
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.C3

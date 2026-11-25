@@ -53,7 +53,6 @@ public import Mathlib.Algebra.Algebra.Hom.Rat
 
 @[expose] public section
 
-noncomputable section
 open scoped ComplexConjugate
 
 namespace PI.UnitaryGroupMassFormula.UnitDetRoot

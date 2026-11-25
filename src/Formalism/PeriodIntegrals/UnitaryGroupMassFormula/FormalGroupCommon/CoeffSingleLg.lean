@@ -10,8 +10,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.FglShared
 
 open MvPowerSeries
@@ -71,5 +69,3 @@ theorem coeff_single_lg {σ : Type} [DecidableEq σ] (l : PowerSeries ℂ_[p]) (
     rw [ite_eq_right hne, ite_eq_right hji]
 
 end PI.FglShared
-
-end

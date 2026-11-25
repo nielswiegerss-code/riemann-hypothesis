@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdditiveIntegral
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace PI.AddIntG.Wk

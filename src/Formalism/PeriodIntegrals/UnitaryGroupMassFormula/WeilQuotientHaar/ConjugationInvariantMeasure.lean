@@ -6,8 +6,6 @@ import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Set Topology
 open scoped ENNReal
 

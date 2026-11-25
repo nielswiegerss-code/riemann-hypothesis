@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LocalVolumeIndic
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.MassDataKppVolLemmas
 
 open scoped TensorProduct Matrix

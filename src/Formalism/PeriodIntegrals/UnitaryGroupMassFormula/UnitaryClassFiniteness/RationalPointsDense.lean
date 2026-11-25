@@ -5,8 +5,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassFini
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix NumberField IsDedekindDomain
 open scoped TensorProduct
 

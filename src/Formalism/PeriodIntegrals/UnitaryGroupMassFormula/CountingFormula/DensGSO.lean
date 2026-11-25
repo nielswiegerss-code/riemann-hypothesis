@@ -8,8 +8,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.Point
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.CntFormula
 
 open NumberField Formalism.MainNotions.S

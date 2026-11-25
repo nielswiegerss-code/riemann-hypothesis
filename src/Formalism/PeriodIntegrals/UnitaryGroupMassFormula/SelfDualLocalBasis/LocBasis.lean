@@ -12,8 +12,6 @@ import Mathlib.Tactic.Lemma
 open Matrix NumberField IsDedekindDomain
 open scoped TensorProduct nonZeroDivisors
 
-noncomputable section
-
 namespace PI.SelfDualLoc.W.LB
 
 open PI.SelfDualLoc

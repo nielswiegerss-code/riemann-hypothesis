@@ -5,8 +5,6 @@ import Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCou
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.SupportDatumW
 
 open NumberField IsDedekindDomain Formalism.MainNotions.S Formalism.MainNotions.S.LocalSplitGroups ValuativeRel

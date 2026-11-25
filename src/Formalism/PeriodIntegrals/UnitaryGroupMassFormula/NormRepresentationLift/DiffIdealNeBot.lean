@@ -5,8 +5,6 @@ public import Mathlib.Algebra.AffineMonoid.Basic
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Classical
 
 namespace PI.NRL

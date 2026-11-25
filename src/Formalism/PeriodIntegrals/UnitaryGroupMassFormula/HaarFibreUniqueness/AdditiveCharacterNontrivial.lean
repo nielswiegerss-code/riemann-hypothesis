@@ -11,8 +11,6 @@ import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBr
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.OmFibreUniq.W.Sd
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes NumberField IsDedekindDomain Topology

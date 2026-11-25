@@ -11,8 +11,6 @@ public import Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Levelaf
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.AdIndexEq
 
 open NumberField IsDedekindDomain IsDedekindDomain.HeightOneSpectrum Matrix
@@ -136,5 +134,3 @@ theorem reduce_local : ReduceLoc := by
     exact hv (hfin.mem_toFinset.2 h))
 
 end PI.UnitaryGroupMassFormula.AdIndexEq
-
-end

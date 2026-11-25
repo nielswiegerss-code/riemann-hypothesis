@@ -14,8 +14,6 @@ public import Mathlib.NumberTheory.ModularForms.Discriminant
 
 open ModularForm EisensteinSeries UpperHalfPlane
 
-noncomputable section
-
 namespace DiscrNeWork
 
 theorem bern6 : bernoulli 6 = 1 / 42 := by
@@ -155,5 +153,3 @@ theorem discrNe_all : PI.DiscrNe := by
   · exact discr_ne_of_pos w₁ w₂ hgt
 
 end DiscrNeWork
-
-end

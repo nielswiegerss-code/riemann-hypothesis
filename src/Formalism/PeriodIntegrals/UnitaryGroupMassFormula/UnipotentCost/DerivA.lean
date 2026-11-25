@@ -12,8 +12,6 @@ import Mathlib.Tactic.TypeStar
 open Matrix Filter Topology
 open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.U Formalism.REAL
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.UsCost.DA
 
 attribute [local instance] Matrix.normedAddCommGroup Matrix.normedSpace

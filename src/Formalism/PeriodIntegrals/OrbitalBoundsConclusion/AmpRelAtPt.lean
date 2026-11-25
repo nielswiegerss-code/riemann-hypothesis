@@ -9,8 +9,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RootSubgroupBasi
 
 open Matrix
 
-noncomputable section
-
 namespace PI.AmpRelAtPt
 
 open Formalism.QuantumDeterminants Formalism.MainNotions.S

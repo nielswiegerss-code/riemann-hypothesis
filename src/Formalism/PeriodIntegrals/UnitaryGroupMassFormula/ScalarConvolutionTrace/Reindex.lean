@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ScalarConvolutio
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace PI.GGConvScalarW

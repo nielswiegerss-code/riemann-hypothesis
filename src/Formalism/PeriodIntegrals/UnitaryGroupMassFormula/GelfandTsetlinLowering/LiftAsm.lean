@@ -13,8 +13,6 @@ import Formalism.LocalRingCardinality.Params
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.WGL
 
 open Formalism.BasicNotions Formalism.GradedWeylDivisibility MvPolynomial

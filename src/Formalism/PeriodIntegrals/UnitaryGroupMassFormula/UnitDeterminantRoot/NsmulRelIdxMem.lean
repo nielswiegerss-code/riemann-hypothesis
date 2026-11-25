@@ -6,7 +6,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
 open scoped ComplexConjugate
 
 namespace PI.UnitaryGroupMassFormula.UnitDetRoot

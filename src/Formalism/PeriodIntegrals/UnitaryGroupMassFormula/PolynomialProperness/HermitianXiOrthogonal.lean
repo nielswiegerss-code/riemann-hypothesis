@@ -10,8 +10,6 @@ public import Formalism.FormalDegreeBessel.FormalDegreeRatio.GBasic
 
 open Matrix Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.C2
 
-noncomputable section
-
 namespace PI.PolynomialProperness.TauN
 
 lemma vmv_mulVec {n : ℕ} (x y u : Fin n → ℂ) : vecMulVec x y *ᵥ u = (y ⬝ᵥ u) • x := by

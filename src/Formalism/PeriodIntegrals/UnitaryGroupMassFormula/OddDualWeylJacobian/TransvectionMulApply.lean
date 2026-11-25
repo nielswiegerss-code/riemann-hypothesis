@@ -8,8 +8,6 @@ import Mathlib.Tactic.TypeStar
 
 open MvPolynomial Matrix
 
-noncomputable section
-
 namespace PI.OddDualWeyl
 
 namespace Intw

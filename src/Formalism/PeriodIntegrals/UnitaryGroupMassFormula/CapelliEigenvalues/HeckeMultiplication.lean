@@ -8,8 +8,6 @@ public import Formalism.FormalDegreeBessel.FormalDegreeRatio.GBasic
 
 open Matrix PI.UpqRep
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.CapelliEig
 
 theorem unitary_Hecke_group : UHGrp := by
@@ -60,5 +58,3 @@ theorem Hecke_multiplication : MulH := by
   exact hm
 
 end PI.UnitaryGroupMassFormula.CapelliEig
-
-end

@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeAbsorption.D
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.SzEatI.W
 
 open Formalism.BasicNotions Formalism.MainNotions.G

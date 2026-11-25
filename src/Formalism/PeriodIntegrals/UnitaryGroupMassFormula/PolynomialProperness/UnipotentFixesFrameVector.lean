@@ -8,8 +8,6 @@ import Formalism.PeriodIntegrals.OrbitalBoundsConclusion.StabPairs
 
 open Matrix Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.C2
 
-noncomputable section
-
 namespace PI.PolynomialProperness
 
 lemma one_mem_UW (k r : ℕ) (z : Fin (2 * r + k + 1) → ℂ) : (1 : B.Mat k r) ∈ UWset k r z := by

@@ -11,8 +11,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CentralCharacters.Quasi
 
 open Matrix Finset
 
-noncomputable section
-
 namespace PI.QnCovDetW
 
 open Formalism.REAL Formalism.FourierDecayAlt.Q

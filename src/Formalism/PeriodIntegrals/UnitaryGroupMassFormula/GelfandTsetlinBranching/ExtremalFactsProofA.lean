@@ -8,8 +8,6 @@ import Formalism.LocalRingCardinality.Params
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.WGB
 
 open Formalism.BasicNotions MvPolynomial

@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.LatticeGluingRadicals
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.CntNotPosW
 
 open Matrix

@@ -11,8 +11,6 @@ import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MemTwKerOfFibIn
 
 @[expose] public section
 
-noncomputable section
-
 open ValuativeRel
 
 namespace PI.IntegralDiscriminantMembership
@@ -361,5 +359,3 @@ theorem card_quot_pi {F : Type} [Field F] [ValuativeRel F] [TopologicalSpace F]
     _ = qF F ^ 2 := by rw [Nat.card_prod, sq]; rfl
 
 end PI.IntegralDiscriminantMembership
-
-end

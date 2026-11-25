@@ -7,8 +7,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockRaisingLower
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix FockH1Action MvPolynomial
 
 namespace PI.FockOneDegW

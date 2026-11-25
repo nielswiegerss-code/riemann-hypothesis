@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilQuotientHaar
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Set
 open scoped ENNReal Pointwise
 

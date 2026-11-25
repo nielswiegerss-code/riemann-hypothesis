@@ -6,8 +6,6 @@ import Mathlib.Algebra.AffineMonoid.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.CntFormula
 
 open NumberField Formalism.MainNotions.S Formalism.MainNotions.S.Lat Formalism.MainNotions.S.LocalSplitGroups Formalism.L2.SG.CntLocal

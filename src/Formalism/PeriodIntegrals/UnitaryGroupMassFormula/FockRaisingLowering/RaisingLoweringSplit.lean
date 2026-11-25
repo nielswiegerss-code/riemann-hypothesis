@@ -5,8 +5,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace FockRaiseLowGrade
 
 open MvPolynomial FockH1Action

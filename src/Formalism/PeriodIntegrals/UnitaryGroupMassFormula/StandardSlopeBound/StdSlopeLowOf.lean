@@ -7,8 +7,6 @@ public import Formalism.GradedWeylDivisibility.FinalB
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.SlopeSteps
 
 open MvPolynomial Formalism.GradedWeylDivisibility

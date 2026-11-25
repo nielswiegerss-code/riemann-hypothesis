@@ -8,8 +8,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 namespace PIW.AdelicOrbitU
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes

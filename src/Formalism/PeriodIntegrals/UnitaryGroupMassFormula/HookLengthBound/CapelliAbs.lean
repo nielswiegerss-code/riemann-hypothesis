@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HookLengthBound.
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.HookSteps.Cap
 
 open Finset

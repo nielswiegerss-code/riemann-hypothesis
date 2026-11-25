@@ -6,7 +6,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitDeterminantRoot.Nsm
 
 @[expose] public section
 
-noncomputable section
 open scoped ComplexConjugate
 
 namespace PI.UnitaryGroupMassFormula.UnimodLocStd

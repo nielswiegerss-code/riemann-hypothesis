@@ -6,8 +6,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PolynomialProper
 
 open Matrix Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.C2
 
-noncomputable section
-
 namespace PI.PolynomialProperness
 
 theorem coreInst_of (hC : IsoCore) (hI : HpkInvol) (hN : GNFacts) (h1 : Formalism.FourierDecayAlt.C2.GramIndependentSignature) :

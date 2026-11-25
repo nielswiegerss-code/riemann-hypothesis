@@ -10,8 +10,6 @@ import Mathlib.Tactic.TypeStar
 
 open Matrix Finset
 
-noncomputable section
-
 namespace AAInvW
 
 theorem collapse {A : Type*} [AddCommGroup A] [Module ℂ A] {N r m : ℕ} (hm : m ≤ r)

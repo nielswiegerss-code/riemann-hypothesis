@@ -6,8 +6,6 @@ public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Filter Topology Matrix
 open scoped ENNReal
 

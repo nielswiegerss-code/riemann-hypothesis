@@ -8,8 +8,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasure
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabSW.DiscreteGroups
 
 open MeasureTheory Topology Set Filter PI.VolStabSW PI.VolStabSW.Glue

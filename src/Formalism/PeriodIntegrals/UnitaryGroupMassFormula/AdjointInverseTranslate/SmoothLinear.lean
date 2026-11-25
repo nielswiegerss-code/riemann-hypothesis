@@ -11,8 +11,6 @@ import Mathlib.Tactic.Lemma
 open Matrix Filter Topology
 open scoped ContDiff
 
-noncomputable section
-
 namespace AAInvW
 
 open Formalism.REAL Formalism.QuantumDeterminants

@@ -7,8 +7,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain IsDedekindDomain.HeightOneSpectrum
 
 namespace PI.UnitaryApproxFinWork
@@ -109,5 +107,3 @@ theorem weak_approximation_finite_unitary : WeakApproxF := by
       inv_mul_cancel₀ hdv0, mul_one]
 
 end PI.UnitaryApproxFinWork
-
-end

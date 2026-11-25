@@ -7,7 +7,6 @@ import Mathlib.Tactic.Lemma
 
 @[expose] public section
 
-noncomputable section
 open scoped ComplexConjugate
 
 namespace PI.UnitaryGroupMassFormula.UnitDetRoot

@@ -7,7 +7,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
 open NumberField Matrix
 
 namespace PI.SqPairW

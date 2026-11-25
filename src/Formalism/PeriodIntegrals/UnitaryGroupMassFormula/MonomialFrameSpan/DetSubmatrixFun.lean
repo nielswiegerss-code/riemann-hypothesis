@@ -8,8 +8,6 @@ import GroundTheory.HeightsAndTheta.Heights.HeightKernels.PCauchyBinet
 
 open Matrix Finset
 
-noncomputable section
-
 namespace GenFrameSpan
 
 theorem det_mul_rect {R : Type*} [CommRing R] {k n : ℕ}

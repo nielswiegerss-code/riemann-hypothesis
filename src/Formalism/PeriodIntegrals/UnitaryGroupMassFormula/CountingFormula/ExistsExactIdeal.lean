@@ -9,8 +9,6 @@ import Formalism.QuotientMetricDivisors.HermitianTwistDivisors.IdxChange
 
 open NumberField Module IsDedekindDomain
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.CntFormula.R6
 
 section Dedekind

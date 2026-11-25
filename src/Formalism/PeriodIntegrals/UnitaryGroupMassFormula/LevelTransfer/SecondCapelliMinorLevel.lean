@@ -10,8 +10,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LevelLiftBasics.LevelGr
 
 open Matrix
 
-noncomputable section
-
 namespace PIQnLT
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q

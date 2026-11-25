@@ -9,8 +9,6 @@ namespace PI.GGMirBoundW
 
 open Matrix Formalism.L2.SG.GGMirabolic
 
-noncomputable section
-
 open Classical
 
 section Entries
@@ -160,7 +158,5 @@ theorem lastRow_mul {F : Type} [Field F] [Fintype F] {n : ℕ} {p : GL (Fin (n +
   have h2 : ∀ l, (p : Matrix (Fin (n + 1)) (Fin (n + 1)) F) (Fin.last n) l = if l = Fin.last n then 1 else 0 := hp
   rw [Units.val_mul, Matrix.mul_apply]
   simp only [h2, ite_mul, one_mul, zero_mul, Finset.sum_ite_eq', Finset.mem_univ, ite_true]
-
-end
 
 end PI.GGMirBoundW

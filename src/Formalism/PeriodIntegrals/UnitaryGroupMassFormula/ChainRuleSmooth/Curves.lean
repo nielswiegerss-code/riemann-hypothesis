@@ -18,8 +18,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.SGauge
 open Matrix Filter Topology
 open scoped ComplexConjugate Nat ContDiff
 
-noncomputable section
-
 namespace CCRuleCW
 
 open Formalism.FourierDecayAlt

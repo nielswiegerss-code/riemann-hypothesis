@@ -6,8 +6,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGau
 
 set_option linter.unusedVariables false
 
-noncomputable section
-
 open MeasureTheory Filter Topology Matrix
 open scoped ENNReal
 

@@ -9,8 +9,6 @@ import Mathlib.Tactic.Lemma
 
 open Matrix Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.C2
 
-noncomputable section
-
 namespace PI.PolynomialProperness.TauW
 
 lemma xiV_eq_sum (k r : ℕ) (p : Fin r → ℂ) : xiV k r p = ∑ a, p a • bvec (eI k r a) := by

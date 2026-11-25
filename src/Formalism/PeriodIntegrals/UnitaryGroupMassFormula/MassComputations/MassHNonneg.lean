@@ -11,8 +11,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.MassComputations
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory NumberField IsDedekindDomain
 open Formalism.BasicNotions Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub Formalism.L2.SG.Measures Formalism.L2.SG.HidaSetting Formalism.L2.SG.AdBridge
   Formalism.L2.SG.TypedSets

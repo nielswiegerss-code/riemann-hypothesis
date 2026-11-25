@@ -7,8 +7,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerVolume.TopoPo
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabW.TopoPolish
 
 open Topology TopologicalSpace Set

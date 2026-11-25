@@ -6,8 +6,6 @@ public import Mathlib.Topology.Algebra.OpenSubgroup
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataLevelSSteps
 
 open MeasureTheory

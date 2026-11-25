@@ -12,8 +12,6 @@ public import Formalism.GradedWeylDivisibility.FockSpaceTableaux.WeylLeDual
 
 open MvPolynomial Matrix
 
-noncomputable section
-
 namespace PI.BlockRatReal.UnitaryGroupMassFormula
 
 theorem s1 {S : Type} [CommRing S] (φ : ℤ →+* S) (k : ℕ) (ν : Fin k → ℕ) (hν : Antitone ν)

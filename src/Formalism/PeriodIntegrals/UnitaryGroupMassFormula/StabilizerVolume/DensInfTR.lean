@@ -7,8 +7,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicLocalCompactness.
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabS
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes NumberField

@@ -7,8 +7,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerVolume
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabS
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes NumberField

@@ -9,8 +9,6 @@ public import Mathlib.MeasureTheory.Function.Jacobian
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.AprimeInfW
 
 open MeasureTheory Topology

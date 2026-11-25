@@ -8,8 +8,6 @@ public import Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankP
 
 @[expose] public section
 
-noncomputable section
-
 namespace Formalism.L2.SG.Pf.NcVal.VolUTr
 
 open Formalism.BasicNotions Formalism.L2.SG.HidaSetting Formalism.L2.SG.LocVol Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes NumberField IsDedekindDomain

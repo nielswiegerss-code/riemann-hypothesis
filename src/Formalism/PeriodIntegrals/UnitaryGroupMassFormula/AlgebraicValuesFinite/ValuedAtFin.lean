@@ -7,8 +7,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Formalism.L2.Host
 
 namespace PI.AlgValsFin.W

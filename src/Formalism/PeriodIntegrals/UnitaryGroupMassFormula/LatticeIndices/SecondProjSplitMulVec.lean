@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.GenusMa
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataIdxSpl
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub Matrix

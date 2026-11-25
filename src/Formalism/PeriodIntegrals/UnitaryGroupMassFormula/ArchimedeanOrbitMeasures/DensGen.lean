@@ -11,8 +11,6 @@ public import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.AprimeInfW.GenericDensity
 
 open scoped RealInnerProductSpace FourierTransform

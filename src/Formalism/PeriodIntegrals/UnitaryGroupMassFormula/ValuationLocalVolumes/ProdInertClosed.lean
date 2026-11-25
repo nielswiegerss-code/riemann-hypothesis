@@ -11,8 +11,6 @@ public import Mathlib.Algebra.Order.Interval.Finset.SuccPred
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.OmVe
 
 theorem prodSplit_closed (x : ℝ) (hx : x ≠ 0) (M : ℕ) : ∀ a, a ≤ M →

@@ -8,8 +8,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.RhsT
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.RhsWLim.W
 
 open PI.RhsWLim

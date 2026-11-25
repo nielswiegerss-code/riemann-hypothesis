@@ -4,8 +4,6 @@ public import Formalism.LocalToGlobal.SiegelLatticeTheory.FundamentalEquivalence
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolSemiDirect.W
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub NumberField IsDedekindDomain MeasureTheory

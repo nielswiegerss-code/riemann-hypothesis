@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGau
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Filter Topology Matrix
 open scoped ENNReal
 

@@ -8,8 +8,6 @@ import Formalism.HermitianCurvature.OperatorsCommuteTranslations
 
 open Matrix Finset Formalism.QuantumDeterminants Formalism.FourierDecayAlt.C3
 
-noncomputable section
-
 namespace NFOne
 
 private theorem herm_sum_smul_left' {n : ℕ} (H : Matrix (Fin n) (Fin n) ℂ) {ι : Type*} [Fintype ι]

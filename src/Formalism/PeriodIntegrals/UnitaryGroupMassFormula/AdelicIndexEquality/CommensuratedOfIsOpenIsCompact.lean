@@ -6,8 +6,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicUnimodular
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.AdIndexEq
 
 open Formalism.MainNotions.S
@@ -47,5 +45,3 @@ theorem compact_commensurated : KComm := fun I =>
   commensurated_of_isOpen_isCompact _ (ksub_isOpen I) (ksub_isCompact I)
 
 end PI.UnitaryGroupMassFormula.AdIndexEq
-
-end

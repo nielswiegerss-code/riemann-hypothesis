@@ -6,8 +6,6 @@ public import Mathlib.MeasureTheory.Group.GeometryOfNumbers
 
 @[expose] public section
 
-noncomputable section
-
 namespace PIW.AdelClassFin
 
 open MeasureTheory Matrix Module

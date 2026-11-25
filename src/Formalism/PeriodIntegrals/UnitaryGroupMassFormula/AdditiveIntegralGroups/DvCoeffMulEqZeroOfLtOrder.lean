@@ -9,8 +9,6 @@ public import Mathlib.Algebra.Polynomial.Derivation
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace PI.AddIntG.Wk

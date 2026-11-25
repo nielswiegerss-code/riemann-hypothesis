@@ -8,8 +8,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 open Finset
 
-noncomputable section
-
 open Classical
 
 namespace PI.GGConvScalarW

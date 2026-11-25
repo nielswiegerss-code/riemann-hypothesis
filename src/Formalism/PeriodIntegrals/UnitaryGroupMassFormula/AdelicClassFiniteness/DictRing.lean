@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsNatSmu
 
 @[expose] public section
 
-noncomputable section
-
 namespace PIW.AdelClassFin
 
 open Formalism.MainNotions.S PI.AdelClassFin NumberField IsDedekindDomain

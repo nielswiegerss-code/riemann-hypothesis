@@ -6,8 +6,6 @@ public import Mathlib.Topology.Algebra.Module.FiniteDimension
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.CntNotIntW
 
 open scoped TensorProduct

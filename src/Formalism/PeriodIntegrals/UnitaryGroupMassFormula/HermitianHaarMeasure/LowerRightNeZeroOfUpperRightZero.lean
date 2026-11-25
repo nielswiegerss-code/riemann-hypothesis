@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 
 open Matrix Finset
 
-noncomputable section
-
 namespace PI.QnHermHaar
 
 open Formalism.REAL Formalism.FourierDecayAlt.Q

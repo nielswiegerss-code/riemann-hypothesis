@@ -10,8 +10,6 @@ public import Mathlib.LinearAlgebra.Dual.Lemmas
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.WHw
 
 open Formalism.BasicNotions Formalism.GradedWeylDivisibility MvPolynomial

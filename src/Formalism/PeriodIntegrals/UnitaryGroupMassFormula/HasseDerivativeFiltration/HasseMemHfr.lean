@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.HassePresH
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.MainNotions Formalism.MainNotions.WeightAlgebra Formalism.BasicNotions NumberField IsDedekindDomain Formalism.MainNotions.Gaps.EtaleWeightGaps Finset.HasAntidiagonal
 
 namespace PI.UnitaryGroupMassFormula.HassePresH

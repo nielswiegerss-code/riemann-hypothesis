@@ -4,8 +4,6 @@ public import Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.Four
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.InSRelevantW
 
 open Formalism.BasicNotions Formalism.MainNotions.S

@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.CuspSpanNormBounds.UniformConstantsAndStatemen
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.RepsIndep.Tr
 
 open NumberField IsDedekindDomain Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.S Formalism.MainNotions.S.Lat Formalism.MainNotions.UniformConstantsAndStatements

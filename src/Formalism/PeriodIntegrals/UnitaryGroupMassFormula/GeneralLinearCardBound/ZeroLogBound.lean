@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.GZeroLogBound
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.GZeroLogBound.UnitaryGroupMassFormula
 
 open Formalism.BasicNotions

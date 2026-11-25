@@ -9,8 +9,6 @@ import Mathlib.Tactic.TypeStar
 open Matrix
 open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.U
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.UsCost
 
 theorem continuous_block_matrix_three {X : Type*} [TopologicalSpace X] {k j ρ : ℕ}

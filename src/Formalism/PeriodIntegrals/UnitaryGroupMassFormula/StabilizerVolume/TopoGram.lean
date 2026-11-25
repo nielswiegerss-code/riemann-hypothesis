@@ -5,8 +5,6 @@ import Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsOfFixed
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabS.TopoGram
 
 open Matrix

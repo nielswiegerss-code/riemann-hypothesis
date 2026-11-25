@@ -11,8 +11,6 @@ import Mathlib.Tactic.TypeStar
 open Matrix
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace PI.UnitaryCorollaryDerivatives
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.U

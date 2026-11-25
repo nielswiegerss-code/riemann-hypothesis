@@ -13,8 +13,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.TwoByOneBlock
 open Matrix
 open scoped ComplexConjugate Nat
 
-noncomputable section
-
 namespace CCRuleCW
 
 open Formalism.FourierDecayAlt

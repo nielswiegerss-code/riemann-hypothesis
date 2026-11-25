@@ -6,8 +6,6 @@ public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.OmVe
 
 open Matrix

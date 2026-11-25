@@ -7,8 +7,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdjointInverseTranslate
 
 open Matrix
 
-noncomputable section
-
 namespace AAInvW
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt.C3

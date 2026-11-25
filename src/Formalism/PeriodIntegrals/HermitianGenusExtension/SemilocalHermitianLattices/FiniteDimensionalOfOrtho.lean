@@ -10,8 +10,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 open NumberField Module
 
-noncomputable section
-
 namespace ReciprocityTheory.ChartRestriction.L3
 open Formalism.HermitianLattices.Ext.L3 (finiteDimensional_of_ortho isFullLattice_of_ortho isTotPosDef_of_ortho)
 

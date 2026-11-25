@@ -5,8 +5,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialInteg
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.WfSubstProof
 
 theorem exists_lift {A : Type} [CommRing A] (S : Subring A) {σ : Type} (f : MvPowerSeries σ A)

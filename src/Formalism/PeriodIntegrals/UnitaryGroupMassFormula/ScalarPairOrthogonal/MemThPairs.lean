@@ -6,8 +6,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ScalarPairOrthog
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Classical
 
 namespace PI.ScalarPairDr.W

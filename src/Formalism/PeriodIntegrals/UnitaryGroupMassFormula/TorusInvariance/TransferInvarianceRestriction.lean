@@ -14,8 +14,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RootSubgroupHaar.MatEqZ
 
 open Matrix Finset
 
-noncomputable section
-
 namespace Formalism.FourierDecayAlt.Q.TInvW
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.QuantumDeterminants.WeylGroupFacts Formalism.FourierDecayAlt.Q

@@ -4,8 +4,6 @@ public import Formalism.SharpRestriction.Divisibility.OrbitPlaces
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 open Classical
 open NumberField IsDedekindDomain Formalism.FrobeniusOrbits Formalism.BasicNotions Formalism.BasicNotions.DV Formalism.MainNotions.G Formalism.MainNotions.OrbitPlaces

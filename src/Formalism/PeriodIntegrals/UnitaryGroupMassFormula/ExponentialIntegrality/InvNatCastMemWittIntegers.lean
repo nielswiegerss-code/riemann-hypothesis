@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.ExpIntW
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.ExpIntWProof
 
 open PI
@@ -64,5 +62,3 @@ theorem inv_natCast_mem_wittIntegers (p : ℕ) [hp : Fact p.Prime] (u : ℕ) (hu
   exact mul_mem (intCast_mem _ a) hyinv
 
 end PI.ExpIntWProof
-
-end

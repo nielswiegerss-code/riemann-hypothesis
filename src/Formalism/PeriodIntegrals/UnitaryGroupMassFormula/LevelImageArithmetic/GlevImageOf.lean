@@ -7,8 +7,6 @@ import Mathlib.Tactic.Lemma
 
 open Matrix Finset
 
-noncomputable section
-
 namespace QnGlevImageW
 
 open Formalism.QuantumDeterminants Formalism.FourierDecayAlt.Q

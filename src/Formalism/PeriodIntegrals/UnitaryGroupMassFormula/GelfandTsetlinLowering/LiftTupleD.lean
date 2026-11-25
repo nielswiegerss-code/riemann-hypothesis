@@ -7,8 +7,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GelfandTsetlinLowering.
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.WGL.LTD
 
 open Formalism.BasicNotions Formalism.GradedWeylDivisibility MvPolynomial PI.WGL.LTA PI.WGL.LTM PI.WGL.LTC

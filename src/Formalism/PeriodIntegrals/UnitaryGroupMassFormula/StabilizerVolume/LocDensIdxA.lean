@@ -9,8 +9,6 @@ import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabS
 
 open scoped TensorProduct

@@ -16,8 +16,6 @@ import Formalism.HermitianCurvature.HermitianCurvatureProofs.IsOpenAdelicUnipote
 
 open Matrix Filter Topology
 
-noncomputable section
-
 namespace QnYLeibnizW
 
 open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.Q

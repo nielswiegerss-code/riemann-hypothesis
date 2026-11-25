@@ -7,8 +7,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.IwasawaMeasureExistence
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.InvTopW
 
 open NumberField IsDedekindDomain Topology Filter

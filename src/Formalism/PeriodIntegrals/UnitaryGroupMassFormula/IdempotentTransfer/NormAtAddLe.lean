@@ -4,8 +4,6 @@ public import Formalism.HermitianLattices.StatementMaj
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.Dv.Tr
 
 open PI.Dv Module NumberField

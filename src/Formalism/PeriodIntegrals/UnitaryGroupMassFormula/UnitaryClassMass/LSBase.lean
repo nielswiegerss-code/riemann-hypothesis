@@ -12,8 +12,6 @@ import Mathlib.Tactic.TypeStar
 open NumberField PI.UJClassFin PI.UJClassMass Formalism.HermitianLatticesTheory Formalism.ThetaLiftIndependence PI.UnitaryGroupMassFormula.UJClassFin
 open scoped TensorProduct
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.UJClassMass
 
 section Base

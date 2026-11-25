@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.ScXuExists
 
 open NumberField IsDedekindDomain IsDedekindDomain.HeightOneSpectrum Matrix

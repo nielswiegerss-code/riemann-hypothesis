@@ -11,8 +11,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedMeasureS
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.MeasWCore
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub Formalism.L2.SG.Measures NumberField

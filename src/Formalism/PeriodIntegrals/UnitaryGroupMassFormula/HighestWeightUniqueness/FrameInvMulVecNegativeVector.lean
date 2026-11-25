@@ -11,8 +11,6 @@ import Mathlib.Tactic.Lemma
 
 open Matrix
 
-noncomputable section
-
 namespace PI.HwUniqW
 
 open PI.UpqRep
@@ -71,5 +69,3 @@ lemma UW_eq_conj {z : Fin (2 * r + k + 1) → ℂ} {g x : Matrix (Fin (2 * r + k
     _ = g * (g⁻¹ * x * g) * g⁻¹ := by simp only [Matrix.mul_assoc]
 
 end PI.HwUniqW
-
-end

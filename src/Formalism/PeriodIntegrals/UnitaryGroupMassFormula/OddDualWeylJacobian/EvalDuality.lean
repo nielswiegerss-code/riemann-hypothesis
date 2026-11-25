@@ -11,8 +11,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.OddDualWeylJacobian.Aev
 
 open MvPolynomial Matrix
 
-noncomputable section
-
 namespace PI.OddDualWeyl.EvA
 
 open Red

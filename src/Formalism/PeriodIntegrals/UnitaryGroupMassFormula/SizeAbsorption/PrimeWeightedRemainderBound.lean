@@ -7,8 +7,6 @@ import Formalism.SharpRestriction.GrowthBounds.MultisetValuation.NcSize
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.SzEatI.W
 
 open Formalism.BasicNotions Formalism.MainNotions.G

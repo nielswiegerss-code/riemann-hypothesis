@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.MeasureDecomposi
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace PI.ScMuExists.UnitaryGroupMassFormula

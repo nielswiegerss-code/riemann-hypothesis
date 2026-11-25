@@ -10,8 +10,6 @@ public import Mathlib.GroupTheory.Perm.Fin
 
 open Finset Formalism.REAL
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.QmBorderFull.Four
 
 open PI

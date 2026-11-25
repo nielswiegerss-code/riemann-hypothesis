@@ -7,8 +7,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.MeasureDecomposi
 open MeasureTheory
 open scoped ENNReal Pointwise
 
-noncomputable section
-
 namespace PI.ScMuExists.UnitaryGroupMassFormula
 
 theorem generic_haar_subgroup : GenHaarSub := by

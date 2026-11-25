@@ -11,8 +11,6 @@ public import Mathlib.MeasureTheory.Function.Jacobian
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Filter Topology Set Metric
 open scoped ENNReal
 

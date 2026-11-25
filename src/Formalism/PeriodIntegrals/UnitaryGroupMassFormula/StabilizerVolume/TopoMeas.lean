@@ -9,8 +9,6 @@ import Mathlib.Topology.Separation.CompletelyRegular
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabS.TopoMeas
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes NumberField IsDedekindDomain MeasureTheory Filter Topology PI.VolFromSW

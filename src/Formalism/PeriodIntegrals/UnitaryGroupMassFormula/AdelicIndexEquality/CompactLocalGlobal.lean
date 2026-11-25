@@ -11,8 +11,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.AdIndexEq
 
 open NumberField IsDedekindDomain Matrix
@@ -174,5 +172,3 @@ theorem compact_local_global : KLocGlob := by
   exact stab_iff_loc I _
 
 end PI.UnitaryGroupMassFormula.AdIndexEq
-
-end

@@ -12,8 +12,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Inv
 
 open Matrix MvPolynomial
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.UsCompose
 
 open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.U Formalism.REAL Formalism.FourierDecayAlt.P.BetaSesquilinearity

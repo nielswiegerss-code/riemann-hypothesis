@@ -5,8 +5,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.MeasureDecomposition.HJ
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace PI.ScPiFrameW

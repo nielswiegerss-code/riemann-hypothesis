@@ -8,8 +8,6 @@ public import Mathlib.RingTheory.Valuation.Integral
 
 @[expose] public section
 
-noncomputable section
-
 open ValuativeRel MeasureTheory
 open Formalism.MainNotions.S.Loc
 

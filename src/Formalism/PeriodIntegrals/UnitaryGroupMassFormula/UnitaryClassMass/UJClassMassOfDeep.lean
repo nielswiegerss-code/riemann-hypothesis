@@ -9,8 +9,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 open NumberField PI.UJClassFin PI.UJClassMass
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.UJClassMass
 
 section
@@ -92,5 +90,3 @@ theorem uJClassMass_of_deep' (hR : PI.UnitaryGroupMassFormula.UJClassFin.RatDens
   uJClassMass_of_deep hR crdBounds s1 s4
 
 end PI.UnitaryGroupMassFormula.UJClassMass
-
-end

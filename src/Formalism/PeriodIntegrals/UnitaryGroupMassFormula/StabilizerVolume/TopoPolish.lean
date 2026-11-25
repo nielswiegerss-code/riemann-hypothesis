@@ -9,8 +9,6 @@ public import Mathlib.Topology.Metrizable.Urysohn
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabS.TopoPolish
 
 open Topology TopologicalSpace Set

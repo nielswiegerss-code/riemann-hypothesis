@@ -5,8 +5,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicLocalCompa
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabSW
 
 open scoped TensorProduct

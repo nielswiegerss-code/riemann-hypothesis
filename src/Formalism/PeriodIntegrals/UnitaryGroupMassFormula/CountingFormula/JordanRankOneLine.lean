@@ -12,8 +12,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.IsomFix
 open NumberField Module
 open Classical
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.CntFormula.RowsMassW
 
 open Formalism.HermitianLattices.Ext.L3 GluedLatticeMass OrbitSumPf

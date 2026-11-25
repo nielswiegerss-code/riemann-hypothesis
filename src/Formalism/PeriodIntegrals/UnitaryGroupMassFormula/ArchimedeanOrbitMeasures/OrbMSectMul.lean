@@ -5,8 +5,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.MassComputations.ProdFi
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.AprimeInfW
 
 open MeasureTheory Formalism.BasicNotions Formalism.L2.SG.HidaSetting Formalism.L2.SG.RealObj Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub

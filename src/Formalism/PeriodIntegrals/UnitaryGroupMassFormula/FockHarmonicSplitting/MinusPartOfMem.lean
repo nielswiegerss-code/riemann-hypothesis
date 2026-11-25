@@ -8,8 +8,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open MvPolynomial Matrix FockH1Action
 
 namespace PI.FHS

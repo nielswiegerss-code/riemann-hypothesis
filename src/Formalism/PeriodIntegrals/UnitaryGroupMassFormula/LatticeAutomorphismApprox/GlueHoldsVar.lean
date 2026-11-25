@@ -12,8 +12,6 @@ import Formalism.LocalToGlobal.GroupLattices.LevelCharts.AtGLev
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.ScXuExists.Gl
 
 open NumberField IsDedekindDomain Matrix
@@ -272,5 +270,3 @@ theorem glue_holds_var : Glue := by
     exact (hlocUK v).2
 
 end PI.UnitaryGroupMassFormula.ScXuExists.Gl
-
-end

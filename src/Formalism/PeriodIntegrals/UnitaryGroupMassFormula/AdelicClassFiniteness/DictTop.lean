@@ -5,7 +5,6 @@ import Mathlib.RingTheory.PiTensorProduct
 
 @[expose] public section
 
-noncomputable section
 namespace PIW.AdelClassFin
 open Formalism.MainNotions.S PI.AdelClassFin NumberField
 open scoped TensorProduct Matrix

@@ -8,8 +8,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.S
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataIdxEmb
 
 open NumberField IsDedekindDomain

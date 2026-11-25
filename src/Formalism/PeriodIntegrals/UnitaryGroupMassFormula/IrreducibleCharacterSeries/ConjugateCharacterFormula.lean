@@ -6,7 +6,6 @@ import Mathlib.RingTheory.SimpleRing.Principal
 
 @[expose] public section
 
-noncomputable section
 open Matrix ComplexOrder
 
 namespace PI.SerBridgeGLW

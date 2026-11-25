@@ -5,8 +5,6 @@ import Mathlib.Topology.Algebra.Group.Units
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataIdxSteps
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes NumberField IsDedekindDomain MeasureTheory Formalism.BasicNotions Formalism.L2.SG.HidaSetting Formalism.L2.SG.TypedSets

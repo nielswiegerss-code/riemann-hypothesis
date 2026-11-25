@@ -8,8 +8,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open ValuativeRel
 
 namespace PI.ProdFormulaE.ROpen
@@ -127,5 +125,3 @@ theorem isOpen_R [MeasurableSpace E] (M : Formalism.MainNotions.S.Loc.Model F E)
       rw [(Ideal.Quotient.eq_zero_iff_mem).2 z1, (Ideal.Quotient.eq_zero_iff_mem).2 z2]
 
 end PI.ProdFormulaE.ROpen
-
-end

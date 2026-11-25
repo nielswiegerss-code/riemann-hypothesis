@@ -12,8 +12,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LocalMassOrder.SelfDual
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabS.RestrProdG
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Formalism.L2.SG.Sub NumberField IsDedekindDomain MeasureTheory PI.VolFromSW

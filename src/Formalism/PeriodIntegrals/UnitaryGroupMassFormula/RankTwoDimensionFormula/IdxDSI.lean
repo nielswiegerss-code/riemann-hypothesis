@@ -5,8 +5,6 @@ public import Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.Unita
 
 @[expose] public section
 
-noncomputable section
-
 open scoped Classical TensorProduct
 open Matrix NumberField Formalism.MainNotions.S Formalism.L2.SG.HidaSetting
 

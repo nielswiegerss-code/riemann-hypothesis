@@ -7,8 +7,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open Classical Filter Topology MvPowerSeries.WithPiTopology
 
 namespace PI.PhNormUnits.UnitaryGroupMassFormula

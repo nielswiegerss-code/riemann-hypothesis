@@ -10,8 +10,6 @@ import Mathlib.Tactic.Lemma
 open Matrix Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.C2
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace PI.PolynomialProperness
 
 lemma fmul_one (k r : ℕ) (z : Fin (2 * r + k + 1) → ℂ) (b : Fin (r + 1)) :

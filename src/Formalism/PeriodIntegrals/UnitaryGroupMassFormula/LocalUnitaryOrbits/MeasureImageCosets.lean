@@ -6,8 +6,6 @@ public import Mathlib.MeasureTheory.Group.Measure
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.OmLocU
 
 open MeasureTheory

@@ -11,8 +11,6 @@ import Mathlib.Algebra.Order.Star.Int
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.WfEndProof
 
 open PI
@@ -72,5 +70,3 @@ theorem pairW : PairW := by
   exact closure_minimal (fun x hx => hle hx) hclosed hα
 
 end PI.WfEndProof
-
-end

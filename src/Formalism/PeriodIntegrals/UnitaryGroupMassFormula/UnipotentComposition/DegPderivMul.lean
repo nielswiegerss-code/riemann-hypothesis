@@ -49,8 +49,6 @@ import Mathlib.Topology.Sheaves.Init
 
 open Matrix MvPolynomial
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.UsCompose
 
 open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.U

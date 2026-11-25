@@ -7,8 +7,6 @@ import Formalism.HermitianCurvature.BigCellVanishingOfCommute
 
 open MeasureTheory Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt Formalism.FourierDecayAlt.C6
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.DLm.Gram
 
 section

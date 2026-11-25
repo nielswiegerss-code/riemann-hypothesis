@@ -9,8 +9,6 @@ import Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.Unit
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace PI.PhNormUnits.UnitaryGroupMassFormula

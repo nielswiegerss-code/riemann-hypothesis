@@ -4,8 +4,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.M
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataIdxSteps
 
 open MeasureTheory

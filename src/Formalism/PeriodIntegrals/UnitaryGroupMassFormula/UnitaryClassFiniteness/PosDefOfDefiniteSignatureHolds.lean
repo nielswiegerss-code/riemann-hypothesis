@@ -5,8 +5,6 @@ import Mathlib.Analysis.CStarAlgebra.Classes
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 open scoped ComplexOrder
 

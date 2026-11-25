@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsGlobalSetting
 
 @[expose] public section
 
-noncomputable section
-
 namespace MassDataVolumesW
 
 open Formalism.BasicNotions Formalism.L2.SG.HidaSetting Formalism.L2.SG.AdBridge Formalism.L2.SG.TypedSets Formalism.L2.SG.Volumes

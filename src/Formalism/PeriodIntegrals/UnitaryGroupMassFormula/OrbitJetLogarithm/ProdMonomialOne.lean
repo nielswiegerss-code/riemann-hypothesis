@@ -8,8 +8,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open scoped BigOperators
 open Classical
 
@@ -39,5 +37,3 @@ theorem rename_psubst (e : σ ↪ τ) {g : MvPowerSeries σ ℂ_[p]} (hg : Power
   rfl
 
 end PI.OrbJet.AO
-
-end

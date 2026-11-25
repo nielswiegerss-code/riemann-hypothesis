@@ -3,7 +3,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialInteg
 public import Mathlib.Analysis.Normed.Field.Instances
 public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialIntegrality.InvNatCastMemWittIntegers
 @[expose] public section
-noncomputable section
 namespace PI.ExpIntWProof
 open PI
 theorem div_pow_mem (h : KeyW) (p : ℕ) [hp : Fact p.Prime] :
@@ -30,4 +29,3 @@ theorem stepIII_of_key (h : KeyW) : StepIII := by
 theorem expIntW_of_key (h1 : StepI) (h : KeyW) : ExpIntW :=
   expIntW_of_steps h1 (stepIII_of_key h)
 end PI.ExpIntWProof
-end

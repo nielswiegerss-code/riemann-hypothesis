@@ -6,8 +6,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.FglPtW.Wk
 
 open PI.AddIntG.Wk
@@ -27,5 +25,3 @@ theorem serOver_iff (S : Subring K) {σ : Type*} (f : MvPowerSeries σ K) :
     exact (MvPowerSeries.coeff n g).2
 
 end PI.FglPtW.Wk
-
-end

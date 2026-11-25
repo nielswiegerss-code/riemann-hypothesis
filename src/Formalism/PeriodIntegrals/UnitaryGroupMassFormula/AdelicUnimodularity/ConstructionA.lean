@@ -5,8 +5,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicUnimodular
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.WAU
 
 open Formalism.MainNotions.S MeasureTheory

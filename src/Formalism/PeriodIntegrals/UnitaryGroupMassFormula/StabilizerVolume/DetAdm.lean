@@ -11,8 +11,6 @@ public import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerVolume
 
 @[expose] public section
 
-noncomputable section
-
 namespace PI.VolStabS.DeterminantAdmissible
 
 open Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes NumberField IsDedekindDomain MeasureTheory Topology Filter Set

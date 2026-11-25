@@ -13,8 +13,6 @@ import Mathlib.Tactic.Lemma
 open Matrix PI.UpqRep
 open scoped ContDiff
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.CapelliEig
 
 attribute [local instance] Matrix.normedAddCommGroup Matrix.normedSpace
@@ -83,5 +81,3 @@ theorem smooth_translation : SmTrans := by
   exact ⟨fun w => hw w, coef_smoothOnGV ε _ P Q hw⟩
 
 end PI.UnitaryGroupMassFormula.CapelliEig
-
-end

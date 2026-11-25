@@ -7,8 +7,6 @@ import Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.Unim
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Measure Topology Set
 open scoped ENNReal Pointwise
 

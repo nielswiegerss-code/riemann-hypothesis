@@ -7,8 +7,6 @@ public import Mathlib.RingTheory.PowerSeries.Derivative
 
 @[expose] public section
 
-noncomputable section
-
 open Classical
 
 namespace PI.JetsPhW.Inv

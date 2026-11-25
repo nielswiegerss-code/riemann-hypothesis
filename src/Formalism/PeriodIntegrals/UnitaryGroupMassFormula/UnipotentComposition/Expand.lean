@@ -11,8 +11,6 @@ public import Mathlib.Topology.Algebra.MvPolynomial
 
 open Matrix MvPolynomial
 
-noncomputable section
-
 namespace PI.UnitaryGroupMassFormula.UsCompose
 
 open Formalism.FourierDecayAlt Formalism.FourierDecayAlt.B Formalism.FourierDecayAlt.U Formalism.REAL Formalism.FourierDecayAlt.P.BetaSesquilinearity
