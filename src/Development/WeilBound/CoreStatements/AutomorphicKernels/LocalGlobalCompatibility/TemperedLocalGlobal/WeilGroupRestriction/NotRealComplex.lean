@@ -4,8 +4,6 @@ public import Mathlib.NumberTheory.NumberField.InfinitePlace.TotallyRealComplex
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField
 
 namespace PositivityTheory.Pf1.CLGD.K

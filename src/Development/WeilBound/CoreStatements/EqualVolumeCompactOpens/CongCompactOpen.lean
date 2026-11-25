@@ -10,8 +10,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.StrongApproxi
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.EqVol
 
 open Matrix NumberField IsDedekindDomain GlobalTheory.CompanionTheory.Ar.Cmp

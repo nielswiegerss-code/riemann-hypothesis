@@ -10,8 +10,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl PositivityTheory.Rg.Sw
@@ -78,5 +76,3 @@ theorem split_resc {R K : Type} [CommRing R] [CommRing K] [Algebra R K] [Inverti
     fun g => ⟨Subgroup.inclusion hU.ge g, rfl, rfl⟩⟩
 
 end PositivityTheory.SiegelWeilFormula.Tauto
-
-end

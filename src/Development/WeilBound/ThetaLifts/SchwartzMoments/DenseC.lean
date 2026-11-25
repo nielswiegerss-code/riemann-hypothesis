@@ -5,8 +5,6 @@ public import Development.AutomorphicSpectrum.Proofs.MembershipProofs.DenseHasCo
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKOwn
 
 open scoped SchwartzMap
@@ -23,5 +21,3 @@ theorem dense_compactSupport {V : Type} [NormedAddCommGroup V] [NormedSpace ℝ 
   exact HasCompactSupport.comp_homeomorph hf e.toHomeomorph
 
 end PositivityTheory.ThKOwn
-
-end

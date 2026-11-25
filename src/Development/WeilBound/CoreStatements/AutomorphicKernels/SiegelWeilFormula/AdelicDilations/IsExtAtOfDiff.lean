@@ -7,8 +7,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open Filter Topology GlobalTheory.Cont
 
 namespace PositivityTheory.SiegelWeilFormula.AStep
@@ -191,5 +189,3 @@ theorem lawSep (U : Set ℂ) (p : Polynomial ℂ) (t : ℝ) (s₀ : ℂ) (j : �
   rw [hA, hA', hP]; linear_combination (j.factorial : ℂ) * hval
 
 end PositivityTheory.SiegelWeilFormula.AStep
-
-end

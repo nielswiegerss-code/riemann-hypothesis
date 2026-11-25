@@ -17,8 +17,6 @@ open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.Genus
 open GlobalTheory.WeilM GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 open Formalism.IndefR.DatumF
 
-noncomputable section
-
 namespace GlobalTheory.SplitLagrF
 
 open GlobalTheory.SplitInvFormF GlobalTheory.WeilSchrodinger.DblTargetF
@@ -84,5 +82,3 @@ theorem prof_level (ν : Measure (WOF F E nS nT)) (𝓕 : Set (WOF F E nS nT)) {
     hUf (aC F E nT * l.1) hl (GlobalTheory.SplitVacF.fin_of_mem he (mul_mem_conjHalf _ l.2))]
 
 end GlobalTheory.SplitLagrF
-
-end

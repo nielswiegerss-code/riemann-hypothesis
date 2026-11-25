@@ -64,8 +64,6 @@ import ReciprocityTheory.DualLattices.MapTensorSpan
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.HtPt.Rc
 
 open ReciprocityTheory.PGsh.L2 ReciprocityTheory.PGsh.Up GlobalTheory.CompanionTheory.Ar.GR

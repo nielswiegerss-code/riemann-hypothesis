@@ -44,8 +44,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Tow.Pln
 
 open scoped TensorProduct Matrix nonZeroDivisors
@@ -97,5 +95,3 @@ theorem exists_ideal (n : ℕ) (L : Submodule (𝓞 E) (Fin n → E)) (hL : L.Is
     (fg_comap _ (smul_left_injective E hx) L hL.fg)⟩, fun _ => Iff.rfl⟩
 
 end PositivityTheory.ThKG.Tow.Pln
-
-end

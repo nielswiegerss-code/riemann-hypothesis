@@ -17,8 +17,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct Matrix Topology Kronecker ComplexOrder Classical
 open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Matrix
 open GlobalTheory.WeilM GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
@@ -95,5 +93,3 @@ theorem mem_map_rho (A : Submodule (𝓞 E) (XFF F E nS nT)) (g : GAF σ JS) (h 
 end AutLatA
 
 end PositivityTheory.ThKW
-
-end

@@ -13,8 +13,6 @@ public import Mathlib.Analysis.SpecialFunctions.Exponential
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Finset ReciprocityTheory.ChartRestriction.DS
 
 namespace PositivityTheory.CW
@@ -169,5 +167,3 @@ theorem heightFunctionalStatement_of_pairingProperties : B2 := by
   nlinarith
 
 end PositivityTheory.CW
-
-end

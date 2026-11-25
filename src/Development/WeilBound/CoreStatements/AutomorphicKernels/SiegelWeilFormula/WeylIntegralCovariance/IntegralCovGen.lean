@@ -12,8 +12,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Classical
 set_option linter.style.haveILetI false
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
@@ -75,5 +73,3 @@ theorem integral_cov_gen {G : Type} [AddCommGroup G] [TopologicalSpace G] [IsTop
   rfl
 
 end PositivityTheory.SiegelWeilFormula.TW.Twp
-
-end

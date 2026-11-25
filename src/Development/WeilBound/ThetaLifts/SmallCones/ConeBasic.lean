@@ -10,8 +10,6 @@ import Development.WeilBound.ThetaLifts.TowerModels.PlaneHerm
 
 set_option linter.unusedSectionVars false
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open scoped TensorProduct NNReal ENNReal Matrix
@@ -94,5 +92,3 @@ theorem kfin_dec (hp : IsPair B M χX χW om r s r' s') {K : Subgroup (UA σ X.J
 end Basic
 
 end PositivityTheory.ThKCT
-
-end

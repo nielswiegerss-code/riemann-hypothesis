@@ -9,8 +9,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 set_option linter.unusedSectionVars false
 set_option linter.style.haveILetI false
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl PositivityTheory.Rg.Sw
@@ -90,5 +88,3 @@ theorem ratVec_countable (k : ℕ) :
   exact h.to_subtype
 
 end PositivityTheory.SiegelWeilFormula.Act.ComplexParameterFamilyContinuity
-
-end

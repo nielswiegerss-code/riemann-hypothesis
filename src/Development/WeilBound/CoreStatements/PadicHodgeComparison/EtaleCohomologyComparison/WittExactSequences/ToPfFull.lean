@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCoh
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory TensorProduct GroundTheory.PAdicHodge CrystallineSemistableComparison.CH
 
 universe w v u v' u' v'' u''

@@ -11,8 +11,6 @@ import Mathlib.Tactic.Linter.Style
 
 set_option backward.isDefEq.respectTransparency false
 
-noncomputable section
-
 open Formalism.Per6 GroundTheory.PAdicHodge DeRhamPotentiallySemistable.DRPst
 
 namespace CrystallineSemistableComparison

@@ -8,8 +8,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix SchwartzMap Classical InnerProductSpace
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl PositivityTheory.Rg.Sw
@@ -28,5 +26,3 @@ theorem homeo_symm_eq (x : mixedEmbedding.mixedSpace F) :
   exact (GroundTheory.Global.homeomorphMixedSpace F).apply_symm_apply x
 
 end PositivityTheory.SiegelWeilFormula.KFPB
-
-end

@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.WeilM GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl
 
@@ -68,5 +66,3 @@ theorem incM_diagCols {β : Type} [DecidableEq β] : incM F (diagCols β : Matri
   ext (i | i) j <;> simp [incM, diagCols, Matrix.one_apply]
 
 end PositivityTheory.SiegelWeilFormula.TBij
-
-end

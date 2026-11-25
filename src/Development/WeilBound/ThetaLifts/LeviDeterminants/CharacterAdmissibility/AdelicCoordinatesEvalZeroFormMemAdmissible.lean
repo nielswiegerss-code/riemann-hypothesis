@@ -18,7 +18,6 @@ open scoped TensorProduct NNReal Matrix Classical
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 
-noncomputable section
 namespace PositivityTheory.ThKF0.Chr
 
 

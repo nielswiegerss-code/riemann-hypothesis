@@ -12,8 +12,6 @@ open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.Genus
 open GlobalTheory.WeilM GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 open Formalism.IndefR.DatumF
 
-noncomputable section
-
 namespace GlobalTheory.SplitLagrF
 
 section aux
@@ -77,5 +75,3 @@ theorem setIntegral_add_right {nS nT : ℕ} (ν : Measure (WOF F E nS nT)) (𝓕
 end aux
 
 end GlobalTheory.SplitLagrF
-
-end

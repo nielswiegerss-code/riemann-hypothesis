@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix SchwartzMap Classical
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -21,5 +19,3 @@ theorem iteratedDeriv_mul_const' (f : ℂ → ℂ) (c : ℂ) :
   fun _ => funext fun _ => iteratedDeriv_mul_const_field f c
 
 end PositivityTheory.SiegelWeilFormula.Kdil
-
-end

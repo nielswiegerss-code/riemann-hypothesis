@@ -11,8 +11,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal ENNReal Matrix Classical ComplexOrder
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -36,5 +34,3 @@ theorem ellA_self (hδ : δ ≠ 0) : ellA (F := F) δ (inclR (F := F) (AF F) δ)
   simp [ellA, inclR, LinearMap.baseChange_tmul, hℓ]
 
 end PositivityTheory.SiegelWeilFormula.Act.C5.CoordK
-
-end

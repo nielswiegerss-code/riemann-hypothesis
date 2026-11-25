@@ -6,8 +6,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Matrix Topology Filter
 open GlobalTheory.CuspGeneric GlobalTheory.CuspRep GlobalTheory.UnitaryBC GlobalTheory.DiscSpec PositivityTheory.jumpWindows PositivityTheory.RgJS
 open GroundTheory.Automorphic GroundTheory.Automorphic.FourierWhittaker GroundTheory.Automorphic.Reduction GroundTheory.Automorphic.Spherical
@@ -159,5 +157,3 @@ theorem kept_block_at_of_pair_level_chain_threshold : jumpWindows.MirabolicColum
     exact (hS10 _ k 0).2.2.1
 
 end PositivityTheory.AdelicQuotientData
-
-end

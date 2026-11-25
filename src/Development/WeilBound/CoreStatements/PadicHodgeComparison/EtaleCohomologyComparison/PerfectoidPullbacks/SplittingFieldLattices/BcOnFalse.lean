@@ -10,8 +10,6 @@ public import Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCoh
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory AlgebraicGeometry TensorProduct GlobalTheory.LogCris DividedPowers
 
 namespace CrystallineSemistableComparison.Pb

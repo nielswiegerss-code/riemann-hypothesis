@@ -6,8 +6,6 @@ public import GroundTheory.AutomorphicForms.ReductionMahler
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Matrix Topology Filter
 open GlobalTheory.CuspGeneric GlobalTheory.CuspRep GlobalTheory.UnitaryBC GlobalTheory.DiscSpec PositivityTheory.jumpWindows PositivityTheory.RgJS
 open GroundTheory.Automorphic GroundTheory.Automorphic.FourierWhittaker GroundTheory.Automorphic.Reduction GroundTheory.Automorphic.Spherical
@@ -127,5 +125,3 @@ theorem minkowski_bound_of : D0 → MinkowskiBoundAlt := by
     linarith
 
 end PositivityTheory.AdelicQuotientData
-
-end

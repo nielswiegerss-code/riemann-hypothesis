@@ -11,8 +11,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl
 
 open scoped TensorProduct NNReal Matrix Classical
@@ -137,5 +135,3 @@ theorem toSo_of (hR : KReal) (hF : KFin) (hK : KCoinv) (hT : ThetaBasic) (hC : C
     rw [← zero_add (t • x), ← zero_add (t • x'), I_lin hT p c (zero_mem _) (le mx.1), I_lin hT p c (zero_mem _) (le hx), ex]
 
 end GlobalTheory.ThK.Dbl
-
-end

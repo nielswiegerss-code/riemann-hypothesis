@@ -12,8 +12,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open Matrix GlobalTheory GlobalTheory.CompanionTheory.Ar GlobalTheory.CompanionTheory.Ar.Fl
 open scoped ComplexConjugate
 
-noncomputable section
-
 namespace PositivityTheory.Xgf.DPer
 
 open scoped Classical
@@ -111,5 +109,3 @@ theorem exists_big (a : 𝓞 E) (ha : a ≠ 0) (b : Bool) :
   linarith
 
 end PositivityTheory.Xgf.DPer
-
-end

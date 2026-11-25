@@ -5,8 +5,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Tow
 
 open scoped TensorProduct NNReal Matrix
@@ -38,5 +36,3 @@ theorem det_herm {n : ℕ} {X : Spc F E n} {r s : ℕ} (hX : X.IsHerm σ B r s) 
   exact fun h0 => h (by rw [h0, map_zero])
 
 end PositivityTheory.ThKG.Tow
-
-end

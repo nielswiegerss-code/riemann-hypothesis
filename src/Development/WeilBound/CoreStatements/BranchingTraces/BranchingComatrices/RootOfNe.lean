@@ -9,8 +9,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 open Finset Polynomial
 
-noncomputable section
-
 namespace PositivityTheory.UnitaryDecomposition.Com
 
 open Formalism.REAL Formalism.FourierDecayAlt.P.CapelliAbstractCharacter

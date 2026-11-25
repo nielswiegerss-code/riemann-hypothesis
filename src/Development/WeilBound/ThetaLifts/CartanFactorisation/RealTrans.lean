@@ -7,8 +7,6 @@ import Development.WeilBound.ThetaLifts.ConeHypotheses.PureEqPureA
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKF
 
 open scoped TensorProduct NNReal Matrix
@@ -112,5 +110,3 @@ theorem so_re (V V' W) : G.M'.So B.ψ B.τ₁ ≤ (reG G V V' W).M'.So B.ψ B.τ
   exact ⟨f, φ, h1, h2, ⟨h3, ι, ⟨h4.bij, h4.trans, h4.mult⟩, h5⟩, rfl⟩
 
 end PositivityTheory.ThKF
-
-end

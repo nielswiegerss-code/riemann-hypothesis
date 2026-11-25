@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix SchwartzMap Classical
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -44,5 +42,3 @@ theorem cont_nr {n : ℕ} (nr : (Fin n → Fin n → ℝ) → GR n) (hnr : ∀ x
     exact Continuous.matrix_fromBlocks continuous_const hh.neg continuous_const continuous_const
 
 end PositivityTheory.SiegelWeilFormula.KSing
-
-end

@@ -4,8 +4,6 @@ public import Development.AutomorphicSpectrum.Definitions.GlobalGeometry.CoordsA
 
 @[expose] public section
 
-noncomputable section
-
 open AlgebraicGeometry CategoryTheory GlobalTheory.CompanionTheory.Ar
 
 namespace PositivityTheory.HtPt.Ci.Val

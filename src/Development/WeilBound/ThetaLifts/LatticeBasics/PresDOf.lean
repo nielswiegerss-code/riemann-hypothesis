@@ -11,8 +11,6 @@ public import Development.WeilBound.ThetaLifts.LocalTheory.ConeShifts.PresOfHat
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.Vf2
 
 open scoped Matrix TensorProduct GlobalTheory.VacAny
@@ -134,5 +132,3 @@ theorem _root_.GlobalTheory.ThK.Dbl.vacFix2 : VacFix2 := by
   rw [n4, Complex.ofReal_one]
 
 end GlobalTheory.ThK.Dbl.Vf2
-
-end

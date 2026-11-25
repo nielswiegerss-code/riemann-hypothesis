@@ -4,8 +4,6 @@ public import Development.WeilBound.ThetaLifts.LatticeBasics.HypothesesE
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl
@@ -110,5 +108,3 @@ theorem symp_N (X : Matrix (Fin m) (Fin n) (AE F E)) (β T0 : Matrix (Fin n) (Fi
   simp only [Matrix.mul_assoc]
 
 end PositivityTheory.SiegelWeilFormula.Tpar
-
-end

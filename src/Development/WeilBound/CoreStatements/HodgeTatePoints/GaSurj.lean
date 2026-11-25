@@ -5,8 +5,6 @@ public import Development.AutomorphicSpectrum.Proofs.AlgebraProofs.RelatedPairsO
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.HtPt.Ga
 
 open Module NumberField GlobalTheory.CompanionTheory.Ar.HT TensorProduct

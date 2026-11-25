@@ -8,8 +8,6 @@ public import Mathlib.MeasureTheory.Measure.Haar.Unique
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 
 namespace PositivityTheory.SiegelWeilFormula.KFock
@@ -48,5 +46,3 @@ theorem integral_split (ν : Measure G) [ν.IsAddHaarMeasure] (la : Measure H) [
   exact Or.inl rfl
 
 end PositivityTheory.SiegelWeilFormula.KFock
-
-end

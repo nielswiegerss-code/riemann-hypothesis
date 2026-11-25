@@ -10,8 +10,6 @@ public import Development.WeilBound.ThetaLifts.SmallCones.KerGeo
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT.Ker
 
 open scoped TensorProduct NNReal ENNReal Matrix

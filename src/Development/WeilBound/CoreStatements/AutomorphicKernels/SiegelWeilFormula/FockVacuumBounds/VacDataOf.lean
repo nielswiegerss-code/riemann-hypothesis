@@ -6,8 +6,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open Set Filter Topology GlobalTheory.Cont
 
 namespace PositivityTheory.SiegelWeilFormula.Atop
@@ -135,5 +133,3 @@ theorem vacData_of {G : Type} [TopologicalSpace G] (h : ℂ → G → ℂ) (s₀
     hFs, fun g z hz => hHol g z (Metric.ball_subset_ball (by linarith) hz)⟩
 
 end PositivityTheory.SiegelWeilFormula.Atop
-
-end

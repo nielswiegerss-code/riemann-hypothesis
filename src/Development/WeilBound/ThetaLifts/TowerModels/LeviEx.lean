@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Tow
 
 open scoped TensorProduct NNReal Matrix
@@ -142,5 +140,3 @@ theorem iwa : PositivityTheory.ThKEnd.Iwa := by
     rfl
 
 end PositivityTheory.ThKG.Tow
-
-end

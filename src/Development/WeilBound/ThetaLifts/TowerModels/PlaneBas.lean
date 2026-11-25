@@ -4,8 +4,6 @@ public import Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeilTenso
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Tow.Pln
 
 open scoped TensorProduct Matrix nonZeroDivisors
@@ -144,5 +142,3 @@ theorem exists_basis (n n₁ : ℕ) (L : Submodule (𝓞 E) (Fin n → E)) (x y 
     exact hu'
 
 end PositivityTheory.ThKG.Tow.Pln
-
-end

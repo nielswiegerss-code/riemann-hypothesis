@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.PublishedTheorems.JacquetShal
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Matrix Topology Filter
 open GlobalTheory.CuspGeneric GlobalTheory.CuspRep GlobalTheory.UnitaryBC GlobalTheory.DiscSpec PositivityTheory.jumpWindows PositivityTheory.RgJS
 open GroundTheory.Automorphic GroundTheory.Automorphic.FourierWhittaker GroundTheory.Automorphic.Reduction GroundTheory.Automorphic.Spherical
@@ -78,5 +76,3 @@ theorem crystalline_clause_of_admitted : P3 := by
   simpa only [one_mul] using cubicPeriodConstant.whit_gen ψ g g' m f f' c h 1 cubicPeriodConstant.unipotent_zero_one
 
 end PositivityTheory.AdelicQuotientData
-
-end

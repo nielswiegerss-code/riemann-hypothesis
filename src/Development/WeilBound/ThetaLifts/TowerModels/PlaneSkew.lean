@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Tow
 
 open scoped TensorProduct NNReal Matrix
@@ -28,5 +26,3 @@ theorem planeSkew : PlaneSkew := by
     (fun v => Pln.val_le_one_of_codE hB.cm hB.std (hB.psiP v v.2) (B.τ v)) n n₁ hn hn₁ Y r s hr hs hY i₀ i₁ h01 h1n
 
 end PositivityTheory.ThKG.Tow
-
-end

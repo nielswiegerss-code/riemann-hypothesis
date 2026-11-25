@@ -10,8 +10,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix SchwartzMap Classical Pointwise
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl PositivityTheory.Rg.Sw
@@ -63,5 +61,3 @@ theorem td_map_incM {w : InfinitePlace F} (τ : EmbOver E w) {p q : Type} (N : M
   exact (GlobalTheory.CompanionTheory.CMAdele.piInf_tmul τ 1 (N i j)).trans (by rw [show (1 : AF F).1 w = 1 from rfl, map_one, one_mul]; rfl)
 
 end PositivityTheory.SiegelWeilFormula.KK
-
-end

@@ -14,8 +14,6 @@ import ReciprocityTheory.AnalyticForms.PotentialTheory.IsPotentialOfFun
 
 @[expose] public section
 
-noncomputable section
-
 namespace AnalyticReference.An.H
 
 open ReciprocityTheory.AnForm ReciprocityTheory.AnForm.M GlobalTheory.CompanionTheory.Ar Filter Topology

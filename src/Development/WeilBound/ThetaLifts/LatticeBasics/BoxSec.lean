@@ -8,8 +8,6 @@ public import Development.WeilBound.ThetaLifts.LatticeBasics.SecLaw
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.Box
 
 open scoped TensorProduct NNReal Matrix SchwartzMap Classical
@@ -73,5 +71,3 @@ theorem _root_.GlobalTheory.ThK.Dbl.boxSecX_of (hL : FinLevel) (hC : Stab2Cpt) :
     rwa [ht] at this
 
 end GlobalTheory.ThK.Dbl.Box
-
-end

@@ -12,8 +12,6 @@ import Development.WeilBound.ThetaLifts.TowerModels.PlaneHerm
 
 set_option linter.unusedSectionVars false
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open scoped TensorProduct NNReal ENNReal Matrix
@@ -164,5 +162,3 @@ theorem lawsB {M₀ : Model σ X₁ W₁} (hp : IsPair B M χX χW om r s r' s')
 end
 
 end PositivityTheory.ThKCT
-
-end

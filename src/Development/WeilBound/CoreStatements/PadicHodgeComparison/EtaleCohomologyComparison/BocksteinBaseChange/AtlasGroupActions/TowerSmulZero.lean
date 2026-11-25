@@ -5,8 +5,6 @@ public import Mathlib.NumberTheory.Padics.RingHoms
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory
 
 universe u v w

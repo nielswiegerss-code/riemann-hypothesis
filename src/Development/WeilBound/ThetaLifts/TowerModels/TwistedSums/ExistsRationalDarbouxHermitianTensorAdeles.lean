@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsRationalDarbouxHermitianTensorAdeles
 @[expose] public section
 
-noncomputable section
-
 namespace Tw.RatDarboux
 open _root_.GlobalTheory
 

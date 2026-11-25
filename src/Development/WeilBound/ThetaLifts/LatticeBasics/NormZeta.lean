@@ -11,8 +11,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl
 
 open scoped TensorProduct NNReal Matrix
@@ -100,5 +98,3 @@ theorem normZeta_of (hS : SWFullX) (hX : BoxSecX) (hW : DblX) (hH : HgtEx) (hT :
     ring
 
 end GlobalTheory.ThK.Dbl
-
-end

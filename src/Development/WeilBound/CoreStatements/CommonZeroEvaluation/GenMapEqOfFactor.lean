@@ -7,8 +7,6 @@ public import Development.AutomorphicSpectrum.Definitions.GlobalGeometry.CoordsA
 open AlgebraicGeometry CategoryTheory
 open GlobalTheory.CompanionTheory.Ar
 
-noncomputable section
-
 namespace ModelDimension
 
 theorem genMap_eq_of_factor {X : Scheme.{0}} {Ω : Type} [Field Ω] {ξ : Spec (CommRingCat.of Ω) ⟶ X}

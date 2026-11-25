@@ -12,8 +12,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKF
 
 open scoped TensorProduct NNReal Matrix
@@ -103,5 +101,3 @@ theorem kills0_of (hT : ThetaBasic) (hW : WeilConv) (hK : KCoinv) (h : Kills) : 
   · rwa [upd_ne _ _ _ ev]
 
 end PositivityTheory.ThKF
-
-end

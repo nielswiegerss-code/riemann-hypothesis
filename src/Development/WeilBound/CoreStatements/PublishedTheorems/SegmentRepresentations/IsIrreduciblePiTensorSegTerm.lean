@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.None
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.PRep GlobalTheory.SplitWeil GlobalTheory.SmGL GlobalTheory.JHMult GlobalTheory.Published
 
 namespace PositivityTheory.Lit1.SegRep.PIrr
@@ -24,5 +22,3 @@ theorem isIrreducible_piTensor_segTerm {k : Type} [Field k] [ValuativeRel k] [To
   exact (smul_right_injective _ (Units.ne_zero _)) h
 
 end PositivityTheory.Lit1.SegRep.PIrr
-
-end

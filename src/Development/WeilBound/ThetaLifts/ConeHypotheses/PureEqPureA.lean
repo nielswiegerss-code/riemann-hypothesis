@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG
 
 open scoped TensorProduct NNReal Matrix
@@ -123,5 +121,3 @@ theorem polMatch_mem {Φ Φ'} (h : PolMatch B G X R Rf Φ Φ') : Φ ∈ PolData 
     Submodule.sum_mem _ fun i _ => Submodule.subset_span ⟨f' i, (h2 i).1, φ' i, (h2 i).2.1, cof (h2 i).2.2, rfl⟩⟩
 
 end PositivityTheory.ThKG
-
-end

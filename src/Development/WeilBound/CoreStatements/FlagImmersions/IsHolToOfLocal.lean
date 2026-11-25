@@ -15,8 +15,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace RootFieldNumerics
 
 open AlgebraicGeometry CategoryTheory NumberField Filter Topology Matrix

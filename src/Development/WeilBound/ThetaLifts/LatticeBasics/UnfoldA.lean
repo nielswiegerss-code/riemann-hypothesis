@@ -12,8 +12,6 @@ public import Mathlib.Analysis.Complex.Liouville
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.An
 
 open MeasureTheory Filter Topology
@@ -56,5 +54,3 @@ theorem diffOn_integral {X : Type} [MeasurableSpace X] {μ : Measure X} [IsFinit
       fun z hz => hC z (sub s hs (Metric.sphere_subset_closedBall hz)) x
 
 end GlobalTheory.ThK.Dbl.An
-
-end

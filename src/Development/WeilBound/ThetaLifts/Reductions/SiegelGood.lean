@@ -7,8 +7,6 @@ public import Development.WeilBound.ThetaLifts.Reductions.SiegelCore
 
 set_option linter.unusedSectionVars false
 
-noncomputable section
-
 open Topology Set Matrix
 open Formalism.UG (cT cT_mul cT_one)
 
@@ -285,5 +283,3 @@ theorem commute_of_good_position (h : IsCMExt F E σ) (hJ : IsHermND σ J) (hW :
 end Adelic
 
 end PositivityTheory.ThKR
-
-end

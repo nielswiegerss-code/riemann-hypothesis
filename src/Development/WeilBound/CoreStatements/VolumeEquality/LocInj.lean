@@ -7,8 +7,6 @@ public import Development.WeilBound.CoreStatements.VolumeEquality.LocInjA
 
 @[expose] public section
 
-noncomputable section
-
 namespace SheetDecomposition
 
 open NumberField Filter Topology ReciprocityTheory.ChartRestriction.G.Geo ReciprocityTheory.ChartRestriction.G.Geo.Tor GlobalTheory.CompanionTheory.Ar GlobalTheory.CompanionTheory.Ar.Cusp

@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT.So
 
 open NumberField GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK
@@ -34,5 +32,3 @@ theorem _root_.PositivityTheory.ThKCT.soStab_of : SoStab := by
     (IsUWeilPair.isUSplitting hP.weil).toIsSplitting B.τ₁ x
 
 end PositivityTheory.ThKCT.So
-
-end

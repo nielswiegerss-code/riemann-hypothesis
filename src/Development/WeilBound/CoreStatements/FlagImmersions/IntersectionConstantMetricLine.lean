@@ -8,8 +8,6 @@ import Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGap
 
 open MvPolynomial ReciprocityTheory.ChartRestriction.G.Geo Filter Topology GlobalTheory.CompanionTheory.Ar.Top
 
-noncomputable section
-
 namespace RootFieldNumerics
 
 variable {K : Type} [Fintype K] {ι : K → Type} [∀ k, Fintype (ι k)]

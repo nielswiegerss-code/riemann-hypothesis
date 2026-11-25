@@ -10,8 +10,6 @@ import CompanionTheory.AutomorphicTheory.ThetaDilations.OrbitAdelic
 open NumberField IsDedekindDomain MeasureTheory Matrix Topology GlobalTheory.CompanionTheory.SW.Core
 open scoped ENNReal NNReal MatrixGroups
 
-noncomputable section
-
 namespace PositivityTheory.PlacePermOperatorBicommutantSpan
 
 variable {F : Type} [Field F] [NumberField F] {ι : Type} [Fintype ι]

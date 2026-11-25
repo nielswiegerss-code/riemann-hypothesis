@@ -61,8 +61,6 @@ public import Mathlib.FieldTheory.IsAlgClosed.Basic
 
 open scoped TensorProduct
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.Dens
 
 open Polynomial Cardinal

@@ -11,8 +11,6 @@ import GroundTheory.AutomorphicForms.ReductionMeasure
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.Hgt
 
 open scoped NNReal ENNReal TensorProduct Pointwise
@@ -200,5 +198,3 @@ theorem count_ad (hF : IsTotallyReal F) {B κ : Type} [Ring B] [Algebra (AF F) B
     ring
 
 end GlobalTheory.ThK.Dbl.Hgt
-
-end

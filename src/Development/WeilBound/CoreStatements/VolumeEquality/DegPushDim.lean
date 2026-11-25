@@ -12,8 +12,6 @@ public import ReciprocityTheory.CommutativeAlgebra.PolynomialHeights.HeightAddRi
 
 @[expose] public section
 
-noncomputable section
-
 namespace SheetDecomposition
 
 open ReciprocityTheory.ChartRestriction.G

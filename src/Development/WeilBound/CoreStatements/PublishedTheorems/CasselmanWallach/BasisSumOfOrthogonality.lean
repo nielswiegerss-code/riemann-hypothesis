@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.PublishedTheorems.CasselmanWa
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Finset ReciprocityTheory.ChartRestriction.DS
 
 namespace PositivityTheory.CW
@@ -215,5 +213,3 @@ theorem basis_form_sum_of_gain : A0 → FunctionalCalculusLaws → A12 → Basis
     linarith
 
 end PositivityTheory.CW
-
-end

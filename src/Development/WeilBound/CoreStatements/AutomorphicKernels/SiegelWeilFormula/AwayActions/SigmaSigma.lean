@@ -5,8 +5,6 @@ import CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExt
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct Matrix
 open NumberField Matrix Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 
@@ -103,5 +101,3 @@ theorem nrm_exists (hcm : IsCMExt F E σ) (z : AE F E) : ∃ a : AF F, algebraMa
   abel
 
 end PositivityTheory.SiegelWeilFormula.KAway
-
-end

@@ -5,8 +5,6 @@ public import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WittToAc
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory AlgebraicGeometry TensorProduct GroundTheory.PAdicHodge GlobalTheory.LogCris DividedPowers CrystallineSemistableComparison.PAlg
 
 namespace CrystallineSemistableComparison.Pb

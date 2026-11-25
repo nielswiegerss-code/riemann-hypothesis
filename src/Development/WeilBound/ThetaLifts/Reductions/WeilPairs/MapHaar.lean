@@ -14,8 +14,6 @@ open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.Genus
 open GlobalTheory.WeilM GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 open Formalism.IndefR.DatumF
 
-noncomputable section
-
 namespace PositivityTheory.ThKW.AdelicSchwartzProperties
 
 variable {F E : Type} [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E]
@@ -65,5 +63,3 @@ theorem map_haar {nS nT N : ℕ} (α : WOF F E nS nT ≃ₗ[AF F] (Fin N → AF 
     exact integrable_smul_measure (by exact_mod_cast hc.ne') ENNReal.coe_ne_top
 
 end PositivityTheory.ThKW.AdelicSchwartzProperties
-
-end

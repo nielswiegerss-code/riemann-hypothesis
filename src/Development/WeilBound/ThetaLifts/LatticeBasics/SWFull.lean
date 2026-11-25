@@ -5,8 +5,6 @@ public import Mathlib.Analysis.Complex.AbsMax
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl
 
 open scoped TensorProduct NNReal Matrix
@@ -116,5 +114,3 @@ theorem swFull_of (h1 : SWAniso) (h2 : EisContinues) (h3 : BoxSec) : SWFull := b
     Set.mem_insert _ _, fun x => by rw [Function.update_self]⟩
 
 end GlobalTheory.ThK.Dbl
-
-end

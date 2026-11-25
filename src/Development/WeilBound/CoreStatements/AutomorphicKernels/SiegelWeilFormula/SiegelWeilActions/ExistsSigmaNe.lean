@@ -5,8 +5,6 @@ import Development.AbelianVarietyTheory.Definitions.Foundations.NonemptyAlgHomOf
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct Matrix
 open NumberField Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 
@@ -23,5 +21,3 @@ theorem deltaEx' (h : IsCMExt F E σ) (ε : ℤˣ) : ∃ δ : E, δ ≠ 0 ∧ σ
   · exact ⟨1, one_ne_zero, by simp⟩
 
 end PositivityTheory.SiegelWeilFormula.Act.CL
-
-end

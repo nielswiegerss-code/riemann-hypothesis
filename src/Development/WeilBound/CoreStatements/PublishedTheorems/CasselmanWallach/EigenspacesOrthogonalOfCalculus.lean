@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Finset ReciprocityTheory.ChartRestriction.DS
 
 namespace PositivityTheory.CW
@@ -155,5 +153,3 @@ theorem eigenspaces_orthogonal_of_calculus : A0 → FunctionalCalculusLaws → E
   · exact h0
 
 end PositivityTheory.CW
-
-end

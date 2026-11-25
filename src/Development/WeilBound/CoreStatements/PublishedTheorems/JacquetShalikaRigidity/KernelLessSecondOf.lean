@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.PublishedTheorems.JacquetShal
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Matrix Topology Filter
 open GlobalTheory.CuspGeneric GlobalTheory.CuspRep GlobalTheory.UnitaryBC GlobalTheory.DiscSpec PositivityTheory.jumpWindows PositivityTheory.RgJS
 open GroundTheory.Automorphic GroundTheory.Automorphic.FourierWhittaker GroundTheory.Automorphic.Reduction GroundTheory.Automorphic.Spherical
@@ -191,5 +189,3 @@ theorem kernel_less_second_of : D0 → N0 → H0 → RowsInCompactSet → K1 →
       _ = _ := mul_one _
 
 end PositivityTheory.AdelicQuotientData
-
-end

@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKEst
 
 open scoped TensorProduct NNReal ENNReal Matrix
@@ -72,5 +70,3 @@ theorem iUMG_of (hB : ThetaBasic) (hT : GrpTop) (hE : EpsOf) (hD : IDer) (hL : L
     rw [← (hI F E σ B n d X W M χX χW om r s r' s' hp _ (pureA_mem f hsb)).2.2 h u, hu u huU h1]
 
 end PositivityTheory.ThKEst
-
-end

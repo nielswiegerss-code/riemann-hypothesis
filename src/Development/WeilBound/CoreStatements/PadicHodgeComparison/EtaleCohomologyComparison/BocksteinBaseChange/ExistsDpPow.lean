@@ -8,8 +8,6 @@ public import Mathlib.NumberTheory.Padics.PadicVal.Basic
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory Limits AlgebraicGeometry TensorProduct
 
 namespace CrystallineSemistableComparison

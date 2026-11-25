@@ -10,8 +10,6 @@ import Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGap
 
 open MvPolynomial ReciprocityTheory.ChartRestriction.G.Geo Filter Topology GlobalTheory.CompanionTheory.Ar.Top
 
-noncomputable section
-
 namespace RootFieldNumerics
 
 theorem mixedDisc_eq_zero {D : ℕ} (A : Fin D → Matrix (Fin D) (Fin D) ℂ) (k : Fin D)

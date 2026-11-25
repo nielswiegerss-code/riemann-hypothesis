@@ -7,8 +7,6 @@ public import Development.AutomorphicSpectrum.Proofs.GeometryProofs.LocalRingPoi
 
 @[expose] public section
 
-noncomputable section
-
 namespace SheetDecomposition.ChartForm
 
 open AlgebraicGeometry CategoryTheory MvPolynomial ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Geo GlobalTheory.CompanionTheory.Ar GlobalTheory.CompanionTheory.Ar.TiePoints

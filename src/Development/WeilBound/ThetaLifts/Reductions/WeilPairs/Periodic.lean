@@ -19,8 +19,6 @@ open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.Genus
 open GlobalTheory.WeilM GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 open Formalism.IndefR.DatumF
 
-noncomputable section
-
 namespace PositivityTheory.ThKW.PhaseFourierInjectivity
 
 open PositivityTheory.ThKW.ModulusFactorDefinition
@@ -59,5 +57,3 @@ theorem integrable : ∀ (F E : Type) [Field F] [NumberField F] [Field E] [Numbe
   exact hC _ h
 
 end PositivityTheory.ThKW.PhaseFourierInjectivity
-
-end

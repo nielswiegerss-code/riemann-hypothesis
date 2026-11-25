@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix SchwartzMap Classical
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -29,5 +27,3 @@ theorem real_indep {u v : ℂ} (hD : u.im * v.re - u.re * v.im ≠ 0) {x y : ℝ
     exact (mul_eq_zero.mp e).resolve_right hD
 
 end PositivityTheory.SiegelWeilFormula.KFock
-
-end

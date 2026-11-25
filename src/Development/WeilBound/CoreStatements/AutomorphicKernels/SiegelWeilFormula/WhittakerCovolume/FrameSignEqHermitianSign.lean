@@ -7,8 +7,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -40,5 +38,3 @@ theorem rel_anti (h : Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes.
   rw [map_sub, hσ, neg_sub]
 
 end PositivityTheory.SiegelWeilFormula.KWhit
-
-end

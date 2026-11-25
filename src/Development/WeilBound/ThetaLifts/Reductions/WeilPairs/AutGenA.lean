@@ -12,8 +12,6 @@ import Mathlib.Tactic.Linter.Style
 
 set_option linter.unusedSectionVars false
 
-noncomputable section
-
 open scoped TensorProduct Matrix Kronecker Classical
 open NumberField Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Matrix Formalism.IndefR.DatumF
 
@@ -210,5 +208,3 @@ theorem refl_map {σ : E →ₐ[F] E} (hcm : IsCMExt F E σ) (c : E ≃ₐ[F] E)
   simp [vecMulVec_apply, map_mul]
 
 end PositivityTheory.ThKW.GenA
-
-end

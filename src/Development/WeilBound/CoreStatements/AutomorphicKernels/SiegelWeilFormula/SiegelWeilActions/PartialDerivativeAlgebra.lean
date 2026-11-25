@@ -14,8 +14,6 @@ public import Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeil
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Classical ComplexOrder
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -48,5 +46,3 @@ theorem cA_inv' (hσ : ∀ x, σ (σ x) = x) (z : AE F E) : cA σ (cA σ z) = z 
   | add a b ha hb => simp [map_add (f := _), ha, hb]
 
 end PositivityTheory.SiegelWeilFormula.Act.C6
-
-end

@@ -8,8 +8,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open scoped Matrix

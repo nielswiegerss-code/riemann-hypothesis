@@ -10,8 +10,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory AlgebraicGeometry Limits GlobalTheory.LogCris DividedPowers
 
 namespace CrystallineSemistableComparison.Pb.Kap

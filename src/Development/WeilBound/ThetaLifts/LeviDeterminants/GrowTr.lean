@@ -4,8 +4,6 @@ public import Development.WeilBound.ThetaLifts.LeviDeterminants.GrowDef
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKF0.Grow
 
 open scoped Matrix Classical

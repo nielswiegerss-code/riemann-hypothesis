@@ -9,8 +9,6 @@ public import Development.WeilBound.ThetaLifts.SmallCones.KerGeo
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open NumberField Matrix GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.ThK PositivityTheory.ThKG So Ker
@@ -31,5 +29,3 @@ theorem soZeroA'_of (hL : LinEx) (hX : MixX) (hE : ThetaExp) (hU : EvUniq) : SoZ
   rw [h Ψ hΨ, LinearMap.comp_apply, ev_zero hL hB hP₁.herm hP₁.skew hM₁ _ eX (x_ne hH) (fun z => heX.inv _ ⟨z, rfl⟩) _ hso, smul_zero]
 
 end PositivityTheory.ThKCT
-
-end

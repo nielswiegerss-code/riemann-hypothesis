@@ -10,7 +10,6 @@ public import Development.WeilBound.ThetaLifts.LeviDeterminants.EqZeroOfTheta
 open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 open scoped Matrix TensorProduct
 
-noncomputable section
 namespace PositivityTheory.ThKF0.Resc
 
 section Gen

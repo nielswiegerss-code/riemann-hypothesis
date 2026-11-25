@@ -6,8 +6,6 @@ public import CompanionTheory.AutomorphicTheory.PadicCyclotomicFields.GcohCmp
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory MonoidalCategory TensorProduct GroundTheory.ProfCoh ReciprocityTheory.Gal
 
 namespace PositivityTheory.Lit1.PTN

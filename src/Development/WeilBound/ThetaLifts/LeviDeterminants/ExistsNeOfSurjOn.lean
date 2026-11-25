@@ -13,7 +13,6 @@ open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 
-noncomputable section
 namespace PositivityTheory.ThKF0
 
 variable {F : Type} [Field F] [NumberField F] {κ : Type} [Fintype κ]
@@ -104,5 +103,3 @@ theorem tw_bij (hA : PositivityTheory.Mix.AdelSt) {ψ : AddChar (AF F) ℂ} (hψ
     rw [h1 Ψ hΨ]
 
 end PositivityTheory.ThKF0
-
-end

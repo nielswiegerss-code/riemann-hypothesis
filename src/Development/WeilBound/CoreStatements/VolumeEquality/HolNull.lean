@@ -5,8 +5,6 @@ public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscrim
 
 @[expose] public section
 
-noncomputable section
-
 namespace SheetDecomposition
 
 open AlgebraicGeometry CategoryTheory MeasureTheory Filter Topology

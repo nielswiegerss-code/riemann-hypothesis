@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open scoped TensorProduct NNReal ENNReal Matrix
@@ -148,5 +146,3 @@ theorem ctSmallCone_of (hB : GenSmall) (hK : KFinData) (hI : IwaEx) (hP : PairEx
   rfl
 
 end PositivityTheory.ThKCT
-
-end

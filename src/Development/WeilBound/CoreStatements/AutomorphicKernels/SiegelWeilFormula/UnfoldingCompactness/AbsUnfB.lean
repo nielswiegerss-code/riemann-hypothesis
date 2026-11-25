@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 open scoped ENNReal
 
@@ -65,5 +63,3 @@ theorem abs_integrable {V : Type} [AddCommGroup V] [TopologicalSpace V] [IsTopol
   exact lt_of_le_of_lt (h1.trans (h2.trans h3)) (ENNReal.mul_lt_top hM.lt_top hC.measure_lt_top)
 
 end PositivityTheory.SiegelWeilFormula.kunf
-
-end

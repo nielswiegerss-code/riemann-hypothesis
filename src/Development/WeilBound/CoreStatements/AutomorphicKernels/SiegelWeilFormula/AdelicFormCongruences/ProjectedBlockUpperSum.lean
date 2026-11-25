@@ -20,8 +20,6 @@ import Mathlib.Tactic.Linter.Style
 
 set_option linter.unusedSectionVars false
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Pointwise
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -63,5 +61,3 @@ theorem finOne_mul {a : AF F} (ha : a.2 = 0) : finOne F * a = 0 :=
 end Dens
 
 end PositivityTheory.SiegelWeilFormula.Afc
-
-end

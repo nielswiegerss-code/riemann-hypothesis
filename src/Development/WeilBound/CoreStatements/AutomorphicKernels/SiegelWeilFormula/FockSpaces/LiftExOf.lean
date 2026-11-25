@@ -5,8 +5,6 @@ public import Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeil
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix SchwartzMap Classical
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -24,5 +22,3 @@ theorem fP_smul {m n : ℕ} (a : ℂ) (P : PX m n) : fP (a • P) = a • fP P :
   simp only [fP, evX, MvPolynomial.smul_eval, Pi.smul_apply, smul_eq_mul, mul_assoc]
 
 end PositivityTheory.SiegelWeilFormula.KFock
-
-end

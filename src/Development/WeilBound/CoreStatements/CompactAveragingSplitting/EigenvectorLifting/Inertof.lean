@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThK
 
 open NumberField IsDedekindDomain GlobalTheory.AdelicU

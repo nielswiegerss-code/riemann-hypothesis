@@ -5,8 +5,6 @@ public import ReciprocityTheory.Chebotarev.EulerSum
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl
 
 open NumberField IsDedekindDomain GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
@@ -62,5 +60,3 @@ theorem dProd : DProd := by
     ⟨Finset.prod_ne_zero_iff.2 fun i _ => (h2 i z hz).1, hasProd_prod fun i _ => (h2 i z hz).2⟩⟩
 
 end GlobalTheory.ThK.Dbl
-
-end

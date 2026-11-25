@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.PublishedTheorems.SmoothVecto
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Matrix Topology Filter BoundedContinuousFunction
 open GlobalTheory.CuspGeneric GlobalTheory.CuspRep GlobalTheory.CuspRep.CuspidalL2GL GlobalTheory.AutomorphicL2Unitary GlobalTheory.UnitaryBC GlobalTheory.DiscSpec GlobalTheory.LFun Formalism.UG Formalism.L2.Host
 
@@ -162,5 +160,3 @@ theorem convergence_entries_general_linear : G0 → PlacewiseToOutsideS := by
   exact tendsto_nhds_unique h1 h2
 
 end PositivityTheory.jumpWindows
-
-end

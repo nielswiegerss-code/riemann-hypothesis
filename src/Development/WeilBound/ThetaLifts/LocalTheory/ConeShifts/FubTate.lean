@@ -10,8 +10,6 @@ public import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Fub
 
 open MeasureTheory Topology Filter
@@ -115,5 +113,3 @@ theorem tate {H : Type} [CommGroup H] [TopologicalSpace H] [IsTopologicalGroup H
   exact (hasSum_geometric_of_norm_lt_one ht).mul_left _
 
 end PositivityTheory.ThKG.Fub
-
-end

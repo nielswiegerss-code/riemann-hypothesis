@@ -8,8 +8,6 @@ public import Mathlib.Analysis.Calculus.Deriv.Mul
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Finset ReciprocityTheory.ChartRestriction.DS
 
 namespace PositivityTheory.CW
@@ -137,5 +135,3 @@ theorem maximum_principle_of_facts : B2 → B3 → UnitaryGroupFacts → Maximum
   rwa [div_mul_cancel₀ _ hW1.ne'] at this
 
 end PositivityTheory.CW
-
-end

@@ -8,8 +8,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open scoped TensorProduct NNReal Matrix Classical
@@ -225,5 +223,3 @@ theorem evAdm_of : EvAdm := by
   rfl
 
 end PositivityTheory.ThKCT
-
-end

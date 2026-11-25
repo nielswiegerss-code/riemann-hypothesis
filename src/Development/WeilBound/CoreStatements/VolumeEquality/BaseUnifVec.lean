@@ -15,8 +15,6 @@ import Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsDifferentiable
 
 @[expose] public section
 
-noncomputable section
-
 namespace SheetDecomposition
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj NumberField Matrix Filter Topology

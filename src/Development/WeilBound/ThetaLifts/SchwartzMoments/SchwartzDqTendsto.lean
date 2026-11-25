@@ -6,8 +6,6 @@ public import Development.AutomorphicSpectrum.Proofs.MembershipProofs.BoundMulTr
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKOwn
 
 open Filter Topology GlobalTheory.CompanionTheory.OM.SchDiff
@@ -60,5 +58,3 @@ theorem schwartz_dq_tendsto (g : 𝓢(V, ℂ)) (a : V) :
     _ = _ := by field_simp
 
 end PositivityTheory.ThKOwn
-
-end

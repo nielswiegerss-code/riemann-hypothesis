@@ -5,8 +5,6 @@ public import Development.WeilBound.ThetaLifts.LatticeBasics.ExistsIsGauss
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl
 
 open scoped Classical
@@ -39,5 +37,3 @@ theorem polDense : PositivityTheory.ThKG.PolDense := by
   linarith
 
 end GlobalTheory.ThK.Dbl
-
-end

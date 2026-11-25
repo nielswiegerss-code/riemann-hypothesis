@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Loc
 
 open scoped TensorProduct NNReal Matrix nonZeroDivisors
@@ -206,5 +204,3 @@ theorem tens_step {T : Finset (Pl F)} {P Pâ‚ : Type} [AddCommGroup P] [Module â
   exact Finset.sum_congr rfl fun j _ => by congr 1; ring
 
 end PositivityTheory.ThKG.Loc
-
-end

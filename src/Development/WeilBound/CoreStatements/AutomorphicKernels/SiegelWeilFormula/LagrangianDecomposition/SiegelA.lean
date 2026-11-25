@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeil
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix
 
 namespace PositivityTheory.SiegelWeilFormula.Ald
@@ -49,5 +47,3 @@ theorem det_blkA {R : Type*} [CommRing R] {N n : ℕ} (h : n + 1 = N) (A : Matri
   rw [Matrix.det_submatrix_equiv_self, Matrix.det_fromBlocks_zero₂₁, Matrix.det_one, mul_one]
 
 end PositivityTheory.SiegelWeilFormula.Ald
-
-end

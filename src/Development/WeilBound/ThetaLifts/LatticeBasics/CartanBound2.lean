@@ -8,8 +8,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl
 
 open scoped TensorProduct NNReal Matrix
@@ -106,5 +104,3 @@ theorem stab2Cpt : Stab2Cpt := by
       (v continuous_id _).inter (v continuous_inv _))
 
 end GlobalTheory.ThK.Dbl
-
-end

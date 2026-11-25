@@ -10,8 +10,6 @@ import Mathlib.Tactic.Linter.HaveILetI
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Loc.Iwa
 
 open scoped TensorProduct Matrix
@@ -174,5 +172,3 @@ theorem exists_selfDual {B : Base F E} (hB : B.IsGood σ) {Y : Spc F E n} {r s :
       exact inD_mul hδ _
 
 end PositivityTheory.ThKG.Loc.Iwa
-
-end

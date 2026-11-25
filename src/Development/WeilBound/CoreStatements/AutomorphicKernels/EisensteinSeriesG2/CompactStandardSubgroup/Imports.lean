@@ -12,8 +12,6 @@ public import Mathlib.NumberTheory.NumberField.Basic
 
 @[expose] public section
 
-noncomputable section
-
 namespace SiegelEisensteinSeries.BRoad
 
 open scoped TensorProduct NNReal Matrix

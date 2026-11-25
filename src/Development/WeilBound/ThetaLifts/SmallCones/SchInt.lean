@@ -7,8 +7,6 @@ import Development.WeilBound.ThetaLifts.LatticeBasics.SchwartzFunctionalEqZeroOf
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 theorem schInt : SchInt := by
@@ -27,5 +25,3 @@ theorem schInt : SchInt := by
   exact (ContinuousLinearMap.proj (R := ℂ) i).integral_comp_comm hi
 
 end PositivityTheory.ThKCT
-
-end

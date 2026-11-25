@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open Filter Topology Set GlobalTheory.Cont GlobalTheory.ThK.Dbl
 
 namespace PositivityTheory.SiegelWeilFormula.Khead

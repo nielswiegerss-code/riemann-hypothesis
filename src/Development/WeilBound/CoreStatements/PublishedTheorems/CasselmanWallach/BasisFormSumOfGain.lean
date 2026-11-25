@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.PublishedTheorems.CasselmanWa
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Finset ReciprocityTheory.ChartRestriction.DS
 
 namespace PositivityTheory.CW
@@ -187,5 +185,3 @@ theorem eigen_gain_of_moments : A0 → A8 → A9 → A10 → FunctionalCalculusL
     hE (h8' ν v hνx hv) h9a h9b
 
 end PositivityTheory.CW
-
-end

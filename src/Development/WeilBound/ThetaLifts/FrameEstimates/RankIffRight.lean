@@ -10,7 +10,6 @@ import Mathlib.Tactic.Linter.Style
 open Matrix Filter Topology GlobalTheory.WeilM
 open scoped Pointwise
 
-noncomputable section
 namespace PositivityTheory.ThKEst.W
 
 section Rank
@@ -189,4 +188,3 @@ theorem exists_cut [CharZero k] (O : ValuationSubring k) (hO : IsCompact (O : Se
 end Cut
 
 end PositivityTheory.ThKEst.W
-end

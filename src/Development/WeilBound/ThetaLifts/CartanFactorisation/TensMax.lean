@@ -10,8 +10,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct
 open PiTensorProduct
 
@@ -91,5 +89,3 @@ theorem tens_max {A : ι → Type} (act : ∀ i, A i → Module.End ℂ (V i)) (
     simpa using P.add_mem this hy
 
 end PositivityTheory.ThKF.Unit
-
-end

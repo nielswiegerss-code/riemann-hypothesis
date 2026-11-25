@@ -9,8 +9,6 @@ import Development.WeilBound.ThetaLifts.LatticeBasics.SchwartzFunctionalEqZeroOf
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Classical ComplexOrder
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -99,5 +97,3 @@ theorem weight_factor_dilation {n : ℕ} (i₀ : Fin n) (τ : ℝ) (y : GR n) (h
   ring
 
 end PositivityTheory.SiegelWeilFormula.AStep
-
-end

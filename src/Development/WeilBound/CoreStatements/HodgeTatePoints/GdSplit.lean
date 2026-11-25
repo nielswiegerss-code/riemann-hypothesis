@@ -16,8 +16,6 @@ public import Mathlib.RingTheory.Nakayama
 
 open Module NumberField GlobalTheory.CompanionTheory.Ar.HT TensorProduct
 
-noncomputable section
-
 namespace PositivityTheory.HtPt.Gd
 
 private theorem isTorsionFree_of_projective {A P : Type*} [CommRing A] [AddCommGroup P]

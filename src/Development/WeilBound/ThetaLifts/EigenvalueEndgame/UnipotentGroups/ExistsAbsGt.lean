@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKEnd.Grp
 
 open scoped TensorProduct NNReal Matrix
@@ -157,5 +155,3 @@ theorem lineMove : LineMove := by
     group
 
 end PositivityTheory.ThKEnd.Grp
-
-end

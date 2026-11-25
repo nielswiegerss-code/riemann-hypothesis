@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.PublishedTheorems.CasselmanWa
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Formalism.REAL Formalism.MainNotions.S Formalism.L2.Theta GlobalTheory.SmoothGlob GlobalTheory.TypeSum GlobalTheory.LowTypeDetermined Filter Topology
 
 namespace PositivityTheory.CW.PageTheorem

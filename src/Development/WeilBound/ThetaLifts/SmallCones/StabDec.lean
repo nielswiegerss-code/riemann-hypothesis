@@ -7,8 +7,6 @@ public import Development.WeilBound.ThetaLifts.SmallCones.ColsOfMul
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open scoped TensorProduct Matrix
@@ -40,5 +38,3 @@ theorem stabDec_of : StabDec := by
       exacts [rfl, (map_zero (inclR (F := F) (E := E) (AF F))).symm, (map_zero (inclR (F := F) (E := E) (AF F))).symm, rfl]
 
 end PositivityTheory.ThKCT
-
-end

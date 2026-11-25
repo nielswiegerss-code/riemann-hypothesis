@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKF.PC
 
 open scoped TensorProduct Matrix Classical
@@ -86,5 +84,3 @@ theorem polCount_of (hF : FockEx) (hV : VacLine) : PolCount := by
     ((rank_range_le Φ).trans rank_tens)
 
 end PositivityTheory.ThKF.PC
-
-end

@@ -13,8 +13,6 @@ public import Development.WeilBound.CoreStatements.LocallyConstantCoinvariants.E
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open scoped Matrix
@@ -39,5 +37,3 @@ theorem linEx_of : LinEx := by
   simp only [coord, dot_ofM, incM_map h, Matrix.transpose_neg, Matrix.neg_mul, Matrix.mul_neg, neg_neg]
 
 end PositivityTheory.ThKCT
-
-end

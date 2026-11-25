@@ -12,8 +12,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct Matrix Topology Kronecker ComplexOrder Classical
 open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes Matrix
 open GlobalTheory.WeilM GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
@@ -64,5 +62,3 @@ theorem quad (hσ : ∀ x, σ (σ x) = x) (hS : IsHermND σ JS) (hT : IsHermND �
 end SerA
 
 end PositivityTheory.ThKW
-
-end

@@ -45,8 +45,6 @@ import Mathlib.Tactic.TypeStar
 
 @[expose] public section
 
-noncomputable section
-
 open Formalism.Per6 GroundTheory.PAdicHodge DeRhamPotentiallySemistable.DRPst
 
 namespace CrystallineSemistableComparison

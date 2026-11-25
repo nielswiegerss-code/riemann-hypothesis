@@ -11,7 +11,6 @@ public import Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsEigenCom
 
 open NumberField Matrix Filter Topology GlobalTheory.CompanionTheory.Ar GlobalTheory.CompanionTheory.Ar.Cusp
 
-noncomputable section
 namespace LevelTowerAlt.Val
 
 theorem phi_transport {E : Type} [Field E] [NumberField E] {V V' A : Type} [AddCommGroup V] [Module ℂ V]

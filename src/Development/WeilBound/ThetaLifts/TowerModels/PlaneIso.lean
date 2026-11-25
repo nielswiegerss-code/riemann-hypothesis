@@ -10,8 +10,6 @@ public import Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Tow.Pln
 
 open scoped TensorProduct Matrix nonZeroDivisors
@@ -127,5 +125,3 @@ theorem exists_isotropic (h : IsCMExt F E σ) (emb : ∀ w : InfinitePlace F, Em
   exact ⟨z, hz0, (mul_eq_zero.1 hz).resolve_left hδ0⟩
 
 end PositivityTheory.ThKG.Tow.Pln
-
-end

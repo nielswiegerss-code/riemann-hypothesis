@@ -8,8 +8,6 @@ public import Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUnique
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.HtPt.Htat
 
 open CategoryTheory Limits AlgebraicGeometry MonoidalCategory CartesianMonoidalCategory MonObj TensorProduct

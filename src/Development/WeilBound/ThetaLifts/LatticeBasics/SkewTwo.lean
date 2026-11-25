@@ -5,8 +5,6 @@ public import Mathlib.LinearAlgebra.Matrix.Rank
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.Vf2
 
 open Matrix GlobalTheory.WeilM PositivityTheory.ThKG.Loc.Cone.Vf
@@ -246,5 +244,3 @@ theorem exists_decomp {b b' x y t' : Matrix β β A} (b1 : Adj c J b b') (hb : b
       Matrix.one_mul]
 
 end GlobalTheory.ThK.Dbl.Vf2
-
-end

@@ -12,8 +12,6 @@ public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedP
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Classical
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -44,5 +42,3 @@ theorem eq_split {m n : ℕ} (b : GL (Fin n ⊕ Fin n) E) (w : Matrix (Fin m) (F
     Matrix.transpose_one, Matrix.mul_one]
 
 end PositivityTheory.SiegelWeilFormula.Ald.Asc
-
-end

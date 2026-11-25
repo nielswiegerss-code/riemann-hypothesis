@@ -13,8 +13,6 @@ import Development.WeilBound.CoreStatements.LocallyConstantCoinvariants.PfDictMo
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix GlobalTheory.WeilM MeasureTheory
 
 namespace PositivityTheory.ThKH.Evl

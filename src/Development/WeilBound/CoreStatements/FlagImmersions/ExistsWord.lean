@@ -8,8 +8,6 @@ public import GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PHFlProdLinea
 
 open MvPolynomial ReciprocityTheory.ChartRestriction.G.Geo Filter Topology GlobalTheory.CompanionTheory.Ar GlobalTheory.CompanionTheory.Ar.Top
 
-noncomputable section
-
 namespace RootFieldNumerics.HH
 
 theorem exists_word {J : Type} : ∀ (d : ℕ) (m : J →₀ ℕ), m.degree = d →

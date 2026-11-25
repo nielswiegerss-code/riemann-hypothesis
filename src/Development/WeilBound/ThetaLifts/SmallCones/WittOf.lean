@@ -11,8 +11,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open scoped TensorProduct Matrix NNReal
@@ -77,5 +75,3 @@ theorem witt_of : Witt := by
     exact ⟨γ, fun x => ⟨mem_ratU.2 ⟨_, hγ x⟩, by rw [hγ, PositivityTheory.ThKEnd.Grp.incM_mulVec, g2]⟩⟩
 
 end PositivityTheory.ThKCT
-
-end

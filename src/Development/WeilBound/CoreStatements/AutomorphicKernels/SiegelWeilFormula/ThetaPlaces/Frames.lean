@@ -5,8 +5,6 @@ public import Formalism.UnipotentAdelicQuotients.SWXSDefs
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -40,5 +38,3 @@ theorem dbl_conj {n : ℕ} (J : Matrix (Fin n) (Fin n) E) (s : E) (hJ : ∀ i j,
   rcases k with k | k <;> rcases l with l | l <;> simp [GlobalTheory.WeilM.dbl, hJ]
 
 end PositivityTheory.SiegelWeilFormula.ThetaDictR
-
-end

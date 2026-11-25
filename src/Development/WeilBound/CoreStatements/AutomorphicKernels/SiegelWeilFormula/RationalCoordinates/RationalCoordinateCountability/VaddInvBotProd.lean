@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped ENNReal Pointwise
 open MeasureTheory
 
@@ -82,5 +80,3 @@ theorem mp_of_vaddInv {Y : Type} [AddCommGroup Y] [MeasurableSpace Y] [Measurabl
   exact VAddInvariantMeasure.measure_preimage_vadd (⟨y, hy⟩ : Δ) hu
 
 end PositivityTheory.SiegelWeilFormula.Act.C5.CoordK
-
-end

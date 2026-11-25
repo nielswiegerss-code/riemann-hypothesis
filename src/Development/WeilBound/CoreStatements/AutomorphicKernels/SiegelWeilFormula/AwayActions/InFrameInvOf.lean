@@ -7,8 +7,6 @@ import Development.WeilBound.ThetaLifts.LatticeBasics.ConstIdele
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct Matrix
 open NumberField Matrix Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl
 
@@ -35,5 +33,3 @@ theorem one_toBlocks₂₂ {n : ℕ} : (1 : Matrix (Fin n ⊕ Fin n) (Fin n ⊕ 
   ext i j; simp [toBlocks₂₂, Matrix.one_apply]
 
 end PositivityTheory.SiegelWeilFormula.KAway
-
-end

@@ -8,8 +8,6 @@ public import Development.AbelianVarietyTheory.Definitions.Divisors.ExistsGivenS
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKH.Locrep
 
 open scoped Matrix

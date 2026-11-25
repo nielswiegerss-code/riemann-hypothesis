@@ -14,8 +14,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels (Base Spc Model Ha
 
 open scoped GlobalTheory.VacAny
 
-noncomputable section
-
 namespace Tw.VacCocycle
 open _root_.GlobalTheory
 
@@ -102,5 +100,3 @@ theorem psi_half_symp_add : ∀ {F E : Type} [Field F] [NumberField F] [Field E]
       (GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.incM F X.J) (GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.incM F Y.J) γ γ') * h
 
 end Tw.VacCocycle
-
-end

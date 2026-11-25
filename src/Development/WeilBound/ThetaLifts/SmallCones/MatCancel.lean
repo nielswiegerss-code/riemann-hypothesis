@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 set_option linter.unusedSectionVars false
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT.Fr
 
 open scoped TensorProduct Matrix
@@ -211,5 +209,3 @@ theorem stab_dec (hσ : IsCMExt F E σ) (h : IsFr (σ : E →+* E) ε Y.J Y₁.J
     exact (hα _).trans (by rw [mat_cancel'])
 
 end PositivityTheory.ThKCT.Fr
-
-end

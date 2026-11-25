@@ -6,8 +6,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKEst
 
 open scoped TensorProduct NNReal ENNReal Matrix
@@ -76,5 +74,3 @@ theorem latSum_redH (hT : GrpTop) (hS : SiegelAll) (hI : LatInv) (hK : LatCpt) (
     _ ≤ _ := by nlinarith
 
 end PositivityTheory.ThKEst
-
-end

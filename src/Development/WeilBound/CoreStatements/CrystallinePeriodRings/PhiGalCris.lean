@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.CrystallinePeriodRings.Exists
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.LocInh
 
 open GroundTheory.PAdicHodge Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc

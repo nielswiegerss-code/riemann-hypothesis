@@ -23,8 +23,6 @@ open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.Genus
 open GlobalTheory.WeilM GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 open Formalism.IndefR.DatumF
 
-noncomputable section
-
 namespace PositivityTheory.ThKW.PhaseFourierInjectivity
 
 open PositivityTheory.ThKW.ModulusFactorDefinition
@@ -56,5 +54,3 @@ theorem mem_UG {n : ℕ} {J : Matrix (Fin n) (Fin n) E} (h : GAF σ J) : matHomF
 end
 
 end PositivityTheory.ThKW.PhaseFourierInjectivity
-
-end

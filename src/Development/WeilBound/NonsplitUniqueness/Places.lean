@@ -47,8 +47,6 @@ import Mathlib.Topology.Sheaves.Init
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Filter Module GroundTheory.Global GroundTheory.Global.SemiLocal Topology
 
 namespace PositivityTheory.tft.PlacesPf

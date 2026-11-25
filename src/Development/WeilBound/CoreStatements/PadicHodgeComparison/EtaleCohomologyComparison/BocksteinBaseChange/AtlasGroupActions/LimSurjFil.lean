@@ -5,8 +5,6 @@ public import Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCoh
 
 @[expose] public section
 
-noncomputable section
-
 namespace CrystallineSemistableComparison
 
 namespace GlueBL

@@ -14,8 +14,6 @@ public import Development.AutomorphicSpectrum.Definitions.MembershipCriteria.Goo
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix GlobalTheory.WeilM MeasureTheory Filter Topology ValuativeRel
 
 namespace PositivityTheory.KCo

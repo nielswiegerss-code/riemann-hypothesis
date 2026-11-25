@@ -7,8 +7,6 @@ public import Mathlib.LinearAlgebra.TensorProduct.Pi
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.HtPt.Htat
 
 open GlobalTheory.CompanionTheory.Ar.BT TensorProduct

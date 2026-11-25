@@ -9,8 +9,6 @@ import Development.AutomorphicArithmetic.LocalEmbeddings.OppLagr
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.AdelicU GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels
 
@@ -57,5 +55,3 @@ theorem exists_S (ξ : E) : ∃ S : Finset (Pl (F := F)), ∀ v ∉ S,
   exact ⟨hv.1.mem, hv.2.mem⟩
 
 end PositivityTheory.SiegelWeilFormula.Ldexb.UnitA
-
-end

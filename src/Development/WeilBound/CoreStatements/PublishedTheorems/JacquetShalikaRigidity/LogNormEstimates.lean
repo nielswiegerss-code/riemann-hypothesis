@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Matrix Topology Filter
 open GlobalTheory.CuspGeneric GlobalTheory.CuspRep GlobalTheory.UnitaryBC GlobalTheory.DiscSpec PositivityTheory.jumpWindows PositivityTheory.RgJS
 open GroundTheory.Automorphic GroundTheory.Automorphic.FourierWhittaker GroundTheory.Automorphic.Reduction GroundTheory.Automorphic.Spherical
@@ -178,5 +176,3 @@ theorem log_norm_estimate_of_Q : Q1 → D0 → N3 → C0 → D1 := by
       exact (mul_pos (Real.rpow_pos_of_pos (hDpos g) σ) hg.2).ne'
 
 end PositivityTheory.AdelicQuotientData
-
-end

@@ -8,8 +8,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirAlgebra.Mu
 
 @[expose] public section
 
-noncomputable section
-
 open ReciprocityTheory.ChartRestriction.DS (casimirK IsGlRep IsInfUnitary IsKHWVec IsKStableSub adjSign)
 open scoped InnerProductSpace
 
@@ -206,5 +204,3 @@ theorem k_types_finite_of_highest_weight (h : KStableHighestWeightVector) : KTyp
     {w | IsKHWVec ε E (fun a => ((Λ.1 a : ℤ) : ℝ)) w}) ⟨Λ, hΛF⟩) (Submodule.subset_span hkw))
 
 end PositivityTheory.CW
-
-end

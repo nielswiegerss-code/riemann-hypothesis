@@ -12,8 +12,6 @@ import Mathlib.Tactic.Linter.Style
 open NumberField Matrix GlobalTheory.CompanionTheory.Ar GlobalTheory.CompanionTheory.Ar.Cusp GroundTheory.Heights₂.Heights.LowerBoundFree
 open scoped ComplexConjugate ComplexOrder
 
-noncomputable section
-
 namespace LevelTowerAlt
 
 section Index

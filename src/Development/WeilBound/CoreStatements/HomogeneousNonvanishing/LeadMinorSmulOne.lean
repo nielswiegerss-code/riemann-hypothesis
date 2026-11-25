@@ -35,8 +35,6 @@ open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.S
 open GlobalTheory GlobalTheory.CM GlobalTheory.Frames GlobalTheory.LamT Formalism.L2.LamCM
 open scoped Matrix ComplexOrder
 
-noncomputable section
-
 namespace PositivityTheory.UnitarySelfGeneration.GF
 
 variable {E : Type} [Field E] [NumberField E] [IsCMField E] {H : Host E} {Dw : Datum H} {l : Level H}

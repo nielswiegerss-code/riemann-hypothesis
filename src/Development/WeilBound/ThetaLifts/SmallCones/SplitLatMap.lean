@@ -14,8 +14,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open scoped TensorProduct Matrix
@@ -158,5 +156,3 @@ theorem low_of : Low := by
     exact low_eps hB (by simp) (fun e => by simp) hY hH h
 
 end PositivityTheory.ThKCT
-
-end

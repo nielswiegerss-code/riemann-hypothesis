@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.PublishedTheorems.JacquetShal
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Matrix Topology Filter
 open GlobalTheory.CuspGeneric GlobalTheory.CuspRep GlobalTheory.UnitaryBC GlobalTheory.DiscSpec PositivityTheory.jumpWindows PositivityTheory.RgJS
 open GroundTheory.Automorphic GroundTheory.Automorphic.FourierWhittaker GroundTheory.Automorphic.Reduction GroundTheory.Automorphic.Spherical
@@ -304,5 +302,3 @@ theorem kernel_less_first_of : jumpWindows.G0 → jumpWindows.G5 → D0 → P2 �
       pos := PKLt1.pos hG0 hP2 hD0 hC0 hK5e hK5a hk hkm hψ hι hU'p hUU hφ.good hφ.bump hφ'.good hsph }
 
 end PositivityTheory.AdelicQuotientData
-
-end

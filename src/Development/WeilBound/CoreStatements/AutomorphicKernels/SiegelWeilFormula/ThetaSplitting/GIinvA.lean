@@ -12,8 +12,6 @@ public import Development.WeilBound.ThetaLifts.TowerModels.PlaneReal
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Classical
 open NumberField MeasureTheory Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl PositivityTheory.Rg.Sw PositivityTheory.SiegelWeilFormula.KSplit
@@ -56,5 +54,3 @@ theorem mapStar_mul' {p q r : Type} [Fintype q] (A : Matrix p q ℂ) (B : Matrix
   simp [Matrix.mul_apply]
 
 end PositivityTheory.SiegelWeilFormula.KSplitA
-
-end

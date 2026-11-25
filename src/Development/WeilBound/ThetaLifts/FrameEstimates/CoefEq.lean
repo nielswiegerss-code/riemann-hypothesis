@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKEst
 
 open scoped TensorProduct NNReal ENNReal Matrix
@@ -123,5 +121,3 @@ theorem coefEq_of : CoefEq := by
   exact k
 
 end PositivityTheory.ThKEst
-
-end

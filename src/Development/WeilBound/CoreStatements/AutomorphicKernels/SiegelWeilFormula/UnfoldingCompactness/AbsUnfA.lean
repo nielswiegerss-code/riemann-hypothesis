@@ -5,8 +5,6 @@ public import Mathlib.MeasureTheory.Group.FundamentalDomain
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 open scoped ENNReal Pointwise
 
@@ -55,5 +53,3 @@ theorem setIntegral_fd_eq_zero (h𝓖 : IsAddFundamentalDomain Λ 𝓖 lam) (g :
   exact (mul_eq_zero.1 h4).resolve_left (sub_ne_zero.2 (Ne.symm hc))
 
 end PositivityTheory.SiegelWeilFormula.kunf
-
-end

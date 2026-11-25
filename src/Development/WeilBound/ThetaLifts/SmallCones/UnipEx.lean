@@ -11,8 +11,6 @@ public import Development.WeilBound.ThetaLifts.SmallCones.ColsOfMul
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKCT
 
 open scoped TensorProduct Matrix NNReal
@@ -52,5 +50,3 @@ theorem unipEx_of : UnipEx := by
     exact one_lt_pow₀ (by norm_num) Fintype.card_ne_zero
 
 end PositivityTheory.ThKCT
-
-end

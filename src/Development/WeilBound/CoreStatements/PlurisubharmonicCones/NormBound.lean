@@ -14,7 +14,6 @@ public import Mathlib.RingTheory.RootsOfUnity.Minpoly
 
 open NumberField IsDedekindDomain
 
-noncomputable section
 namespace LevelTowerAlt.LocalPrimeBound
 
 section Dvr

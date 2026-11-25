@@ -6,8 +6,6 @@ import Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicC
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.SiegelWeilFormula.Gen.W
 
 open HeckeCharacterZeroLocus.SiegelWeilU NumberField IsDedekindDomain MeasureTheory GlobalTheory.Cont PositivityTheory.PfSWUS.Loc PositivityTheory.Rg.Sw Filter
@@ -34,5 +32,3 @@ theorem exists_finset_of_cofinite {α : Type} {p : α → Prop} (h : ∀ᶠ v in
   exact hv ((Set.Finite.mem_toFinset _).2 h')
 
 end PositivityTheory.SiegelWeilFormula.Gen.W
-
-end

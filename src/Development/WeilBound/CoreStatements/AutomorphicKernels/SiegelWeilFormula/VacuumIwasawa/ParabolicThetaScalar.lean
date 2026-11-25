@@ -7,8 +7,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Classical
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -54,5 +52,3 @@ theorem isQ_11 {n : ℕ} {i₀ : Fin n} {M : Matrix (Fin n ⊕ Fin n) (Fin n ⊕
   · simp only [Matrix.toBlocks₁₁, Matrix.of_apply]; rw [hq.col]; simp
 
 end PositivityTheory.SiegelWeilFormula.Avac
-
-end

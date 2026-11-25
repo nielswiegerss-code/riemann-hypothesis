@@ -9,8 +9,6 @@ import Mathlib.Tactic.Linter.Style
 
 set_option linter.unusedSectionVars false
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Classical
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw SiegelEisensteinSeries.Grp PositivityTheory.SiegelWeilFormula.kfour
@@ -74,5 +72,3 @@ theorem exists_gl_col {n : ℕ} (v : Fin n → E) (hv : v ≠ 0) (i₀ : Fin n) 
   simp [M, B, Matrix.updateCol_self]
 
 end PositivityTheory.SiegelWeilFormula.Afc
-
-end

@@ -14,8 +14,6 @@ import Development.AbelianVarietyTheory.Definitions.Foundations.T2SpaceTensorPro
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl
@@ -34,5 +32,3 @@ theorem eis_left_rat_w {K : Subgroup (G2 σ Y)} {a : G2 σ Y → ℝ} (hK : IsHg
   exact (GlobalTheory.CompanionTheory.EisRat.law_flat hK hf s').eis_rat hχ (hs s' hs') hγ x
 
 end PositivityTheory.SiegelWeilFormula.Aeis
-
-end

@@ -8,8 +8,6 @@ import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFinExt
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.LocInh
 
 open Formalism Formalism.BasicNotions Formalism.BasicNotions.Loc Formalism.WeaklyAdmissibleFiltrations Formalism.MainNotions.N TensorProduct

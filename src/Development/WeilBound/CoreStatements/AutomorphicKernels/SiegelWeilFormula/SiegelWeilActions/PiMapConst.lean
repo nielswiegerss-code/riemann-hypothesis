@@ -14,8 +14,6 @@ public import GroundTheory.GlobalFields.TateThesis.AdeleMeasure
 
 set_option linter.style.haveILetI false
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Classical
 open NumberField IsDedekindDomain MeasureTheory Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl
@@ -150,5 +148,3 @@ theorem measEx' (k : ℕ) (bs : Module.Basis (Fin 2) F E) : ∃ κ : Measure ((F
   measN 2 k bs
 
 end PositivityTheory.SiegelWeilFormula.Act.CL
-
-end

@@ -5,8 +5,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 set_option linter.unusedSectionVars false
 
 namespace PositivityTheory.ThKEst.LatArchPf
@@ -183,5 +181,3 @@ theorem latArch_of (hb : FrameBasis) : LatArch := by
   rw [mul_pow, Real.exp_nat_mul]
 
 end PositivityTheory.ThKEst
-
-end

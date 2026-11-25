@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix Formalism.REAL Formalism.MainNotions.S Formalism.L2.Theta GlobalTheory.SmoothGlob GlobalTheory.LowTypeDetermined GlobalTheory.TypeSum
 
 namespace PositivityTheory.CW
@@ -173,5 +171,3 @@ theorem d3 : D3 := by
     exact sub_eq_zero.1 h0
 
 end PositivityTheory.CW
-
-end

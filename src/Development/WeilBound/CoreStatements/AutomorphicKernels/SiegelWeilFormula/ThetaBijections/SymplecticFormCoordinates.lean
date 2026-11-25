@@ -5,8 +5,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.WeilM GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl
 
@@ -26,5 +24,3 @@ theorem om_ratV {κ : Type} [Fintype κ] (y z y' z' : κ → F) :
 end Adp
 
 end PositivityTheory.SiegelWeilFormula.TBij
-
-end

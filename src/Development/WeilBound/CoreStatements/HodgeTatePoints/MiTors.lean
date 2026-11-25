@@ -7,8 +7,6 @@ public import Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionEmbed
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory Limits AlgebraicGeometry MonoidalCategory CartesianMonoidalCategory MonObj TensorProduct
 open GlobalTheory.CompanionTheory.Ar.BT GlobalTheory.CompanionTheory.Ar.BT.Tors ReciprocityTheory.ChartRestriction.G.Semi
 open scoped CategoryTheory.Obj

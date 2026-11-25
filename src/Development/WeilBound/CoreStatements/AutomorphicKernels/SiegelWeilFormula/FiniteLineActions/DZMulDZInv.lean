@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeil
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix SchwartzMap Classical InnerProductSpace
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl PositivityTheory.Rg.Sw
@@ -36,5 +34,3 @@ theorem rot_cols' (n m : ℕ) {ζ : ℂ} (hζ : ζ ≠ 0) (s : ℤˣ) (t x y : �
   · congr 2 <;> push_cast <;> ring
 
 end PositivityTheory.SiegelWeilFormula.KFP
-
-end

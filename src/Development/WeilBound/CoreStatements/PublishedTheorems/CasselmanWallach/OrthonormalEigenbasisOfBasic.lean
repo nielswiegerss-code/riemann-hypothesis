@@ -5,8 +5,6 @@ public import ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirAlgebra.Mu
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Finset ReciprocityTheory.ChartRestriction.DS
 
 namespace PositivityTheory.CW
@@ -152,5 +150,3 @@ theorem orthonormal_eigenbasis_of_basic : A0 := by
     exact ⟨h1, h2, h3⟩
 
 end PositivityTheory.CW
-
-end

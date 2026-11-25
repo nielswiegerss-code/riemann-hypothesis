@@ -10,8 +10,6 @@ public import ReciprocityTheory.AnalyticForms.PotentialTheory.DegreeSheets
 
 @[expose] public section
 
-noncomputable section
-
 namespace RootFieldNumerics
 
 open Filter Topology ReciprocityTheory.AnForm ReciprocityTheory.AnForm.M

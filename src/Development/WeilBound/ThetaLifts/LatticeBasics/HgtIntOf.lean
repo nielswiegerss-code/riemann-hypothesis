@@ -9,8 +9,6 @@ public import Development.AbelianVarietyTheory.Definitions.Foundations.ExistsAHE
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl
 
 open scoped Matrix TensorProduct NNReal
@@ -90,5 +88,3 @@ theorem hgtInt_of (hC : Stab2Cpt) : HgtInt := by
       .inl ⟨k, hk, Eq.symm ((q _).trans (q1.trans ?_))⟩, .inr ⟨k, hk, Eq.symm ((q _).trans (q2.trans ?_))⟩⟩ <;> rw [← e2] <;> rfl
 
 end GlobalTheory.ThK.Dbl
-
-end

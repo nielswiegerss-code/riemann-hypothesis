@@ -8,8 +8,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory GroundTheory.ProfCoh ReciprocityTheory.Gal
 
 namespace PositivityTheory.Lit1.PTN

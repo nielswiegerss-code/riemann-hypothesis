@@ -8,8 +8,6 @@ public import ReciprocityTheory.DualLattices.SumValCoord
 
 @[expose] public section
 
-noncomputable section
-
 open ReciprocityTheory.PGsh.L2 ReciprocityTheory.PGsh.Up GlobalTheory.CompanionTheory.Ar.GR
 open scoped Matrix
 

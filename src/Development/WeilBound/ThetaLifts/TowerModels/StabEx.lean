@@ -7,8 +7,6 @@ public import Development.WeilBound.ThetaLifts.TowerModels.ExistsHaarOfIsCompact
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Tow
 
 open scoped TensorProduct NNReal Matrix
@@ -22,5 +20,3 @@ theorem stabEx : StabEx := by
   exact ⟨_, μK, μ, Stab.isStab_stabK B X, Stab.isCompact_stabK hB hX, hμK, hμ⟩
 
 end PositivityTheory.ThKG.Tow
-
-end

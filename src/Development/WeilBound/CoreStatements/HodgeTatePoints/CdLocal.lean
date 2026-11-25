@@ -7,6 +7,5 @@ import Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IsSplitGau
 
 @[expose] public section
 
-noncomputable section
 namespace PositivityTheory.HtPt.Cd
 end PositivityTheory.HtPt.Cd

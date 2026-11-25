@@ -9,8 +9,6 @@ public import GroundTheory.GlobalFields.TateThesis.AdeleMeasure
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl
 
 open scoped TensorProduct NNReal Matrix
@@ -50,5 +48,3 @@ theorem sec_cont_law {Y : Spc F E n} {A : Spc F E m} {ψ : AddChar (AF F) ℂ} {
   simp; ring
 
 end GlobalTheory.ThK.Dbl
-
-end

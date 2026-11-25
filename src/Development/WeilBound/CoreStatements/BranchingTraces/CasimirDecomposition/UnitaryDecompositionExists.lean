@@ -19,8 +19,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 open Matrix Finset
 open scoped InnerProductSpace Classical
 
-noncomputable section
-
 namespace PositivityTheory.UnitaryDecomposition.DecB
 
 open CompanionTheory.Zuck PositivityTheory.UnitaryDecomposition.DecA BranchingSupport Formalism.FourierDecayAlt Formalism.FourierDecayAlt.ThreeDimData

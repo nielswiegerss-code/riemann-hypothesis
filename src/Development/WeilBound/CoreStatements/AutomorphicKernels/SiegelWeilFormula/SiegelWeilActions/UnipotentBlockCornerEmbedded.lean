@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.HermitianForm
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Classical ComplexOrder
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -29,5 +27,3 @@ theorem fixed_in_F (hcm : IsCMExt F E σ) (z : E) (hz : σ z = z) : ∃ f : F, a
   _root_.GlobalTheory.HermLineZeros.exists_of_fixed hcm z hz
 
 end PositivityTheory.SiegelWeilFormula.Act.C6
-
-end

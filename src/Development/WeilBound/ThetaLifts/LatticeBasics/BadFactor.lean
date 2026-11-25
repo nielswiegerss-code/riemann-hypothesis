@@ -15,8 +15,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.Bad
 
 open scoped TensorProduct NNReal Matrix
@@ -203,5 +201,3 @@ theorem _root_.GlobalTheory.ThK.Dbl.badFactor_of (hD : DblX) (hS : StabEx) (hV :
       (stab_iff P.base P.herm h0 k1).2 (key g h.2 h.1).1).trans_lt k2.measure_lt_top).ne
 
 end GlobalTheory.ThK.Dbl.Bad
-
-end

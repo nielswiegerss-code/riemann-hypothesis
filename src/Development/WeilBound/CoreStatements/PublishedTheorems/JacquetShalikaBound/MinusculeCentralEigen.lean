@@ -8,8 +8,6 @@ import GroundTheory.LocalFields.LocalFourierHaar
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory Matrix GroundTheory.Automorphic GroundTheory.Automorphic.GLnLocal GroundTheory.Automorphic.Iwasawa
   GroundTheory.Automorphic.Spherical HeckeAlgebra
 open scoped ValuativeRel Pointwise
@@ -191,5 +189,3 @@ theorem minuscule_eigenvalue : L7 := by
   simpa [map_one] using this
 
 end PositivityTheory.JacquetShalikaLocal
-
-end

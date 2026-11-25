@@ -6,8 +6,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKF
 
 open scoped TensorProduct NNReal Matrix
@@ -54,5 +52,3 @@ theorem exists_L (hp : IsPair B M χX χW om r s r' s') {𝓒} (hc : Cls B M om 
 
 
 end PositivityTheory.ThKF
-
-end

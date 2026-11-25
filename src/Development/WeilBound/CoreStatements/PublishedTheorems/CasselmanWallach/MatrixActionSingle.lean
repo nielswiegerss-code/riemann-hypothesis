@@ -6,8 +6,6 @@ public import Mathlib.Algebra.Order.Chebyshev
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Finset ReciprocityTheory.ChartRestriction.DS
 
 namespace PositivityTheory.CW
@@ -213,5 +211,3 @@ theorem second_moment_of_columns : A0 → A1 → FiltrationAdjointStable → Cas
   nlinarith [mul_nonneg hS'0 (sq_nonneg (2 * N * C2))]
 
 end PositivityTheory.CW
-
-end

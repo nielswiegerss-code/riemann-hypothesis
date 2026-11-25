@@ -5,8 +5,6 @@ public import Development.WeilBound.CoreStatements.VolumeEquality.PrimeIdealOfFr
 
 @[expose] public section
 
-noncomputable section
-
 namespace SheetDecomposition
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj GlobalTheory.CompanionTheory.Ar

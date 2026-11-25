@@ -5,8 +5,6 @@ public import Mathlib.Topology.Algebra.Group.Units
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.Hgt
 
 open scoped NNReal ENNReal
@@ -117,5 +115,3 @@ theorem count_grp {R B κ : Type} [CommRing R] [TopologicalSpace R] [IsTopologic
       exact fun g' hg' => ⟨key y g hg g' hg', _, key y g' hg' g hg, by simp⟩
 
 end GlobalTheory.ThK.Dbl.Hgt
-
-end

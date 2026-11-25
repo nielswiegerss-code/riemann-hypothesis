@@ -4,7 +4,6 @@ public import Development.WeilBound.CoreStatements.PeriodRingComparison.Crystall
 
 @[expose] public section
 
-noncomputable section
 open GroundTheory.PAdicHodge
 namespace Cmp6
 variable (l : ℕ) [Fact l.Prime]

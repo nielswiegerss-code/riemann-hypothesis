@@ -7,8 +7,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 open Matrix Formalism.REAL Formalism.MainNotions.S Formalism.L2.Theta GlobalTheory.SmoothGlob GlobalTheory.TypeSum
 open ReciprocityTheory.ChartRestriction.DS (actM casimirK)
 open scoped InnerProductSpace
@@ -199,5 +197,3 @@ theorem e2a : E2a := by
     hterm a b (Finset.mem_filter.mp hb).2
 
 end PositivityTheory.CW
-
-end

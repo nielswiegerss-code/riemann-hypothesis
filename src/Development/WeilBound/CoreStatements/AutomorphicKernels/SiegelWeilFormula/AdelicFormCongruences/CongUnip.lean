@@ -12,8 +12,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 set_option linter.unusedSectionVars false
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix Classical
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw SiegelEisensteinSeries.Grp PositivityTheory.SiegelWeilFormula.kfour
@@ -44,5 +42,3 @@ theorem nCond_rat {n : ℕ} {ε : ℤˣ} (T0 : Matrix (Fin n) (Fin n) E) (h : in
   rw [kfour.cA_inclR' σ (T0 i j)]
 
 end PositivityTheory.SiegelWeilFormula.Afc
-
-end

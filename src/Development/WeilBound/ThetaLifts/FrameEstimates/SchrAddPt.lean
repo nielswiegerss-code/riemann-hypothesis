@@ -10,8 +10,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKEst
 
 open scoped TensorProduct NNReal ENNReal Matrix
@@ -209,5 +207,3 @@ theorem level_of (hC : CoefEq) (hF : FourierInj) (hB : CoefBd) : Level := by
   rw [hc, h6, one_smul]
 
 end PositivityTheory.ThKEst
-
-end

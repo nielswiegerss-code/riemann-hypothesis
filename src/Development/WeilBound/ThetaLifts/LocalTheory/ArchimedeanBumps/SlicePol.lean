@@ -15,8 +15,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Loc.Bump
 
 open scoped TensorProduct NNReal Matrix nonZeroDivisors Classical
@@ -345,5 +343,3 @@ theorem archCone_of (hDi : ArchDict) (hSt : StabEx) (hO : ArchOp) (hS : Slice) (
     simp [this]
 
 end PositivityTheory.ThKG.Loc.Bump
-
-end

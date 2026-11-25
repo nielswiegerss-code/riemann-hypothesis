@@ -18,8 +18,6 @@ import Development.WeilBound.CoreStatements.PlurisubharmonicCones.EmbEquivSymmAp
 
 @[expose] public section
 
-noncomputable section
-
 namespace RootFieldNumerics
 
 open AlgebraicGeometry CategoryTheory Limits MonoidalCategory CartesianMonoidalCategory MonObj NumberField Matrix

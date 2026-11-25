@@ -9,8 +9,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl
 
 open scoped TensorProduct NNReal Matrix
@@ -111,5 +109,3 @@ theorem eisContinues_of (h1 : EisBL) (h2 : FrameConj) : EisContinues := by
       rw [e4 z hz hz', mul_left_comm]
 
 end GlobalTheory.ThK.Dbl
-
-end

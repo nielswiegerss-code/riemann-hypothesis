@@ -15,8 +15,6 @@ open GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels (Base Spc Model Ha
 
 open scoped GlobalTheory.VacAny
 
-noncomputable section
-
 namespace Tw.PsiNontriv
 open _root_.GlobalTheory
 

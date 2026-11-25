@@ -6,8 +6,6 @@ public import Development.WeilBound.ThetaLifts.LatticeBasics.SecLaw
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl
@@ -86,5 +84,3 @@ theorem psi_rat (h : IsDbl (σ := σ) (A := A) (Y := Y) (κ := κ) ψ dd χ om S
   exact hψ.2.1 _
 
 end PositivityTheory.SiegelWeilFormula.Tpar
-
-end

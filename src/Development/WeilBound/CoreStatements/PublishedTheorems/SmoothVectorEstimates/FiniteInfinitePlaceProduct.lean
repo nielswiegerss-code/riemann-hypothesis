@@ -10,8 +10,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain MeasureTheory Matrix Topology Filter BoundedContinuousFunction
 open GlobalTheory.CuspGeneric GlobalTheory.CuspRep GlobalTheory.CuspRep.CuspidalL2GL GlobalTheory.AutomorphicL2Unitary GlobalTheory.UnitaryBC GlobalTheory.DiscSpec GlobalTheory.LFun Formalism.UG Formalism.L2.Host
 
@@ -140,5 +138,3 @@ theorem finite_infinite_product_eq_one : HeckeCharacterRigidity := by
   exact mul_inv_eq_one.1 h1
 
 end PositivityTheory.jumpWindows
-
-end

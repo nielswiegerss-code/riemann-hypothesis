@@ -10,8 +10,6 @@ public import Development.WeilBound.ThetaLifts.LatticeBasics.EulerB
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.Bad
 
 open scoped TensorProduct NNReal Matrix
@@ -223,5 +221,3 @@ theorem loc_iwa {K : Subgroup (G2 σ Y)} (hK : IsStab2 B K) {a : G2 σ Y → ℝ
     exact Subtype.ext (Units.ext (Euler.cut_eq.2 (idem_smul hx)).symm)
 
 end GlobalTheory.ThK.Dbl.Bad
-
-end

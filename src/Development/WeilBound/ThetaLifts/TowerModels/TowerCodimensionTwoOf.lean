@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Tow
 
 open scoped TensorProduct NNReal Matrix
@@ -132,5 +130,3 @@ theorem towerA_of (hP : PlaneEx) (hM : ModelEx) (hW : WeilEx) : TowerA := by
     ⟨cfg.eV, hq0, cfg.eq.trans hq0, cfg.ep, cfg.hH, cfg.hH'⟩, om₁, om₁', hT₁⟩
 
 end PositivityTheory.ThKG.Tow
-
-end

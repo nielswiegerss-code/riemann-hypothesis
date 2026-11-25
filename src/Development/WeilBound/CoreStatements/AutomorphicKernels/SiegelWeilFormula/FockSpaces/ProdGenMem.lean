@@ -6,8 +6,6 @@ public import Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeil
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix SchwartzMap Classical
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw
@@ -21,5 +19,3 @@ theorem isSw_fP {m n : ℕ} (P : PX m n) : IsSw (fP P) := by
   exact ⟨S, funext fun x => by rw [hS]; rfl⟩
 
 end PositivityTheory.SiegelWeilFormula.KFock
-
-end

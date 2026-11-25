@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.Euler
 
 open scoped TensorProduct NNReal Matrix
@@ -97,5 +95,3 @@ theorem _root_.GlobalTheory.ThK.Dbl.locMeas : LocMeas := by
   exact ⟨Measure.haarMeasure K, inferInstance, Measure.haarMeasure_self⟩
 
 end GlobalTheory.ThK.Dbl.Euler
-
-end

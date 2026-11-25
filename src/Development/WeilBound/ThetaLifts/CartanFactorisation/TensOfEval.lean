@@ -9,8 +9,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKF
 
 open scoped TensorProduct NNReal Matrix
@@ -127,5 +125,3 @@ theorem pureAct : PureAct := by
     exact h r ⟨hr, e ▸ GlobalTheory.TensUniq.pure_mem_schA f φ hSB hstd⟩
 
 end PositivityTheory.ThKF
-
-end

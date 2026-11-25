@@ -7,8 +7,6 @@ import Development.WeilBound.ThetaLifts.LatticeBasics.UnfoldB
 
 @[expose] public section
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl
@@ -57,5 +55,3 @@ theorem mem_stabiliser_iff_frame_lower_block (hb : IsFrame2 σ Y b) (p : G2 σ Y
     exact ⟨t, (kunf.isPar_frame ht₀ p t).2 ⟨h, rfl⟩⟩
 
 end PositivityTheory.SiegelWeilFormula.Act.ComplexParameterFamilyContinuity
-
-end

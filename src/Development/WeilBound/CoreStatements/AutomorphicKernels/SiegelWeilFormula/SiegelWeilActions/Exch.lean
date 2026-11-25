@@ -8,8 +8,6 @@ public import Mathlib.MeasureTheory.Integral.Prod
 
 @[expose] public section
 
-noncomputable section
-
 open MeasureTheory
 open scoped ENNReal
 
@@ -43,5 +41,3 @@ theorem exch {α β ι : Type*} [MeasurableSpace α] [MeasurableSpace β] [Count
   rw [hsum.tsum_eq, integral_prod _ hint]
 
 end PositivityTheory.SiegelWeilFormula.Act
-
-end

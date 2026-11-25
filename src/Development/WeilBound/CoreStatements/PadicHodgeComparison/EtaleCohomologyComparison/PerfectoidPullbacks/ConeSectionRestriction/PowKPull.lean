@@ -9,8 +9,6 @@ public import Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCoh
 
 set_option backward.isDefEq.respectTransparency false
 
-noncomputable section
-
 open CategoryTheory AlgebraicGeometry GlobalTheory.LogCris
 
 namespace CrystallineSemistableComparison.Pb

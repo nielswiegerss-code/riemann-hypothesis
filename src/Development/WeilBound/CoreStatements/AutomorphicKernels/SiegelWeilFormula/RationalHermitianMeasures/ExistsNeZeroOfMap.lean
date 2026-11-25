@@ -8,8 +8,6 @@ import Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula
 
 set_option linter.unusedSectionVars false
 
-noncomputable section
-
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
 open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.ThK.Dbl GlobalTheory.Cont PositivityTheory.Rg.Sw SiegelEisensteinSeries.Grp
@@ -57,5 +55,3 @@ theorem exists_ne_zero_of_map {m : â„•} (J : Matrix (Fin m) (Fin m) E) (f : E â†
   simp [hc i j]
 
 end PositivityTheory.SiegelWeilFormula.MeasD
-
-end

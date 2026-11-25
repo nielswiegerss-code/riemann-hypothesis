@@ -9,8 +9,6 @@ import Development.WeilBound.CoreStatements.AbelianHeightsDuality.ZarhinTrick.Fi
 
 @[expose] public section
 
-noncomputable section
-
 open CategoryTheory AlgebraicGeometry Limits MonoidalCategory CartesianMonoidalCategory MonObj
 open ReciprocityTheory.ChartRestriction.G ReciprocityTheory.ChartRestriction.G.Semi ReciprocityTheory.ChartRestriction.G.Geo.Tor
 open scoped CategoryTheory.Obj CategoryTheory.MonObj

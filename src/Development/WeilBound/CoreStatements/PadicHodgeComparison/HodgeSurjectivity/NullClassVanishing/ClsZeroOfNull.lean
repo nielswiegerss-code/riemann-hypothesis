@@ -9,8 +9,6 @@ import Mathlib.Tactic.Linter.Style
 
 set_option backward.isDefEq.respectTransparency false
 
-noncomputable section
-
 open CategoryTheory Limits AlgebraicGeometry GlobalTheory.LogCris
 
 namespace CrystallineSemistableComparison.Onto.RKillOf3

@@ -7,8 +7,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKEnd.Orth
 
 open scoped TensorProduct NNReal Matrix
@@ -133,5 +131,3 @@ theorem thPerp_of (hB : ThetaBasic) (hG : GrpTop) (hE : EpsOf) (hV : FinVolU) : 
     (hK (fun h => ∫ g in M.dom, ‖theta om Ψ g h‖ ∂M.μ) C (fun γ hγ h => by simp only [theta_rat hB hp hΨ _ γ hγ]) hC) (h0 μ D hμ hD)
 
 end PositivityTheory.ThKEnd.Orth
-
-end

@@ -6,8 +6,6 @@ import Mathlib.Tactic.Linter.Style
 
 @[expose] public section
 
-noncomputable section
-
 open GlobalTheory.PRep GlobalTheory.SplitWeil GlobalTheory.SmGL GlobalTheory.LocGL GlobalTheory.JHMult
 
 namespace PositivityTheory.Exh
@@ -99,5 +97,3 @@ theorem minP : MinP k := by
   omega
 
 end PositivityTheory.Exh
-
-end

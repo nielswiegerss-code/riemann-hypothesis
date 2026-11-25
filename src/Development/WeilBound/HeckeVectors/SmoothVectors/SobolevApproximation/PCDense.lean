@@ -55,8 +55,6 @@ import Std.Tactic.BVDecide.Normalize.Prop
 open Matrix Topology
 open scoped ComplexOrder
 
-noncomputable section
-
 namespace CompanionTheory.D.gk.HC
 
 open Formalism.BasicNotions.TH (GrpData URep GKMod)

@@ -12,8 +12,6 @@ public import Mathlib.MeasureTheory.Measure.Haar.Unique
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl.Euler
 
 open MeasureTheory Set
@@ -99,5 +97,3 @@ theorem factor (hK : MeasurableSet (K : Set H)) (h1 : ν K = 1) (i : H →* G) (
           rw [indicator_of_notMem hg, integral_zero]
 
 end GlobalTheory.ThK.Dbl.Euler
-
-end

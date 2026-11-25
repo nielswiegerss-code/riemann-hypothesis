@@ -6,8 +6,6 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Tow
 
 open scoped TensorProduct NNReal Matrix
@@ -17,5 +15,3 @@ open GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.Inde
 theorem planeEx : PlaneEx := ⟨planeHerm, planeSkew⟩
 
 end PositivityTheory.ThKG.Tow
-
-end

@@ -6,8 +6,6 @@ public import Development.WeilBound.CoreStatements.PadicHodgeComparison.HodgeSur
 
 set_option backward.isDefEq.respectTransparency false
 
-noncomputable section
-
 open CategoryTheory
 
 namespace CrystallineSemistableComparison.Onto
@@ -28,5 +26,3 @@ theorem topRes_pf : TopRes := by
     exact hz (t ⋙ U.ι) ht
 
 end CrystallineSemistableComparison.Onto
-
-end

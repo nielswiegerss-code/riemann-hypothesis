@@ -9,8 +9,6 @@ import Development.WeilBound.CoreStatements.CompactAveragingSplitting.Eigenvecto
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThKG.Std
 
 open NumberField IsDedekindDomain GlobalTheory.WeilM GlobalTheory.AdelicU GlobalTheory.LFun GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.SplitFlip Matrix

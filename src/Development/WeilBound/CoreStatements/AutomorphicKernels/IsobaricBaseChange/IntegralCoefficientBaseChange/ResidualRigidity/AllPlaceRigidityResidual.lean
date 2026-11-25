@@ -4,8 +4,6 @@ public import Development.WeilBound.CoreStatements.AutomorphicKernels.IsobaricBa
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField IsDedekindDomain Matrix
 open GlobalTheory.CuspRep GlobalTheory.PRep Formalism.UG Formalism.BasicNotions GlobalTheory.UnitaryBC GlobalTheory.DiscSpec
 

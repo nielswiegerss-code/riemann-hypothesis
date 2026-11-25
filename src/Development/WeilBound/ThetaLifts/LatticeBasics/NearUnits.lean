@@ -15,8 +15,6 @@ public import Development.WeilBound.ThetaLifts.LatticeBasics.EulerProd
 
 @[expose] public section
 
-noncomputable section
-
 namespace GlobalTheory.ThK.Dbl
 
 open scoped TensorProduct NNReal
@@ -198,5 +196,3 @@ theorem bump : Bump := by
       exact (congrArg (· * _) (h1 _ hY).2).trans (one_mul _)
 
 end GlobalTheory.ThK.Dbl
-
-end

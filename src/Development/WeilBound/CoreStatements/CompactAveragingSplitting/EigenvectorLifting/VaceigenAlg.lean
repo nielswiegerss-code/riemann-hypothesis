@@ -51,8 +51,6 @@ public import Mathlib.RingTheory.Localization.Finiteness
 
 @[expose] public section
 
-noncomputable section
-
 namespace PositivityTheory.ThK.Vac
 
 open scoped nonZeroDivisors Matrix

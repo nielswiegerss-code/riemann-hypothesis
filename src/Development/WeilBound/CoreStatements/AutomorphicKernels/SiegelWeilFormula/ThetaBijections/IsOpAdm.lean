@@ -7,8 +7,6 @@ public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzBruh
 
 @[expose] public section
 
-noncomputable section
-
 open NumberField Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.WeilM GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels GlobalTheory.RatWeilOp
 open scoped Matrix
 
@@ -79,5 +77,3 @@ theorem isOp_adm {κ : Type} [Fintype κ] {ψ : AddChar (AF F) ℂ} {a : Matrix 
   exact key g (GlobalTheory.SBSpan.mem_span_restrictedProd F κ g hg)
 
 end PositivityTheory.SiegelWeilFormula.TBij
-
-end

@@ -4,8 +4,6 @@ public import Mathlib.NumberTheory.Padics.PadicIntegers
 
 @[expose] public section
 
-noncomputable section
-
 open TensorProduct
 
 namespace CrystallineSemistableComparison.Inj

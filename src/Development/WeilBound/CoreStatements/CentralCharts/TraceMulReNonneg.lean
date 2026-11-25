@@ -7,8 +7,6 @@ public import Mathlib.Algebra.BigOperators.Field
 
 @[expose] public section
 
-noncomputable section
-
 namespace AnalyticReference.An
 
 open Matrix
